@@ -43,6 +43,8 @@ Result: **PASS**. The corrected run refuses every unbalanced placeholder and che
 - adaptive frontier multiplier one; and
 - active dose six with majority error `81/256`.
 
+The complete outward artifact also commits the full 210-coordinate positive Collatz witness. Verification reconstructs the matrix and checks this fixed witness with outward arithmetic; floating optimization is used only when deliberately regenerating the artifact, not when accepting it. This makes the certificate independent of solver-specific optimizer output.
+
 The repository-level `make check` command reran this focused suite and the asymptotic exact-constant checker successfully.
 
 ## Historical full suite

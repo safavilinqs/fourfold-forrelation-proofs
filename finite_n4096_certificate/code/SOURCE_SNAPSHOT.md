@@ -17,7 +17,7 @@ Python bytecode directories and local caches are excluded from these counts and 
 
 | artifact | SHA-256 |
 |---|---|
-| complete outward ledger | `38d28d27b6352b2571984bd67214af447b420d844c6afd901a31176fe5009b69` |
+| complete outward ledger | `33555d6aa5360971dd2783eec15b6929cf6d31e3f037315d6d647828b5213d44` |
 | adaptive tree-frontier certificate | `41e19f7056673a1883c82d868ef085669cd82068a62e82947c571d678c5a13ca` |
 | active six-dose resource certificate | `d592085c097cfd66ec761cb182cd0de3a9218ac54b4dc7725596993d471bcf31` |
 

@@ -44,7 +44,7 @@ def _decimal_floor(value: Fraction, digits: int = 60) -> str:
 
 def _load_ledger() -> dict[str, object]:
     payload = loads(LEDGER.read_text(encoding="utf-8"))
-    if payload.get("schema") != "round4_q64_complete_outward_ledger_v2":
+    if payload.get("schema") != "round4_q64_complete_outward_ledger_v3":
         raise AssertionError("unexpected complete-ledger schema")
     return payload["result"]
 

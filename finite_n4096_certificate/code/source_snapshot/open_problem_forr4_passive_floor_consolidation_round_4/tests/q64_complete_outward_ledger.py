@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 from collections import Counter
+from decimal import Decimal
 from fractions import Fraction
 from json import loads
 from math import exp
@@ -37,7 +38,15 @@ from q64_paper_target_gate import balanced_open_entries  # noqa: E402
 
 
 def main() -> None:
-    result = diagnostic()
+    committed_path = ROOT / "artifacts" / "q64_complete_outward_ledger.json"
+    committed = committed_path.read_text(encoding="utf-8")
+    payload = loads(committed)
+    if payload.get("schema") != "round4_q64_complete_outward_ledger_v3":
+        raise AssertionError("unexpected complete outward ledger schema")
+    candidate = tuple(Decimal(value) for value in payload["collatz_candidate"])
+    if len(candidate) != 210 or any(value <= 0 for value in candidate):
+        raise AssertionError("invalid committed Collatz candidate")
+    result = diagnostic(candidate)
     raw = complete_coefficients()
     upper = coefficient_upper_map()
     rows = registry_rows()
@@ -101,11 +110,8 @@ def main() -> None:
     ) != (6016, 888, 5128, 272, 136):
         raise AssertionError("number-sector scope audit")
 
-    committed_path = ROOT / "artifacts" / "q64_complete_outward_ledger.json"
-    committed = committed_path.read_text(encoding="utf-8")
-    if committed != artifact_text(result):
+    if committed != artifact_text(result, candidate):
         raise AssertionError("stale complete outward ledger artifact")
-    payload = loads(committed)
     if len(payload["coefficient_registry"]) != 888:
         raise AssertionError("artifact dependency registry")
     print(

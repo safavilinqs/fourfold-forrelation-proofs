@@ -330,13 +330,20 @@ def excluded_unbalanced_high_sector_graph_counts() -> tuple[int, int]:
     return incidences, len(edges)
 
 
-def diagnostic() -> CompleteOutwardLedger:
+def diagnostic(
+    candidate: tuple[Decimal, ...] | None = None,
+) -> CompleteOutwardLedger:
     raw = complete_coefficients()
     mapped_upper = coefficient_upper_map()
     all_upper = all_coefficient_uppers(mapped_upper)
-    candidate = _candidate_vector(
-        {entry: float(value) for entry, value in all_upper.items()}
-    )
+    if candidate is None:
+        candidate = _candidate_vector(
+            {entry: float(value) for entry, value in all_upper.items()}
+        )
+    if len(candidate) != len(occupation.occupation_states()):
+        raise AssertionError("Collatz candidate dimension changed")
+    if any(value <= 0 for value in candidate):
+        raise AssertionError("Collatz candidate must be strictly positive")
     perron = collatz_perron_upper(all_upper, candidate)
     exponent, promise_fraction = promise_upper()
     promise = _fraction_decimal_upper(promise_fraction)
@@ -401,17 +408,23 @@ def diagnostic() -> CompleteOutwardLedger:
     )
 
 
-def artifact_text(result: CompleteOutwardLedger) -> str:
+def artifact_text(
+    result: CompleteOutwardLedger,
+    candidate: tuple[Decimal, ...],
+) -> str:
     payload = {
-        "schema": "round4_q64_complete_outward_ledger_v2",
+        "schema": "round4_q64_complete_outward_ledger_v3",
         "result": asdict(result),
+        "collatz_candidate": [str(value) for value in candidate],
         "coefficient_registry": registry_rows(),
         "rounding_contract": (
             "Every accepted binary64 theorem coefficient is replaced by a strict "
             "rational upper on a 1e-9 grid, with one additional grid unit of "
             "guard. The 210-state matrix is reconstructed with 80-digit "
-            "ROUND_CEILING Decimal arithmetic and certified by an explicit "
-            "positive-vector Collatz bound. The promise loss uses a rational "
+            "ROUND_CEILING Decimal arithmetic and certified by the committed "
+            "210-coordinate positive Collatz vector. Floating optimization is "
+            "used only to discover that vector, never to verify the bound. The "
+            "promise loss uses a rational "
             "Kearns-Saul-proxy relaxation and a rational exponential upper."
         ),
         "number_sector_contract": (
@@ -436,8 +449,13 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=Path)
     arguments = parser.parse_args()
-    result = diagnostic()
-    text = artifact_text(result)
+    mapped_upper = coefficient_upper_map()
+    all_upper = all_coefficient_uppers(mapped_upper)
+    candidate = _candidate_vector(
+        {entry: float(value) for entry, value in all_upper.items()}
+    )
+    result = diagnostic(candidate)
+    text = artifact_text(result, candidate)
     if arguments.output is not None:
         arguments.output.write_text(text, encoding="utf-8")
     print(
