@@ -6,7 +6,7 @@ This package contains a standalone provisional derivation of the following theor
 D \ge \frac{2}{15}N^{1/8}
 \]
 
-for every power of two \(N\ge 2^{30}\), for the full fresh passive model and exact promises \(\operatorname{Forr}_4\ge 1/4\) versus \(\operatorname{Forr}_4\le -1/4\).
+for every power of two \(N\ge 2^{30}\), for the full fresh passive model and exact promises \(\mathrm{Forr}_4\ge 1/4\) versus \(\mathrm{Forr}_4\le -1/4\).
 
 The exponent \(1/8\) is an unconditional positive exponent. It does not meet the original stronger target \(\alpha>1/4\).
 

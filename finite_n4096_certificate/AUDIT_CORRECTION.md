@@ -36,7 +36,7 @@ $$
 and, after the unchanged promise-conditioning cost,
 
 $$
-\operatorname{TV}(P_+,P_-)
+\mathrm{TV}(P_+,P_-)
 \le
 0.2609692247922079249341809573938165614.
 $$

@@ -12,10 +12,10 @@ This repository contains two complementary proof packages for the fourfold-forre
 | [`asymptotic_single_pass_floor/`](asymptotic_single_pass_floor/) | \(D \ge (2/15)N^{1/8}\) for every power of two \(N\ge 2^{30}\) in the full fresh single-pass model | [`main.pdf`](asymptotic_single_pass_floor/main.pdf) | [`verify_constants.py`](asymptotic_single_pass_floor/verify_constants.py) |
 | [`finite_n4096_certificate/`](finite_n4096_certificate/) | at \(N=4096\), hard dose six is excluded for classically adaptive fresh single-pass batches that are block-diagonal in total signal photon number | [`forr4_n4096_advantage.pdf`](finite_n4096_certificate/output/pdf/forr4_n4096_advantage.pdf) | [`run_all.sh`](finite_n4096_certificate/code/run_all.sh) |
 
-The asymptotic result assumes the exact promise \(\operatorname{Forr}_4\ge 1/4\) versus \(\operatorname{Forr}_4\le-1/4\). The finite certificate proves
+The asymptotic result assumes the exact promise \(\mathrm{Forr}_4\ge 1/4\) versus \(\mathrm{Forr}_4\le-1/4\). The finite certificate proves
 
 $$
-\operatorname{TV}(T_+,T_-)
+\mathrm{TV}(T_+,T_-)
 \le 0.260969224792207924,
 $$
 
