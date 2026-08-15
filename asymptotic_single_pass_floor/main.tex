@@ -1,0 +1,1387 @@
+
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools,bm}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{booktabs}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\F}{\mathbb F}
+\newcommand{\E}{\mathbb E}
+\newcommand{\Prob}{\mathbb P}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\TV}{\operatorname{TV}}
+\newcommand{\Forr}{\operatorname{Forr}_4}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\Sym}{\operatorname{Sym}}
+\newcommand{\wh}{\widehat}
+\newcommand{\cA}{\mathcal A}
+\newcommand{\cE}{\mathcal E}
+\newcommand{\cH}{\mathcal H}
+\newcommand{\cK}{\mathcal K}
+\newcommand{\cQ}{\mathcal Q}
+\newcommand{\cU}{\mathcal U}
+\newcommand{\cV}{\mathcal V}
+\newcommand{\ip}[2]{\left\langle #1,#2\right\rangle}
+\newcommand{\norm}[1]{\left\lVert #1\right\rVert}
+\newcommand{\abs}[1]{\left|#1\right|}
+
+\title{A Polynomial Passive-Dose Lower Bound for Fourfold Forrelation}
+\author{Amir H. Safavi-Naeini}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We give a standalone derivation of a polynomial lower bound for deciding the exact two-sided
+fourfold-forrelation promise by adaptive fresh passive optical batches.
+A batch may use an arbitrary mixed bosonic state whose sign-mode photon
+number is at most its charge on the entire support, arbitrary bypass
+idlers, one direct-sum sign-mask interaction, and an arbitrary collective
+measurement.  Between batches only a classical outcome is retained.
+For every power of two \(N\ge 2^{30}\), worst-case error at most \(1/3\)
+implies
+\[
+        D\ge \frac{2}{15}N^{1/8}.
+\]
+The exponent is a fixed unconditional positive constant; it does not meet
+the original stronger target \(\alpha>1/4\).
+The argument uses a fresh-pivot inequality that controls arbitrary
+fixed-level Fourier functionals of the full adaptive protocol, including
+all cross-batch symmetric-difference cancellations.  A correlated
+Gaussian sign construction then supplies signed Fourier moments of order
+\(N^{-3r/8}\) at level \(r\), while a separate concentration argument
+moves the average-case construction to the exact promises
+\(\Forr\ge 1/4\) and \(\Forr\le-1/4\).
+\end{abstract}
+
+\begin{quote}\small
+\textbf{Verification status.}
+This derivation was produced with substantial large-language-model
+assistance.  Its definitions, constant ledger, and compilation have been
+internally audited, but it has not received independent end-to-end review by
+a subject-matter expert.  It is therefore a provisional companion result,
+matching the status stated in the main paper.  In particular,
+Theorem~\ref{thm:pivot} and its fresh-cut construction are the principal
+load-bearing claims for independent verification.  The label
+``unconditional'' below refers only to the absence of a conjectural
+mathematical hypothesis, not to the epistemic status of this package.
+\end{quote}
+
+\section{Problem statement}
+
+Fix an integer \(d\ge1\), put \(N=2^d\), and identify \([N]\) with
+\(\F_2^d\).  Let
+\[
+ H_{ij}=N^{-1/2}(-1)^{\langle i,j\rangle},
+ \qquad
+ |u\rangle=N^{-1/2}\sum_i|i\rangle .
+\]
+For
+\[
+ x=(x^{(1)},x^{(2)},x^{(3)},x^{(4)}),
+ \qquad x^{(b)}\in\{\pm1\}^N,
+\]
+write \(D_b=\diag(x^{(b)})\) and define
+\[
+ \Forr(x)=
+ \langle u|D_1HD_2HD_3HD_4|u\rangle .
+\]
+Equivalently, with \(h_{ij}=(-1)^{\langle i,j\rangle}\),
+\[
+ \Forr(x)=
+ N^{-5/2}\sum_{i,j,k,l}
+ h_{ij}h_{jk}h_{kl}
+ x^{(1)}_i x^{(2)}_j x^{(3)}_k x^{(4)}_l .
+\]
+The exact promises are
+\[
+ \Pi_+=\{x:\Forr(x)\ge1/4\},
+ \qquad
+ \Pi_-=\{x:\Forr(x)\le-1/4\}.
+\]
+
+A passive batch of charge \(t\in\mathbb Z_{\ge0}\) prepares an arbitrary, possibly mixed,
+bosonic state on the \(4N\) sign modes and arbitrary bypass idlers,
+supported on the sector in which the total sign-mode photon number is at
+most \(t\).  It applies exactly once
+\[
+ \Gamma\left(
+ (D_1\oplus D_2\oplus D_3\oplus D_4)\oplus I_{\rm idler}
+ \right)
+\]
+and then performs an arbitrary collective POVM with a finite or
+standard-Borel outcome space.  Number superpositions, vacuum coherence,
+repeated mode occupation, bosonic symmetrization, arbitrary idlers,
+heralding, singular outcomes, and postselection are allowed; the charge
+is the maximum sign-mode photon number on the support, not its
+expectation.
+
+A passive protocol is an arbitrary adaptive tree of fresh batches.  Only
+the classical outcome and private classical randomness cross a node
+boundary; no quantum state or quantum memory does.  The next state,
+charge, POVM, stopping rule, and output may depend on the full classical
+history.  If the charge at history \(h\) is \(t_h\), the hard dose is
+\[
+ D=\sup_{\text{maximal branches }\gamma}
+   \sum_{h\in\gamma}t_h,
+\]
+where the sum on an infinite branch means the supremum over its finite
+prefixes.  Whenever $D<\infty$, it is a nonnegative integer because it
+is a bounded supremum of integer-valued branch-prefix charges.  Every
+traversal is charged, including failed, heralded, controlled, inverse, or
+conditioned traversals; conditioning never discounts dose.  A zero-charge
+continuation is input-independent and may be absorbed into classical
+randomness, with nontermination treated as a terminal outcome.  The
+protocol decides the promise with error at most \(1/3\) when it outputs
+the correct sign with probability at least \(2/3\) for every individual
+input in \(\Pi_+\cup\Pi_-\).
+
+\begin{theorem}[Main theorem]\label{thm:main}
+Let
+\[
+ \alpha=\frac18,\qquad c_0=\frac{2}{15},\qquad N_0=2^{30}.
+\]
+For every power of two \(N\ge N_0\), every passive protocol in the full
+model above that decides \(\Pi_+\) versus \(\Pi_-\) with worst-case error
+at most \(1/3\) satisfies
+\[
+       D\ge c_0N^\alpha.
+\]
+\end{theorem}
+
+\section{Walsh notation and the bosonic slot embedding}
+
+Put \(M=4N\) and identify the sign coordinates with \([M]\).  Thus \(N\)
+is the number of coordinates on each of the four masks, while \(M\) is only
+temporary notation for the total number of Boolean sign coordinates.  For
+\(Q\subseteq[M]\), write
+\[
+ \chi_Q(x)=\prod_{a\in Q}x_a,
+ \qquad
+ \wh f(Q)=2^{-M}\sum_{x\in\{\pm1\}^M}f(x)\chi_Q(x).
+\]
+
+\subsection{The exact labeled-slot embedding}
+
+Let
+\[
+ \cQ=\mathbb C|\bot\rangle\oplus\mathbb C^M,
+\]
+where \(|\bot\rangle\) is a vacuum symbol, and define
+\[
+ O_x|\bot\rangle=|\bot\rangle,
+ \qquad
+ O_x|a\rangle=x_a|a\rangle
+ \quad(a\in[M]).
+\]
+For every \(t\), the truncated sign-mode Fock space
+\[
+ \bigoplus_{n=0}^t\Sym^n(\mathbb C^M)
+\]
+embeds isometrically into \(\cQ^{\otimes t}\): an \(n\)-photon symmetric
+vector is mapped to the symmetric \(t\)-slot vector with \(t-n\) vacuum
+symbols.  Under this embedding, the second-quantized sign mask is exactly
+\(O_x^{\otimes t}\).  Hence a charge-\(t\) batch is an arbitrary
+\(t\)-slot parallel phase query with arbitrary ancilla.
+
+For
+\(\bm a=(a_1,\ldots,a_t)\in(\{\bot\}\cup[M])^t\), define
+\[
+ \partial\bm a
+ =
+ \left\{a\in[M]:
+ \#\{s:a_s=a\}\ \text{is odd}\right\}.
+\]
+Then
+\[
+ O_x^{\otimes t}|\bm a\rangle
+ =\chi_{\partial\bm a}(x)|\bm a\rangle .
+\]
+This representation retains repeated occupation, bosonic symmetrization,
+number superpositions, and vacuum coherence.  An arbitrary purification
+and every bypass idler are included in an additional ancilla factor.
+
+\section{Finite fresh trees}
+
+We first treat a finite tree with finite outcome sets.  Purify every
+prepared state.  At a nonterminal history \(h\), let \(t_h\) be the
+charge, let
+\[
+ |\psi_h\rangle\in\cQ^{\otimes t_h}\otimes\cA_h
+\]
+be the prepared state, and let
+\(\{M_{h,y}:y\in Y_h\}\) be the POVM.  Use the square-root instrument
+\[
+ W_{h,y}=M_{h,y}^{1/2},
+ \qquad
+ \sum_{y\in Y_h}W_{h,y}^*W_{h,y}=I.
+\]
+At a terminal history \(h\), let \(a_h\in[0,1]\) be the conditional
+probability of outputting \(+\).
+
+Define recursively a vector-valued accepted amplitude.  At a terminal
+node, put
+\[
+ \Phi_h(x)=\sqrt{a_h}\in\mathbb C.
+\]
+At a nonterminal node, put
+\begin{equation}\label{eq:accepted-amplitude}
+ \Phi_h(x)
+ =
+ \bigoplus_{y\in Y_h}
+ \left(
+ W_{h,y}O_x^{\otimes t_h}|\psi_h\rangle
+ \right)
+ \otimes\Phi_{hy}(x).
+\end{equation}
+The tensor product in \eqref{eq:accepted-amplitude} records the fresh
+boundary: the child protocol acts on a newly prepared system and never
+acts on the residual output system of the parent batch.  In the pivot
+proof this is used both to construct a genuine separating cut through all
+marked parallel slots and to factor every continuation as an operator on
+a fresh tensor factor.  Directly,
+\[
+ \norm{\Phi_h(x)}^2
+ =
+ \sum_y p_h(y|x)\norm{\Phi_{hy}(x)}^2.
+\]
+Thus, at the root,
+\begin{equation}\label{eq:f-norm}
+       f(x)=\norm{\Phi_\varnothing(x)}^2,
+\end{equation}
+where \(f(x)\) is the probability of outputting \(+\).
+
+Along a branch, the total number of query slots is at most \(D\).
+Consequently \(\Phi_\varnothing\) is a vector-valued Walsh polynomial of
+degree at most \(D\), and
+\begin{equation}\label{eq:degree}
+       \wh f(Q)=0\qquad(|Q|>2D).
+\end{equation}
+
+\section{The fresh-pivot inequality}
+
+The next theorem is the structural core of the proof.
+
+\begin{theorem}[Fresh-pivot inequality]\label{thm:pivot}
+Let \(f\) be the acceptance probability of a passive protocol of hard
+dose at most \(D\).  If \(1\le r\le2D\) and
+\(\{c_Q:Q\subseteq[M], |Q|=r\}\) is any family of complex numbers, then
+\begin{equation}\label{eq:pivot}
+ \left|
+ \sum_{|Q|=r}c_Q\wh f(Q)
+ \right|
+ \le
+ \left(
+   \sum_{k=0}^{r}
+   \binom Dk\binom D{r-k}M^{\min(k,r-k)/2}
+ \right)
+ \max_{|Q|=r}|c_Q|
+ \le
+ \binom{2D}{r}M^{r/4}
+ \max_{|Q|=r}|c_Q|.
+\end{equation}
+The estimate holds for arbitrary standard-Borel outcomes, singular
+histories, unrestricted tree width, private randomness, and infinite
+zero-charge tails.
+\end{theorem}
+
+\subsection{Last-occurrence records}
+
+Expanding \eqref{eq:accepted-amplitude} in all labeled slot bases gives
+\[
+ \Phi_\varnothing(x)
+ =
+ \sum_\gamma
+ \chi_{\partial\gamma}(x)v_\gamma,
+\]
+where \(\gamma\) ranges over complete ket execution histories, including
+the classical terminal path and every slot word, and
+\(\partial\gamma\) is the symmetric difference of the slot parities along
+that history.  Therefore
+\begin{equation}\label{eq:fourier-history}
+ \wh f(Q)
+ =
+ \sum_{\substack{\gamma,\gamma'\\
+ \partial\gamma\triangle\partial\gamma'=Q}}
+ \langle v_{\gamma'},v_\gamma\rangle .
+\end{equation}
+The direct-sum outcome registers make the inner product zero unless the
+two histories have the same classical terminal path, while the tensor
+products retain the fresh factorization along that path.
+
+Pad every ket execution and every bra execution by vacuum slots so that
+each has exactly \(D\) slot positions, ordered chronologically within its
+own side.
+
+A doubled slot history contributes to \(\wh f(Q)\) exactly when the ket
+and bra multiplicities have different parity precisely on \(Q\).  Thus,
+for every \(a\in Q\), exactly one of the two sides contains \(a\) an odd
+number of times.  On that odd-parity side, mark the last occurrence of
+\(a\).  These \(r=|Q|\) marked positions are distinct.  Their set
+\[
+       R\subseteq
+       \bigl(\{\mathrm{ket}\}\times[D]\bigr)
+       \sqcup
+       \bigl(\{\mathrm{bra}\}\times[D]\bigr),
+       \qquad |R|=r,
+\]
+is the parity-side last-occurrence record.  Every surviving doubled
+history has one and only one record, so the number of possible records is
+at most \(\binom{2D}{r}\) (empty record classes do not matter).
+
+For a fixed record, let \(L\subseteq R\) be the marked ket positions and
+let \(R\setminus L\) be the marked bra positions.  If \(k=|L|\), the
+coordinate values at the marked ket positions form a tuple
+\(\alpha\in[M]^k\), and those at the marked bra positions form
+\(\beta\in[M]^{r-k}\).  A combined tuple \((\alpha,\beta)\) with any
+repeated coordinate value is declared inadmissible.
+
+\subsection{Parity tracking and exact record filters}
+
+Let
+\[
+ \cK=\ell_2(\mathcal P([M]))
+\]
+with basis \(|S\rangle\), \(S\subseteq[M]\).  For \(T\subseteq[M]\), let
+\[
+ X_T|S\rangle=|S\triangle T\rangle.
+\]
+At every unmarked query slot, the coordinate value toggles the parity
+register.  At a marked slot, the value is exposed as an open coordinate
+index and its toggle is omitted.  If the exposed ket tuple is
+\(\alpha=(\alpha_1,\ldots,\alpha_k)\), write
+\[
+ A(\alpha)=\{\alpha_1,\ldots,\alpha_k\},
+ \qquad
+ \Pi^{\rm res}_{\alpha}
+ =\sum_{S\cap A(\alpha)=\varnothing}|S\rangle\langle S|,
+\]
+and define \(B(\beta)\) and \(\Pi^{\rm res}_{\beta}\) analogously.
+The ket side is projected at the terminal cut by
+\(\Pi^{\rm res}_{\alpha}\), the bra side by
+\(\Pi^{\rm res}_{\beta}\), and the two residual parity registers are
+then identified by the identity map on \(\cK\).
+
+The last-occurrence condition is imposed separately on each side.  Once a
+coordinate has been exposed at a marked slot, every later slot on that
+same side is projected away from that coordinate.  These restrictions and
+the terminal residual-parity restrictions are controlled orthogonal
+projections internal to one side.  No row-index-controlled projection acts
+on the bra side, and no column-index-controlled projection acts on the ket
+side.
+
+These filters are equivalent to the record definition.  Indeed, for an
+exposed ket coordinate \(a\in A(\alpha)\), omission of the marked
+occurrence and the projection
+\(\Pi^{\rm res}_{\alpha}\) make the remaining ket multiplicity of \(a\)
+even.  Hence the full ket multiplicity is odd.  Equality of the two
+residual parity sets makes the bra multiplicity even.  The argument for an
+exposed bra coordinate is symmetric.  Every unexposed coordinate has the
+same parity on the two sides.  The no-later-occurrence projections make
+the designated occurrence the last one on its odd-parity side.
+Consequently every surviving doubled history is admitted by exactly its
+true parity-side last-occurrence record and by no other record.
+
+\begin{lemma}[Fresh cut contraction]\label{lem:cut}
+Fix a record \(R\) and its ket/bra split.  The total contribution of all
+doubled histories with this record can be written
+\begin{equation}\label{eq:block-form}
+ \sum_{\alpha,\beta}
+ C_{\alpha\beta}
+ \langle u_\alpha,E_{\alpha\beta}v_\beta\rangle ,
+\end{equation}
+where
+\[
+ \sum_\alpha\norm{u_\alpha}^2\le1,
+ \qquad
+ \sum_\beta\norm{v_\beta}^2\le1,
+\]
+and the block operator
+\[
+ E=[E_{\alpha\beta}]:
+ \bigoplus_\beta\cV_\beta
+ \longrightarrow
+ \bigoplus_\alpha\cU_\alpha
+\]
+satisfies \(\norm E\le1\).  The scalar entry is
+\[
+ C_{\alpha\beta}
+ =
+ \begin{cases}
+ c_Q,&\text{if all entries of }(\alpha,\beta)\text{ are distinct and form }Q,\\
+ 0,&\text{otherwise.}
+ \end{cases}
+\]
+\end{lemma}
+
+\begin{proof}
+We construct the vectors and the operator by cutting the finite doubled
+execution network at the marked coordinate resolutions.
+
+For a slot \(q\), let \(P^{(q)}_a\) be the coordinate projector on that
+slot, with \(a\in\{\bot\}\cup[M]\), and put
+\(\epsilon(\bot)=\varnothing\),
+\(\epsilon(a)=\{a\}\) for \(a\in[M]\).  The unmarked slot map on the
+slot and parity register is
+\[
+ \mathsf T_q
+ =\sum_{a\in\{\bot\}\cup[M]}
+ P^{(q)}_a\otimes X_{\epsilon(a)}.
+\]
+It is unitary.  At a marked slot we replace this map by the coordinate
+extraction
+\[
+ \mathsf R_q\xi
+ =\bigoplus_{a\in[M]}P^{(q)}_a\xi .
+\]
+The summands are mutually orthogonal, so \(\mathsf R_q\) is a
+contraction; its omission of the vacuum summand is harmless because a
+marked value belongs to \(Q\subseteq[M]\).  The direct sum here is the
+canonical orthogonal decomposition of the actual slot space into the
+ranges of the coordinate projectors; it is not a collection of freely
+copied label spaces.  Because all slots in one batch are parallel, the
+chosen cut can pass immediately after every marked extraction in that
+batch.  Products of the extraction maps then give mutually orthogonal
+joint row projections \(P^{\rm ket}_\alpha\) and joint column
+projections \(P^{\rm bra}_\beta\) on the physical cut spaces.
+These are orthogonal ranges at the cut; an outcome-dependent continuation
+need not preserve their orthogonality after it is pushed to the terminal
+boundary, which is why the intervening block contraction below cannot be
+removed.
+
+At a node \(h\), write
+\[
+ \mathsf W_h\xi=\bigoplus_{y\in Y_h}W_{h,y}\xi .
+\]
+This is an isometry.  The preparation map
+\(z\mapsto z\otimes\psi_h\), the unmarked toggles, the extraction maps,
+the controlled no-later-occurrence projections, and the controlled
+terminal projections \(\Pi^{\rm res}_{\alpha}\) or
+\(\Pi^{\rm res}_{\beta}\) are therefore all contractions.
+
+For reference, put
+\[
+ P_{\bm a}=\left(\bigotimes_{q=1}^{t_h}P^{(q)}_{a_q}\right)\otimes I_{\cA_h}.
+\]
+When the local batch contains no marked slot, the resulting map on the
+incoming parity register is the explicitly defined isometry
+\begin{equation}\label{eq:J-map}
+ J_h|S\rangle
+ =\bigoplus_{y\in Y_h}
+   \sum_{\bm a}
+   |S\triangle\partial\bm a\rangle
+   \otimes W_{h,y}P_{\bm a}|\psi_h\rangle .
+\end{equation}
+Indeed, for \(S,T\subseteq[M]\),
+\[
+\begin{aligned}
+ \langle J_hT,J_hS\rangle
+ &=\sum_{y,\bm a,\bm b}
+   \mathbf 1_{\{T\triangle\partial\bm b
+                  =S\triangle\partial\bm a\}}
+   \langle P_{\bm b}\psi_h,
+           M_{h,y}P_{\bm a}\psi_h\rangle\\
+ &=\sum_{\bm a,\bm b}
+   \mathbf 1_{\{T\triangle\partial\bm b
+                  =S\triangle\partial\bm a\}}
+   \langle P_{\bm b}\psi_h,P_{\bm a}\psi_h\rangle\\
+ &=\mathbf 1_{\{S=T\}}.
+\end{aligned}
+\]
+The marked local maps are obtained from \eqref{eq:J-map} by replacing the
+appropriate toggles by the extraction maps \(\mathsf R_q\), retaining the
+extracted values as open orthogonal range factors, and composing the
+same-side controlled projections described above.  The cut-edge spaces
+are defined recursively.  At a terminal history they consist of the
+residual parity wire.  At an internal history \(h\), the ket cut-edge
+space is the direct sum, over \(y\in Y_h\), of tensor products of the
+parent residual system \(\cE_{h,y}\), the ket cut-edge space of the
+child \(hy\), and the orthogonal range factors created by any local ket
+extractions; the bra space is defined in the same way.  We denote these spaces by
+\(\cU_h\) and \(\cV_h\).
+
+Contracting the local ket tensors from the entrance of the batch to these
+cut edges defines
+\[
+ A_{h,{\rm k}}:\cU_h^{\rm in}
+ \longrightarrow
+ \bigoplus_{y\in Y_h}\cE_{h,y}\otimes\cU_{hy},
+\]
+and contracting the corresponding bra tensors defines
+\[
+ A_{h,{\rm b}}:\cV_h^{\rm in}
+ \longrightarrow
+ \bigoplus_{y\in Y_h}\cE_{h,y}\otimes\cV_{hy}.
+\]
+Here the harmless notation \(\cU_h^{\rm in},\cV_h^{\rm in}\) denotes the
+wires entering the local portion of the chosen cut; local extraction
+range factors are included on the appropriate side of these maps.  Thus
+these maps are completely specified by the preparation injection, the
+slot maps \(\mathsf T_q\) and \(\mathsf R_q\), the instrument isometry,
+and the controlled record projections.  The construction above gives
+\[
+ \norm{A_{h,{\rm k}}}\le1,
+ \qquad
+ \norm{A_{h,{\rm b}}}\le1.
+\]
+
+Choose a zig-zag cut through the doubled acyclic network that intersects
+each marked ket slot immediately after its ket extraction and each marked
+bra slot immediately after its bra extraction.  This is where the fresh
+architecture first becomes load bearing.  The \(t_h\) query slots inside
+one batch are parallel, and no quantum-memory wire passes from a parent
+batch to a child batch, so the cut is genuinely separating and never
+crosses one persistent quantum wire twice.  In a coherent serial-query
+circuit, marks at different query times lie on the same evolving wire and
+no analogous family of simultaneous physical cut projections exists.  The cut edges are actual
+physical slot, environment, open-coordinate, and parity wires.  Contracting
+all one-sided tensors exterior to these cuts, starting with the prepared
+states and the empty parity register, produces
+\[
+ u=\bigoplus_\alpha u_\alpha,
+ \qquad
+ v=\bigoplus_\beta v_\beta .
+\]
+The extraction ranges are orthogonal and every one-sided tensor is a
+contraction, hence
+\[
+ \norm u^2=\sum_\alpha\norm{u_\alpha}^2\le1,
+ \qquad
+ \norm v^2=\sum_\beta\norm{v_\beta}^2\le1.
+\]
+
+The tensors remaining between the two sides of the cut define one operator
+\(E:\bigoplus_\beta\cV_\beta\to
+      \bigoplus_\alpha\cU_\alpha\).  The spaces
+\(\cU_\alpha\) and \(\cV_\beta\) are the ranges of the joint physical
+cut projections, not abstract copies of one common space.
+This operator is defined recursively, not entry by entry.  At a terminal
+history \(h\), it is the scalar acceptance factor \(a_h\) times the
+identity identification of the two residual parity registers, with the
+same-side residual projections already included in the side maps.  At an
+internal history it is
+\begin{equation}\label{eq:pullback}
+ E_h
+ =A_{h,{\rm k}}^*
+   \left(
+     \bigoplus_{y\in Y_h}
+     I_{\cE_{h,y}}\otimes E_{hy}
+   \right)
+   A_{h,{\rm b}}.
+\end{equation}
+The direct-sum decomposition records the common classical outcome.  The
+factor \(I_{\cE_{h,y}}\otimes E_{hy}\) is the second load-bearing use
+of freshness: the child acts on a newly prepared system and never acts on
+the residual quantum system of the parent batch.  Together with the
+separating-cut property above, this is what distinguishes the proof from
+a coherent serial-query calculation.  Backward induction gives
+\[
+ \norm{E_h}\le1
+\]
+at every history.  In particular \(\norm E\le1\), and its blocks are
+\[
+ E_{\alpha\beta}
+ =P^{\rm ket}_\alpha E P^{\rm bra}_\beta .
+\]
+For a single batch this construction is the familiar formula
+\[
+ u_\alpha=P^{\rm ket}_\alpha\psi,
+ \qquad
+ v_\beta=P^{\rm bra}_\beta\psi,
+ \qquad
+ E=\sum_y a_yM_y,
+\]
+so the block family is obtained by compressing one positive contraction,
+not by pairing unrelated vectors through an entrywise identity.
+
+Expanding the maps \(A_{h,{\rm k}}\), \(A_{h,{\rm b}}\), and
+\eqref{eq:pullback} in the slot bases reproduces exactly the products of
+local matrix elements in \eqref{eq:fourier-history}.  The parity identity,
+the no-later-occurrence projections, and the residual-disjointness
+projections select exactly the histories with the fixed record, as proved
+above.  Multiplication by \(C_{\alpha\beta}\) inserts the coefficient
+\(c_Q\) for the distinct exposed set \(Q\).  This proves
+\eqref{eq:block-form} with the stated vectors and the stated single block
+contraction.
+\end{proof}
+
+\begin{remark}[Why the middle contraction cannot be discarded]\label{rem:not-identity}
+It is tempting to push the complete measured continuation into the side
+vectors and replace \(E\) by the identity.  That is false even for one
+batch.  Take a two-dimensional query space with coordinate basis
+\(|1\rangle,|2\rangle\), prepare
+\(\psi=(|1\rangle+|2\rangle)/\sqrt2\), measure in the
+\(|+\rangle,|-\rangle\) basis, and accept only the \(+\) outcome.  The
+full instrument is an isometry, but the accepted terminal vectors
+associated with the physical inputs \(|1\rangle\) and \(|2\rangle\) are
+both proportional to \(|+\rangle\) and are not orthogonal.  The correct
+single-batch representation keeps the orthogonal vectors
+\(u_a=P_a\psi\) at the physical cut and places the outcome-dependent
+acceptance in the contraction
+\(E=\sum_y a_yM_y\).  The general construction in
+Lemma~\ref{lem:cut} is the adaptive version of exactly this separation.
+\end{remark}
+
+\subsection{A block Schur estimate}
+
+For a scalar matrix \(C=(C_{\alpha\beta})\), define
+\[
+ \gamma_2(C)
+ =
+ \inf_{C_{\alpha\beta}=\langle p_\alpha,q_\beta\rangle}
+ \left(\max_\alpha\norm{p_\alpha}\right)
+ \left(\max_\beta\norm{q_\beta}\right).
+\]
+
+\begin{lemma}[Block Schur estimate]\label{lem:schur}
+Under the hypotheses of Lemma~\ref{lem:cut},
+\[
+ \left|
+ \sum_{\alpha,\beta}
+ C_{\alpha\beta}
+ \langle u_\alpha,E_{\alpha\beta}v_\beta\rangle
+ \right|
+ \le\gamma_2(C).
+\]
+If \(C\) has at most \(M^k\) rows, at most \(M^{r-k}\) columns, and
+\(|C_{\alpha\beta}|\le c_*\), then
+\[
+ \gamma_2(C)
+ \le c_*M^{\min(k,r-k)/2}
+ \le c_*M^{r/4}.
+\]
+\end{lemma}
+
+\begin{proof}
+Choose a factorization
+\(C_{\alpha\beta}=\langle p_\alpha,q_\beta\rangle\).
+Tensor \(E\) with the factorization Hilbert space and apply it to the
+direct-sum vectors
+\[
+ \bigoplus_\alpha p_\alpha\otimes u_\alpha,
+ \qquad
+ \bigoplus_\beta q_\beta\otimes v_\beta.
+\]
+The contraction of \(E\), Cauchy--Schwarz, and the two energy bounds prove
+the first assertion.
+
+For the second assertion, suppose first that \(M^k\le M^{r-k}\).  Take the
+row factors to be the standard basis vectors and take the column factor
+for a column of \(C\) to be that column.  The row norms are one and the
+column norms are at most \(c_*M^{k/2}\).  If the number of columns is
+smaller, transpose.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:pivot} for finite trees]
+Uniform averaging against \(\chi_Q\) keeps exactly the doubled histories
+whose total coordinate parity is \(Q\).  Partition those histories by
+their unique last-occurrence record.  A record with \(k\) ket marks and
+\(r-k\) bra marks has contribution at most
+\[
+ M^{\min(k,r-k)/2}\max_{|Q|=r}|c_Q|
+\]
+by Lemmas~\ref{lem:cut} and \ref{lem:schur}, and there are at most
+\(\binom Dk\binom D{r-k}\) such records.  Summing over \(k\) gives the
+first inequality in \eqref{eq:pivot}; Vandermonde's identity and
+\(M^{\min(k,r-k)/2}\le M^{r/4}\) give the second.
+\end{proof}
+
+\subsection{Standard-Borel outcomes and infinite trees}
+
+\begin{lemma}[Finite approximation]\label{lem:finite-approx}
+For the finite input domain \(\{\pm1\}^M\), every standard-Borel fresh
+protocol of hard dose at most \(D\) is a uniform limit of finite-outcome,
+finite-width fresh protocols of hard dose at most \(D\).
+\end{lemma}
+
+\begin{proof}
+If \(D=0\), the entire protocol is input-independent and is already a
+finite classical kernel up to an arbitrarily accurate finite
+coarse-graining.  Assume henceforth that \(D\ge1\).
+
+Every positive charge is an integer.  Hence a branch of dose at most
+\(D\) contains at most \(D\) positive-charge nodes.  Collapse every
+zero-charge subtree into its input-independent conditional kernel over
+the next positive-charge history, a terminal outcome, or nontermination;
+regard nontermination as a terminal outcome.
+
+Proceed backward over the remaining positive-charge depth.  At a node
+with standard-Borel outcome \(y\), let
+\[
+ g_y=(g_y(x))_{x\in\{\pm1\}^M}\in[0,1]^{2^M}
+\]
+be the continuation acceptance vector.  The map \(y\mapsto g_y\) is
+measurable.  Partition the finite-dimensional cube into finitely many
+Borel cells of supremum diameter at most \(\delta\).  Coarse-grain the
+POVM by the inverse images of these cells and select one actual
+continuation from each nonempty cell.  For every input, the change in
+acceptance probability at that node is at most \(\delta\).  Iterating
+through at most \(D\) positive-charge levels with
+\(\delta=\varepsilon/D\) gives a uniform \(\varepsilon\) approximation
+without increasing any branch charge.
+\end{proof}
+
+Every Fourier coefficient is continuous under uniform convergence.
+Equation \eqref{eq:pivot} therefore passes to standard-Borel outcomes,
+singular histories, unrestricted width, private randomness, and infinite
+zero-charge tails.  Equation \eqref{eq:degree} passes to the limit as
+well.
+
+\section{The hard distributions}
+
+Put
+\[
+       \rho=\frac{200}{201}.
+\]
+For \(s=1,2,3\), independently sample jointly Gaussian vectors
+\[
+ (Z_s,W_s)\in\mathbb R^N\times\mathbb R^N
+\]
+with
+\[
+ \E Z_sZ_s^{\mathsf T}=I,
+ \qquad
+ \E W_sW_s^{\mathsf T}=I,
+ \qquad
+ \E Z_sW_s^{\mathsf T}=\rho H.
+\]
+The block covariance is positive semidefinite because \(H\) is symmetric
+orthogonal and \(0<\rho<1\).  Put
+\[
+ a_s=\operatorname{sgn}Z_s,
+ \qquad
+ b_s=\operatorname{sgn}W_s.
+\]
+Choose independent uniform gauges
+\(\zeta_1,\zeta_2,\zeta_3\in\{\pm1\}\), set
+\[
+       \zeta_4=\sigma\zeta_1\zeta_2\zeta_3,
+       \qquad \sigma\in\{\pm1\},
+\]
+and define
+\begin{equation}\label{eq:hard}
+\begin{aligned}
+ x^{(1)}&=\zeta_1a_1,\\
+ x^{(2)}&=\zeta_2(b_1\odot a_2),\\
+ x^{(3)}&=\zeta_3(b_2\odot a_3),\\
+ x^{(4)}&=\zeta_4b_3.
+\end{aligned}
+\end{equation}
+Let \(\mu_\sigma\) be the resulting law.
+
+\section{Signed Fourier moments}
+
+For \(A,B\subseteq[N]\), define
+\[
+ L(A,B)
+ =
+ \E\left[
+ \prod_{i\in A}a_i
+ \prod_{j\in B}b_j
+ \right]
+\]
+for one Gaussian link.
+
+\begin{lemma}[One-link moment bound]\label{lem:link}
+Let \(a=|A|\), \(b=|B|\), and \(a+b\le r\le\sqrt N\).  Then
+\[
+       |L(A,B)|
+       \le
+       \left(\frac r{2\sqrt N}\right)^{\max(a,b)}.
+\]
+\end{lemma}
+
+\begin{proof}
+If both sets are empty, the assertion is immediate.  If exactly one of
+\(A,B\) is empty, the moment is zero.  Assume \(a,b>0\).  The cross-covariance matrix between \(Z_A\) and \(W_B\) is
+\[
+ R=\rho H_{A,B},
+ \qquad
+ \norm R
+ \le\norm R_{\mathrm F}
+ =\rho\sqrt{\frac{ab}{N}}
+ \le\frac{a+b}{2\sqrt N}
+ \le\frac r{2\sqrt N},
+ \qquad \norm R\le\rho<1.
+\]
+The function
+\[
+ F(Z_A)=\prod_{i\in A}\operatorname{sgn}Z_i
+\]
+is odd in each of its \(a\) coordinates, so its multivariate Hermite
+expansion begins in total degree at least \(a\).  The analogous function
+of \(W_B\) begins in total degree at least \(b\).
+
+For jointly standard Gaussian vectors with cross-covariance \(R\), the
+conditional-expectation operator between the two Gaussian \(L^2\) spaces
+is the second quantization of \(R\).  On homogeneous chaos degree \(p\)
+its operator norm is at most \(\norm R^p\).  If \(F_p,G_p\) are the
+degree-\(p\) components and \(m=\max(a,b)\), then
+\[
+\begin{aligned}
+ |L(A,B)|
+ &\le
+ \sum_{p\ge m}\norm R^p\norm{F_p}_2\norm{G_p}_2\\
+ &\le
+ \norm R^m
+ \left(\sum_p\norm{F_p}_2^2\right)^{1/2}
+ \left(\sum_p\norm{G_p}_2^2\right)^{1/2}\\
+ &\le\norm R^m,
+\end{aligned}
+\]
+because \(F\) and \(G\) are sign-valued.
+\end{proof}
+
+Let \(Q=(Q_1,Q_2,Q_3,Q_4)\), with \(Q_b\) contained in block \(b\).
+Write
+\[
+ q_b=|Q_b|,
+ \qquad
+ r=q_1+q_2+q_3+q_4.
+\]
+
+\begin{lemma}[Signed Fourier moment]\label{lem:signed}
+If \(r\le\sqrt N\), then
+\begin{equation}\label{eq:signed-moment}
+ \left|
+ (\E_{\mu_+}-\E_{\mu_-})\chi_Q
+ \right|
+ \le
+ 2^{1-3r/4}r^{3r/4}N^{-3r/8}.
+\end{equation}
+The left-hand side is zero unless all four \(q_b\) are odd.
+\end{lemma}
+
+\begin{proof}
+The gauge factor in \(\chi_Q(x)\) is
+\[
+ \sigma^{q_4}
+ \zeta_1^{q_1+q_4}
+ \zeta_2^{q_2+q_4}
+ \zeta_3^{q_3+q_4}.
+\]
+Gauge averaging is therefore zero unless
+\[
+ q_1\equiv q_2\equiv q_3\equiv q_4\pmod2.
+\]
+The difference between \(\sigma=+1\) and \(\sigma=-1\) is zero unless the
+common parity is odd.  In the surviving case,
+\[
+ (\E_{\mu_+}-\E_{\mu_-})\chi_Q
+ =
+ 2L(Q_1,Q_2)L(Q_2,Q_3)L(Q_3,Q_4).
+\]
+Before coarsening by the total level, Lemma~\ref{lem:link} gives the
+composition-dependent estimate
+\[
+ \left|(\E_{\mu_+}-\E_{\mu_-})\chi_Q\right|
+ \le
+ 2\prod_{s=1}^{3}
+ \left(
+   \rho\sqrt{\frac{q_sq_{s+1}}{N}}
+ \right)^{\max(q_s,q_{s+1})}.
+\]
+For nonnegative \(q_1,\ldots,q_4\),
+\[
+\begin{aligned}
+ \max(q_1,q_2)&\ge\tfrac34q_1+\tfrac14q_2,\\
+ \max(q_2,q_3)&\ge\tfrac12q_2+\tfrac12q_3,\\
+ \max(q_3,q_4)&\ge\tfrac14q_3+\tfrac34q_4.
+\end{aligned}
+\]
+The sum of the three right-hand sides is \(3r/4\).  Apply
+Lemma~\ref{lem:link} to the three links.
+\end{proof}
+
+\section{Average-case indistinguishability}
+
+\begin{proposition}\label{prop:ind}
+If a passive protocol has dose
+\[
+       D<\frac{2}{15}N^{1/8},
+\]
+then its acceptance probability \(f\) satisfies
+\[
+       \left|\E_{\mu_+}f-\E_{\mu_-}f\right|<\frac{14641}{109375}.
+\]
+\end{proposition}
+
+\begin{proof}
+By \eqref{eq:degree},
+\[
+ \E_{\mu_+}f-\E_{\mu_-}f
+ =
+ \sum_{r=0}^{2D}
+ \sum_{|Q|=r}
+ \wh f(Q)
+ (\E_{\mu_+}-\E_{\mu_-})\chi_Q.
+\]
+Only \(r\ge4\) contributes.  Under the assumed dose bound,
+\(2D<\sqrt N\), so Theorem~\ref{thm:pivot} and
+Lemma~\ref{lem:signed} apply at every nonzero level:
+\[
+\begin{aligned}
+ \left|\E_{\mu_+}f-\E_{\mu_-}f\right|
+ &\le
+ 2\sum_{r=4}^{2D}
+ \binom{2D}{r}
+ (4N)^{r/4}
+ 2^{-3r/4}r^{3r/4}N^{-3r/8}\\
+ &\le
+ 2\sum_{r=4}^{2D}
+ \left(
+ 2^{3/4}eD\,r^{-1/4}N^{-1/8}
+ \right)^r .
+\end{aligned}
+\]
+Here we used \(\binom{2D}{r}\le(2eD/r)^r\).  For \(r\ge4\),
+\[
+ 2^{3/4}r^{-1/4}
+ =2\,2^{-1/4}r^{-1/4}
+ \le 2\,8^{-1/4}.
+\]
+Thus the last display is at most
+\[
+ 2\sum_{r=4}^{\infty}q^r
+ =\frac{2q^4}{1-q},
+ \qquad
+ q=2eDN^{-1/8}8^{-1/4}.
+\]
+If \(D<2N^{1/8}/15\), then, using
+\(e<11/4\) and \(8^{1/4}>5/3\),
+\[
+ q<\frac{11}{25}.
+\]
+Consequently
+\[
+ \frac{2q^4}{1-q}
+ <
+ \frac{2(11/25)^4}{1-11/25}
+ =\frac{14641}{109375}.
+\]
+\end{proof}
+
+\section{Mean and concentration of the hard distributions}
+
+\subsection{Exact mean and exact normalization}
+
+The Gaussian arcsine identity gives
+\[
+ \E[a_{s,i}b_{s,j}]
+ =
+ \frac2\pi\arcsin(\rho H_{ij})
+ =
+ \beta_NH_{ij},
+\]
+where
+\[
+ \beta_N
+ =
+ \frac{2\sqrt N}{\pi}
+ \arcsin\left(\frac{\rho}{\sqrt N}\right).
+\]
+Using the exact \(N^{-5/2}\) coefficient and independence of the three
+links,
+\begin{equation}\label{eq:mean}
+       \E_{\mu_\sigma}\Forr(x)=\sigma\beta_N^3.
+\end{equation}
+Indeed, the three link moments contribute \(N^{-3/2}\), the defining
+coefficient contributes \(N^{-5/2}\), and the four-index sum contributes
+\(N^4\).
+
+Since \(\arcsin z\ge z\), \(\rho=200/201\), and \(\pi<22/7\),
+\[
+       \beta_N>\frac{1400}{2211}.
+\]
+Therefore
+\begin{equation}\label{eq:margin}
+ \beta_N^3-\frac14
+ >
+ \left(\frac{1400}{2211}\right)^3-\frac14
+ =
+ \frac{167480069}{43234079724}
+ >
+ \frac1{260}.
+\end{equation}
+
+\subsection{A conditional-independent representation}
+
+Every monomial in \(\Forr\) contains one coordinate from each block, and
+\[
+ \zeta_1\zeta_2\zeta_3\zeta_4=\sigma.
+\]
+Therefore the gauges contribute the deterministic overall factor
+\(\sigma\) to \(\Forr\) and do not contribute to its variance.  We may
+analyze the ungauged block vectors
+\[
+ a_1,\qquad b_1\odot a_2,\qquad b_2\odot a_3,\qquad b_3
+\]
+and restore the factor \(\sigma\) at the end.
+
+Let \(G_s,\xi_s,\eta_s\) be independent standard Gaussian vectors and set
+\[
+ a_s=
+ \operatorname{sgn}\left(G_s+\frac{\xi_s}{\sqrt{200}}\right),
+ \qquad
+ b_s=
+ \operatorname{sgn}\left(HG_s+\frac{\eta_s}{\sqrt{200}}\right).
+\]
+After standardization, this pair has cross-covariance \(\rho H\), and its
+signs have the same law as the preceding \(a_s,b_s\).  Conditional on
+\(G_1,G_2,G_3\), the primitive signs
+\(a_1,b_1,a_2,b_2,a_3,b_3\) are mutually independent across all
+coordinates; hence the \(4N\) ungauged input coordinates displayed above
+are mutually independent.  Moreover,
+\[
+ \E[a_{s,i}|G_s]=\phi(G_{s,i}),
+ \qquad
+ \E[b_{s,j}|G_s]=\phi((HG_s)_j),
+\]
+where
+\[
+       \phi(z)=\operatorname{erf}(10z),
+       \qquad
+       L:=\norm{\phi'}_\infty=\frac{20}{\sqrt\pi},
+       \qquad
+       L^2<128.
+\]
+The last inequality follows from \(\pi>25/8\).
+
+Put
+\[
+       M(g)=D_{\phi(g)}HD_{\phi(Hg)}.
+\]
+Every \(M(g)\) is a contraction.  The conditional mean of \(\Forr\) is
+\begin{equation}\label{eq:Fbar}
+ \overline F
+ =
+ \sigma\langle u|M(G_1)M(G_2)M(G_3)|u\rangle.
+\end{equation}
+
+\subsection{Conditional rounding variance}
+
+Let \(\Forr^{\rm ung}\) denote fourfold forrelation evaluated on the
+ungauged block vectors
+\[
+ y^{(1)}=a_1,\qquad
+ y^{(2)}=b_1\odot a_2,\qquad
+ y^{(3)}=b_2\odot a_3,\qquad
+ y^{(4)}=b_3.
+\]
+Then \(\Forr=\sigma\Forr^{\rm ung}\) exactly, so the two variables have
+the same variance.  Conditional on \(G_1,G_2,G_3\), all coordinates of
+the four vectors \(y^{(b)}\) are independent, but generally biased.
+For one independent sign \(Y\) with \(\Pr(Y=1)=p\), a multilinear
+function satisfies, conditional on all other coordinates,
+\[
+ \operatorname{Var}_Y(F)
+ =4p(1-p)(\partial_YF)^2
+ \le(\partial_YF)^2.
+\]
+Here
+\(\partial_YF=(F|_{Y=+1}-F|_{Y=-1})/2\), so this convention agrees with
+the coefficient of \(Y\) in the multilinear expansion.
+The conditional Efron--Stein inequality therefore gives
+\[
+ \Var(\Forr^{\rm ung}|G_1,G_2,G_3)
+ \le
+ \sum_{b,i}
+ \E[(\partial_{b,i}\Forr^{\rm ung})^2|G_1,G_2,G_3].
+\]
+We average this inequality over the latent Gaussians.  For blocks \(1\)
+and \(4\), the derivative vector is \(N^{-1/2}\) times a vector of norm
+at most one, so the sum of squared derivatives is at most \(1/N\)
+pointwise.
+
+For block \(2\), the derivative at coordinate \(j\) has the form
+\(\ell_jr_j\), where
+\[
+ \ell=HD_{a_1}u,
+ \qquad
+ r=HD_{b_2\odot a_3}HD_{b_3}u.
+\]
+The vector \(a_1\) is independent of \((b_2,a_3,b_3)\), hence
+\(\ell\) and \(r\) are independent.  Marginally, \(a_1\) is an i.i.d.
+uniform sign vector, so \(\E\ell_j^2=1/N\), while \(\|r\|\le1\).
+Therefore
+\[
+ \E\sum_j\ell_j^2r_j^2\le\frac1N.
+\]
+For block \(3\), the left partial-chain vector depends on
+\((a_1,b_1,a_2)\), while the right vector \(HD_{b_3}u\) depends only on
+the independent i.i.d. uniform sign vector \(b_3\); the same argument
+gives another \(1/N\).  These are unconditional calculations after the
+conditional Efron--Stein inequality has been averaged; no conditional
+uniformity is asserted.  Consequently,
+\begin{equation}\label{eq:round-var}
+ \E\Var(\Forr|G_1,G_2,G_3)
+ =\E\Var(\Forr^{\rm ung}|G_1,G_2,G_3)
+ \le\frac4N.
+\end{equation}
+
+\subsection{Latent Gaussian variance}
+
+Gaussian Poincare gives
+\[
+ \Var(\overline F)
+ \le
+ \sum_{s=1}^3
+ \E\norm{\nabla_{G_s}\overline F}^2.
+\]
+For one link, write
+\[
+ \overline F
+ =
+ \langle p,D_{\phi(G)}HD_{\phi(HG)}q\rangle,
+\]
+where \(p,q\) depend on disjoint collections of the other links, are
+independent of \(G\) and of each other, and have norm at most one.  Define
+\[
+ A_i=p_i(HD_{\phi(HG)}q)_i,
+ \qquad
+ B_j=q_j(HD_{\phi(G)}p)_j.
+\]
+Because \(H\) is symmetric,
+\[
+ \nabla_G\overline F
+ =
+ D_{\phi'(G)}A+HD_{\phi'(HG)}B,
+\]
+and therefore
+\begin{equation}\label{eq:grad}
+ \norm{\nabla_G\overline F}^2
+ \le
+ 2L^2(\norm A^2+\norm B^2).
+\end{equation}
+
+We use the translation symmetries of the Sylvester matrix.  For
+\(s\in\F_2^d\), let
+\[
+ (P_sv)_i=v_{i+s},
+ \qquad
+ (D_sv)_i=(-1)^{\langle s,i\rangle}v_i.
+\]
+Then
+\[
+ P_sH=HD_s,
+ \qquad
+ HP_s=D_sH.
+\]
+Since \(\phi\) is odd,
+\begin{equation}\label{eq:M-sym}
+       M(P_sg)=P_sM(g),
+       \qquad
+       M(D_sg)=M(g)P_s.
+\end{equation}
+The standard Gaussian law is invariant under every \(P_s,D_s\).  It
+follows from \eqref{eq:M-sym} that every nonempty left or right
+partial-chain vector in \eqref{eq:Fbar} has a distribution invariant
+under the transitive translation group \(\{P_s\}\).  Its coordinate
+second moments are equal and, because its norm is at most one, are at
+most \(1/N\).
+
+At each link, \(p\) is either \(u\) or such a coordinate-transitive
+partial-chain vector; the same holds for \(q\).  The vector \(p\) is
+independent of \(G,q\), and \(q\) is independent of \(G,p\).  Therefore,
+writing \(v=HD_{\phi(HG)}q\),
+\[
+ \E\norm A^2
+ =
+ \sum_i\E\!\left[|p_i|^2|v_i|^2\right]
+ \le
+ \frac1N\E\norm v^2
+ \le\frac1N.
+\]
+The same calculation, with
+\(w=HD_{\phi(G)}p\), gives
+\[
+       \E\norm B^2\le\frac1N.
+\]
+Equation \eqref{eq:grad} gives
+\[
+       \E\norm{\nabla_G\overline F}^2
+       \le\frac{4L^2}{N}.
+\]
+Summing the three links,
+\begin{equation}\label{eq:latent-var}
+       \Var(\overline F)\le\frac{12L^2}{N}.
+\end{equation}
+
+By total variance, \eqref{eq:round-var}, \eqref{eq:latent-var}, and
+\(L^2<128\),
+\begin{equation}\label{eq:total-var}
+ \Var_{\mu_\sigma}(\Forr)
+ \le
+ \frac{4+12L^2}{N}
+ <
+ \frac{1540}{N}.
+\end{equation}
+
+\section{Transfer to the exact promises}
+
+Equations \eqref{eq:margin} and \eqref{eq:total-var}, followed by
+Chebyshev, give
+\[
+ \mu_\sigma\left(
+ \sigma\Forr<\frac14
+ \right)
+ \le
+ \frac{1540\cdot260^2}{N}
+ =
+ \frac{104104000}{N}.
+\]
+For \(N\ge2^{30}\), put
+\[
+ \varepsilon_0
+ =\frac{104104000}{2^{30}}
+ =\frac{1626625}{16777216}.
+\]
+Define
+\[
+ \nu_\sigma
+ =
+ \left.\mu_\sigma\right|_{\{\sigma\Forr\ge1/4\}}.
+\]
+Then
+\[
+ \nu_+(\Pi_+)=1,
+ \qquad
+ \nu_-(\Pi_-)=1,
+ \qquad
+ \TV(\mu_\sigma,\nu_\sigma)\le\varepsilon_0.
+\]
+
+Let \(f(x)\) be the probability that the protocol outputs \(+\).
+Worst-case success at least \(2/3\) implies
+\[
+ \E_{\nu_+}f\ge\frac23,
+ \qquad
+ \E_{\nu_-}f\le\frac13.
+\]
+Since \(0\le f\le1\),
+\begin{equation}\label{eq:hard-gap}
+ \E_{\mu_+}f-\E_{\mu_-}f
+ \ge
+ \frac13-2\varepsilon_0
+ =\frac{3508733}{25165824}.
+\end{equation}
+On the other hand,
+\[
+ \frac{3508733}{25165824}
+ -\frac{14641}{109375}
+ =\frac{15314842691}{2752512000000}>0.
+\]
+If \(D<\frac{2}{15}N^{1/8}\), Proposition~\ref{prop:ind} therefore
+contradicts \eqref{eq:hard-gap}.  Hence
+\[
+       D\ge\frac{2}{15}N^{1/8}.
+\]
+This proves Theorem~\ref{thm:main}.
+
+\section{Full-model audit}
+
+The preceding proof applies to the full model in the problem statement.
+
+\begin{itemize}[leftmargin=2em]
+\item
+Arbitrary mixed inputs are purified within the same maximum-photon
+support.  Arbitrary bypass idlers remain in the ancilla factors.
+\item
+The slot embedding is exact for maximum sign-mode photon number on
+support.  Repeated occupation, bosonic symmetrization, number
+superpositions, and vacuum coherence are all retained.
+\item
+Each batch contains one direct-sum sign-mask interaction.  No known
+Hadamard or other processing is inserted between the four masks inside a
+batch.
+\item
+Only a classical outcome controls the next fresh state.  Freshness is
+used in two coupled parts of Lemma~\ref{lem:cut}: the marked parallel
+slots admit one genuine separating cut, and every continuation acts on a
+new tensor factor, giving the factor
+\(I_{\cE_{h,y}}\otimes E_{hy}\) in \eqref{eq:pullback}.  Neither the
+cut projections nor this factor may be replaced by a claim that the
+fully propagated terminal vectors remain orthogonal; Remark~\ref{rem:not-identity}
+shows why.
+\item
+All outcome weights are raw outcome weights.  Heralding and
+postselection never divide out reach probability and never discount
+dose.
+\item
+The last-occurrence partition is exact: after omitting each marked toggle,
+the same-side residual parity is projected to be disjoint from the exposed
+coordinates.  Together with residual-parity equality, this forces the
+marked side to be the odd side and prevents duplicate records.
+\item
+Finite approximation covers arbitrary finite or standard-Borel outcome
+spaces, singular histories, and unrestricted width.
+\item
+Every positive traversal is counted in the branchwise dose.  Because
+positive charges are integers, a finite-dose branch has at most \(D\)
+positive-charge nodes.  Zero-charge tails are input-independent
+conditional on the current classical history and are absorbed into a
+terminal kernel, with nontermination treated as a terminal outcome.
+\item
+Private classical randomness is included as zero-charge classical
+branching.
+\item
+The hard distribution uses the exact normalized Hadamard matrix and the
+exact coefficient \(N^{-5/2}\).  The transfer conditions on the exact
+thresholds \(+1/4\) and \(-1/4\).
+\item
+The last step uses worst-case success on every promised input, not an
+average-case correctness assumption.
+\item
+The conclusion is a branchwise hard-dose lower bound.  It is not a
+mean-dose bound, does not cover a quantum memory carried between batches,
+and does not permit coherent inter-mask processing inside one fresh batch.
+\end{itemize}
+
+\appendix
+
+\section{Standard Gaussian facts used above}
+
+For completeness, we record the three standard Gaussian facts invoked in
+the proof.
+
+\subsection{Arcsine identity}
+
+If \(X,Y\) are standard real Gaussians of correlation \(r\), rotational
+symmetry in the plane gives
+\[
+       \E[\operatorname{sgn}X\,\operatorname{sgn}Y]
+       =\frac2\pi\arcsin r.
+\]
+
+\subsection{Second quantization}
+
+Let \(X\in\mathbb R^a\), \(Y\in\mathbb R^b\) be jointly standard Gaussian
+with cross-covariance \(R\).  After singular-value decomposing \(R\) and
+making orthogonal changes of variables, the normalized multivariate
+Hermite basis diagonalizes the conditional-expectation operator
+\(g(Y)\mapsto\E[g(Y)|X]\).  On homogeneous chaos degree \(p\), every
+singular value is a product of \(p\) singular values of \(R\), so the
+operator norm is at most \(\norm R^p\).
+
+\subsection{Gaussian Poincare}
+
+For a locally Lipschitz function \(F\) of a standard Gaussian vector,
+\[
+       \Var(F)\le\E\norm{\nabla F}^2.
+\]
+The function in \eqref{eq:Fbar} is smooth and bounded, so the inequality
+applies directly.
+
+\end{document}

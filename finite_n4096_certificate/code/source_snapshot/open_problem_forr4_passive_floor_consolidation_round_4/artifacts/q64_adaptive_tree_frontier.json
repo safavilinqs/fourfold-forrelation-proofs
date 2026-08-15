@@ -1,0 +1,23 @@
+{
+  "boundary": "No quantum memory is carried between batches, and every fresh probe is block diagonal in total signal photon number. Coherent inter-batch control and coherence between different signal-number sectors are outside the certified class.",
+  "conditioning": "The unconditioned adaptive comparison is completed first; the two bad-promise probabilities are then paid once through total variation.",
+  "result": {
+    "adaptive_scope": "Every finite classically adaptive passive tree with fresh batches block diagonal in total signal photon number, arbitrary idlers and within-sector entanglement, collective batch POVMs, classical feed-forward, and branchwise hard photon-pass dose at most six.",
+    "adaptive_total_upper": "0.26096922479220792493418095739381656137869710501965562750914672535608982983539778",
+    "branchwise_hard_dose": 6,
+    "dimension": 4096,
+    "frontier_multiplier_denominator": 1,
+    "frontier_multiplier_numerator": 1,
+    "order": 64,
+    "passes_reserve_gate": true,
+    "perron_upper": "0.25874409638557722267923079152925562403311987598701005323368022563713944348400092",
+    "promise_upper": "0.00222512840663070225495016586456093734557722903264557427546649971895038635139684472693787993",
+    "reserve_margin_lower": "0.071364108541125408399152375939516771954636228313677705824186607977243503497935553",
+    "sign_modes": 16384,
+    "supported_balanced_entries": 888,
+    "threshold_lower": "0.332333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+    "verdict": "CERTIFIED"
+  },
+  "schema": "round4_q64_adaptive_tree_frontier_v1",
+  "theorem_interface": "The signed terminal kernel of a classically adaptive tree has a direct-sum Hilbert factorization whose total squared row and column feature masses are each at most one. Temporal occupation histories pull back the one-batch moment kernels, so the certified arbitrary-law coefficients and 210-state Perron bound apply with multiplier one."
+}

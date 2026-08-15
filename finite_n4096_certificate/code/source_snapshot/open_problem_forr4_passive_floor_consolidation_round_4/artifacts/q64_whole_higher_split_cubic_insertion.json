@@ -1,0 +1,45 @@
+{
+  "adaptive_requirement": "the local 48-entry theorem survives; its cumulative count, routing reserve, and multiplier are withdrawn because the upstream universal insertion is quarantined",
+  "evidence_label": "arbitrary-diagonal q64 theorem for 48 entries with one split cubic and whole higher blocks: exact cubic endpoint slice, internal singleton-cubic scalar, or complete M15-M53 weighted row followed by unit cross-Gram dressing; floating Perron insertion; one batch only",
+  "result": {
+    "adaptive_multiplier_cap_retaining_allowance": 1.011738743422519,
+    "closed_entries": 48,
+    "complete_wedge_coefficient": 0.008464668753116878,
+    "complete_wedge_entries": 8,
+    "dimension": 4096,
+    "endpoint_record_five_full_energy": 793168.0,
+    "endpoint_record_one_full_energy": 1027.0000000000002,
+    "endpoint_record_three_full_energy": 45690.0,
+    "favorable_endpoint_coefficient": 0.12403521525363623,
+    "favorable_endpoint_entries": 24,
+    "inserted_routing": {
+      "beta": 0.7459973433751967,
+      "margin_to_one_third": 0.004855912167160414,
+      "perron_upper": 0.3107947504668348,
+      "promise_loss": 0.0176826706993381,
+      "total": 0.3284774211661729
+    },
+    "internal_endpoint_coefficient": 0.015625,
+    "internal_endpoint_entries": 16,
+    "order": 64,
+    "previous_proved_entries": 664,
+    "previous_routing": {
+      "beta": 0.7459896234977319,
+      "margin_to_one_third": 0.004395103210392215,
+      "perron_upper": 0.31122286805379945,
+      "promise_loss": 0.01771536206914162,
+      "total": 0.3289382301229411
+    },
+    "record_one_middle_maximum": 0.0002640168970814132,
+    "record_three_middle_maximum": 1.180403414670998e-06,
+    "remaining_class_entries": 176,
+    "remaining_class_frozen_target": 0.12403521525363623,
+    "remaining_class_reserve_gate": 0.1425819092113566,
+    "remaining_open_entries": 176,
+    "reserve_after_declared_allowance": 0.0038559121671604144,
+    "routing_improvement": 0.00046080895676819944,
+    "sign_modes": 16384,
+    "total_proved_entries": 712
+  },
+  "schema": "round4_q64_whole_higher_split_cubic_insertion_v1"
+}

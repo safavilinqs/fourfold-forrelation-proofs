@@ -1,0 +1,49 @@
+{
+  "evidence_label": "arbitrary-diagonal product of completed physical link kernels, explicit cubic/quintic distinctness Schur factors, and a same-side whole-cubic endpoint moment bounded by 1/q; floating q64 Perron insertion; one batch only",
+  "remaining_open": "548 balanced entries, including 88 degree-twelve split-cubic/split-quintic entries, plus interval certification and the adaptive lift",
+  "result": {
+    "balanced_coefficient": 0.2811190759205572,
+    "balanced_entries": 0,
+    "balanced_quintic_distinctness_factor": 7.455480652750664,
+    "closed_entries": 16,
+    "closed_orbits": 4,
+    "cubic_distinctness_factor": 2.413207370108021,
+    "dimension": 4096,
+    "endpoint_factor": 0.015625,
+    "endpoint_inserted": {
+      "beta": 0.7461529246324944,
+      "margin_to_one_third": 0.00856700638000285,
+      "perron_upper": 0.3077302268922124,
+      "promise_loss": 0.017036100061118036,
+      "total": 0.32476632695333046
+    },
+    "extreme_coefficient": 0.11303623951390214,
+    "extreme_entries": 16,
+    "extreme_quintic_distinctness_factor": 2.9978026001826406,
+    "order": 64,
+    "previous_proved_entries": 324,
+    "previous_routing": {
+      "beta": 0.7461529246322275,
+      "margin_to_one_third": 0.008567006380003017,
+      "perron_upper": 0.3077302268911228,
+      "promise_loss": 0.017036100062207536,
+      "total": 0.3247663269533303
+    },
+    "proxy_reserve_after_declared_allowance": 0.007295720402775042,
+    "remaining_balanced_entries": 32,
+    "remaining_extreme_entries": 56,
+    "remaining_open_entries": 548,
+    "remaining_quintic_entries": 88,
+    "remaining_quintic_local_proxy": {
+      "beta": 0.7461486171695776,
+      "margin_to_one_third": 0.008295720402775042,
+      "perron_upper": 0.30798392273966574,
+      "promise_loss": 0.017053690190892538,
+      "total": 0.3250376129305583
+    },
+    "routing_change": 1.6653345369377348e-16,
+    "sign_modes": 16384,
+    "total_proved_entries": 340
+  },
+  "schema": "round4_q64_internal_whole_cubic_endpoint_insertion_v1"
+}

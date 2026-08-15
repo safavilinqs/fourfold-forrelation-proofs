@@ -1,0 +1,36 @@
+{
+  "evidence_label": "arbitrary-diagonal complementary complete-row Schur-feature theorem using Hadamard flatness, the exact quintic fixed-pair slice, and the universal middle-link maximum; floating q64 Perron insertion; one batch only",
+  "remaining_open": "656 balanced entries plus interval certification and the adaptive lift",
+  "result": {
+    "closed_entries": 8,
+    "coefficient": 0.10866777079016472,
+    "cubic_completions": 4094,
+    "dimension": 4096,
+    "margin_improvement": 0.001268282426363121,
+    "order": 64,
+    "previous_proved_entries": 224,
+    "previous_routing": {
+      "beta": 0.7461670784772364,
+      "margin_to_one_third": 0.008288269986354957,
+      "perron_upper": 0.3080666393506051,
+      "promise_loss": 0.016978423996373303,
+      "total": 0.32504506334697836
+    },
+    "quintic_fixed_pair_energy": 41.37997581845239,
+    "record_one_middle_maximum": 0.0002640168970814132,
+    "record_three_middle_maximum": 1.180403414670998e-06,
+    "remaining_open_entries": 656,
+    "reversed_pair_inserted": {
+      "beta": 0.7461844487675892,
+      "margin_to_one_third": 0.009556552412718078,
+      "perron_upper": 0.30686888242313387,
+      "promise_loss": 0.016907898497481356,
+      "total": 0.32377678092061524
+    },
+    "row_energy_bound": 0.011808684408503778,
+    "sign_modes": 16384,
+    "total_proved_entries": 232,
+    "universal_middle_maximum": 0.0002640168970814132
+  },
+  "schema": "round4_q64_reversed_middle_pair_contraction_v1"
+}

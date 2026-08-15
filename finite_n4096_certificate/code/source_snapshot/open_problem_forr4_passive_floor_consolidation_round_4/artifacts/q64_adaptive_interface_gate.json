@@ -1,0 +1,20 @@
+{
+  "interpretation": "The occurrence multiplier applies only to the certified Perron term; the promise loss is retained once. A candidate multiplier must be strictly below the displayed inward-rounded cap.",
+  "result": {
+    "additive_overhead_cap": "0.071364108541125408399152375939516771954636228313677705824186",
+    "five_fourths_occurrence_multiplier_passes": true,
+    "missing_lemma": "One globally normalized operator-valued occurrence frontier for every posterior-selected passive tree under branchwise hard dose six.",
+    "occurrence_multiplier_cap": "1.275809610878153156578748452011859465613948009452710809203007",
+    "one_batch_total_upper": "0.26096922479220792493418095739381656137869710501965562750914672535608982983539778",
+    "perron_upper": "0.25874409638557722267923079152925562403311987598701005323368022563713944348400092",
+    "promise_upper": "0.00222512840663070225495016586456093734557722903264557427546649971895038635139684472693787993",
+    "six_fifths_occurrence_multiplier_passes": true,
+    "threshold_lower": "0.332333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+    "twofold_occurrence_multiplier_passes": false,
+    "verdict": "INCOMPLETE",
+    "whole_total_multiplier_cap": "1.273457947380377141130570076480222087369280861246064509184966",
+    "zero_overhead_passes": true
+  },
+  "schema": "round4_q64_adaptive_interface_gate_v1",
+  "scope": "Arithmetic acceptance gate and interface audit only. This artifact does not prove the adaptive frontier-normalization lemma."
+}

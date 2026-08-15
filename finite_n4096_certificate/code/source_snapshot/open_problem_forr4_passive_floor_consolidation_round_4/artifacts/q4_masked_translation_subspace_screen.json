@@ -1,0 +1,2539 @@
+{
+  "evidence_label": "exact signed-permutation moments on complete deterministic translation-subspace orbit matrices with every physical mask; optimized nuclear norms are floating lower witnesses and orbit-restricted tangents, not full arbitrary-law certificates",
+  "result": {
+    "dimension": 16,
+    "maximum_optimized_lower": 0.02209708691207961,
+    "maximum_tangent_upper_on_orbit": 0.02209708691207962,
+    "order": 4,
+    "rows": [
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 896,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.006146028541997302,
+        "profile": [
+          1,
+          1,
+          3,
+          7
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          0,
+          1,
+          5
+        ],
+        "tangent_upper_on_orbit": 0.006146028541997309,
+        "uniform_nuclear_lower": 0.0061460285419973025
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 704,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.006944444444444444,
+        "profile": [
+          1,
+          1,
+          3,
+          7
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          0,
+          2,
+          4
+        ],
+        "tangent_upper_on_orbit": 0.006944444444444449,
+        "uniform_nuclear_lower": 0.006944444444444444
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 768,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.009535269255488097,
+        "profile": [
+          1,
+          1,
+          3,
+          7
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "tangent_upper_on_orbit": 0.009535269255488102,
+        "uniform_nuclear_lower": 0.009535269255488097
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 384,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0039726486306783625,
+        "profile": [
+          1,
+          1,
+          3,
+          7
+        ],
+        "selected_trial": 2,
+        "split": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tangent_upper_on_orbit": 0.003972648630678366,
+        "uniform_nuclear_lower": 0.0039726486306783625
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 512,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0034722222222222225,
+        "profile": [
+          1,
+          1,
+          7,
+          3
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          0,
+          4,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.0034722222222222246,
+        "uniform_nuclear_lower": 0.0034722222222222225
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 1024,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.006944444444444443,
+        "profile": [
+          1,
+          1,
+          7,
+          3
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          0,
+          5,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.006944444444444449,
+        "uniform_nuclear_lower": 0.006944444444444443
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 256,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.007764124921874269,
+        "profile": [
+          1,
+          1,
+          7,
+          3
+        ],
+        "selected_trial": 2,
+        "split": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.007764124921874273,
+        "uniform_nuclear_lower": 0.007764124921874269
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.015625,
+        "exact_nonzero_entries": 448,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.017782362304026536,
+        "profile": [
+          1,
+          1,
+          7,
+          3
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.017782362304026557,
+        "uniform_nuclear_lower": 0.017782362304026536
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.0005787037037037037,
+        "exact_nonzero_entries": 256,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0011574074074074073,
+        "profile": [
+          1,
+          3,
+          1,
+          7
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          1,
+          0,
+          5
+        ],
+        "tangent_upper_on_orbit": 0.0011574074074074078,
+        "uniform_nuclear_lower": 0.0011574074074074073
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 576,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0021412786807911838,
+        "profile": [
+          1,
+          3,
+          1,
+          7
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "tangent_upper_on_orbit": 0.0021412786807911855,
+        "uniform_nuclear_lower": 0.0021412786807911838
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 512,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.002025462962962963,
+        "profile": [
+          1,
+          3,
+          1,
+          7
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          2,
+          0,
+          4
+        ],
+        "tangent_upper_on_orbit": 0.002025462962962964,
+        "uniform_nuclear_lower": 0.002025462962962963
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.0005787037037037037,
+        "exact_nonzero_entries": 1536,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0013242162102261208,
+        "profile": [
+          1,
+          3,
+          1,
+          7
+        ],
+        "selected_trial": 2,
+        "split": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "tangent_upper_on_orbit": 0.0013242162102261226,
+        "uniform_nuclear_lower": 0.0013242162102261208
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 320,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0019560209926377733,
+        "profile": [
+          1,
+          3,
+          7,
+          1
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.001956020992637775,
+        "uniform_nuclear_lower": 0.0019560209926377733
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 256,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.001830021794078923,
+        "profile": [
+          1,
+          3,
+          7,
+          1
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "tangent_upper_on_orbit": 0.0018300217940789246,
+        "uniform_nuclear_lower": 0.001830021794078923
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 512,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0021699239655967083,
+        "profile": [
+          1,
+          3,
+          7,
+          1
+        ],
+        "selected_trial": 2,
+        "split": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.00216992396559671,
+        "uniform_nuclear_lower": 0.0021699239655967087
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 32,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 640,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.001736111111111111,
+        "profile": [
+          1,
+          3,
+          7,
+          1
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "tangent_upper_on_orbit": 0.0017361111111111132,
+        "uniform_nuclear_lower": 0.001736111111111111
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 64,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.005208333333333333,
+        "profile": [
+          1,
+          7,
+          1,
+          3
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.005208333333333333,
+        "uniform_nuclear_lower": 0.005208333333333333
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 32,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 768,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0078125,
+        "profile": [
+          1,
+          7,
+          1,
+          3
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          4,
+          0,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.007812500000000005,
+        "uniform_nuclear_lower": 0.007812499999999999
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 9,
+        "exact_maximum_absolute_entry": 0.015625,
+        "exact_nonzero_entries": 1536,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.015816724963792182,
+        "profile": [
+          1,
+          7,
+          1,
+          3
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          4,
+          1,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.015816724963792196,
+        "uniform_nuclear_lower": 0.015816724963792186
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 16,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 1024,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.00736569563735987,
+        "profile": [
+          1,
+          7,
+          1,
+          3
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          5,
+          0,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.00736569563735988,
+        "uniform_nuclear_lower": 0.00736569563735987
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 7,
+        "exact_maximum_absolute_entry": 0.015625,
+        "exact_nonzero_entries": 1344,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.01853724100676904,
+        "profile": [
+          3,
+          1,
+          1,
+          7
+        ],
+        "selected_trial": 0,
+        "split": [
+          1,
+          0,
+          0,
+          5
+        ],
+        "tangent_upper_on_orbit": 0.018537241006769047,
+        "uniform_nuclear_lower": 0.01853724100676904
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 512,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.007857754994630954,
+        "profile": [
+          3,
+          1,
+          1,
+          7
+        ],
+        "selected_trial": 2,
+        "split": [
+          1,
+          0,
+          1,
+          4
+        ],
+        "tangent_upper_on_orbit": 0.007857754994630957,
+        "uniform_nuclear_lower": 0.007857754994630954
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 32,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 1408,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.008730030443706637,
+        "profile": [
+          3,
+          1,
+          1,
+          7
+        ],
+        "selected_trial": 2,
+        "split": [
+          1,
+          1,
+          0,
+          4
+        ],
+        "tangent_upper_on_orbit": 0.008730030443706644,
+        "uniform_nuclear_lower": 0.008730030443706637
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 1984,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.015624999999999998,
+        "profile": [
+          3,
+          1,
+          1,
+          7
+        ],
+        "selected_trial": 2,
+        "split": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "tangent_upper_on_orbit": 0.01562500000000002,
+        "uniform_nuclear_lower": 0.015625
+      },
+      {
+        "class_name": "universal_multicubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 7,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 512,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.005208333333333333,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.005208333333333337,
+        "uniform_nuclear_lower": 0.005208333333333333
+      },
+      {
+        "class_name": "universal_multicubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 7,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 320,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0052766281084397435,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "selected_trial": 0,
+        "split": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.005276628108439747,
+        "uniform_nuclear_lower": 0.0052766281084397435
+      },
+      {
+        "class_name": "universal_multicubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 704,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0029658564814814816,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "selected_trial": 1,
+        "split": [
+          1,
+          1,
+          3,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.0029658564814814825,
+        "uniform_nuclear_lower": 0.0029658564814814816
+      },
+      {
+        "class_name": "universal_multicubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 256,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0019363803327264069,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "selected_trial": 1,
+        "split": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.0019363803327264086,
+        "uniform_nuclear_lower": 0.001936380332726407
+      },
+      {
+        "class_name": "universal_multicubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 576,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.003283911702817036,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "selected_trial": 1,
+        "split": [
+          1,
+          2,
+          2,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.0032839117028170385,
+        "uniform_nuclear_lower": 0.0032839117028170364
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 7,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 1024,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.006195007405081618,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tangent_upper_on_orbit": 0.006195007405081623,
+        "uniform_nuclear_lower": 0.006195007405081619
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 384,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.008443808260284645,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "selected_trial": 2,
+        "split": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.008443808260284652,
+        "uniform_nuclear_lower": 0.008443808260284647
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 192,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.002455231879119957,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "tangent_upper_on_orbit": 0.002455231879119958,
+        "uniform_nuclear_lower": 0.0024552318791199565
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.0005787037037037037,
+        "exact_nonzero_entries": 1408,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0014467592592592585,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "selected_trial": 2,
+        "split": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.001446759259259261,
+        "uniform_nuclear_lower": 0.0014467592592592592
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 3328,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.007359997282881786,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.007359997282881792,
+        "uniform_nuclear_lower": 0.007359997282881786
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 7,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 1600,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0065246134811056695,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.006524613481105673,
+        "uniform_nuclear_lower": 0.0065246134811056695
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 768,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.002703026678446779,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "selected_trial": 1,
+        "split": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.0027030266784467813,
+        "uniform_nuclear_lower": 0.002703026678446779
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 1536,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.01473139127471974,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "selected_trial": 2,
+        "split": [
+          1,
+          3,
+          0,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.01473139127471975,
+        "uniform_nuclear_lower": 0.014731391274719742
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 1536,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.008143082916360123,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          0,
+          1,
+          5
+        ],
+        "tangent_upper_on_orbit": 0.008143082916360136,
+        "uniform_nuclear_lower": 0.008143082916360121
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 640,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.006076388888888889,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "selected_trial": 2,
+        "split": [
+          0,
+          0,
+          2,
+          4
+        ],
+        "tangent_upper_on_orbit": 0.006076388888888893,
+        "uniform_nuclear_lower": 0.006076388888888889
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 1152,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.011419515219290542,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          0,
+          3,
+          3
+        ],
+        "tangent_upper_on_orbit": 0.011419515219290553,
+        "uniform_nuclear_lower": 0.011419515219290542
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 512,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.005208333333333333,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          0,
+          4,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.0052083333333333365,
+        "uniform_nuclear_lower": 0.005208333333333332
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 3072,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.008992338197150566,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          0,
+          5,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.008992338197150571,
+        "uniform_nuclear_lower": 0.008992338197150562
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 2048,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.011854908202684358,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "tangent_upper_on_orbit": 0.011854908202684367,
+        "uniform_nuclear_lower": 0.011854908202684358
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 768,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.010219356800994225,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tangent_upper_on_orbit": 0.010219356800994233,
+        "uniform_nuclear_lower": 0.010219356800994223
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 640,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.008826077547634627,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.008826077547634632,
+        "uniform_nuclear_lower": 0.008826077547634627
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 640,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.004580613932063533,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.0045806139320635365,
+        "uniform_nuclear_lower": 0.004580613932063533
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 16,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.015625,
+        "exact_nonzero_entries": 512,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.015721154753710796,
+        "profile": [
+          1,
+          1,
+          9,
+          1
+        ],
+        "selected_trial": 2,
+        "split": [
+          0,
+          0,
+          5,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.015721154753710803,
+        "uniform_nuclear_lower": 0.015721154753710796
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 8,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 512,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0017361111111111125,
+        "profile": [
+          1,
+          1,
+          9,
+          1
+        ],
+        "selected_trial": 2,
+        "split": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "tangent_upper_on_orbit": 0.0017361111111111127,
+        "uniform_nuclear_lower": 0.001736111111111111
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 32,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 2048,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.006944444444444444,
+        "profile": [
+          1,
+          1,
+          9,
+          1
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.006944444444444448,
+        "uniform_nuclear_lower": 0.006944444444444445
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.015625,
+        "exact_nonzero_entries": 256,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.02209708691207961,
+        "profile": [
+          1,
+          1,
+          9,
+          1
+        ],
+        "selected_trial": 2,
+        "split": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "tangent_upper_on_orbit": 0.02209708691207962,
+        "uniform_nuclear_lower": 0.02209708691207961
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 32,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.0005787037037037037,
+        "exact_nonzero_entries": 1536,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0020046884346862004,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          1,
+          0,
+          5
+        ],
+        "tangent_upper_on_orbit": 0.0020046884346862017,
+        "uniform_nuclear_lower": 0.0020046884346862004
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.0005787037037037037,
+        "exact_nonzero_entries": 1280,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0018300217940789235,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "tangent_upper_on_orbit": 0.001830021794078924,
+        "uniform_nuclear_lower": 0.0018300217940789233
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.0005787037037037037,
+        "exact_nonzero_entries": 1280,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0013020833333333335,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "selected_trial": 2,
+        "split": [
+          0,
+          2,
+          0,
+          4
+        ],
+        "tangent_upper_on_orbit": 0.001302083333333334,
+        "uniform_nuclear_lower": 0.0013020833333333335
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.0005787037037037037,
+        "exact_nonzero_entries": 384,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.001227615939559978,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "selected_trial": 2,
+        "split": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "tangent_upper_on_orbit": 0.0012276159395599787,
+        "uniform_nuclear_lower": 0.001227615939559978
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.0005787037037037037,
+        "exact_nonzero_entries": 512,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.001636821252746638,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          3,
+          0,
+          3
+        ],
+        "tangent_upper_on_orbit": 0.0016368212527466384,
+        "uniform_nuclear_lower": 0.001636821252746638
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 32,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.0005787037037037037,
+        "exact_nonzero_entries": 512,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0011574074074074073,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.0011574074074074086,
+        "uniform_nuclear_lower": 0.0011574074074074073
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 384,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.002025462962962963,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          4,
+          0,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.002025462962962964,
+        "uniform_nuclear_lower": 0.0020254629629629633
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 256,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0018300217940789233,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          4,
+          1,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.0018300217940789244,
+        "uniform_nuclear_lower": 0.0018300217940789233
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.0005787037037037037,
+        "exact_nonzero_entries": 1536,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0024552318791199565,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          5,
+          0,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.002455231879119958,
+        "uniform_nuclear_lower": 0.002455231879119956
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 576,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.002130936514978714,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.002130936514978716,
+        "uniform_nuclear_lower": 0.002130936514978714
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 32,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 1536,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.00350954577676272,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "selected_trial": 2,
+        "split": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "tangent_upper_on_orbit": 0.003509545776762723,
+        "uniform_nuclear_lower": 0.00350954577676272
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 512,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0022413098068329957,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.0022413098068329975,
+        "uniform_nuclear_lower": 0.0022413098068329957
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 384,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.002025462962962963,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "selected_trial": 2,
+        "split": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "tangent_upper_on_orbit": 0.0020254629629629646,
+        "uniform_nuclear_lower": 0.002025462962962963
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 256,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.001830021794078923,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "selected_trial": 2,
+        "split": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.001830021794078924,
+        "uniform_nuclear_lower": 0.0018300217940789233
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 1024,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.003273642505493276,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "tangent_upper_on_orbit": 0.0032736425054932777,
+        "uniform_nuclear_lower": 0.003273642505493276
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 1152,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0028790145749612844,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "selected_trial": 2,
+        "split": [
+          0,
+          4,
+          1,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.002879014574961287,
+        "uniform_nuclear_lower": 0.0028790145749612844
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 3072,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.008952912506912637,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "tangent_upper_on_orbit": 0.008952912506912644,
+        "uniform_nuclear_lower": 0.008952912506912637
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 1152,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.006372293123831617,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "selected_trial": 2,
+        "split": [
+          1,
+          0,
+          1,
+          4
+        ],
+        "tangent_upper_on_orbit": 0.006372293123831623,
+        "uniform_nuclear_lower": 0.006372293123831618
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 768,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.007450340867523666,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "selected_trial": 0,
+        "split": [
+          1,
+          1,
+          0,
+          4
+        ],
+        "tangent_upper_on_orbit": 0.007450340867523672,
+        "uniform_nuclear_lower": 0.0074503408675236655
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 1152,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.004340277777777778,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "selected_trial": 2,
+        "split": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "tangent_upper_on_orbit": 0.004340277777777787,
+        "uniform_nuclear_lower": 0.004340277777777778
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 768,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.004910463758239912,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "selected_trial": 1,
+        "split": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "tangent_upper_on_orbit": 0.004910463758239922,
+        "uniform_nuclear_lower": 0.004910463758239912
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 1024,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.005809140998179221,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "selected_trial": 1,
+        "split": [
+          2,
+          1,
+          0,
+          3
+        ],
+        "tangent_upper_on_orbit": 0.005809140998179225,
+        "uniform_nuclear_lower": 0.0058091409981792215
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 32,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 1536,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.008640590224384211,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "selected_trial": 2,
+        "split": [
+          2,
+          1,
+          1,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.008640590224384218,
+        "uniform_nuclear_lower": 0.008640590224384211
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 576,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0028868755646786672,
+        "profile": [
+          1,
+          3,
+          3,
+          5
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "tangent_upper_on_orbit": 0.002886875564678671,
+        "uniform_nuclear_lower": 0.002886875564678668
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 704,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0032404868753087863,
+        "profile": [
+          1,
+          3,
+          3,
+          5
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tangent_upper_on_orbit": 0.0032404868753087893,
+        "uniform_nuclear_lower": 0.0032404868753087867
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 448,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0025880416406247565,
+        "profile": [
+          1,
+          3,
+          3,
+          5
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "tangent_upper_on_orbit": 0.0025880416406247582,
+        "uniform_nuclear_lower": 0.0025880416406247565
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 320,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.002170138888888888,
+        "profile": [
+          1,
+          3,
+          3,
+          5
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.0021701388888888907,
+        "uniform_nuclear_lower": 0.0021701388888888886
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 256,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.001736111111111111,
+        "profile": [
+          1,
+          3,
+          5,
+          3
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.0017361111111111119,
+        "uniform_nuclear_lower": 0.001736111111111111
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 576,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0029942570590514583,
+        "profile": [
+          1,
+          3,
+          5,
+          3
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.0029942570590514614,
+        "uniform_nuclear_lower": 0.0029942570590514583
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 512,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0017361111111111112,
+        "profile": [
+          1,
+          3,
+          5,
+          3
+        ],
+        "selected_trial": 2,
+        "split": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.0017361111111111119,
+        "uniform_nuclear_lower": 0.001736111111111111
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 7,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 512,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.005276074587054225,
+        "profile": [
+          1,
+          3,
+          5,
+          3
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.00527607458705423,
+        "uniform_nuclear_lower": 0.005276074587054226
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 384,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0023148148148148143,
+        "profile": [
+          1,
+          5,
+          3,
+          3
+        ],
+        "selected_trial": 2,
+        "split": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.0023148148148148164,
+        "uniform_nuclear_lower": 0.002314814814814814
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.0005787037037037037,
+        "exact_nonzero_entries": 320,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0011574074074074073,
+        "profile": [
+          1,
+          5,
+          3,
+          3
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.0011574074074074086,
+        "uniform_nuclear_lower": 0.0011574074074074071
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.0005787037037037037,
+        "exact_nonzero_entries": 320,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0012359833362672783,
+        "profile": [
+          1,
+          5,
+          3,
+          3
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.0012359833362672787,
+        "uniform_nuclear_lower": 0.0012359833362672783
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 384,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0019938612872091336,
+        "profile": [
+          1,
+          5,
+          3,
+          3
+        ],
+        "selected_trial": 2,
+        "split": [
+          0,
+          4,
+          1,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.0019938612872091345,
+        "uniform_nuclear_lower": 0.001993861287209133
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 704,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0026542386041850836,
+        "profile": [
+          3,
+          1,
+          3,
+          5
+        ],
+        "selected_trial": 2,
+        "split": [
+          1,
+          0,
+          1,
+          4
+        ],
+        "tangent_upper_on_orbit": 0.0026542386041850854,
+        "uniform_nuclear_lower": 0.0026542386041850836
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 7,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 2240,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.011332875552163633,
+        "profile": [
+          3,
+          1,
+          3,
+          5
+        ],
+        "selected_trial": 0,
+        "split": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "tangent_upper_on_orbit": 0.011332875552163644,
+        "uniform_nuclear_lower": 0.011332875552163633
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 7,
+        "exact_maximum_absolute_entry": 0.005208333333333333,
+        "exact_nonzero_entries": 896,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.005353009259259258,
+        "profile": [
+          3,
+          1,
+          3,
+          5
+        ],
+        "selected_trial": 2,
+        "split": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "tangent_upper_on_orbit": 0.005353009259259264,
+        "uniform_nuclear_lower": 0.005353009259259258
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 512,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0027942286601540453,
+        "profile": [
+          3,
+          1,
+          3,
+          5
+        ],
+        "selected_trial": 1,
+        "split": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.002794228660154047,
+        "uniform_nuclear_lower": 0.0027942286601540453
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.0005787037037037037,
+        "exact_nonzero_entries": 512,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0012359833362672783,
+        "profile": [
+          3,
+          1,
+          5,
+          3
+        ],
+        "selected_trial": 0,
+        "split": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.0012359833362672792,
+        "uniform_nuclear_lower": 0.0012359833362672783
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 1152,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0030308363236521063,
+        "profile": [
+          3,
+          1,
+          5,
+          3
+        ],
+        "selected_trial": 0,
+        "split": [
+          1,
+          0,
+          4,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.003030836323652109,
+        "uniform_nuclear_lower": 0.0030308363236521067
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 512,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0021233378294140755,
+        "profile": [
+          3,
+          1,
+          5,
+          3
+        ],
+        "selected_trial": 2,
+        "split": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.0021233378294140777,
+        "uniform_nuclear_lower": 0.002123337829414076
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 0.0005787037037037037,
+        "exact_nonzero_entries": 320,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0011574074074074073,
+        "profile": [
+          3,
+          1,
+          5,
+          3
+        ],
+        "selected_trial": 2,
+        "split": [
+          1,
+          1,
+          3,
+          1
+        ],
+        "tangent_upper_on_orbit": 0.0011574074074074082,
+        "uniform_nuclear_lower": 0.0011574074074074071
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 1152,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.0031646781041332235,
+        "profile": [
+          3,
+          3,
+          1,
+          5
+        ],
+        "selected_trial": 1,
+        "split": [
+          1,
+          1,
+          0,
+          4
+        ],
+        "tangent_upper_on_orbit": 0.003164678104133226,
+        "uniform_nuclear_lower": 0.0031646781041332235
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 192,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.001736111111111111,
+        "profile": [
+          3,
+          3,
+          1,
+          5
+        ],
+        "selected_trial": 2,
+        "split": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "tangent_upper_on_orbit": 0.001736111111111112,
+        "uniform_nuclear_lower": 0.001736111111111111
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 320,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.001928896119741448,
+        "profile": [
+          3,
+          3,
+          1,
+          5
+        ],
+        "selected_trial": 0,
+        "split": [
+          1,
+          2,
+          0,
+          3
+        ],
+        "tangent_upper_on_orbit": 0.0019288961197414497,
+        "uniform_nuclear_lower": 0.0019288961197414481
+      },
+      {
+        "class_name": "recovered_universal",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 0.001736111111111111,
+        "exact_nonzero_entries": 1152,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 0.003354414730361021,
+        "profile": [
+          3,
+          3,
+          1,
+          5
+        ],
+        "selected_trial": 2,
+        "split": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "tangent_upper_on_orbit": 0.0033544147303610234,
+        "uniform_nuclear_lower": 0.003354414730361021
+      }
+    ],
+    "subspace_dimension": 6,
+    "templates_above_one": 0,
+    "templates_available": 97,
+    "templates_screened": 97,
+    "trials_per_template": 3
+  },
+  "schema": "round4_masked_translation_subspace_screen_v1"
+}

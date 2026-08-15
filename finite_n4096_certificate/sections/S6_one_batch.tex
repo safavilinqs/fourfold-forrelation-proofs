@@ -1,0 +1,77 @@
+\section{The one-batch certificate}
+\label{sec:one-batch}
+
+\subsection{Occurrence expansion}
+
+A dose-six batch is expanded in Fock occupations on the four sign banks. When a ket occupation and a bra occupation are compared under the hard pair, their symmetric difference produces a profile $a=(a_1,a_2,a_3,a_4)$ of total degree between four and twelve, and a split $t$ records which occurrences lie on one side of the matrix. Exact occupation compatibility is
+
+\begin{equation}
+m=n+a-2t,
+\label{eq:onebatch-compatibility}
+\end{equation}
+
+where $n$ and $m$ are the four-block ket and bra occupations. The state space contains every occupation with total dose at most six. Because Eq.~\eqref{eq:model-number-sector} removes ket--bra terms of different total signal photon number, a contributing profile--split pair must satisfy $2|t|=|a|$. Equation~\eqref{eq:onebatch-compatibility} then preserves total occupation.
+
+The upstream routing inventory contains 6,016 high-sector profile--split records. Exactly 888 satisfy the number-sector balance condition, and every one of those records has a proved coefficient. The remaining 5,128 routing values are excluded from the theorem ledger rather than called coefficient bounds. This distinction matters: 272 of those unbalanced profile splits would create split/state incidences, comprising 136 undirected edges between different-total-number states, if coherence between number sectors were allowed. Their physical coefficients are not certified by this package.
+
+As a concrete occupation example, take
+
+\begin{equation}
+n=(1,1,1,1),\quad
+a=(1,1,1,1),\quad
+t=(1,0,1,0).
+\end{equation}
+
+Equation~\eqref{eq:onebatch-compatibility} gives $m=(0,2,0,2)$, so both sides have dose four because $2|t|=|a|=4$. The four coordinates in these vectors are photon totals in the four sign banks rather than positions within a bank; the physical positions and their distinctness masks remain inside the occurrence matrix $\mathcal O_{a,t}$.
+
+\subsection{Physical coefficients}
+
+For a fixed profile and split, the physical occurrence matrix retains the within-block simple-support constraints and every cross-cut distinctness mask. Its accepted coefficient $c_{a,t}$ bounds
+
+\begin{equation}
+\sup_{p,w}
+\left\|
+\diag(\sqrt p)\,\mathcal O_{a,t}\,\diag(\sqrt w)
+\right\|_1
+\le c_{a,t},
+\label{eq:onebatch-coefficient}
+\end{equation}
+
+for arbitrary correlated diagonal row and column laws $p,w$. Product laws, uniformity, exchangeability, translation invariance, and separate optimization of different links are not assumed.
+
+The physical coefficient proofs are grouped into masked quintic slices, local Walsh contractions, cubic and quintic endpoint factorizations, finite incidence theorems, shared-quintic contractions, a final residual-chain theorem, and an independently audited dual-endpoint theorem. Earlier coefficient-one arguments that omitted cross-cut masks are absent from the accepted registry. Appendix~\ref{app:ledger} gives the status counts and source map.
+
+\subsection{Outward coefficient rounding}
+
+Every accepted nonnegative binary64 coefficient $c$ is replaced by
+
+\begin{equation}
+\widehat c
+=\frac{\lceil10^9c\rceil+1}{10^9}>c.
+\label{eq:onebatch-grid}
+\end{equation}
+
+The extra grid unit makes the replacement strict and limits the inflation to less than $2\times10^{-9}$. Coefficients supplied as exact rational squares are checked separately against the squares of their outward ledger values.
+
+\subsection{Occupation matrix}
+
+There are 210 four-block nonnegative occupation vectors of total dose at most six. The rounded coefficients and attenuation weights assemble into a symmetric entrywise nonnegative matrix $B$ on these states. The occurrence contribution for normalized occupation laws is bounded by the spectral norm of $B$, which equals its Perron root.
+
+A floating eigensolve of the balanced matrix supplies a strictly positive candidate vector $v$ and does not supply the accepted eigenvalue. The certified value uses the Collatz--Wielandt inequality
+
+\begin{equation}
+\rho(B)
+\le
+\max_i\frac{(\widehat Bv)_i}{v_i},
+\label{eq:onebatch-collatz}
+\end{equation}
+
+where $\widehat B$ is reconstructed entrywise with 80-digit directed arithmetic and outward square roots. This gives
+
+\begin{equation}
+P_{\mathrm{Perron}}
+\le 0.258744096385577223.
+\label{eq:onebatch-perron}
+\end{equation}
+
+Adding Eq.~\eqref{eq:hard-promise} gives the one-batch outward total in Eq.~\eqref{eq:statement-total}. The remaining question is whether arbitrary classical outcome trees whose fresh probes obey Eq.~\eqref{eq:model-number-sector} preserve the coefficient and spectral normalizations; Sec.~\ref{sec:adaptive} supplies that lift.

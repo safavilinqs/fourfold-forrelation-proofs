@@ -1,0 +1,1166 @@
+{
+  "evidence_label": "arbitrary-correlated-diagonal theorem for the twelve recovered cubic-quintic chain entries; the two cubic-quintic links are bounded jointly through the shared simple quintic support; fifteen feasible row/column multiplicity pairs retain parity records and active xor groups; exact rational rank and complete row/column incidence squares are outward rounded only at display",
+  "registry_entries": [
+    {
+      "outward_coefficient": 0.33828697324447987,
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "sectors": [
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 121,
+          "mechanism": "column",
+          "records": [
+            1,
+            1,
+            1
+          ],
+          "squared_coefficient_denominator": 3135397926534345916416,
+          "squared_coefficient_numerator": 767144530396795793
+        },
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 11,
+          "mechanism": "row",
+          "records": [
+            1,
+            1,
+            3
+          ],
+          "squared_coefficient_denominator": 771651219161088,
+          "squared_coefficient_numerator": 4540605707
+        },
+        {
+          "entry_denominator": 3470000128,
+          "entry_numerator": 1,
+          "mechanism": "column",
+          "records": [
+            1,
+            3,
+            1
+          ],
+          "squared_coefficient_denominator": 3495969161216,
+          "squared_coefficient_numerator": 230372756631
+        },
+        {
+          "entry_denominator": 111096889344,
+          "entry_numerator": 1,
+          "mechanism": "row",
+          "records": [
+            1,
+            3,
+            3
+          ],
+          "squared_coefficient_denominator": 1506848,
+          "squared_coefficient_numerator": 6079
+        }
+      ],
+      "split": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "outward_coefficient": 0.11863696369021283,
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "sectors": [
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 121,
+          "mechanism": "column",
+          "records": [
+            1,
+            1,
+            1
+          ],
+          "squared_coefficient_denominator": 199072884224402915328,
+          "squared_coefficient_numerator": 3339883393235213
+        },
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 11,
+          "mechanism": "column",
+          "records": [
+            1,
+            1,
+            3
+          ],
+          "squared_coefficient_denominator": 1567799302422528,
+          "squared_coefficient_numerator": 4540605707
+        },
+        {
+          "entry_denominator": 3470000128,
+          "entry_numerator": 1,
+          "mechanism": "column",
+          "records": [
+            1,
+            3,
+            1
+          ],
+          "squared_coefficient_denominator": 3963430180487168,
+          "squared_coefficient_numerator": 18477600905133
+        },
+        {
+          "entry_denominator": 111096889344,
+          "entry_numerator": 1,
+          "mechanism": "column",
+          "records": [
+            1,
+            3,
+            3
+          ],
+          "squared_coefficient_denominator": 27553792,
+          "squared_coefficient_numerator": 54711
+        }
+      ],
+      "split": [
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "outward_coefficient": 0.3144332243430522,
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "sectors": [
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 121,
+          "mechanism": "column",
+          "records": [
+            1,
+            1,
+            1
+          ],
+          "squared_coefficient_denominator": 3135397926534345916416,
+          "squared_coefficient_numerator": 767144530396795793
+        },
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 11,
+          "mechanism": "column",
+          "records": [
+            1,
+            1,
+            3
+          ],
+          "squared_coefficient_denominator": 1580341696841908224,
+          "squared_coefficient_numerator": 3097233728039
+        },
+        {
+          "entry_denominator": 3470000128,
+          "entry_numerator": 1,
+          "mechanism": "column",
+          "records": [
+            1,
+            3,
+            1
+          ],
+          "squared_coefficient_denominator": 6936002815852544,
+          "squared_coefficient_numerator": 471573032823657
+        },
+        {
+          "entry_denominator": 111096889344,
+          "entry_numerator": 1,
+          "mechanism": "column",
+          "records": [
+            1,
+            3,
+            3
+          ],
+          "squared_coefficient_denominator": 9258074112,
+          "squared_coefficient_numerator": 12431555
+        }
+      ],
+      "split": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "outward_coefficient": 0.3144332243430522,
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "sectors": [
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 121,
+          "mechanism": "column",
+          "records": [
+            1,
+            1,
+            1
+          ],
+          "squared_coefficient_denominator": 3135397926534345916416,
+          "squared_coefficient_numerator": 767144530396795793
+        },
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 11,
+          "mechanism": "column",
+          "records": [
+            1,
+            1,
+            3
+          ],
+          "squared_coefficient_denominator": 1580341696841908224,
+          "squared_coefficient_numerator": 3097233728039
+        },
+        {
+          "entry_denominator": 3470000128,
+          "entry_numerator": 1,
+          "mechanism": "column",
+          "records": [
+            1,
+            3,
+            1
+          ],
+          "squared_coefficient_denominator": 6936002815852544,
+          "squared_coefficient_numerator": 471573032823657
+        },
+        {
+          "entry_denominator": 111096889344,
+          "entry_numerator": 1,
+          "mechanism": "column",
+          "records": [
+            1,
+            3,
+            3
+          ],
+          "squared_coefficient_denominator": 9258074112,
+          "squared_coefficient_numerator": 12431555
+        }
+      ],
+      "split": [
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "outward_coefficient": 0.11863696369021283,
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "sectors": [
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 121,
+          "mechanism": "column",
+          "records": [
+            1,
+            1,
+            1
+          ],
+          "squared_coefficient_denominator": 199072884224402915328,
+          "squared_coefficient_numerator": 3339883393235213
+        },
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 11,
+          "mechanism": "column",
+          "records": [
+            1,
+            1,
+            3
+          ],
+          "squared_coefficient_denominator": 1567799302422528,
+          "squared_coefficient_numerator": 4540605707
+        },
+        {
+          "entry_denominator": 3470000128,
+          "entry_numerator": 1,
+          "mechanism": "column",
+          "records": [
+            1,
+            3,
+            1
+          ],
+          "squared_coefficient_denominator": 3963430180487168,
+          "squared_coefficient_numerator": 18477600905133
+        },
+        {
+          "entry_denominator": 111096889344,
+          "entry_numerator": 1,
+          "mechanism": "column",
+          "records": [
+            1,
+            3,
+            3
+          ],
+          "squared_coefficient_denominator": 27553792,
+          "squared_coefficient_numerator": 54711
+        }
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ]
+    },
+    {
+      "outward_coefficient": 0.33828697324447987,
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "sectors": [
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 121,
+          "mechanism": "column",
+          "records": [
+            1,
+            1,
+            1
+          ],
+          "squared_coefficient_denominator": 3135397926534345916416,
+          "squared_coefficient_numerator": 767144530396795793
+        },
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 11,
+          "mechanism": "row",
+          "records": [
+            1,
+            1,
+            3
+          ],
+          "squared_coefficient_denominator": 771651219161088,
+          "squared_coefficient_numerator": 4540605707
+        },
+        {
+          "entry_denominator": 3470000128,
+          "entry_numerator": 1,
+          "mechanism": "column",
+          "records": [
+            1,
+            3,
+            1
+          ],
+          "squared_coefficient_denominator": 3495969161216,
+          "squared_coefficient_numerator": 230372756631
+        },
+        {
+          "entry_denominator": 111096889344,
+          "entry_numerator": 1,
+          "mechanism": "row",
+          "records": [
+            1,
+            3,
+            3
+          ],
+          "squared_coefficient_denominator": 1506848,
+          "squared_coefficient_numerator": 6079
+        }
+      ],
+      "split": [
+        1,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "outward_coefficient": 0.33828697324447987,
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "sectors": [
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 121,
+          "mechanism": "column",
+          "records": [
+            1,
+            1,
+            1
+          ],
+          "squared_coefficient_denominator": 3135397926534345916416,
+          "squared_coefficient_numerator": 767144530396795793
+        },
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 11,
+          "mechanism": "row",
+          "records": [
+            1,
+            1,
+            3
+          ],
+          "squared_coefficient_denominator": 771651219161088,
+          "squared_coefficient_numerator": 4540605707
+        },
+        {
+          "entry_denominator": 3470000128,
+          "entry_numerator": 1,
+          "mechanism": "column",
+          "records": [
+            1,
+            3,
+            1
+          ],
+          "squared_coefficient_denominator": 3495969161216,
+          "squared_coefficient_numerator": 230372756631
+        },
+        {
+          "entry_denominator": 111096889344,
+          "entry_numerator": 1,
+          "mechanism": "row",
+          "records": [
+            1,
+            3,
+            3
+          ],
+          "squared_coefficient_denominator": 1506848,
+          "squared_coefficient_numerator": 6079
+        }
+      ],
+      "split": [
+        1,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "outward_coefficient": 0.11863696369021283,
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "sectors": [
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 121,
+          "mechanism": "column",
+          "records": [
+            1,
+            1,
+            1
+          ],
+          "squared_coefficient_denominator": 199072884224402915328,
+          "squared_coefficient_numerator": 3339883393235213
+        },
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 11,
+          "mechanism": "column",
+          "records": [
+            1,
+            1,
+            3
+          ],
+          "squared_coefficient_denominator": 1567799302422528,
+          "squared_coefficient_numerator": 4540605707
+        },
+        {
+          "entry_denominator": 3470000128,
+          "entry_numerator": 1,
+          "mechanism": "column",
+          "records": [
+            1,
+            3,
+            1
+          ],
+          "squared_coefficient_denominator": 3963430180487168,
+          "squared_coefficient_numerator": 18477600905133
+        },
+        {
+          "entry_denominator": 111096889344,
+          "entry_numerator": 1,
+          "mechanism": "column",
+          "records": [
+            1,
+            3,
+            3
+          ],
+          "squared_coefficient_denominator": 27553792,
+          "squared_coefficient_numerator": 54711
+        }
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "outward_coefficient": 0.3144332243430522,
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "sectors": [
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 121,
+          "mechanism": "column",
+          "records": [
+            1,
+            1,
+            1
+          ],
+          "squared_coefficient_denominator": 3135397926534345916416,
+          "squared_coefficient_numerator": 767144530396795793
+        },
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 11,
+          "mechanism": "column",
+          "records": [
+            1,
+            1,
+            3
+          ],
+          "squared_coefficient_denominator": 1580341696841908224,
+          "squared_coefficient_numerator": 3097233728039
+        },
+        {
+          "entry_denominator": 3470000128,
+          "entry_numerator": 1,
+          "mechanism": "column",
+          "records": [
+            1,
+            3,
+            1
+          ],
+          "squared_coefficient_denominator": 6936002815852544,
+          "squared_coefficient_numerator": 471573032823657
+        },
+        {
+          "entry_denominator": 111096889344,
+          "entry_numerator": 1,
+          "mechanism": "column",
+          "records": [
+            1,
+            3,
+            3
+          ],
+          "squared_coefficient_denominator": 9258074112,
+          "squared_coefficient_numerator": 12431555
+        }
+      ],
+      "split": [
+        1,
+        3,
+        2,
+        0
+      ]
+    },
+    {
+      "outward_coefficient": 0.3144332243430522,
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "sectors": [
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 121,
+          "mechanism": "column",
+          "records": [
+            1,
+            1,
+            1
+          ],
+          "squared_coefficient_denominator": 3135397926534345916416,
+          "squared_coefficient_numerator": 767144530396795793
+        },
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 11,
+          "mechanism": "column",
+          "records": [
+            1,
+            1,
+            3
+          ],
+          "squared_coefficient_denominator": 1580341696841908224,
+          "squared_coefficient_numerator": 3097233728039
+        },
+        {
+          "entry_denominator": 3470000128,
+          "entry_numerator": 1,
+          "mechanism": "column",
+          "records": [
+            1,
+            3,
+            1
+          ],
+          "squared_coefficient_denominator": 6936002815852544,
+          "squared_coefficient_numerator": 471573032823657
+        },
+        {
+          "entry_denominator": 111096889344,
+          "entry_numerator": 1,
+          "mechanism": "column",
+          "records": [
+            1,
+            3,
+            3
+          ],
+          "squared_coefficient_denominator": 9258074112,
+          "squared_coefficient_numerator": 12431555
+        }
+      ],
+      "split": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "outward_coefficient": 0.11863696369021283,
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "sectors": [
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 121,
+          "mechanism": "column",
+          "records": [
+            1,
+            1,
+            1
+          ],
+          "squared_coefficient_denominator": 199072884224402915328,
+          "squared_coefficient_numerator": 3339883393235213
+        },
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 11,
+          "mechanism": "column",
+          "records": [
+            1,
+            1,
+            3
+          ],
+          "squared_coefficient_denominator": 1567799302422528,
+          "squared_coefficient_numerator": 4540605707
+        },
+        {
+          "entry_denominator": 3470000128,
+          "entry_numerator": 1,
+          "mechanism": "column",
+          "records": [
+            1,
+            3,
+            1
+          ],
+          "squared_coefficient_denominator": 3963430180487168,
+          "squared_coefficient_numerator": 18477600905133
+        },
+        {
+          "entry_denominator": 111096889344,
+          "entry_numerator": 1,
+          "mechanism": "column",
+          "records": [
+            1,
+            3,
+            3
+          ],
+          "squared_coefficient_denominator": 27553792,
+          "squared_coefficient_numerator": 54711
+        }
+      ],
+      "split": [
+        2,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "outward_coefficient": 0.33828697324447987,
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "sectors": [
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 121,
+          "mechanism": "column",
+          "records": [
+            1,
+            1,
+            1
+          ],
+          "squared_coefficient_denominator": 3135397926534345916416,
+          "squared_coefficient_numerator": 767144530396795793
+        },
+        {
+          "entry_denominator": 6999104028672,
+          "entry_numerator": 11,
+          "mechanism": "row",
+          "records": [
+            1,
+            1,
+            3
+          ],
+          "squared_coefficient_denominator": 771651219161088,
+          "squared_coefficient_numerator": 4540605707
+        },
+        {
+          "entry_denominator": 3470000128,
+          "entry_numerator": 1,
+          "mechanism": "column",
+          "records": [
+            1,
+            3,
+            1
+          ],
+          "squared_coefficient_denominator": 3495969161216,
+          "squared_coefficient_numerator": 230372756631
+        },
+        {
+          "entry_denominator": 111096889344,
+          "entry_numerator": 1,
+          "mechanism": "row",
+          "records": [
+            1,
+            3,
+            3
+          ],
+          "squared_coefficient_denominator": 1506848,
+          "squared_coefficient_numerator": 6079
+        }
+      ],
+      "split": [
+        2,
+        3,
+        1,
+        0
+      ]
+    }
+  ],
+  "result": {
+    "all_coefficients_strictly_below_one": true,
+    "canonical_orbits": 3,
+    "distinct_coefficients": [
+      0.11863696369021283,
+      0.3144332243430522,
+      0.33828697324447987
+    ],
+    "feasible_shape_rows": 15,
+    "maximum_coefficient": 0.33828697324447987,
+    "maximum_split": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "minimum_coefficient": 0.11863696369021283,
+    "order": 64,
+    "record_sectors": 4,
+    "repaired_entries": 12
+  },
+  "schema": "round4_q64_joint_recovered_cubic_quintic_contraction_v1",
+  "sector_entry_bounds": [
+    {
+      "denominator": 6999104028672,
+      "numerator": 121,
+      "records": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": 6999104028672,
+      "numerator": 11,
+      "records": [
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "denominator": 3470000128,
+      "numerator": 1,
+      "records": [
+        1,
+        3,
+        1
+      ]
+    },
+    {
+      "denominator": 111096889344,
+      "numerator": 1,
+      "records": [
+        1,
+        3,
+        3
+      ]
+    }
+  ],
+  "shape_table": [
+    {
+      "column_pattern": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "column_record": 3,
+      "joint_entry_denominator": 45932391694336,
+      "joint_entry_numerator": 1,
+      "left_endpoint_denominator": 54218752,
+      "left_endpoint_numerator": 1,
+      "realizes_sector_maximum": false,
+      "right_link_denominator": 847168,
+      "right_link_numerator": 1,
+      "row_pattern": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "row_record": 3
+    },
+    {
+      "column_pattern": [
+        2,
+        2,
+        1
+      ],
+      "column_record": 1,
+      "joint_entry_denominator": 2258970083328,
+      "joint_entry_numerator": 11,
+      "left_endpoint_denominator": 54218752,
+      "left_endpoint_numerator": 1,
+      "realizes_sector_maximum": false,
+      "right_link_denominator": 41664,
+      "right_link_numerator": 11,
+      "row_pattern": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "row_record": 3
+    },
+    {
+      "column_pattern": [
+        3,
+        1,
+        1
+      ],
+      "column_record": 3,
+      "joint_entry_denominator": 2258970083328,
+      "joint_entry_numerator": 1,
+      "left_endpoint_denominator": 54218752,
+      "left_endpoint_numerator": 1,
+      "realizes_sector_maximum": false,
+      "right_link_denominator": 41664,
+      "right_link_numerator": 1,
+      "row_pattern": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "row_record": 3
+    },
+    {
+      "column_pattern": [
+        3,
+        2
+      ],
+      "column_record": 1,
+      "joint_entry_denominator": 2258970083328,
+      "joint_entry_numerator": 11,
+      "left_endpoint_denominator": 54218752,
+      "left_endpoint_numerator": 1,
+      "realizes_sector_maximum": false,
+      "right_link_denominator": 41664,
+      "right_link_numerator": 11,
+      "row_pattern": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "row_record": 3
+    },
+    {
+      "column_pattern": [
+        4,
+        1
+      ],
+      "column_record": 1,
+      "joint_entry_denominator": 3470000128,
+      "joint_entry_numerator": 1,
+      "left_endpoint_denominator": 54218752,
+      "left_endpoint_numerator": 1,
+      "realizes_sector_maximum": true,
+      "right_link_denominator": 64,
+      "right_link_numerator": 1,
+      "row_pattern": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "row_record": 3
+    },
+    {
+      "column_pattern": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "column_record": 3,
+      "joint_entry_denominator": 142315115249664,
+      "joint_entry_numerator": 11,
+      "left_endpoint_denominator": 167989248,
+      "left_endpoint_numerator": 11,
+      "realizes_sector_maximum": false,
+      "right_link_denominator": 847168,
+      "right_link_numerator": 1,
+      "row_pattern": [
+        2,
+        2,
+        1
+      ],
+      "row_record": 1
+    },
+    {
+      "column_pattern": [
+        2,
+        2,
+        1
+      ],
+      "column_record": 1,
+      "joint_entry_denominator": 6999104028672,
+      "joint_entry_numerator": 121,
+      "left_endpoint_denominator": 167989248,
+      "left_endpoint_numerator": 11,
+      "realizes_sector_maximum": true,
+      "right_link_denominator": 41664,
+      "right_link_numerator": 11,
+      "row_pattern": [
+        2,
+        2,
+        1
+      ],
+      "row_record": 1
+    },
+    {
+      "column_pattern": [
+        3,
+        1,
+        1
+      ],
+      "column_record": 3,
+      "joint_entry_denominator": 6999104028672,
+      "joint_entry_numerator": 11,
+      "left_endpoint_denominator": 167989248,
+      "left_endpoint_numerator": 11,
+      "realizes_sector_maximum": true,
+      "right_link_denominator": 41664,
+      "right_link_numerator": 1,
+      "row_pattern": [
+        2,
+        2,
+        1
+      ],
+      "row_record": 1
+    },
+    {
+      "column_pattern": [
+        3,
+        2
+      ],
+      "column_record": 1,
+      "joint_entry_denominator": 6999104028672,
+      "joint_entry_numerator": 121,
+      "left_endpoint_denominator": 167989248,
+      "left_endpoint_numerator": 11,
+      "realizes_sector_maximum": true,
+      "right_link_denominator": 41664,
+      "right_link_numerator": 11,
+      "row_pattern": [
+        2,
+        2,
+        1
+      ],
+      "row_record": 1
+    },
+    {
+      "column_pattern": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "column_record": 3,
+      "joint_entry_denominator": 2258970083328,
+      "joint_entry_numerator": 1,
+      "left_endpoint_denominator": 2666496,
+      "left_endpoint_numerator": 1,
+      "realizes_sector_maximum": false,
+      "right_link_denominator": 847168,
+      "right_link_numerator": 1,
+      "row_pattern": [
+        3,
+        1,
+        1
+      ],
+      "row_record": 3
+    },
+    {
+      "column_pattern": [
+        2,
+        2,
+        1
+      ],
+      "column_record": 1,
+      "joint_entry_denominator": 111096889344,
+      "joint_entry_numerator": 11,
+      "left_endpoint_denominator": 2666496,
+      "left_endpoint_numerator": 1,
+      "realizes_sector_maximum": false,
+      "right_link_denominator": 41664,
+      "right_link_numerator": 11,
+      "row_pattern": [
+        3,
+        1,
+        1
+      ],
+      "row_record": 3
+    },
+    {
+      "column_pattern": [
+        3,
+        1,
+        1
+      ],
+      "column_record": 3,
+      "joint_entry_denominator": 111096889344,
+      "joint_entry_numerator": 1,
+      "left_endpoint_denominator": 2666496,
+      "left_endpoint_numerator": 1,
+      "realizes_sector_maximum": true,
+      "right_link_denominator": 41664,
+      "right_link_numerator": 1,
+      "row_pattern": [
+        3,
+        1,
+        1
+      ],
+      "row_record": 3
+    },
+    {
+      "column_pattern": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "column_record": 3,
+      "joint_entry_denominator": 142315115249664,
+      "joint_entry_numerator": 11,
+      "left_endpoint_denominator": 167989248,
+      "left_endpoint_numerator": 11,
+      "realizes_sector_maximum": false,
+      "right_link_denominator": 847168,
+      "right_link_numerator": 1,
+      "row_pattern": [
+        3,
+        2
+      ],
+      "row_record": 1
+    },
+    {
+      "column_pattern": [
+        2,
+        2,
+        1
+      ],
+      "column_record": 1,
+      "joint_entry_denominator": 6999104028672,
+      "joint_entry_numerator": 121,
+      "left_endpoint_denominator": 167989248,
+      "left_endpoint_numerator": 11,
+      "realizes_sector_maximum": true,
+      "right_link_denominator": 41664,
+      "right_link_numerator": 11,
+      "row_pattern": [
+        3,
+        2
+      ],
+      "row_record": 1
+    },
+    {
+      "column_pattern": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "column_record": 3,
+      "joint_entry_denominator": 142315115249664,
+      "joint_entry_numerator": 11,
+      "left_endpoint_denominator": 167989248,
+      "left_endpoint_numerator": 11,
+      "realizes_sector_maximum": false,
+      "right_link_denominator": 847168,
+      "right_link_numerator": 1,
+      "row_pattern": [
+        4,
+        1
+      ],
+      "row_record": 1
+    }
+  ]
+}

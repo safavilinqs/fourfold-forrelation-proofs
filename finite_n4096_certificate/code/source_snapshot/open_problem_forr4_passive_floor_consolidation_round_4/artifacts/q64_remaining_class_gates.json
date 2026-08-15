@@ -1,0 +1,99 @@
+{
+  "evidence_label": "floating Perron and attenuation optimization after 110 proved q64 entries; displayed class coefficients are routing gates, not arbitrary-law theorems; one batch only",
+  "next_target": "prove or falsify one shared contraction for the 280-entry one-split-cubic/one-split-higher class at its reserve gate",
+  "result": {
+    "balanced_open_entries": 888,
+    "baseline": {
+      "beta": 0.7466670531429521,
+      "margin_to_one_third": 0.0372424661511897,
+      "perron_upper": 0.2810331927754359,
+      "promise_loss": 0.015057674406707706,
+      "total": 0.2960908671821436
+    },
+    "classes": [
+      {
+        "entries": 280,
+        "name": "one_split_cubic_one_split_higher",
+        "routing_target": 0.12403521525363623,
+        "split_cubic_blocks_max": 1,
+        "split_cubic_blocks_min": 1,
+        "split_higher_blocks_max": 1,
+        "split_higher_blocks_min": 1
+      },
+      {
+        "entries": 176,
+        "name": "higher_split_only_in_cubic_profile",
+        "routing_target": 0.12403521525363623,
+        "split_cubic_blocks_max": 0,
+        "split_cubic_blocks_min": 0,
+        "split_higher_blocks_max": 1,
+        "split_higher_blocks_min": 1
+      },
+      {
+        "entries": 140,
+        "name": "noncubic_profile",
+        "routing_target": 0.5,
+        "split_cubic_blocks_max": 0,
+        "split_cubic_blocks_min": 0,
+        "split_higher_blocks_max": 2,
+        "split_higher_blocks_min": 1
+      },
+      {
+        "entries": 96,
+        "name": "two_split_cubics_one_split_higher",
+        "routing_target": 0.12403521525363623,
+        "split_cubic_blocks_max": 2,
+        "split_cubic_blocks_min": 2,
+        "split_higher_blocks_max": 1,
+        "split_higher_blocks_min": 1
+      },
+      {
+        "entries": 48,
+        "name": "one_split_cubic_no_split_higher",
+        "routing_target": 0.12403521525363623,
+        "split_cubic_blocks_max": 1,
+        "split_cubic_blocks_min": 1,
+        "split_higher_blocks_max": 0,
+        "split_higher_blocks_min": 0
+      },
+      {
+        "entries": 24,
+        "name": "two_split_cubics_no_split_higher",
+        "routing_target": 0.12403521525363623,
+        "split_cubic_blocks_max": 2,
+        "split_cubic_blocks_min": 2,
+        "split_higher_blocks_max": 0,
+        "split_higher_blocks_min": 0
+      },
+      {
+        "entries": 8,
+        "name": "three_split_cubics",
+        "routing_target": 0.12403521525363623,
+        "split_cubic_blocks_max": 3,
+        "split_cubic_blocks_min": 3,
+        "split_higher_blocks_max": 0,
+        "split_higher_blocks_min": 0
+      },
+      {
+        "entries": 6,
+        "name": "four_split_cubics",
+        "routing_target": 0.12403521525363623,
+        "split_cubic_blocks_max": 4,
+        "split_cubic_blocks_min": 4,
+        "split_higher_blocks_max": 0,
+        "split_higher_blocks_min": 0
+      }
+    ],
+    "dimension": 4096,
+    "lead_class": "one_split_cubic_one_split_higher",
+    "lead_entries": 280,
+    "lead_reserve_coefficient": 0.2229211469514268,
+    "lead_reserve_multiplier_over_target": 1.7972407795284706,
+    "lead_threshold_coefficient": 0.2255367435661101,
+    "order": 64,
+    "proved_entries": 110,
+    "remaining_entries": 778,
+    "sign_modes": 16384
+  },
+  "schema": "round4_q64_remaining_class_gates_v1"
+}

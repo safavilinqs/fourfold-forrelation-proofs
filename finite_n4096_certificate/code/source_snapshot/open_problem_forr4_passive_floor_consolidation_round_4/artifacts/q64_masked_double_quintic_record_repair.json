@@ -1,0 +1,320 @@
+{
+  "evidence_label": "arbitrary-correlated-diagonal actual-mask theorem; exact finite affine-shape enumeration and parity bounds for complete endpoint row factors; odd-record sector decomposition; central quintic-quintic permanent bounded by 1/binomial(q,r); exact rational q64 row energies or rational upper bounds and outward-rounded coefficients",
+  "q64_maximizing_shapes": {
+    "fixed_singleton_fixed_triple": {
+      "1": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "3": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "5": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    "variable_singleton_fixed_pair": {
+      "1": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "3": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "5": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  "repaired_registry_entries": [
+    {
+      "outward_coefficient": 0.0021380691867500345,
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "squared_coefficient_bound": "5901977909483/1291082725544951808"
+    },
+    {
+      "outward_coefficient": 0.0002857495954675799,
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        2,
+        4,
+        0
+      ],
+      "squared_coefficient_bound": "119455598359945/1462969457930881990656"
+    },
+    {
+      "outward_coefficient": 0.0021380691867500345,
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "squared_coefficient_bound": "5901977909483/1291082725544951808"
+    },
+    {
+      "outward_coefficient": 0.0002608849287484762,
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "squared_coefficient_bound": "4425307239757/65019772670067081216"
+    },
+    {
+      "outward_coefficient": 0.19826399870538358,
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        1,
+        1
+      ],
+      "squared_coefficient_bound": "73124314015495/1860261863620608"
+    },
+    {
+      "outward_coefficient": 0.0002857495954675799,
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        2,
+        0
+      ],
+      "squared_coefficient_bound": "119455598359945/1462969457930881990656"
+    },
+    {
+      "outward_coefficient": 0.0002857495954675799,
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "squared_coefficient_bound": "119455598359945/1462969457930881990656"
+    },
+    {
+      "outward_coefficient": 0.19826399870538358,
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        4,
+        0
+      ],
+      "squared_coefficient_bound": "73124314015495/1860261863620608"
+    },
+    {
+      "outward_coefficient": 0.0002608849287484762,
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "squared_coefficient_bound": "4425307239757/65019772670067081216"
+    },
+    {
+      "outward_coefficient": 0.0021380691867500345,
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "squared_coefficient_bound": "5901977909483/1291082725544951808"
+    },
+    {
+      "outward_coefficient": 0.0002857495954675799,
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "squared_coefficient_bound": "119455598359945/1462969457930881990656"
+    },
+    {
+      "outward_coefficient": 0.0021380691867500345,
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "squared_coefficient_bound": "5901977909483/1291082725544951808"
+    }
+  ],
+  "result": {
+    "central_records": [
+      1,
+      3,
+      5
+    ],
+    "distinct_squared_coefficient_bounds": [
+      "4425307239757/65019772670067081216",
+      "119455598359945/1462969457930881990656",
+      "5901977909483/1291082725544951808",
+      "73124314015495/1860261863620608"
+    ],
+    "fixed_one_record_energies": [
+      "5135/4096",
+      "114225/2048",
+      "247865/256"
+    ],
+    "left_record_energies": [
+      "4232/63",
+      "523388/63",
+      "10150400/63"
+    ],
+    "maximum_coefficient": 0.19826399870538358,
+    "minimum_coefficient": 0.0002608849287484762,
+    "order": 64,
+    "remaining_double_quintic_entries": 0,
+    "repaired_entries": 12,
+    "repaired_orbits": 5,
+    "right_record_energies": [
+      "151/580608",
+      "1811/28672",
+      "29905/21504"
+    ],
+    "sector_squared_bounds": [
+      "79879/18728091648",
+      "236963917/783899651211264",
+      "9719125/2521645948329984"
+    ],
+    "variable_four_record_bounds": [
+      "128",
+      "4096",
+      "4096"
+    ]
+  },
+  "schema": "round4_q64_masked_double_quintic_record_repair_v2"
+}

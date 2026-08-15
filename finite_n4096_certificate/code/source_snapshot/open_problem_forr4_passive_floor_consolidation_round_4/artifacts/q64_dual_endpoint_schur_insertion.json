@@ -1,0 +1,229 @@
+{
+  "evidence_label": "arbitrary-diagonal trace-class Schur-multiplier composition using exact cubic fixed-pair and quintic fixed-triple endpoint slices, independently checked completed-link Gram lifts, and an outward-rounded exact-rational coefficient; historical floating q64 insertion retained only for provenance; one batch only",
+  "exact_certificate": {
+    "cubic_energy_denominator": 129024,
+    "cubic_energy_numerator": 1985,
+    "outward_coefficient": 0.14955611574342903,
+    "quintic_energy_denominator": 43008,
+    "quintic_energy_numerator": 62527,
+    "squared_coefficient_denominator": 5549064192,
+    "squared_coefficient_numerator": 124116095
+  },
+  "historical_checkpoint": "At the original insertion this left 612 balanced entries, including 152 split-cubic/split-quintic entries. Subsequent theorems close that inventory; the current registry is 888 of 888 one-batch entries, and only the adaptive lift remains open.",
+  "registry_entries": [
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        3,
+        1,
+        2,
+        0
+      ]
+    }
+  ],
+  "result": {
+    "balanced_coefficient": 0.14955611574342903,
+    "balanced_entries": 12,
+    "balanced_quintic_fixed_triple_energy": 1.4538457961309523,
+    "balanced_quintic_schur_factor": 1.2057552803661913,
+    "closed_entries": 12,
+    "closed_orbits": 3,
+    "cubic_fixed_pair_energy": 0.015384734623015874,
+    "cubic_schur_factor": 0.12403521525363623,
+    "degree_ten_entries": 4,
+    "degree_twelve_entries": 8,
+    "dimension": 4096,
+    "dual_endpoint_inserted": {
+      "beta": 0.7460871349070535,
+      "margin_to_one_third": 0.0034497273587923427,
+      "perron_upper": 0.3125769266646106,
+      "promise_loss": 0.01730667930993033,
+      "total": 0.32988360597454097
+    },
+    "extreme_entries": 0,
+    "order": 64,
+    "previous_proved_entries": 264,
+    "previous_routing": {
+      "beta": 0.7460950063917603,
+      "margin_to_one_third": 0.0040850791991315916,
+      "perron_upper": 0.31197416557950725,
+      "promise_loss": 0.01727408855469446,
+      "total": 0.3292482541342017
+    },
+    "proxy_reserve_after_declared_allowance": 0.0012663668247970836,
+    "remaining_balanced_entries": 48,
+    "remaining_extreme_entries": 104,
+    "remaining_open_entries": 612,
+    "remaining_quintic_entries": 152,
+    "remaining_quintic_local_proxy": {
+      "beta": 0.7460716026516745,
+      "margin_to_one_third": 0.0022663668247970836,
+      "perron_upper": 0.31369580405007086,
+      "promise_loss": 0.017371162458465376,
+      "total": 0.33106696650853623
+    },
+    "routing_margin_spent": 0.0006353518403392489,
+    "sign_modes": 16384,
+    "total_proved_entries": 276
+  },
+  "schema": "round4_q64_dual_endpoint_schur_insertion_v2"
+}

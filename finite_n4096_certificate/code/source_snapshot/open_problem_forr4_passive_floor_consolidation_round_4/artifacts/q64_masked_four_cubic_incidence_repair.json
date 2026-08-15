@@ -1,0 +1,3404 @@
+{
+  "evidence_label": "arbitrary-correlated-diagonal theorem using eight exact cubic record sectors, exact physical completion-incidence bounds, and outward-rounded row/column feature coefficients",
+  "repaired_registry_entries": [
+    {
+      "outward_coefficient": 0.0036294319740470446,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 364801103444836352,
+          "numerator": 96923873871,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 1287100667396096,
+          "numerator": 89002639,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 3923581066739712,
+          "numerator": 8455250705,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 4050148197924864,
+          "numerator": 69878105,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 1287100667396096,
+          "numerator": 89002639,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 30900178512,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 4050148197924864,
+          "numerator": 69878105,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 16332288,
+          "numerator": 1,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "outward_coefficient": 0.0036315337318172727,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 364801103444836352,
+          "numerator": 96923873871,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 1287100667396096,
+          "numerator": 89002639,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 3923581066739712,
+          "numerator": 8455250705,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 3923581066739712,
+          "numerator": 69878105,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 1287100667396096,
+          "numerator": 89002639,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 30900178512,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 4050148197924864,
+          "numerator": 69878105,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 16332288,
+          "numerator": 1,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "outward_coefficient": 0.0045646143765353964,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 364801103444836352,
+          "numerator": 96923873871,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 123561664070025216,
+          "numerator": 8455250705,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 3923581066739712,
+          "numerator": 8455250705,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 31896958464,
+          "numerator": 11495,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 123561664070025216,
+          "numerator": 8455250705,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 30900178512,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 31896958464,
+          "numerator": 11495,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 16332288,
+          "numerator": 1,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "outward_coefficient": 0.0022431952380206847,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 426921519917157056512,
+          "numerator": 7850833783551,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 379605726789632,
+          "numerator": 37554165,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 5442027699256164352,
+          "numerator": 803248816975,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 197505581056,
+          "numerator": 103455,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 48200816764840312832,
+          "numerator": 228291769035,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 42858711089152,
+          "numerator": 1092025,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 25078468660166656,
+          "numerator": 628902945,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 910163968,
+          "numerator": 81,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "outward_coefficient": 0.00408504788059476,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 364801103444836352,
+          "numerator": 97912404909,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 20759688183808,
+          "numerator": 1390895,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 125554594135670784,
+          "numerator": 270480396175,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 32403259392,
+          "numerator": 11495,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 41187221356675072,
+          "numerator": 2847162065,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 63283565592576,
+          "numerator": 1092025,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 64288066633728,
+          "numerator": 23530265,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 49774592,
+          "numerator": 3,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "outward_coefficient": 0.0055096177632837865,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 364801103444836352,
+          "numerator": 96923873871,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 10136566496,
+          "numerator": 14641,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 3923581066739712,
+          "numerator": 8455250705,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 31896958464,
+          "numerator": 11495,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 123561664070025216,
+          "numerator": 8455250705,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 30900178512,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 2009002082304,
+          "numerator": 735559,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 16332288,
+          "numerator": 1,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        0,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "outward_coefficient": 0.00408504788059476,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 364801103444836352,
+          "numerator": 97912404909,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 20759688183808,
+          "numerator": 1390895,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 125554594135670784,
+          "numerator": 270480396175,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 32403259392,
+          "numerator": 11495,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 41187221356675072,
+          "numerator": 2847162065,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 63283565592576,
+          "numerator": 1092025,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 64288066633728,
+          "numerator": 23530265,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 49774592,
+          "numerator": 3,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        0,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "outward_coefficient": 0.0036315337318172727,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 364801103444836352,
+          "numerator": 96923873871,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 1287100667396096,
+          "numerator": 89002639,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 3923581066739712,
+          "numerator": 8455250705,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 4050148197924864,
+          "numerator": 69878105,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 1287100667396096,
+          "numerator": 89002639,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 30900178512,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 3923581066739712,
+          "numerator": 69878105,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 16332288,
+          "numerator": 1,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "outward_coefficient": 0.006083432508894455,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 2553607724113854464,
+          "numerator": 22044796645993,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 1287100667396096,
+          "numerator": 89002639,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 7784384836411588608,
+          "numerator": 17307898193135,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 3923581066739712,
+          "numerator": 69878105,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 1287100667396096,
+          "numerator": 89002639,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 30900178512,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 3923581066739712,
+          "numerator": 69878105,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 15821904,
+          "numerator": 1,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        1,
+        0,
+        3,
+        2
+      ]
+    },
+    {
+      "outward_coefficient": 0.0022431952380206842,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 426921519917157056512,
+          "numerator": 7850833783551,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 48200816764840312832,
+          "numerator": 228291769035,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 5442027699256164352,
+          "numerator": 803248816975,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 25078468660166656,
+          "numerator": 628902945,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 379605726789632,
+          "numerator": 37554165,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 42858711089152,
+          "numerator": 1092025,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 197505581056,
+          "numerator": 103455,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 910163968,
+          "numerator": 81,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "outward_coefficient": 0.006240622146214441,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 747112659855024848896,
+          "numerator": 595209509441811,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 1328620043763712,
+          "numerator": 267007917,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 2678498008227643392,
+          "numerator": 17307898193135,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 1393599379931136,
+          "numerator": 69878105,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 1328620043763712,
+          "numerator": 267007917,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 10632319488,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 1393599379931136,
+          "numerator": 69878105,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 5619712,
+          "numerator": 1,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "outward_coefficient": 0.005135625894262565,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 2988450639420099395584,
+          "numerator": 1767600687785427,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 23535555060957184,
+          "numerator": 2403071253,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 337405717353882189824,
+          "numerator": 51399469035695,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 2657240087527424,
+          "numerator": 69878105,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 10217659027968,
+          "numerator": 29970127,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 20927105024,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 12245346025472,
+          "numerator": 6620031,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 96438272,
+          "numerator": 9,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ]
+    },
+    {
+      "outward_coefficient": 0.0055096177632837865,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 364801103444836352,
+          "numerator": 96923873871,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 123561664070025216,
+          "numerator": 8455250705,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 3923581066739712,
+          "numerator": 8455250705,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 2009002082304,
+          "numerator": 735559,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 10136566496,
+          "numerator": 14641,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 30900178512,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 31896958464,
+          "numerator": 11495,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 16332288,
+          "numerator": 1,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        1,
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "outward_coefficient": 0.007851166364842071,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 747112659855024848896,
+          "numerator": 595209509441811,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 42515841400438784,
+          "numerator": 8455250705,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 2678498008227643392,
+          "numerator": 17307898193135,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 691269533696,
+          "numerator": 735559,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 42515841400438784,
+          "numerator": 8455250705,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 10632319488,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 691269533696,
+          "numerator": 735559,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 5619712,
+          "numerator": 1,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        1,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "outward_coefficient": 0.0070312968810387795,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 747112659855024848896,
+          "numerator": 589200229261809,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 42515841400438784,
+          "numerator": 8541486195,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 85711936263284588544,
+          "numerator": 553673370970225,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 22120625078272,
+          "numerator": 23530265,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 42515841400438784,
+          "numerator": 8541486195,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 21774990311424,
+          "numerator": 1092025,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 22120625078272,
+          "numerator": 23530265,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 51380224,
+          "numerator": 9,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        1,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "outward_coefficient": 0.00408504788059476,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 364801103444836352,
+          "numerator": 97912404909,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 41187221356675072,
+          "numerator": 2847162065,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 125554594135670784,
+          "numerator": 270480396175,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 64288066633728,
+          "numerator": 23530265,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 20759688183808,
+          "numerator": 1390895,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 63283565592576,
+          "numerator": 1092025,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 32403259392,
+          "numerator": 11495,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 49774592,
+          "numerator": 3,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        1,
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "outward_coefficient": 0.00894228260681145,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 2553607724113854464,
+          "numerator": 22044796645993,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 20110947928064,
+          "numerator": 29970127,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 7784384836411588608,
+          "numerator": 17307898193135,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 2009002082304,
+          "numerator": 735559,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 20110947928064,
+          "numerator": 29970127,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 30900178512,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 2009002082304,
+          "numerator": 735559,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 15821904,
+          "numerator": 1,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        1,
+        3,
+        0,
+        2
+      ]
+    },
+    {
+      "outward_coefficient": 0.005135625894262565,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 2988450639420099395584,
+          "numerator": 1767600687785427,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 10217659027968,
+          "numerator": 29970127,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 337405717353882189824,
+          "numerator": 51399469035695,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 12245346025472,
+          "numerator": 6620031,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 23535555060957184,
+          "numerator": 2403071253,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 20927105024,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 2657240087527424,
+          "numerator": 69878105,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 96438272,
+          "numerator": 9,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "outward_coefficient": 0.00408504788059476,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 364801103444836352,
+          "numerator": 97912404909,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 41187221356675072,
+          "numerator": 2847162065,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 125554594135670784,
+          "numerator": 270480396175,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 64288066633728,
+          "numerator": 23530265,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 20759688183808,
+          "numerator": 1390895,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 63283565592576,
+          "numerator": 1092025,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 32403259392,
+          "numerator": 11495,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 49774592,
+          "numerator": 3,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        1,
+        3,
+        2,
+        0
+      ]
+    },
+    {
+      "outward_coefficient": 0.00408504788059476,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 364801103444836352,
+          "numerator": 97912404909,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 41187221356675072,
+          "numerator": 2847162065,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 125554594135670784,
+          "numerator": 270480396175,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 64288066633728,
+          "numerator": 23530265,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 20759688183808,
+          "numerator": 1390895,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 63283565592576,
+          "numerator": 1092025,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 32403259392,
+          "numerator": 11495,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 49774592,
+          "numerator": 3,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        2,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "outward_coefficient": 0.005135625894262565,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 2988450639420099395584,
+          "numerator": 1767600687785427,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 10217659027968,
+          "numerator": 29970127,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 337405717353882189824,
+          "numerator": 51399469035695,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 12245346025472,
+          "numerator": 6620031,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 23535555060957184,
+          "numerator": 2403071253,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 20927105024,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 2657240087527424,
+          "numerator": 69878105,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 96438272,
+          "numerator": 9,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        2,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "outward_coefficient": 0.00894228260681145,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 2553607724113854464,
+          "numerator": 22044796645993,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 20110947928064,
+          "numerator": 29970127,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 7784384836411588608,
+          "numerator": 17307898193135,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 2009002082304,
+          "numerator": 735559,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 20110947928064,
+          "numerator": 29970127,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 30900178512,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 2009002082304,
+          "numerator": 735559,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 15821904,
+          "numerator": 1,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        2,
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "outward_coefficient": 0.00408504788059476,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 364801103444836352,
+          "numerator": 97912404909,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 41187221356675072,
+          "numerator": 2847162065,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 125554594135670784,
+          "numerator": 270480396175,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 64288066633728,
+          "numerator": 23530265,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 20759688183808,
+          "numerator": 1390895,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 63283565592576,
+          "numerator": 1092025,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 32403259392,
+          "numerator": 11495,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 49774592,
+          "numerator": 3,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        2,
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "outward_coefficient": 0.0070312968810387795,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 747112659855024848896,
+          "numerator": 589200229261809,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 42515841400438784,
+          "numerator": 8541486195,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 85711936263284588544,
+          "numerator": 553673370970225,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 22120625078272,
+          "numerator": 23530265,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 42515841400438784,
+          "numerator": 8541486195,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 21774990311424,
+          "numerator": 1092025,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 22120625078272,
+          "numerator": 23530265,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 51380224,
+          "numerator": 9,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "outward_coefficient": 0.007851166364842071,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 747112659855024848896,
+          "numerator": 595209509441811,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 42515841400438784,
+          "numerator": 8455250705,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 2678498008227643392,
+          "numerator": 17307898193135,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 691269533696,
+          "numerator": 735559,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 42515841400438784,
+          "numerator": 8455250705,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 10632319488,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 691269533696,
+          "numerator": 735559,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 5619712,
+          "numerator": 1,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        2,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "outward_coefficient": 0.0055096177632837865,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 364801103444836352,
+          "numerator": 96923873871,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 123561664070025216,
+          "numerator": 8455250705,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 3923581066739712,
+          "numerator": 8455250705,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 2009002082304,
+          "numerator": 735559,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 10136566496,
+          "numerator": 14641,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 30900178512,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 31896958464,
+          "numerator": 11495,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 16332288,
+          "numerator": 1,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        2,
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "outward_coefficient": 0.005135625894262565,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 2988450639420099395584,
+          "numerator": 1767600687785427,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 23535555060957184,
+          "numerator": 2403071253,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 337405717353882189824,
+          "numerator": 51399469035695,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 2657240087527424,
+          "numerator": 69878105,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 10217659027968,
+          "numerator": 29970127,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 20927105024,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 12245346025472,
+          "numerator": 6620031,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 96438272,
+          "numerator": 9,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        2,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "outward_coefficient": 0.006240622146214441,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 747112659855024848896,
+          "numerator": 595209509441811,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 1328620043763712,
+          "numerator": 267007917,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 2678498008227643392,
+          "numerator": 17307898193135,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 1393599379931136,
+          "numerator": 69878105,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 1328620043763712,
+          "numerator": 267007917,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 10632319488,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 1393599379931136,
+          "numerator": 69878105,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 5619712,
+          "numerator": 1,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "outward_coefficient": 0.0022431952380206842,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 426921519917157056512,
+          "numerator": 7850833783551,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 48200816764840312832,
+          "numerator": 228291769035,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 5442027699256164352,
+          "numerator": 803248816975,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 25078468660166656,
+          "numerator": 628902945,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 379605726789632,
+          "numerator": 37554165,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 42858711089152,
+          "numerator": 1092025,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 197505581056,
+          "numerator": 103455,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 910163968,
+          "numerator": 81,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        2,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "outward_coefficient": 0.006083432508894455,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 2553607724113854464,
+          "numerator": 22044796645993,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 1287100667396096,
+          "numerator": 89002639,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 7784384836411588608,
+          "numerator": 17307898193135,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 3923581066739712,
+          "numerator": 69878105,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 1287100667396096,
+          "numerator": 89002639,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 30900178512,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 3923581066739712,
+          "numerator": 69878105,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 15821904,
+          "numerator": 1,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        2,
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "outward_coefficient": 0.0036315337318172727,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 364801103444836352,
+          "numerator": 96923873871,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 1287100667396096,
+          "numerator": 89002639,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 3923581066739712,
+          "numerator": 8455250705,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 4050148197924864,
+          "numerator": 69878105,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 1287100667396096,
+          "numerator": 89002639,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 30900178512,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 3923581066739712,
+          "numerator": 69878105,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 16332288,
+          "numerator": 1,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "outward_coefficient": 0.00408504788059476,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 364801103444836352,
+          "numerator": 97912404909,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 20759688183808,
+          "numerator": 1390895,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 125554594135670784,
+          "numerator": 270480396175,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 32403259392,
+          "numerator": 11495,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 41187221356675072,
+          "numerator": 2847162065,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 63283565592576,
+          "numerator": 1092025,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 64288066633728,
+          "numerator": 23530265,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 49774592,
+          "numerator": 3,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        3,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "outward_coefficient": 0.0055096177632837865,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 364801103444836352,
+          "numerator": 96923873871,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 10136566496,
+          "numerator": 14641,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 3923581066739712,
+          "numerator": 8455250705,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 31896958464,
+          "numerator": 11495,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 123561664070025216,
+          "numerator": 8455250705,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 30900178512,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 2009002082304,
+          "numerator": 735559,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 16332288,
+          "numerator": 1,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        3,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "outward_coefficient": 0.00408504788059476,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 364801103444836352,
+          "numerator": 97912404909,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 20759688183808,
+          "numerator": 1390895,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 125554594135670784,
+          "numerator": 270480396175,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 32403259392,
+          "numerator": 11495,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 41187221356675072,
+          "numerator": 2847162065,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 63283565592576,
+          "numerator": 1092025,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 64288066633728,
+          "numerator": 23530265,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 49774592,
+          "numerator": 3,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        3,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "outward_coefficient": 0.0022431952380206847,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 426921519917157056512,
+          "numerator": 7850833783551,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 379605726789632,
+          "numerator": 37554165,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 5442027699256164352,
+          "numerator": 803248816975,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 197505581056,
+          "numerator": 103455,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 48200816764840312832,
+          "numerator": 228291769035,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 42858711089152,
+          "numerator": 1092025,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 25078468660166656,
+          "numerator": 628902945,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 910163968,
+          "numerator": 81,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "outward_coefficient": 0.0045646143765353964,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 364801103444836352,
+          "numerator": 96923873871,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 123561664070025216,
+          "numerator": 8455250705,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 3923581066739712,
+          "numerator": 8455250705,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 31896958464,
+          "numerator": 11495,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 123561664070025216,
+          "numerator": 8455250705,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 30900178512,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 31896958464,
+          "numerator": 11495,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 16332288,
+          "numerator": 1,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        3,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "outward_coefficient": 0.0036315337318172727,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 364801103444836352,
+          "numerator": 96923873871,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 1287100667396096,
+          "numerator": 89002639,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 3923581066739712,
+          "numerator": 8455250705,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 3923581066739712,
+          "numerator": 69878105,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 1287100667396096,
+          "numerator": 89002639,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 30900178512,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 4050148197924864,
+          "numerator": 69878105,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 16332288,
+          "numerator": 1,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        3,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "outward_coefficient": 0.0036294319740470446,
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_squared_coefficients": [
+        {
+          "denominator": 364801103444836352,
+          "numerator": 96923873871,
+          "records": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 1287100667396096,
+          "numerator": 89002639,
+          "records": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 3923581066739712,
+          "numerator": 8455250705,
+          "records": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 4050148197924864,
+          "numerator": 69878105,
+          "records": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "denominator": 1287100667396096,
+          "numerator": 89002639,
+          "records": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "denominator": 30900178512,
+          "numerator": 11495,
+          "records": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "denominator": 4050148197924864,
+          "numerator": 69878105,
+          "records": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "denominator": 16332288,
+          "numerator": 1,
+          "records": [
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "split": [
+        3,
+        2,
+        1,
+        0
+      ]
+    }
+  ],
+  "result": {
+    "double_cubic_entries": 24,
+    "maximum_coefficient": 0.00894228260681145,
+    "maximum_split": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "minimum_coefficient": 0.0022431952380206842,
+    "multicubic_entries": 14,
+    "order": 64,
+    "record_sectors": 8,
+    "remaining_quarantined_entries": 64,
+    "repaired_entries": 38
+  },
+  "schema": "round4_q64_masked_four_cubic_incidence_repair_v1"
+}

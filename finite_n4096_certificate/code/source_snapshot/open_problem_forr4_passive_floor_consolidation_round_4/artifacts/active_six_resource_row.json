@@ -1,0 +1,53 @@
+{
+  "experimental_scope": "ideal coherent signs, public Hadamards, routing, source, and detection; loss and phase robustness not yet quantified",
+  "result": {
+    "dimension": 4096,
+    "flag_correct_probability_at_promise_boundary": "5/8",
+    "flags": 3,
+    "hard_dose_per_flag": 2,
+    "left_branch": {
+      "charged_sign_blocks": [
+        1,
+        2
+      ],
+      "chronological_operations": [
+        "D1",
+        "H",
+        "D2"
+      ],
+      "hard_dose": 2,
+      "path": "left",
+      "public_hadamards": 1
+    },
+    "logical_mode_dimension_per_flag": 4096,
+    "logical_path_dimension_per_flag": 2,
+    "majority_error": 0.31640625,
+    "majority_error_exact": "81/256",
+    "margin_below_one_third": 0.016927083333333332,
+    "margin_below_one_third_exact": "13/768",
+    "postselection": false,
+    "receiver": "Pauli-X path interferometer with mode-insensitive port detection; majority vote over three retained binary flags",
+    "right_branch": {
+      "charged_sign_blocks": [
+        4,
+        3
+      ],
+      "chronological_operations": [
+        "D4",
+        "H",
+        "D3",
+        "H"
+      ],
+      "hard_dose": 2,
+      "path": "right",
+      "public_hadamards": 2
+    },
+    "sign_blocks": 4,
+    "sign_modes": 16384,
+    "single_photons": 3,
+    "state_preparation": "one photon in |+>_path tensor |u>_mode for each independent flag",
+    "total_hard_dose": 6
+  },
+  "schema": "round4_active_six_resource_row_v1",
+  "theorem_scope": "pointwise for every promised input at every Sylvester dimension; deterministic branchwise hard dose; no postselection"
+}

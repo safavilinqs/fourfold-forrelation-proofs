@@ -1,0 +1,36 @@
+{
+  "evidence_label": "arbitrary-diagonal complete-row Schur-feature theorem using exact cubic/quintic endpoint slices and the universal middle-link maximum; floating q64 Perron insertion; one batch only",
+  "remaining_open": "664 balanced entries plus interval certification and the adaptive lift",
+  "result": {
+    "closed_entries": 4,
+    "coefficient": 0.014409930105884669,
+    "cubic_fixed_singleton_energy": 0.500244140625,
+    "dimension": 4096,
+    "margin_improvement": 0.006890766087405686,
+    "order": 64,
+    "previous_proved_entries": 220,
+    "previous_routing": {
+      "beta": 0.7460717495549545,
+      "margin_to_one_third": 0.0013975038989492705,
+      "perron_upper": 0.31456527793840144,
+      "promise_loss": 0.017370551495982593,
+      "total": 0.33193582943438404
+    },
+    "quintic_fixed_triple_energy": 1.4538457961309523,
+    "record_one_middle_maximum": 0.0002640168970814132,
+    "record_three_middle_maximum": 1.180403414670998e-06,
+    "remaining_open_entries": 664,
+    "row_energy_bound": 0.00020764608565648136,
+    "shifted_pair_inserted": {
+      "beta": 0.7461670784772364,
+      "margin_to_one_third": 0.008288269986354957,
+      "perron_upper": 0.3080666393506051,
+      "promise_loss": 0.016978423996373303,
+      "total": 0.32504506334697836
+    },
+    "sign_modes": 16384,
+    "total_proved_entries": 224,
+    "universal_middle_maximum": 0.0002640168970814132
+  },
+  "schema": "round4_q64_shifted_middle_pair_contraction_v1"
+}

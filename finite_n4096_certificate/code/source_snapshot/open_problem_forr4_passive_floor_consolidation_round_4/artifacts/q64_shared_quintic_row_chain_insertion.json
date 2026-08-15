@@ -1,0 +1,75 @@
+{
+  "adaptive_requirement": "the displayed additive and multiplicative caps are algebraic requirements conditional on closing the other 460 entries at their frozen coefficient targets; they are not an adaptive recurrence or passive theorem",
+  "evidence_label": "arbitrary-diagonal row/chain theorem for all 48 remaining q64 split-cubic/split-quintic entries; exact record-compatible fixed-one endpoint decomposition, finite sector list, and rank/incidence bounds; floating q64 Perron insertion; one batch only",
+  "result": {
+    "adaptive_additive_cap_retaining_allowance": 0.008521770161997733,
+    "adaptive_multiplier_cap_retaining_allowance": 1.0263170656369942,
+    "balanced_entries": 16,
+    "closed_entries": 48,
+    "closed_orbits": 12,
+    "cubic_endpoint_fixed_four_coefficient": 5.350510859088515e-06,
+    "dimension": 4096,
+    "extreme_entries": 32,
+    "favorable_adjacent_split_balanced_coefficient": 0.020373745136755918,
+    "favorable_adjacent_split_extreme_coefficient": 0.018927574738987724,
+    "favorable_adjacent_whole_balanced_coefficient": 0.00031833976776181127,
+    "favorable_adjacent_whole_extreme_coefficient": 0.0002638879510922413,
+    "fixed_one_adjacent_whole_coefficient": 0.008453696720453088,
+    "fixed_one_record_five_energy": 968.22265625,
+    "fixed_one_record_one_energy": 1.2536621093750002,
+    "fixed_one_record_three_energy": 55.77392578125,
+    "fixed_one_total_energy": 1025.250244140625,
+    "inserted_routing": {
+      "beta": 0.7461700847841707,
+      "margin_to_one_third": 0.009521770161997734,
+      "perron_upper": 0.30684536541990215,
+      "promise_loss": 0.016966197751433456,
+      "total": 0.3238115631713356
+    },
+    "maximum_coefficient": 0.020373745136755918,
+    "minimum_coefficient": 5.350510859088515e-06,
+    "nonfavorable_adjacent_split_balanced_coefficient": 0.020210337661283738,
+    "nonfavorable_adjacent_split_extreme_coefficient": 0.0183664518516331,
+    "order": 64,
+    "previous_proved_entries": 380,
+    "previous_routing": {
+      "beta": 0.7461341088812047,
+      "margin_to_one_third": 0.007282526886851881,
+      "perron_upper": 0.30893774065225843,
+      "promise_loss": 0.017113065794223017,
+      "total": 0.32605080644648143
+    },
+    "record_one_middle_maximum": 0.0002640168970814132,
+    "record_three_middle_maximum": 1.180403414670998e-06,
+    "remaining_open_entries": 460,
+    "remaining_quintic_entries": 0,
+    "residual_class_counts": [
+      176,
+      140,
+      96,
+      48
+    ],
+    "residual_class_frozen_targets": [
+      0.12403521525363623,
+      0.5,
+      0.12403521525363623,
+      0.12403521525363623
+    ],
+    "residual_class_labels": [
+      "higher_split_only_in_cubic_profile",
+      "noncubic_profile",
+      "two_split_cubics_one_split_higher",
+      "one_split_cubic_no_split_higher"
+    ],
+    "residual_class_reserve_gates": [
+      0.15571081260134922,
+      0.5358557351875237,
+      0.34919334312169487,
+      0.5571266349301651
+    ],
+    "routing_improvement": 0.0022392432751458524,
+    "sign_modes": 16384,
+    "total_proved_entries": 428
+  },
+  "schema": "round4_q64_shared_quintic_row_chain_insertion_v1"
+}

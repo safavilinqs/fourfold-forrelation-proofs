@@ -1,0 +1,225 @@
+{
+  "evidence_label": "exact signed-permutation moments on complete deterministic translation-subspace orbit matrices with every physical mask; optimized nuclear norms are floating lower witnesses and orbit-restricted tangents, not full arbitrary-law certificates",
+  "result": {
+    "dimension": 64,
+    "maximum_optimized_lower": 6.0179693944757405e-05,
+    "maximum_tangent_upper_on_orbit": 6.017969394475745e-05,
+    "order": 8,
+    "rows": [
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 4.783163265306122e-06,
+        "exact_nonzero_entries": 192,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 4.783163265306123e-06,
+        "profile": [
+          1,
+          1,
+          7,
+          3
+        ],
+        "selected_trial": 2,
+        "split": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "tangent_upper_on_orbit": 4.7831632653061264e-06,
+        "uniform_nuclear_lower": 4.783163265306123e-06
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 3,
+        "exact_maximum_absolute_entry": 1.265387107223842e-07,
+        "exact_nonzero_entries": 256,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 1.2653871072238416e-07,
+        "profile": [
+          1,
+          7,
+          1,
+          3
+        ],
+        "selected_trial": 0,
+        "split": [
+          0,
+          4,
+          1,
+          1
+        ],
+        "tangent_upper_on_orbit": 1.2653871072238432e-07,
+        "uniform_nuclear_lower": 1.2653871072238416e-07
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 9,
+        "exact_maximum_absolute_entry": 5.580357142857143e-05,
+        "exact_nonzero_entries": 960,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 6.0179693944757405e-05,
+        "profile": [
+          3,
+          1,
+          1,
+          7
+        ],
+        "selected_trial": 1,
+        "split": [
+          1,
+          0,
+          0,
+          5
+        ],
+        "tangent_upper_on_orbit": 6.017969394475745e-05,
+        "uniform_nuclear_lower": 6.01796939447574e-05
+      },
+      {
+        "class_name": "universal_septimic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 1.328656462585034e-05,
+        "exact_nonzero_entries": 192,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 1.4615221088435372e-05,
+        "profile": [
+          3,
+          1,
+          1,
+          7
+        ],
+        "selected_trial": 0,
+        "split": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "tangent_upper_on_orbit": 1.4615221088435386e-05,
+        "uniform_nuclear_lower": 1.4615221088435372e-05
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 1.8980806608357628e-06,
+        "exact_nonzero_entries": 2304,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 5.748322467791223e-06,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "selected_trial": 2,
+        "split": [
+          1,
+          3,
+          0,
+          2
+        ],
+        "tangent_upper_on_orbit": 5.748322467791226e-06,
+        "uniform_nuclear_lower": 5.748322467791223e-06
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 2.657312925170068e-06,
+        "exact_nonzero_entries": 1664,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 7.0652133814501504e-06,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "tangent_upper_on_orbit": 7.065213381450156e-06,
+        "uniform_nuclear_lower": 7.06521338145015e-06
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 5,
+        "exact_maximum_absolute_entry": 1.5943877551020409e-06,
+        "exact_nonzero_entries": 384,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 1.6898314208964314e-06,
+        "profile": [
+          1,
+          1,
+          9,
+          1
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          0,
+          5,
+          1
+        ],
+        "tangent_upper_on_orbit": 1.6898314208964327e-06,
+        "uniform_nuclear_lower": 1.6898314208964314e-06
+      },
+      {
+        "class_name": "universal_noncubic",
+        "distinct_column_configurations": 64,
+        "distinct_row_configurations": 64,
+        "exact_distinct_values": 7,
+        "exact_maximum_absolute_entry": 7.971938775510205e-06,
+        "exact_nonzero_entries": 1792,
+        "group_dimension": 6,
+        "group_elements": 64,
+        "optimized_nuclear_lower": 1.0583733795353851e-05,
+        "profile": [
+          1,
+          1,
+          9,
+          1
+        ],
+        "selected_trial": 1,
+        "split": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "tangent_upper_on_orbit": 1.0583733795353863e-05,
+        "uniform_nuclear_lower": 1.0583733795353855e-05
+      }
+    ],
+    "subspace_dimension": 6,
+    "templates_above_one": 0,
+    "templates_available": 97,
+    "templates_screened": 8,
+    "trials_per_template": 3
+  },
+  "schema": "round4_masked_translation_subspace_screen_v1"
+}

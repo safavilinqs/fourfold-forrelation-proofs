@@ -1,0 +1,695 @@
+{
+  "M": 4096,
+  "N": 1024,
+  "completion_missing": [
+    "848 arbitrary-law balanced-entry upper bounds",
+    "outward-rounded interval Perron certificate",
+    "adaptive posterior-selection lift",
+    "experimental feasibility assessment"
+  ],
+  "counts": {
+    "balanced_entries": 888,
+    "local_slice_substitutions": 4,
+    "off_face_generic_certified_at_1_over_q": 1138,
+    "open_profile_splits": 6016,
+    "physical_lower_witness_substitutions": 8,
+    "proved_arbitrary_upper_entries": 40,
+    "provisional_common_target_entries": 836,
+    "unresolved_entries": 848,
+    "unresolved_orbits": 224
+  },
+  "impact_frontier": {
+    "leading_16_orbits_fraction": 0.5106569282419973,
+    "leading_51_orbits_fraction": 0.9054673281988463,
+    "leading_orbit_fraction": 0.13626448896970556,
+    "orbits_reaching_50_percent": 16,
+    "orbits_reaching_90_percent": 51,
+    "total_unresolved_perron_contribution": 0.03117337277073984
+  },
+  "label": "diagnostic_routing_ledger_not_passive_lower_bound",
+  "q": 32,
+  "theorem_families": [
+    {
+      "coefficient": 0.09347527457750368,
+      "entries": [
+        [
+          [
+            3,
+            1,
+            1,
+            5
+          ],
+          [
+            0,
+            1,
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            3,
+            1,
+            1,
+            5
+          ],
+          [
+            3,
+            0,
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            5,
+            1,
+            1,
+            3
+          ],
+          [
+            1,
+            1,
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            5,
+            1,
+            1,
+            3
+          ],
+          [
+            4,
+            0,
+            1,
+            0
+          ]
+        ]
+      ],
+      "name": "leading_disjointness",
+      "source": "../open_problem_forr4_passive_floor_consolidation_round_3/notes/leading_balanced_disjointness_contraction.md"
+    },
+    {
+      "coefficient": 0.016272469279635413,
+      "entries": [
+        [
+          [
+            1,
+            1,
+            3,
+            5
+          ],
+          [
+            0,
+            0,
+            1,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            3,
+            5
+          ],
+          [
+            1,
+            1,
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            5,
+            3,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            5,
+            3,
+            1,
+            1
+          ],
+          [
+            4,
+            1,
+            0,
+            0
+          ]
+        ]
+      ],
+      "name": "adjacent_cubic_slice",
+      "source": "../open_problem_forr4_passive_floor_consolidation_round_3/notes/adjacent_balanced_cubic_slice_contraction.md"
+    },
+    {
+      "coefficient": 0.1737428008469535,
+      "entries": [
+        [
+          [
+            3,
+            1,
+            1,
+            5
+          ],
+          [
+            1,
+            0,
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            3,
+            1,
+            1,
+            5
+          ],
+          [
+            2,
+            1,
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            5,
+            1,
+            1,
+            3
+          ],
+          [
+            1,
+            1,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            5,
+            1,
+            1,
+            3
+          ],
+          [
+            4,
+            0,
+            0,
+            1
+          ]
+        ]
+      ],
+      "name": "separated_endpoint_slice",
+      "source": "../open_problem_forr4_passive_floor_consolidation_round_3/notes/separated_balanced_endpoint_slice_contraction.md"
+    },
+    {
+      "coefficient": 0.02509674611853515,
+      "entries": [
+        [
+          [
+            3,
+            1,
+            1,
+            5
+          ],
+          [
+            1,
+            1,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            3,
+            1,
+            1,
+            5
+          ],
+          [
+            2,
+            0,
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            5,
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            1,
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            5,
+            1,
+            1,
+            3
+          ],
+          [
+            3,
+            0,
+            0,
+            2
+          ]
+        ]
+      ],
+      "name": "internal_singleton_shared_law",
+      "source": "../open_problem_forr4_passive_floor_consolidation_round_3/notes/internal_singleton_shared_law_contraction.md"
+    },
+    {
+      "coefficient": 0.031188905122404905,
+      "entries": [
+        [
+          [
+            3,
+            1,
+            1,
+            5
+          ],
+          [
+            0,
+            0,
+            1,
+            4
+          ]
+        ],
+        [
+          [
+            3,
+            1,
+            1,
+            5
+          ],
+          [
+            3,
+            1,
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            5,
+            1,
+            1,
+            3
+          ],
+          [
+            1,
+            0,
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            5,
+            1,
+            1,
+            3
+          ],
+          [
+            4,
+            1,
+            0,
+            0
+          ]
+        ]
+      ],
+      "name": "column_cubic_quintic_row",
+      "source": "../open_problem_forr4_passive_floor_consolidation_round_3/notes/column_cubic_quintic_row_contraction.md"
+    },
+    {
+      "coefficient": 0.042241001624907494,
+      "entries": [
+        [
+          [
+            1,
+            1,
+            3,
+            5
+          ],
+          [
+            0,
+            1,
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            3,
+            5
+          ],
+          [
+            1,
+            0,
+            2,
+            2
+          ]
+        ],
+        [
+          [
+            5,
+            3,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            5,
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            1,
+            0
+          ]
+        ]
+      ],
+      "name": "adjacent_balanced_row",
+      "source": "../open_problem_forr4_passive_floor_consolidation_round_3/notes/adjacent_balanced_row_slice_contraction.md"
+    },
+    {
+      "coefficient": 0.037095279315720764,
+      "entries": [
+        [
+          [
+            3,
+            1,
+            1,
+            5
+          ],
+          [
+            0,
+            1,
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            3,
+            1,
+            1,
+            5
+          ],
+          [
+            3,
+            0,
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            5,
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            0,
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            5,
+            1,
+            1,
+            3
+          ],
+          [
+            3,
+            1,
+            1,
+            0
+          ]
+        ]
+      ],
+      "name": "whole_cubic_quintic_triple",
+      "source": "../open_problem_forr4_passive_floor_consolidation_round_3/notes/whole_cubic_quintic_triple_contraction.md"
+    },
+    {
+      "coefficient": 0.02852815229229594,
+      "entries": [
+        [
+          [
+            1,
+            3,
+            5,
+            1
+          ],
+          [
+            0,
+            2,
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            3,
+            5,
+            1
+          ],
+          [
+            1,
+            1,
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            5,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            5,
+            3,
+            1
+          ],
+          [
+            1,
+            2,
+            2,
+            0
+          ]
+        ]
+      ],
+      "name": "middle_cubic_quintic_pair",
+      "source": "../open_problem_forr4_passive_floor_consolidation_round_3/notes/middle_cubic_quintic_pair_contraction.md"
+    },
+    {
+      "coefficient": 0.025091947154681882,
+      "entries": [
+        [
+          [
+            1,
+            1,
+            3,
+            5
+          ],
+          [
+            0,
+            0,
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            3,
+            5
+          ],
+          [
+            1,
+            1,
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            5,
+            3,
+            1,
+            1
+          ],
+          [
+            2,
+            3,
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            5,
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            0,
+            1,
+            1
+          ]
+        ]
+      ],
+      "name": "whole_cubic_middle_pair",
+      "source": "../open_problem_forr4_passive_floor_consolidation_round_3/notes/whole_cubic_middle_pair_contraction.md"
+    },
+    {
+      "coefficient": 0.04624259624455661,
+      "entries": [
+        [
+          [
+            1,
+            3,
+            5,
+            1
+          ],
+          [
+            0,
+            2,
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            3,
+            5,
+            1
+          ],
+          [
+            1,
+            1,
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            5,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            5,
+            3,
+            1
+          ],
+          [
+            1,
+            2,
+            1,
+            1
+          ]
+        ]
+      ],
+      "name": "double_endpoint_cubic_quintic_row",
+      "source": "../open_problem_forr4_passive_floor_consolidation_round_3/notes/double_endpoint_cubic_quintic_row_contraction.md"
+    }
+  ],
+  "top_provisional_gate": 0.037925120423408114,
+  "top_provisional_orbit": {
+    "coefficient_max": 0.03125,
+    "coefficient_min": 0.03125,
+    "entries": "[[[1,1,5,3],[0,1,3,1]],[[1,1,5,3],[1,0,2,2]],[[3,5,1,1],[1,3,1,0]],[[3,5,1,1],[2,2,0,1]]]",
+    "perron_contribution": 0.0009368594070349799,
+    "perron_sensitivity": 0.029979501025119357,
+    "profile_reversal_family": "[1,1,5,3]",
+    "size": 4,
+    "statuses": "provisional_common_1_over_q_target"
+  },
+  "top_unresolved_gate": 0.04146231829651464,
+  "top_unresolved_orbit": {
+    "coefficient_max": 0.039593955294628,
+    "coefficient_min": 0.039593955294628,
+    "entries": "[[[3,1,1,5],[1,1,0,3]],[[3,1,1,5],[2,0,1,2]],[[5,1,1,3],[2,1,0,2]],[[5,1,1,3],[3,0,1,1]]]",
+    "perron_contribution": 0.004247823710066999,
+    "perron_sensitivity": 0.10728465187319468,
+    "profile_reversal_family": "[3,1,1,5]",
+    "size": 4,
+    "statuses": "physical_lower_witness_substitution"
+  },
+  "totals": {
+    "coarse_before_ten_total": 0.322669154028236,
+    "degree_eight_total": 0.24822474955141058,
+    "known_high_total": 0.27975854691941393,
+    "ten_theorem_beta": 0.7793153476793792,
+    "ten_theorem_margin": 0.0002007278478451946,
+    "ten_theorem_perron_upper": 0.3115731482204116,
+    "ten_theorem_promise_loss": 0.021559457265076503,
+    "ten_theorem_total": 0.3331326054854881
+  }
+}

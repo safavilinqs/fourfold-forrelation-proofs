@@ -1,0 +1,24 @@
+{
+  "evidence_label": "exact signed-permutation moments with floating eigendecomposition; compatible physical lower-witness diagnostic, not theorem bound",
+  "result": {
+    "activated_entries": 6,
+    "activated_orbits": 6,
+    "attenuated_cancellation_ratio": 0.9425331978843562,
+    "attenuated_joint_nuclear": 4.518664344625811e-13,
+    "attenuated_separate_nuclear": 4.794169961088444e-13,
+    "basis_dimension": 960,
+    "beta": 0.7793153476793792,
+    "current_frontier_perron_contribution": 0.028226470553668472,
+    "matching_pairs": 50112,
+    "nonzero_pairs": 1984,
+    "occupation_states": 30,
+    "order": 32,
+    "relevant_occupation_edges": 67,
+    "searched_trials": 9,
+    "selected_trial": 8,
+    "separate_to_current_frontier_ratio": 1.6984659672462544e-11,
+    "translation_orbit_size": 32
+  },
+  "schema": "round4_shared_frontier_row_orbit_v1",
+  "selection_rule": "maximize exact-nonzero orbits, then exact-nonzero entries, then absolute exact moment sum, then nonzero pairs"
+}

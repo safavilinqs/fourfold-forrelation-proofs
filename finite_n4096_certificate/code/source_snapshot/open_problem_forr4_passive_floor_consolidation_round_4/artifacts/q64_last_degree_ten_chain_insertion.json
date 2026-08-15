@@ -1,0 +1,45 @@
+{
+  "evidence_label": "arbitrary-diagonal whole-chain Schur contraction using a completed cubic endpoint plus a fixed-singleton/pair distinctness factor, the transposed completed quintic endpoint bound, and an exact 1/q Walsh-chain collapse; floating q64 Perron insertion; one batch only",
+  "remaining_open": "564 balanced entries, including 104 degree-twelve split-cubic/split-quintic entries, plus interval certification and the adaptive lift",
+  "result": {
+    "closed_entries": 4,
+    "closed_orbits": 1,
+    "coefficient": 0.09103121815208583,
+    "cubic_distinctness_factor": 2.413207370108021,
+    "dimension": 4096,
+    "last_degree_ten_inserted": {
+      "beta": 0.7461529246322275,
+      "margin_to_one_third": 0.008567006380003017,
+      "perron_upper": 0.3077302268911228,
+      "promise_loss": 0.017036100062207536,
+      "total": 0.3247663269533303
+    },
+    "order": 64,
+    "previous_proved_entries": 320,
+    "previous_routing": {
+      "beta": 0.7461469557307886,
+      "margin_to_one_third": 0.008049353725832264,
+      "perron_upper": 0.3082235000172111,
+      "promise_loss": 0.017060479590289935,
+      "total": 0.32528397960750105
+    },
+    "proxy_reserve_after_declared_allowance": 0.007295720402775042,
+    "quintic_completion_factor": 2.414213562373095,
+    "remaining_balanced_entries": 32,
+    "remaining_extreme_entries": 72,
+    "remaining_open_entries": 564,
+    "remaining_quintic_entries": 104,
+    "remaining_quintic_local_proxy": {
+      "beta": 0.7461486171694229,
+      "margin_to_one_third": 0.008295720402775042,
+      "perron_upper": 0.30798392273903374,
+      "promise_loss": 0.017053690191524504,
+      "total": 0.3250376129305583
+    },
+    "routing_margin_improvement": 0.0005176526541707527,
+    "sign_modes": 16384,
+    "total_proved_entries": 324,
+    "walsh_chain_factor": 0.015625
+  },
+  "schema": "round4_q64_last_degree_ten_chain_insertion_v1"
+}

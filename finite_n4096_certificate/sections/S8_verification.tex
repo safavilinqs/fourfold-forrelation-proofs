@@ -1,0 +1,32 @@
+\section{Verification}
+\label{sec:verification}
+
+\subsection{Source package}
+
+The paper package contains frozen copies of the complete Round-2, Round-3, and Round-4 source trees under \path{code/source_snapshot/}. The relative directory names are preserved because the Round-4 suite imports certified functions and runs inherited regressions from the preceding rounds. The full source snapshot contains the physical coefficient searches, independent small-order audits, committed artifacts, registry reconstruction, outward ledger, adaptive theorem tests, active protocol checks, and adversarial tests that rejected earlier incomplete proof routes.
+
+\subsection{Focused verification}
+
+The focused command
+
+\begin{verbatim}
+cd code
+./run_all.sh
+\end{verbatim}
+
+runs the paper contract and the theorem-critical Round-4 tests for the active resource row, active robustness threshold, complete outward ledger, adaptive tree frontier, experimental feasibility arithmetic, and paper closeout package. Each artifact is reconstructed in memory and byte-compared with its committed JSON representation when the corresponding source test provides that contract.
+
+\subsection{Complete verification}
+
+The command
+
+\begin{verbatim}
+cd code
+./run_all.sh --full
+\end{verbatim}
+
+runs \path{run_round4_checks.sh} from the frozen snapshot, which first executes every inherited Round-2 and Round-3 regression and then executes the complete Round-4 suite. The accepted run terminates with the registry count 888/888, adaptive frontier multiplier one, passive hard dose six excluded at $N=4096$, paper package complete, and current-platform experimental credibility not certified.
+
+\subsection{Independent checks}
+
+The source history contains explicit counterexamples to superseded inequalities, exact $q=4$ enumeration, selected direct $q=8$ signed-permutation sums, arbitrary nonuniform diagonal-law tests, reversal and complement checks, rare-outcome adaptive tests, and independent physical-matrix reconstructions. Passing an inventory or routing regression is not treated as proof of a physical coefficient; only entries with accepted mathematical notes and the appropriate independent validations enter the dependency-exact registry.

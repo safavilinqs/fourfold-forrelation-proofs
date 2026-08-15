@@ -1,0 +1,88 @@
+\section{The normalized adaptive factorization}
+\label{app:adaptive}
+
+\subsection{Signed transcript functional}
+
+Let $P_+$ and $P_-$ be the unconditioned hard-instance transcript laws of a fixed finite passive tree. Total variation is the supremum of the signed terminal functional over weights $h_\tau\in[-1,1]$, with the conventional factor $1/2$. Fix one collection of terminal weights. A number-sector-incoherent mixed probe may be spectrally decomposed into pure states, each supported in a fixed total signal-number sector. By convexity, revealing this decomposition label to the controller can only enlarge the class being bounded. Randomized controllers are handled by the same classical refinement.
+
+Index a complete temporal ket history by $I$ and a complete temporal bra history by $J$. The history includes every batch occupation and all classical choices determined by previous outcomes. Remove the oracle characters from the signed terminal expansion and call the remaining coefficient $D(I,J)$.
+
+\subsection{Induction}
+
+At a leaf, $D=h_\tau$ has the scalar factorization
+
+\begin{equation}
+h_\tau=\langle v,u\rangle,
+\qquad
+\|u\|^2\le1,
+\quad
+\|v\|^2\le1.
+\end{equation}
+
+Assume every child subtree selected by a root outcome $y$ has
+
+\begin{align}
+D_y(I,J)&=\langle v_{y,J},u_{y,I}\rangle,
+\\
+\sum_I\|u_{y,I}\|^2&\le1,
+&
+\sum_J\|v_{y,J}\|^2&\le1.
+\label{eq:app-child}
+\end{align}
+
+Conditional on the refined label, for a pure fixed-number root probe write
+
+\begin{equation}
+\ket{\psi}=\sum_i\ket{i}\ket{\alpha_i},
+\qquad
+\sum_i\|\alpha_i\|^2=1.
+\end{equation}
+
+Every occupied $i$ in this sum has the same total signal photon number. The complete features take an additional orthogonal direct sum over the refined classical labels.
+
+With root POVM $\{E_y\}_y$, let $a_{y,i}=E_y^{1/2}(\ket{i}\ket{\alpha_i})$. The complete coefficient is
+
+\begin{equation}
+D((i,I),(j,J))
+=\sum_y
+\langle a_{y,j},a_{y,i}\rangle
+\langle v_{y,J},u_{y,I}\rangle.
+\label{eq:app-coefficient}
+\end{equation}
+
+The features in Eq.~\eqref{eq:adaptive-direct-sum} reproduce Eq.~\eqref{eq:app-coefficient}. Their row mass satisfies
+
+\begin{align}
+\sum_{i,I}\|U_{i,I}\|^2
+&=\sum_y
+\left(\sum_i\|a_{y,i}\|^2\right)
+\left(\sum_I\|u_{y,I}\|^2\right)
+\\
+&\le\sum_{y,i}\|a_{y,i}\|^2
+=\sum_i\|\alpha_i\|^2
+=1.
+\end{align}
+
+The column calculation is identical. This proves Eq.~\eqref{eq:adaptive-invariant} by induction. General outcome spaces follow by finite coarse graining or by the corresponding direct-integral statement.
+
+\subsection{Combination with physical kernels}
+
+Orthogonality of the refined labels makes the temporal cross-Gram coefficient vanish unless the ket and bra have equal total signal photon number in every batch. Hence every surviving aggregate pair satisfies $|f(I)|=|f(J)|$ and uses a balanced occurrence split. Let $K_{s,t}$ be one accepted balanced physical occurrence kernel with a Hilbert factorization $K_{s,t}=\langle b_t,c_s\rangle$ and arbitrary-diagonal coefficient $c_{a,t}$. The adaptive expansion pulls this kernel back through aggregate histories as $K_{f(I),f(J)}$. Tensoring the physical factors with the normalized temporal features gives
+
+\begin{equation}
+K_{f(I),f(J)}D(I,J)
+=\left\langle
+b_{f(J)}\otimes V_J,
+c_{f(I)}\otimes U_I
+\right\rangle.
+\end{equation}
+
+The temporal factor therefore acts as one contractive cross-Gram symbol. Its row and column squared masses define two correlated laws of total mass at most one. The arbitrary-law coefficient scope established by the physical theorems applies directly.
+
+After pushing the two laws to the four-block occupation states, the complete sum is $x^TBy$ with $\|x\|_2,\|y\|_2\le1$. Symmetry and nonnegativity of $B$ give
+
+\begin{equation}
+x^TBy\le\|B\|_{2\to2}=\rho(B).
+\end{equation}
+
+No common-law assumption and no temporal multiplier are introduced. Conditioning the completed unconditioned laws then gives the total in Eq.~\eqref{eq:statement-total}. If fresh probes have coherence between different total signal-number sectors, the equal-total reduction fails and the unbalanced physical kernels remain an open obligation.

@@ -1,0 +1,13424 @@
+{
+  "decision": "the written unmasked cross-Gram proof is invalid; the three q2 cubic representatives survive coefficient one, but the universal statement remains unnecessary: all 354 affected q64 entries now have independent actual-mask proofs, and the later eighty-entry residual inventory is also closed",
+  "evidence_label": "dependency-exact audit of 354 coefficient-one entries, with 354 actual-mask repairs, including 54 quintic-slice, 180 local-Walsh, 12 cubic-endpoint, and 6 double-quintic endpoint entries, twelve double-quintic record entries, plus 38 four-cubic incidence, twelve cubic-septimic chain, twenty-eight recovered cubic-quintic endpoint-row entries, and twelve joint shared-quintic chain entries; the old independent-maxima proof remains rejected, while the replacement theorem retains all fifteen feasible physical quintic shape pairs; the separate final-residual theorem proves all eighty later entries with forty-eight local-Walsh and thirty-two complete-chain entries; the twelve formerly caveated dual-endpoint entries have an independent endpoint-slice and completed-link Gram audit; three full q2 signed-permutation occurrence matrices include every cross-cut distinctness mask exactly; their tangent bounds are numerical concavity-tangent screens at q2 only; they are not interval certificates; the generic mask-factor repair is rigorous but fails the q64 routing ledger",
+  "result": {
+    "abstract_mask_counterexample_dimension": 4,
+    "abstract_mask_counterexample_value": 1.5,
+    "affected_entries": 354,
+    "complete_floating_routing": {
+      "beta": 0.7476369381698699,
+      "margin_to_one_third": 0.0934216655631033,
+      "perron_upper": 0.22799974096970718,
+      "promise_loss": 0.011911926800522834,
+      "total": 0.23991166777023
+    },
+    "conservative_open_entries": 0,
+    "conservative_supported_entries": 888,
+    "dual_endpoint_caveat_entries": 0,
+    "dual_endpoint_certified_entries": 12,
+    "final_residual_chain_repaired_entries": 80,
+    "generic_mask_maximum_coefficient": 33.970562748477136,
+    "generic_mask_minimum_coefficient": 3.0,
+    "generic_mask_repaired_routing": {
+      "beta": 0.7305877363129128,
+      "margin_to_one_third": -3.070107788716967,
+      "perron_upper": 3.051974558841473,
+      "promise_loss": 0.3514665632088273,
+      "total": 3.4034411220503005
+    },
+    "masked_cubic_endpoint_repaired_entries": 12,
+    "masked_cubic_septimic_chain_repaired_entries": 12,
+    "masked_double_quintic_endpoint_repaired_entries": 6,
+    "masked_double_quintic_record_repaired_entries": 12,
+    "masked_four_cubic_incidence_repaired_entries": 38,
+    "masked_joint_recovered_cubic_quintic_repaired_entries": 12,
+    "masked_local_walsh_repaired_entries": 180,
+    "masked_quintic_slice_repaired_entries": 54,
+    "masked_recovered_cubic_quintic_incidence_repaired_entries": 28,
+    "open_entries_before_dual_caveat": 0,
+    "q2_rows": [
+      {
+        "column_gradient_spread": 2.7755575615628914e-16,
+        "columns": 96,
+        "nonzero_entries": 2304,
+        "row_gradient_spread": 2.498001805406602e-16,
+        "rows": 96,
+        "scaled_entry_denominator": 8,
+        "split": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "split_cubic_blocks": 2,
+        "uniform_supporting_upper": 0.416666666766667,
+        "uniform_weighted_nuclear": 0.41666666666666663
+      },
+      {
+        "column_gradient_spread": 0.11618969472620319,
+        "columns": 216,
+        "nonzero_entries": 6912,
+        "row_gradient_spread": 2.7755575615628914e-16,
+        "rows": 256,
+        "scaled_entry_denominator": 8,
+        "split": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "split_cubic_blocks": 3,
+        "uniform_supporting_upper": 0.5843669705203611,
+        "uniform_weighted_nuclear": 0.5192148880023929
+      },
+      {
+        "column_gradient_spread": 0.05238104980172131,
+        "columns": 576,
+        "nonzero_entries": 20736,
+        "row_gradient_spread": 0.05238104980172115,
+        "rows": 576,
+        "scaled_entry_denominator": 8,
+        "split": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "split_cubic_blocks": 4,
+        "uniform_supporting_upper": 0.6804748216924796,
+        "uniform_weighted_nuclear": 0.6106334218568518
+      }
+    ],
+    "recovered_universal_entries": 96,
+    "remaining_quarantined_entries": 0,
+    "supported_entries_before_dual_caveat": 888,
+    "total_masked_repaired_entries": 354,
+    "universal_double_cubic_entries": 24,
+    "universal_multicubic_entries": 14,
+    "universal_noncubic_entries": 124,
+    "universal_septimic_entries": 96
+  },
+  "schema": "round4_q64_masked_universal_audit_v15",
+  "theorem_registry": [
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        0,
+        0,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        0,
+        1,
+        4
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        0,
+        2,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        0,
+        3,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        0,
+        4
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        2,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        0,
+        4
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        2,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        3,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "split": [
+        0,
+        0,
+        0,
+        6
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "split": [
+        0,
+        0,
+        1,
+        5
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "split": [
+        0,
+        0,
+        2,
+        4
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "split": [
+        0,
+        0,
+        3,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "split": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "split": [
+        0,
+        1,
+        1,
+        4
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "split": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "split": [
+        1,
+        0,
+        0,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "split": [
+        1,
+        0,
+        1,
+        4
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "split": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "split": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "split": [
+        1,
+        1,
+        0,
+        4
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "split": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        0,
+        2,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        0,
+        3,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        0,
+        4,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        0,
+        5,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        2,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        4,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        1,
+        3
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        2,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        4,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        0,
+        0,
+        1,
+        5
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        0,
+        0,
+        2,
+        4
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        0,
+        0,
+        3,
+        3
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        0,
+        0,
+        4,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        0,
+        0,
+        5,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        1,
+        4
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        4,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        5,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        0,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        1,
+        4
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        4,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        5,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        0,
+        4
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        4,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        0,
+        0,
+        4,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        0,
+        0,
+        5,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        4,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        4,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "split": [
+        0,
+        0,
+        3,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "split": [
+        0,
+        0,
+        4,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "split": [
+        0,
+        0,
+        5,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "split": [
+        0,
+        0,
+        6,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        4,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        5,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        4,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        5,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        4,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        9,
+        1
+      ],
+      "split": [
+        0,
+        0,
+        5,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        9,
+        1
+      ],
+      "split": [
+        0,
+        0,
+        6,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        9,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        4,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        9,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        5,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        9,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        4,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        9,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        5,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        9,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        1,
+        9,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        4,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "split": [
+        0,
+        0,
+        0,
+        6
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "split": [
+        0,
+        0,
+        1,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "split": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "split": [
+        0,
+        1,
+        1,
+        4
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "split": [
+        0,
+        2,
+        0,
+        4
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "split": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "split": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "split": [
+        1,
+        0,
+        0,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "split": [
+        1,
+        0,
+        1,
+        4
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "split": [
+        1,
+        1,
+        0,
+        4
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "split": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "split": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "split": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        0,
+        1,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        0,
+        2,
+        4
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        0,
+        3,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        1,
+        4
+      ],
+      "status": "proved_masked_cubic_endpoint"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        2,
+        0,
+        4
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        2,
+        2,
+        2
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        0,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        1,
+        4
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        0,
+        4
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "status": "proved_masked_cubic_endpoint"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        0,
+        4,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        0,
+        5,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        4,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        2,
+        2,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        2,
+        3,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        2,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        3,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        4,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        2,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        0,
+        3,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        0,
+        4,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        0,
+        5,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "status": "proved_masked_joint_recovered_cubic_quintic"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        4,
+        1
+      ],
+      "status": "proved_masked_cubic_endpoint"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        5,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        2,
+        2,
+        2
+      ],
+      "status": "proved_masked_joint_recovered_cubic_quintic"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "status": "proved_masked_joint_recovered_cubic_quintic"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        2,
+        4,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        4,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        5,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "status": "proved_masked_joint_recovered_cubic_quintic"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_masked_joint_recovered_cubic_quintic"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        4,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "status": "proved_masked_cubic_endpoint"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "status": "proved_masked_joint_recovered_cubic_quintic"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "split": [
+        0,
+        0,
+        5,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "split": [
+        0,
+        0,
+        6,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        4,
+        1
+      ],
+      "status": "proved_masked_cubic_septimic_chain"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        5,
+        0
+      ],
+      "status": "proved_masked_cubic_endpoint"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "split": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "status": "proved_masked_cubic_septimic_chain"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "split": [
+        0,
+        2,
+        4,
+        0
+      ],
+      "status": "proved_masked_cubic_septimic_chain"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        4,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        5,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_masked_cubic_septimic_chain"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        4,
+        0
+      ],
+      "status": "proved_masked_cubic_septimic_chain"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "status": "proved_masked_cubic_endpoint"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "status": "proved_masked_cubic_septimic_chain"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        0,
+        1,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        1,
+        4
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        2,
+        0,
+        4
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        4,
+        0,
+        2
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        4,
+        1,
+        1
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        5,
+        0,
+        1
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        5,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        0,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        1,
+        4
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        0,
+        4
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        4,
+        0,
+        1
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        4,
+        1,
+        0
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        5,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        2,
+        2,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        2,
+        3,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        2,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        0,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        5,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        2,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        0,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        4,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        0,
+        3,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        2,
+        2,
+        2
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        4,
+        0,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        4,
+        1,
+        1
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        4,
+        2,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        5,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        5,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        4,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        4,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        5,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        0,
+        5,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        4,
+        1
+      ],
+      "status": "proved_masked_double_quintic_endpoint"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        5,
+        0
+      ],
+      "status": "proved_masked_double_quintic_endpoint"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "status": "proved_masked_double_quintic_record"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        2,
+        4,
+        0
+      ],
+      "status": "proved_masked_double_quintic_record"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "status": "proved_masked_double_quintic_record"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "status": "proved_masked_double_quintic_record"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        1,
+        1
+      ],
+      "status": "proved_masked_double_quintic_record"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        2,
+        0
+      ],
+      "status": "proved_masked_double_quintic_record"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        5,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        5,
+        1,
+        0
+      ],
+      "status": "proved_masked_double_quintic_endpoint"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        4,
+        1
+      ],
+      "status": "proved_masked_double_quintic_endpoint"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        5,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_masked_double_quintic_record"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        4,
+        0
+      ],
+      "status": "proved_masked_double_quintic_record"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "status": "proved_masked_double_quintic_record"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "status": "proved_masked_double_quintic_record"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_masked_double_quintic_record"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "status": "proved_masked_double_quintic_record"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        4,
+        0,
+        1
+      ],
+      "status": "proved_masked_double_quintic_endpoint"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        4,
+        1,
+        0
+      ],
+      "status": "proved_masked_double_quintic_endpoint"
+    },
+    {
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        5,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        5,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        4,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        4,
+        0,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        4,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        5,
+        0,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        5,
+        1,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        6,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        4,
+        0,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        4,
+        1,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        5,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "status": "proved_masked_cubic_septimic_chain"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        1,
+        1
+      ],
+      "status": "proved_masked_cubic_septimic_chain"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        2,
+        0
+      ],
+      "status": "proved_masked_cubic_septimic_chain"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        5,
+        0,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        5,
+        1,
+        0
+      ],
+      "status": "proved_masked_cubic_endpoint"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        6,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "status": "proved_masked_cubic_endpoint"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_masked_cubic_septimic_chain"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "status": "proved_masked_cubic_septimic_chain"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        4,
+        0,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        4,
+        1,
+        0
+      ],
+      "status": "proved_masked_cubic_septimic_chain"
+    },
+    {
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        5,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        1,
+        9,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        9,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        5,
+        0,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        9,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        5,
+        1,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        9,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        6,
+        0,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        9,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        9,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        4,
+        0,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        9,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        4,
+        1,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        1,
+        9,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        5,
+        0,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        0,
+        0,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        0,
+        1,
+        4
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        0,
+        4
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        0,
+        4
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        1,
+        3
+      ],
+      "status": "proved_dual_endpoint_schur"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        0,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        0,
+        1,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        1,
+        0,
+        2
+      ],
+      "status": "proved_dual_endpoint_schur"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        0,
+        0,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        0,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        1,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "split": [
+        0,
+        0,
+        0,
+        6
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "split": [
+        0,
+        0,
+        1,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "split": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "split": [
+        0,
+        1,
+        1,
+        4
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "split": [
+        1,
+        0,
+        0,
+        5
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "split": [
+        1,
+        0,
+        1,
+        4
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "split": [
+        1,
+        1,
+        0,
+        4
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "split": [
+        2,
+        0,
+        0,
+        4
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "split": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "split": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "split": [
+        2,
+        1,
+        1,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "split": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "split": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "split": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        0,
+        1,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        0,
+        2,
+        4
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        0,
+        3,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        1,
+        4
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        0,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        1,
+        4
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        0,
+        4
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        2,
+        0,
+        0,
+        4
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        2,
+        0,
+        2,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        2,
+        1,
+        1,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        0,
+        3,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        0,
+        4,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        0,
+        5,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        4,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        5,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "status": "proved_dual_endpoint_schur"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        4,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        5,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        4,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        2,
+        0,
+        2,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        2,
+        0,
+        4,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        1,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "status": "proved_dual_endpoint_schur"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        0,
+        0,
+        5,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        0,
+        0,
+        6,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        4,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        5,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        4,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        5,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        4,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        2,
+        0,
+        4,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        0,
+        1,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        1,
+        4
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        2,
+        0,
+        4
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "status": "proved_dual_endpoint_schur"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        0,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        1,
+        4
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        0,
+        4
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        0,
+        0,
+        4
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        1,
+        1,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        2,
+        0,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "status": "proved_dual_endpoint_schur"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        0,
+        3,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        2,
+        2,
+        2
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        0,
+        2,
+        2
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        1,
+        2
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        2,
+        0,
+        2
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        2,
+        2,
+        0
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "status": "proved_masked_four_cubic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "split": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        0,
+        5,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        4,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        5,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        2,
+        4,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        4,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        5,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        4,
+        0
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        2,
+        0,
+        4,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        2,
+        2,
+        2,
+        0
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        0,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        1,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        5,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        4,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        2,
+        2,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        2,
+        2,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        2,
+        3,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        0,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        2,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "status": "proved_dual_endpoint_schur"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        4,
+        0,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        4,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        5,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        5,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        4,
+        0,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        4,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        5,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        1,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        2,
+        0,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        4,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "status": "proved_dual_endpoint_schur"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        2,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        5,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        5,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "status": "proved_masked_joint_recovered_cubic_quintic"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_masked_joint_recovered_cubic_quintic"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "status": "proved_masked_joint_recovered_cubic_quintic"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        4,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        4,
+        1,
+        0
+      ],
+      "status": "proved_masked_cubic_endpoint"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        5,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "status": "proved_masked_cubic_endpoint"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "status": "proved_masked_joint_recovered_cubic_quintic"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        2,
+        2,
+        2,
+        0
+      ],
+      "status": "proved_masked_joint_recovered_cubic_quintic"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "status": "proved_masked_joint_recovered_cubic_quintic"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        2,
+        4,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        5,
+        0,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        5,
+        1,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        6,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        4,
+        0,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        4,
+        1,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        5,
+        0,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        2,
+        4,
+        0,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        3,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        3,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        3,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        0,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        0,
+        1,
+        2
+      ],
+      "status": "proved_dual_endpoint_schur"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        0,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        0,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        1,
+        0,
+        1
+      ],
+      "status": "proved_dual_endpoint_schur"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        4,
+        0,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        4,
+        0,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        4,
+        1,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        5,
+        0,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        0,
+        1,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        1,
+        4
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        0,
+        5
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        1,
+        4
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        0,
+        4
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        0,
+        0,
+        4
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        1,
+        1,
+        2
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        4,
+        0,
+        0,
+        2
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        4,
+        0,
+        1,
+        1
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        4,
+        1,
+        0,
+        1
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        4,
+        1,
+        1,
+        0
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        5,
+        0,
+        0,
+        1
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        5,
+        0,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        5,
+        1,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        0,
+        3,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "status": "proved_dual_endpoint_schur"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        0,
+        2,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        1,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "status": "proved_dual_endpoint_schur"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        4,
+        0,
+        0,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        4,
+        0,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        4,
+        0,
+        2,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        4,
+        1,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        4,
+        1,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        5,
+        0,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        5,
+        0,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        5,
+        1,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        0,
+        5,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        4,
+        1
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        5,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        4,
+        1
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        5,
+        0
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        4,
+        0
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        2,
+        0,
+        4,
+        0
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        4,
+        0,
+        1,
+        1
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        4,
+        0,
+        2,
+        0
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        4,
+        1,
+        0,
+        1
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        4,
+        1,
+        1,
+        0
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        5,
+        0,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        5,
+        0,
+        1,
+        0
+      ],
+      "status": "proved_masked_quintic_slice"
+    },
+    {
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        5,
+        1,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        0,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        2,
+        2,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        2,
+        2,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        2,
+        3,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        2,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        4,
+        0,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        4,
+        0,
+        1,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        4,
+        1,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        5,
+        0,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        1,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        2,
+        0,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        4,
+        0,
+        0,
+        2
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        4,
+        0,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        4,
+        1,
+        0,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        4,
+        1,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        4,
+        2,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        5,
+        0,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        5,
+        0,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "split": [
+        5,
+        1,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "status": "proved_masked_cubic_endpoint"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        2,
+        2,
+        2,
+        0
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "status": "proved_masked_recovered_cubic_quintic_incidence"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        4,
+        0,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        4,
+        0,
+        2,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        4,
+        1,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        4,
+        1,
+        1,
+        0
+      ],
+      "status": "proved_masked_cubic_endpoint"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        4,
+        2,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        5,
+        0,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        5,
+        0,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        5,
+        1,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        5,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        5,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        4,
+        0,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        4,
+        1,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        5,
+        0,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        2,
+        4,
+        0,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        4,
+        0,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        4,
+        1,
+        0,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        4,
+        1,
+        1,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        4,
+        2,
+        0,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        5,
+        0,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        5,
+        0,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        5,
+        1,
+        0,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        1,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        4,
+        0,
+        0,
+        2
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        4,
+        0,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        4,
+        1,
+        0,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        4,
+        1,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        5,
+        0,
+        0,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        5,
+        0,
+        1,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        5,
+        1,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        6,
+        0,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        4,
+        0,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        4,
+        0,
+        2,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        4,
+        1,
+        0,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        4,
+        1,
+        1,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        5,
+        0,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        5,
+        0,
+        1,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        5,
+        1,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        7,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        6,
+        0,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        4,
+        0,
+        1,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        4,
+        1,
+        0,
+        1
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        4,
+        1,
+        1,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        4,
+        2,
+        0,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        5,
+        0,
+        0,
+        1
+      ],
+      "status": "proved_nonuniversal_inherited"
+    },
+    {
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        5,
+        0,
+        1,
+        0
+      ],
+      "status": "proved_final_residual_chain"
+    },
+    {
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        5,
+        1,
+        0,
+        0
+      ],
+      "status": "proved_masked_local_walsh"
+    },
+    {
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        6,
+        0,
+        0,
+        0
+      ],
+      "status": "proved_nonuniversal_inherited"
+    }
+  ]
+}

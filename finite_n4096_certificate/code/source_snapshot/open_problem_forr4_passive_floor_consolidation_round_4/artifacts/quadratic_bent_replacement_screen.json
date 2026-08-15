@@ -1,0 +1,33 @@
+{
+  "beta": 1.0,
+  "common_coefficient_gate": 0.0005298085951150572,
+  "common_gate_times_dimension": 0.5425240013978185,
+  "compatible_by_degree": {
+    "6": 128,
+    "8": 476,
+    "10": 920,
+    "12": 760
+  },
+  "compatible_profile_splits": 2284,
+  "decision": "not_promoted_current_signed_permutation_remains_lead",
+  "degree_only_gates": {
+    "6": 0.0016204016251463356,
+    "8": 0.0013280986879687956,
+    "10": 0.002295000996958223,
+    "12": 0.009676567754345946
+  },
+  "dimension": 1024,
+  "endpoint_to_common_gate_ratio": 3.6936870795794268,
+  "evidence_label": "exact scalar-ledger sensitivity calculation with hypothetical common higher-sector coefficients; replacement screen, not quadratic-bent coefficient theorem",
+  "half_over_dimension_margin": 0.004663098205981431,
+  "half_over_dimension_total": 0.3286702351273519,
+  "known_endpoint_five_one_coefficient": 0.0019569471624266144,
+  "nonminimal_profiles": 69,
+  "one_over_dimension_overshoot": 0.05428555752015296,
+  "one_over_dimension_total": 0.3876188908534863,
+  "optimistic_floor_margin": 0.051821300442344065,
+  "optimistic_zero_higher_floor": 0.28151203289098925,
+  "promise_loss": 0.0,
+  "raw_profile_splits": 7904,
+  "schema": "round4_quadratic_bent_replacement_screen_v1"
+}

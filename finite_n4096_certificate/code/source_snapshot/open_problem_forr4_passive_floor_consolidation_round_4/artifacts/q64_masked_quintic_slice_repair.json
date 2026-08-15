@@ -1,0 +1,948 @@
+{
+  "evidence_label": "arbitrary-correlated-diagonal theorem for the actual masked kernel; exact rational quintic-singleton slices bound complete physical row or column energy, and displayed square-root coefficients are rounded upward",
+  "remaining_open": "306 coefficient-one-dependent entries remain quarantined; adaptive and interval Perron certification remain open",
+  "repaired_registry_entries": [
+    {
+      "outward_coefficient": 0.5082464937387554,
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "squared_coefficient_denominator": 16257024,
+      "squared_coefficient_numerator": 4199425
+    },
+    {
+      "outward_coefficient": 0.5079982658881792,
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        1,
+        4
+      ],
+      "squared_coefficient_denominator": 5549064192,
+      "squared_coefficient_numerator": 1432003925
+    },
+    {
+      "outward_coefficient": 0.6032455670913395,
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        2,
+        0,
+        4
+      ],
+      "squared_coefficient_denominator": 721554505728,
+      "squared_coefficient_numerator": 262577446975
+    },
+    {
+      "outward_coefficient": 0.12311578521998899,
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "squared_coefficient_denominator": 3670705963008,
+      "squared_coefficient_numerator": 55638713045
+    },
+    {
+      "outward_coefficient": 0.6465621221633185,
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "squared_coefficient_denominator": 1894080577536,
+      "squared_coefficient_numerator": 791806327225
+    },
+    {
+      "outward_coefficient": 0.12311578521998899,
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "squared_coefficient_denominator": 3670705963008,
+      "squared_coefficient_numerator": 55638713045
+    },
+    {
+      "outward_coefficient": 0.6032455670913395,
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        4,
+        0,
+        2
+      ],
+      "squared_coefficient_denominator": 721554505728,
+      "squared_coefficient_numerator": 262577446975
+    },
+    {
+      "outward_coefficient": 0.5079982658881792,
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        4,
+        1,
+        1
+      ],
+      "squared_coefficient_denominator": 5549064192,
+      "squared_coefficient_numerator": 1432003925
+    },
+    {
+      "outward_coefficient": 0.5082464937387554,
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        5,
+        0,
+        1
+      ],
+      "squared_coefficient_denominator": 16257024,
+      "squared_coefficient_numerator": 4199425
+    },
+    {
+      "outward_coefficient": 0.5082464937387554,
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        1,
+        4
+      ],
+      "squared_coefficient_denominator": 16257024,
+      "squared_coefficient_numerator": 4199425
+    },
+    {
+      "outward_coefficient": 0.5079982658881792,
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        0,
+        4
+      ],
+      "squared_coefficient_denominator": 5549064192,
+      "squared_coefficient_numerator": 1432003925
+    },
+    {
+      "outward_coefficient": 0.6032455670913395,
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "squared_coefficient_denominator": 721554505728,
+      "squared_coefficient_numerator": 262577446975
+    },
+    {
+      "outward_coefficient": 0.12311578521998899,
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "squared_coefficient_denominator": 3670705963008,
+      "squared_coefficient_numerator": 55638713045
+    },
+    {
+      "outward_coefficient": 0.6465621221633185,
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "squared_coefficient_denominator": 1894080577536,
+      "squared_coefficient_numerator": 791806327225
+    },
+    {
+      "outward_coefficient": 0.12311578521998899,
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "squared_coefficient_denominator": 3670705963008,
+      "squared_coefficient_numerator": 55638713045
+    },
+    {
+      "outward_coefficient": 0.6032455670913395,
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "squared_coefficient_denominator": 721554505728,
+      "squared_coefficient_numerator": 262577446975
+    },
+    {
+      "outward_coefficient": 0.5079982658881792,
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        4,
+        0,
+        1
+      ],
+      "squared_coefficient_denominator": 5549064192,
+      "squared_coefficient_numerator": 1432003925
+    },
+    {
+      "outward_coefficient": 0.5082464937387554,
+      "profile": [
+        1,
+        5,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        4,
+        1,
+        0
+      ],
+      "squared_coefficient_denominator": 16257024,
+      "squared_coefficient_numerator": 4199425
+    },
+    {
+      "outward_coefficient": 0.015617368741913551,
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        1,
+        4
+      ],
+      "squared_coefficient_denominator": 4194304,
+      "squared_coefficient_numerator": 1023
+    },
+    {
+      "outward_coefficient": 0.015617368741913551,
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        0,
+        5
+      ],
+      "squared_coefficient_denominator": 4194304,
+      "squared_coefficient_numerator": 1023
+    },
+    {
+      "outward_coefficient": 0.140625,
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        1,
+        4
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "outward_coefficient": 0.140625,
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        0,
+        4
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "outward_coefficient": 0.6032455670913395,
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "squared_coefficient_denominator": 721554505728,
+      "squared_coefficient_numerator": 262577446975
+    },
+    {
+      "outward_coefficient": 0.6032455670913395,
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        0,
+        0,
+        4
+      ],
+      "squared_coefficient_denominator": 721554505728,
+      "squared_coefficient_numerator": 262577446975
+    },
+    {
+      "outward_coefficient": 0.5625,
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "squared_coefficient_denominator": 256,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "outward_coefficient": 0.5625,
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "squared_coefficient_denominator": 256,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "outward_coefficient": 0.6465621221633185,
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        2,
+        1,
+        1,
+        2
+      ],
+      "squared_coefficient_denominator": 1894080577536,
+      "squared_coefficient_numerator": 791806327225
+    },
+    {
+      "outward_coefficient": 0.6465621221633185,
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "squared_coefficient_denominator": 1894080577536,
+      "squared_coefficient_numerator": 791806327225
+    },
+    {
+      "outward_coefficient": 0.5625,
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "squared_coefficient_denominator": 256,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "outward_coefficient": 0.5625,
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "squared_coefficient_denominator": 256,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "outward_coefficient": 0.6032455670913395,
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "squared_coefficient_denominator": 721554505728,
+      "squared_coefficient_numerator": 262577446975
+    },
+    {
+      "outward_coefficient": 0.6032455670913395,
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        4,
+        0,
+        0,
+        2
+      ],
+      "squared_coefficient_denominator": 721554505728,
+      "squared_coefficient_numerator": 262577446975
+    },
+    {
+      "outward_coefficient": 0.140625,
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        4,
+        0,
+        1,
+        1
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "outward_coefficient": 0.140625,
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        4,
+        1,
+        0,
+        1
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "outward_coefficient": 0.015617368741913551,
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        4,
+        1,
+        1,
+        0
+      ],
+      "squared_coefficient_denominator": 4194304,
+      "squared_coefficient_numerator": 1023
+    },
+    {
+      "outward_coefficient": 0.015617368741913551,
+      "profile": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "split": [
+        5,
+        0,
+        0,
+        1
+      ],
+      "squared_coefficient_denominator": 4194304,
+      "squared_coefficient_numerator": 1023
+    },
+    {
+      "outward_coefficient": 0.5082464937387554,
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        4,
+        1
+      ],
+      "squared_coefficient_denominator": 16257024,
+      "squared_coefficient_numerator": 4199425
+    },
+    {
+      "outward_coefficient": 0.5079982658881792,
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        4,
+        1
+      ],
+      "squared_coefficient_denominator": 5549064192,
+      "squared_coefficient_numerator": 1432003925
+    },
+    {
+      "outward_coefficient": 0.5082464937387554,
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        5,
+        0
+      ],
+      "squared_coefficient_denominator": 16257024,
+      "squared_coefficient_numerator": 4199425
+    },
+    {
+      "outward_coefficient": 0.6032455670913395,
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "squared_coefficient_denominator": 721554505728,
+      "squared_coefficient_numerator": 262577446975
+    },
+    {
+      "outward_coefficient": 0.5079982658881792,
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        4,
+        0
+      ],
+      "squared_coefficient_denominator": 5549064192,
+      "squared_coefficient_numerator": 1432003925
+    },
+    {
+      "outward_coefficient": 0.12311578521998899,
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "squared_coefficient_denominator": 3670705963008,
+      "squared_coefficient_numerator": 55638713045
+    },
+    {
+      "outward_coefficient": 0.6032455670913395,
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        2,
+        0,
+        4,
+        0
+      ],
+      "squared_coefficient_denominator": 721554505728,
+      "squared_coefficient_numerator": 262577446975
+    },
+    {
+      "outward_coefficient": 0.6465621221633185,
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "squared_coefficient_denominator": 1894080577536,
+      "squared_coefficient_numerator": 791806327225
+    },
+    {
+      "outward_coefficient": 0.12311578521998899,
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "squared_coefficient_denominator": 3670705963008,
+      "squared_coefficient_numerator": 55638713045
+    },
+    {
+      "outward_coefficient": 0.12311578521998899,
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "squared_coefficient_denominator": 3670705963008,
+      "squared_coefficient_numerator": 55638713045
+    },
+    {
+      "outward_coefficient": 0.6465621221633185,
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "squared_coefficient_denominator": 1894080577536,
+      "squared_coefficient_numerator": 791806327225
+    },
+    {
+      "outward_coefficient": 0.6032455670913395,
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "squared_coefficient_denominator": 721554505728,
+      "squared_coefficient_numerator": 262577446975
+    },
+    {
+      "outward_coefficient": 0.12311578521998899,
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "squared_coefficient_denominator": 3670705963008,
+      "squared_coefficient_numerator": 55638713045
+    },
+    {
+      "outward_coefficient": 0.5079982658881792,
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        4,
+        0,
+        1,
+        1
+      ],
+      "squared_coefficient_denominator": 5549064192,
+      "squared_coefficient_numerator": 1432003925
+    },
+    {
+      "outward_coefficient": 0.6032455670913395,
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        4,
+        0,
+        2,
+        0
+      ],
+      "squared_coefficient_denominator": 721554505728,
+      "squared_coefficient_numerator": 262577446975
+    },
+    {
+      "outward_coefficient": 0.5082464937387554,
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        4,
+        1,
+        0,
+        1
+      ],
+      "squared_coefficient_denominator": 16257024,
+      "squared_coefficient_numerator": 4199425
+    },
+    {
+      "outward_coefficient": 0.5079982658881792,
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        4,
+        1,
+        1,
+        0
+      ],
+      "squared_coefficient_denominator": 5549064192,
+      "squared_coefficient_numerator": 1432003925
+    },
+    {
+      "outward_coefficient": 0.5082464937387554,
+      "profile": [
+        5,
+        1,
+        5,
+        1
+      ],
+      "split": [
+        5,
+        0,
+        1,
+        0
+      ],
+      "squared_coefficient_denominator": 16257024,
+      "squared_coefficient_numerator": 4199425
+    }
+  ],
+  "result": {
+    "bi_record_quintic_tail_bound": 0.0002519526329050139,
+    "candidate_entries": 54,
+    "coefficient_one_dependent_entries": 354,
+    "dimension": 4096,
+    "distinct_squared_coefficients": [
+      0.00024390220642089844,
+      0.015157496570334456,
+      0.019775390625,
+      0.2580622381453972,
+      0.25831449839773873,
+      0.31640625,
+      0.3639052142153516,
+      0.4180425778163339
+    ],
+    "maximum_coefficient": 0.6465621221633185,
+    "maximum_squared_coefficient": 0.4180425778163339,
+    "minimum_coefficient": 0.015617368741913551,
+    "order": 64,
+    "remaining_quarantined_entries": 300,
+    "repaired_entries": 54,
+    "repaired_profiles": 3
+  },
+  "schema": "round4_q64_masked_quintic_slice_repair_v1"
+}

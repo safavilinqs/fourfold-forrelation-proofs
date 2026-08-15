@@ -1,0 +1,62 @@
+\section{Physical implementation}
+\label{sec:implementation}
+
+\subsection{Required components}
+
+The active protocol requires a heralded or deterministic single photon in a coherent uniform superposition over 4096 logical modes, a binary path degree of freedom, four independently specified 4096-coordinate sign banks, one coherent $H_{4096}$ transformation on the left path, two coherent $H_{4096}$ transformations on the right path, stable relative phase between the paths, and a mode-insensitive two-port receiver. Three photons may traverse the same apparatus sequentially.
+
+The number $16{,}384$ counts unknown sign coordinates across four reusable banks. It is not a detector-pixel requirement. The receiver resolves only the binary output port while summing over the logical mode register.
+
+\subsection{Contrast requirement}
+
+Let the retained signed expectation of one binary flag at the promise boundary be $\mu$. Three independent flags have majority error
+
+\begin{equation}
+\epsilon_3(\mu)
+=\left(\frac{1-\mu}{2}\right)^2(2+\mu).
+\end{equation}
+
+The equation $\epsilon_3(\mu_*)=1/3$ has the relevant root
+
+\begin{equation}
+\mu_*=0.226073713789207990\ldots.
+\end{equation}
+
+Since the ideal boundary expectation is $1/4$, the zero-bias multiplicative contrast must satisfy
+
+\begin{equation}
+g>g_*=4\mu_*
+=0.904294855156831964\ldots.
+\label{eq:implementation-contrast}
+\end{equation}
+
+In the scalar allocation
+
+\begin{equation}
+g=\xi\sqrt{T_LT_R}\,\nu\cos\delta,
+\end{equation}
+
+$\xi$ is detection and retention efficiency, $T_L,T_R$ are complete arm power transmissions, $\nu$ is task-mode overlap, and $\delta$ is differential phase error. A worst-signed additive flag bias $b$ changes the sufficient condition to $g/4-b>\mu_*$.
+
+A calibrated fiber-coupled superconducting nanowire detector has demonstrated nominal system efficiency $0.98$ at 1550 nm~\cite{ReddyEtAl2020}. Using this value as an optimistic benchmark, with perfect phase, overlap, masks, and routing, leaves
+
+\begin{equation}
+\sqrt{T_LT_R}\,\nu\cos\delta
+>0.922749852200849,
+\end{equation}
+
+corresponding to less than $0.3491602$ dB of geometric-mean loss for every non-detector imperfection combined.
+
+A butterfly decomposition of $H_{4096}$ contains twelve stages. One transform on the left path and two on the right give geometric-mean depth eighteen. Under the illustrative assumption of identical stage transmission and no other loss, each stage requires power transmission greater than $0.995543454598465$, or loss below $0.0193978$ dB.
+
+\subsection{Published scale}
+
+Optical Walsh--Hadamard transforms of orders 32 and 64 establish the coherent transform principle in a holographic architecture~\cite{ChenEtAl1988}. Ultrafast time-bin circuits have programmed unitaries through dimension eight and passive networks through 36 modes with reported fidelity above 97 percent~\cite{BouchardEtAl2024}. A programmable time-domain Gaussian processor has operated on 216 modes using three loop layers~\cite{MadsenEtAl2022}. Complex-medium spatial circuits have used an ambient mixer of approximately 200 modes while characterizing Fourier circuits through dimension seven~\cite{GoelEtAl2024}. A 2026 Gaussian boson-sampling system reports 8,176 optical modes and 4096 connectivity in a different squeezed-state architecture~\cite{LiuEtAl2026}.
+
+These experiments establish that large address spaces, time multiplexing, switching, and stable multimode interference are available physical resources. Their reported transformations, states, throughputs, and receivers do not constitute a single-photon $H_{4096}$ implementation satisfying Eq.~\eqref{eq:implementation-contrast}.
+
+\subsection{Evidence assessment}
+
+The mathematical result supplies an ideal finite-size active--passive separation and a quantitative implementation target. The reviewed primary evidence does not certify the $N=4096$ active apparatus at the required end-to-end contrast. This assessment is dated, platform dependent, and separate from Theorem~\ref{thm:main}.
+
+A device claim would require a measured transfer matrix or task-specific transform certificate, complete arm transmissions, leakage and phase data, source impurity and multiphoton bounds, detector efficiency and dark-count data, a retained rule for no-click outcomes, and a conservative lower confidence bound for $g/4-b$ above $\mu_*$. Retrying until detection would change the hard-dose experiment and is outside the stated protocol.

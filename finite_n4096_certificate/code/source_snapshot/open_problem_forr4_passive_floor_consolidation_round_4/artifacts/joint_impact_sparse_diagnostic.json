@@ -1,0 +1,42 @@
+{
+  "embedded_q32": {
+    "activated_entries": 26,
+    "activated_orbits": 16,
+    "attenuated_cancellation_ratio": 0.8540975295099261,
+    "attenuated_joint_nuclear": 9.525123812407779e-10,
+    "attenuated_separate_nuclear": 1.1152267139647639e-09,
+    "basis_dimension": 180,
+    "beta": 0.7793153476793792,
+    "cancellation_ratio": 0.8471848261694279,
+    "joint_nuclear": 1.1571372011373453e-08,
+    "nonzero_matrix_entries": 128,
+    "order": 32,
+    "samples_per_state": 6,
+    "search_trials": 24,
+    "selected_trial": 16,
+    "separate_nuclear": 1.3658615751764306e-08,
+    "support_states": 30
+  },
+  "evidence_label": "exact plant moments with floating eigendecomposition; compatible physical-law diagnostic, not theorem coefficient",
+  "frontier_orbits": 16,
+  "q4": {
+    "activated_entries": 26,
+    "activated_orbits": 16,
+    "attenuated_cancellation_ratio": 0.74616230749312,
+    "attenuated_joint_nuclear": 0.0001461225757568427,
+    "attenuated_separate_nuclear": 0.00019583215915551996,
+    "basis_dimension": 180,
+    "beta": 0.7793153476793792,
+    "cancellation_ratio": 0.7132408631033544,
+    "joint_nuclear": 0.0018718547844748337,
+    "nonzero_matrix_entries": 128,
+    "order": 4,
+    "samples_per_state": 6,
+    "search_trials": 24,
+    "selected_trial": 16,
+    "separate_nuclear": 0.0026244357009079368,
+    "support_states": 30
+  },
+  "schema": "round4_joint_impact_sparse_diagnostic_v1",
+  "selection_rule": "maximize activated orbits, then activated entries, then q4 attenuated joint nuclear norm"
+}

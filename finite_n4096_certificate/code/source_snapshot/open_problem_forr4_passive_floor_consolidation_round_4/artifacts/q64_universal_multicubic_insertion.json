@@ -1,0 +1,33 @@
+{
+  "evidence_label": "quarantined unmasked cross-Gram diagnostic for 14 three-/four-split-cubic entries; it omits cross-cut distinctness masks",
+  "remaining_open": "historical conditional count only; use the masked-universal audit",
+  "result": {
+    "dimension": 4096,
+    "four_split_cubic_entries": 6,
+    "margin_spent": 0.0025526078122232176,
+    "multicubic_inserted": {
+      "beta": 0.7460717495549545,
+      "margin_to_one_third": 0.0013975038989492705,
+      "perron_upper": 0.31456527793840144,
+      "promise_loss": 0.017370551495982593,
+      "total": 0.33193582943438404
+    },
+    "newly_closed_entries": 14,
+    "order": 64,
+    "previous_proved_entries": 206,
+    "previous_routing": {
+      "beta": 0.7461075872914213,
+      "margin_to_one_third": 0.003950111711172488,
+      "perron_upper": 0.3121610995953498,
+      "promise_loss": 0.017222122026810997,
+      "total": 0.3293832216221608
+    },
+    "remaining_open_entries": 668,
+    "reserve_after_declared_allowance": 0.0003975038989492705,
+    "sign_modes": 16384,
+    "three_split_cubic_entries": 8,
+    "total_proved_entries": 220,
+    "universal_coefficient": 1.0
+  },
+  "schema": "round4_q64_universal_multicubic_insertion_v1"
+}

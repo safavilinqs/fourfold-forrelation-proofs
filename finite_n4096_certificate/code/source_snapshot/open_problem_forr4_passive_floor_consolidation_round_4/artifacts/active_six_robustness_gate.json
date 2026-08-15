@@ -1,0 +1,18 @@
+{
+  "evidence_label": "exact three-independent-flag majority calculation; scalar imperfection translation; not a device-specific noise model",
+  "physical_interpretation": "if g is the product of detection efficiency, geometric-mean arm power transmission, mode overlap, and differential-phase cosine, and b is worst signed additive flag bias, require g/4 - b above the threshold flag expectation",
+  "result": {
+    "equal_two_pass_minimum_power_transmission_per_pass": 0.950944191399702,
+    "flags": 3,
+    "hard_dose": 6,
+    "ideal_flag_expectation": 0.25,
+    "ideal_majority_error": 0.31640625,
+    "maximum_additive_expectation_error_at_unit_contrast": 0.023926286210791736,
+    "minimum_multiplicative_contrast": 0.904294855156833,
+    "phase_only_maximum_absolute_degrees": 25.27152127243504,
+    "phase_only_maximum_absolute_radians": 0.4410712531917783,
+    "threshold_flag_expectation": 0.22607371378920826,
+    "threshold_single_flag_correct_probability": 0.6130368568946041
+  },
+  "schema": "round4_active_six_robustness_gate_v1"
+}

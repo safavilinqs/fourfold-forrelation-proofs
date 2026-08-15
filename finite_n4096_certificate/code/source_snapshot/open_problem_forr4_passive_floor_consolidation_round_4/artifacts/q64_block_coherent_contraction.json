@@ -1,0 +1,43 @@
+{
+  "evidence_label": "exact rational record-sector coefficients from the accepted weighted three-link path theorem; floating q64 Perron insertion; one batch only",
+  "remaining_open": "818 internally split balanced entries plus interval certification and the adaptive lift",
+  "result": {
+    "block_coherent_inserted": {
+      "beta": 0.7464869472876845,
+      "margin_to_one_third": 0.023928326325283023,
+      "perron_upper": 0.29368091490472226,
+      "promise_loss": 0.015724092103328063,
+      "total": 0.3094050070080503
+    },
+    "closed_entries": 70,
+    "dimension": 4096,
+    "margin_improvement": 0.00977615515316932,
+    "maximum_coefficient": 0.0656778986780387,
+    "maximum_coefficient_exact": "2609304163/39728800944",
+    "maximum_entry_profile": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "maximum_entry_split": [
+      3,
+      0,
+      3,
+      0
+    ],
+    "minimum_coefficient": 0.000244140625,
+    "minimum_coefficient_exact": "1/4096",
+    "order": 64,
+    "previous_two_tier": {
+      "beta": 0.7463284992438618,
+      "margin_to_one_third": 0.014152171172113703,
+      "perron_upper": 0.3028473373687459,
+      "promise_loss": 0.016333824792473674,
+      "total": 0.3191811621612196
+    },
+    "record_sector_bounds": 196,
+    "sign_modes": 16384
+  },
+  "schema": "round4_q64_block_coherent_contraction_v1"
+}

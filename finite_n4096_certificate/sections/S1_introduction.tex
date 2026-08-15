@@ -1,0 +1,35 @@
+\section{Introduction}
+\label{sec:introduction}
+
+Dose-limited sensing assigns a physical cost to each interaction between a probe and a sample, because absorption, scattering, photochemistry, heating, and structural change can make repeated interrogation more expensive than source preparation, receiver complexity, or classical computation. The comparison studied here uses the branchwise hard photon-pass dose, under which every photon crossing an unknown sample coordinate contributes one unit on the realized branch, without discounts for heralding, postselection, erasure, or a detector outcome that is later ignored.
+
+The sample consists of four binary phase masks $x^{(1)},\ldots,x^{(4)}\in\{\pm1\}^N$, each acting on $N$ optical modes, with fixed normalized Sylvester transforms between the masks. The measured quantity is the four-fold forrelation amplitude, which is the coherent return amplitude of a uniform mode after the alternating mask and transform chain. Forrelation was introduced as a query-complexity separation and subsequently developed into a family of Fourier-correlation problems with strong classical lower bounds~\cite{AaronsonAmbainis2015,BansalSinha2021}. The present use treats the sign strings as physical phase patterns and compares two quantum access classes under the same sample-interaction meter.
+
+A passive protocol prepares a fresh quantum batch, applies the unknown sign oracle once to the batch, performs an arbitrary collective measurement, stores the classical outcome, and chooses the next fresh batch from the accumulated record. The certified passive class permits arbitrary mixtures of total signal photon numbers, but each batch state must commute with the total signal photon-number operator; it may otherwise contain arbitrary within-sector entanglement and coherence, idlers, and repeated physical modes. An active protocol may retain a live quantum system between charged sample interactions and may apply known coherent transformations before returning to the sample. The additional restriction on passive number-sector coherence is mathematically substantive and is not implied by the absence of inter-batch quantum memory.
+
+A provisional asymptotic companion derivation proves a passive hard-dose lower bound $D\ge (2/15)N^{1/8}$ for powers of two $N\ge 2^{30}$ in the full fresh-probe model, together with an active upper bound of six~\cite{SafaviNaeini2026}. The present paper establishes the finite instance $N=4096$ for the number-sector-incoherent fresh-batch subclass, where the asymptotic theorem does not determine whether dose six is excluded. The finite proof requires a separate coefficient registry, exact physical distinctness masks, a numerical spectral certificate with directed rounding, and an adaptive factorization whose normalization remains one for arbitrarily wide and deep classical outcome trees.
+
+The principal result is
+
+\begin{equation}
+\Dhard_{\classP}(4096)>6,
+\qquad
+\Dhard_{\classA}(4096)\le 6,
+\label{eq:intro-separation}
+\end{equation}
+
+for worst-case promised error at most $1/3$. For two transcript laws, total variation distance is the largest difference they assign to the same decision event. The passive proof gives the outward bound
+
+\begin{equation}
+\TV(P_+,P_-)
+\le 0.2609692248,
+\label{eq:intro-tv}
+\end{equation}
+
+which implies average error at least $0.3695153876$ under the equal-prior hard pair; Sec.~\ref{sec:statement} gives the complete directed decimals. The active protocol returns three binary flags whose individual expectation equals the forrelation amplitude; majority decoding has worst-case error $81/256$ at the promise boundary and uses two charged traversals per flag.
+
+The proof has four components. First, three independent signed permutations of order $q=64$ generate an exact four-block plant with forrelation $+1$, and independent biased signs with mean $\beta=19/25$ attenuate the plant before conditioning it onto the two promise sides. Second, every balanced degree-four through degree-twelve physical occurrence matrix relevant to the number-sector-incoherent class receives an arbitrary-correlated-diagonal coefficient, with all cross-cut distinctness masks retained, producing a complete high-sector registry of 888 entries. Third, the coefficients assemble into a nonnegative symmetric matrix on the 210 four-block occupation vectors of total dose at most six, block diagonal in total occupation, whose Perron root is bounded by an outward Collatz--Wielandt certificate. Fourth, a normalized direct-sum feature factorization combines every outcome-selected continuation of a passive tree into row and column masses at most one, so the one-batch occurrence coefficients and the 210-state spectral bound apply without an adaptive multiplier.
+
+The active circuit uses four sign banks, $M=4N=16{,}384$ unknown sign coordinates, a coherent logical mode space of dimension 4096, one path qubit, and three single photons. The ideal majority decoder requires combined zero-bias retained contrast greater than $0.904294855157$. Published detector, time-bin, and spatial-mode demonstrations provide relevant component evidence~\cite{ReddyEtAl2020,BouchardEtAl2024,MadsenEtAl2022,GoelEtAl2024}. None of these cited demonstrations reports a complete $4096$-dimensional coherent Sylvester implementation at the required end-to-end contrast, so the implementation assessment remains separate from the mathematical separation.
+
+Section~\ref{sec:model} defines the task, access classes, and meter. Section~\ref{sec:statement} states the theorem and numerical certificate. Sections~\ref{sec:active}--\ref{sec:adaptive} give the active protocol and the passive lower bound. Section~\ref{sec:implementation} states the implementation requirements, Sec.~\ref{sec:discussion} records the interpretation and limitations, and Sec.~\ref{sec:verification} specifies the reproducibility package.

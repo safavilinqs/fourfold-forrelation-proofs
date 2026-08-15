@@ -1,0 +1,35 @@
+\section{Verification record}
+\label{app:verification}
+
+\subsection{Result-to-script map}
+
+The source programs and regressions in Table~\ref{tab:verification-map} are located in the frozen Round-4 root within the paper package. Except where a directory is printed explicitly, the listed basename occurs once under \path{searches/} and once under \path{tests/}.
+
+\begin{center}
+\refstepcounter{table}
+\label{tab:verification-map}
+\small\textsc{Table \thetable.} Focused verification map.
+
+\vspace{0.5em}
+\footnotesize
+\begin{tabular}{p{0.30\columnwidth}p{0.56\columnwidth}}
+\toprule
+Result & Entry point \\
+\midrule
+Active dose and error & \path{active_six_resource_row.py} \\
+Active contrast threshold & \path{active_six_robustness_gate.py} \\
+Complete outward ledger & \path{q64_complete_outward_ledger.py} \\
+Adaptive multiplier one & \path{q64_adaptive_tree_frontier.py} \\
+Feasibility gate & \path{q64_experimental_feasibility_gate.py} \\
+Figure data and outputs & \path{figures/generate_figures.py --check} \\
+Paper closeout constants & \path{tests/q64_paper_closeout_package.py} \\
+Complete inherited suite & \path{run_round4_checks.sh} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Run of record}
+
+The source snapshot was copied from the repository after commit \texttt{6aff0c9}, then repaired by the present audit to enforce the number-sector boundary that the original ledger omitted. The focused run reconstructs all 888 balanced entries, rejects any unbalanced routing placeholder in the theorem map, reproduces the 272-incidence and 136-edge scope witness, verifies the classically adaptive frontier multiplier one within the restricted class, and excludes passive hard dose six at $N=4096$ for that class. The broader fresh-batch claim with signal-number coherence is not certified.
+
+The paper package adds a contract checker that compares manuscript constants and scope language with the audited artifacts, verifies that every conventional citation key resolves in the bibliography and source ledger, and checks the committed figure contract. Separate reviews record mathematical correctness, access-model scope, prose compliance, and the compiled-document read.

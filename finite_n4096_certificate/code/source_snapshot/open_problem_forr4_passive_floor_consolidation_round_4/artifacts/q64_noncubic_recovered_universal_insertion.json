@@ -1,0 +1,65 @@
+{
+  "adaptive_requirement": "the displayed reserve and multiplier are conditional on the frozen targets for 224 remaining entries; they are not an adaptive recurrence or passive theorem",
+  "evidence_label": "mixed result: the specialized arbitrary-diagonal theorem for 16 middle-septimic entries survives; 124 noncubic and 96 recovered universal entries are quarantined because the cross-Gram step omits distinctness masks",
+  "result": {
+    "adaptive_multiplier_cap_retaining_allowance": 1.0103214004924976,
+    "degree_seven_entries": 16,
+    "degree_seven_maximum_coefficient": 0.03823058831532936,
+    "degree_seven_minimum_coefficient": 0.01708990969034196,
+    "degree_seven_orbits": 4,
+    "dimension": 4096,
+    "final_routing": {
+      "beta": 0.7459896234977319,
+      "margin_to_one_third": 0.004395103210392215,
+      "perron_upper": 0.31122286805379945,
+      "promise_loss": 0.01771536206914162,
+      "total": 0.3289382301229411
+    },
+    "injective_character_product_factor": 0.00078064012490242,
+    "net_routing_change": 0.0051266669516055186,
+    "noncubic_entries": 140,
+    "noncubic_routing_improvement": 0.03690948637714769,
+    "order": 64,
+    "post_noncubic_proved_entries": 568,
+    "post_noncubic_routing": {
+      "beta": 0.7466667955668614,
+      "margin_to_one_third": 0.04643125653914543,
+      "perron_upper": 0.27184346906664786,
+      "promise_loss": 0.015058607727540042,
+      "total": 0.2869020767941879
+    },
+    "previous_proved_entries": 428,
+    "previous_routing": {
+      "beta": 0.7461700847841707,
+      "margin_to_one_third": 0.009521770161997734,
+      "perron_upper": 0.30684536541990215,
+      "promise_loss": 0.016966197751433456,
+      "total": 0.3238115631713356
+    },
+    "recovered_universal_coefficient": 1.0,
+    "recovered_universal_entries": 96,
+    "recovered_universal_routing_cost": 0.04203615332875321,
+    "remaining_class_counts": [
+      176,
+      48
+    ],
+    "remaining_class_frozen_targets": [
+      0.12403521525363623,
+      0.12403521525363623
+    ],
+    "remaining_class_labels": [
+      "higher_split_only_in_cubic_profile",
+      "one_split_cubic_no_split_higher"
+    ],
+    "remaining_class_reserve_gates": [
+      0.14034303056468567,
+      0.3448872174126536
+    ],
+    "remaining_open_entries": 224,
+    "reserve_after_declared_allowance": 0.003395103210392215,
+    "sign_modes": 16384,
+    "total_proved_entries": 664,
+    "universal_noncubic_entries": 124
+  },
+  "schema": "round4_q64_noncubic_recovered_universal_insertion_v1"
+}

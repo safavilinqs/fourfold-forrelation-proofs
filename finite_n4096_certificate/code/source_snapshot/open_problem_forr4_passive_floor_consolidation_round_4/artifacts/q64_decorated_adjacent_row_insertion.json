@@ -1,0 +1,48 @@
+{
+  "evidence_label": "arbitrary-diagonal complete-row contraction inherited from the proved adjacent cubic-quintic row; the unsplit fourth block is a unit cross-Gram Schur multiplier; floating q64 Perron insertion; one batch only",
+  "remaining_open": "596 balanced entries, including 136 split-cubic/split-quintic entries, plus interval certification and the adaptive lift",
+  "result": {
+    "adjacent_row_energy_bound": 0.0004031890208244533,
+    "balanced_entries": 8,
+    "closed_entries": 16,
+    "closed_orbits": 4,
+    "coefficient": 0.020079567246941685,
+    "decorated_row_inserted": {
+      "beta": 0.7460989053986221,
+      "margin_to_one_third": 0.004226125601455966,
+      "perron_upper": 0.3118492405250244,
+      "promise_loss": 0.017257967206852944,
+      "total": 0.32910720773187735
+    },
+    "degree_twelve_entries": 16,
+    "dimension": 4096,
+    "extreme_entries": 8,
+    "fixed_one_cubic_fixed_four_quintic_entries": 8,
+    "fixed_two_cubic_fixed_three_quintic_entries": 8,
+    "order": 64,
+    "previous_proved_entries": 276,
+    "previous_routing": {
+      "beta": 0.7460871349070535,
+      "margin_to_one_third": 0.0034497273587923427,
+      "perron_upper": 0.3125769266646106,
+      "promise_loss": 0.01730667930993033,
+      "total": 0.32988360597454097
+    },
+    "proxy_reserve_after_declared_allowance": 0.0022566824680516637,
+    "remaining_balanced_entries": 40,
+    "remaining_extreme_entries": 96,
+    "remaining_open_entries": 596,
+    "remaining_quintic_entries": 136,
+    "remaining_quintic_local_proxy": {
+      "beta": 0.7460865857184628,
+      "margin_to_one_third": 0.0032566824680516637,
+      "perron_upper": 0.3127676955066161,
+      "promise_loss": 0.01730895535866556,
+      "total": 0.33007665086528165
+    },
+    "routing_margin_improvement": 0.0007763982426636229,
+    "sign_modes": 16384,
+    "total_proved_entries": 292
+  },
+  "schema": "round4_q64_decorated_adjacent_row_insertion_v1"
+}

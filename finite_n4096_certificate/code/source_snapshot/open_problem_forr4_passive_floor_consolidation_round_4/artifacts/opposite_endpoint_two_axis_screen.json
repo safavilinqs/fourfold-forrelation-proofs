@@ -1,0 +1,14 @@
+{
+  "absolute_improvement": 1.2199124705146447e-05,
+  "best_coefficient": 0.03961184870007763,
+  "best_horizontal_mass": 0.0006478876955452669,
+  "decision": "does_not_cross_leading_orbit_kill_gate",
+  "evidence_label": "valid physical lower-witness family with exact response formulas and floating nuclear norms; not interval certified",
+  "gate_headroom": 0.0018504695964369697,
+  "invariant_coefficient": 0.039599649575372486,
+  "invariant_equal_mass": 0.019251508713116677,
+  "order": 32,
+  "physical_gate": 0.0414623182965146,
+  "relative_improvement": 0.0003080614307438001,
+  "schema": "round4_opposite_endpoint_two_axis_screen_v1"
+}

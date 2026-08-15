@@ -1,0 +1,61 @@
+\section{The model}
+\label{sec:model}
+
+\subsection{Definition}
+
+Let $N=4096$, let $H=H_N$ be the normalized Sylvester matrix, and let $x=(x^{(1)},x^{(2)},x^{(3)},x^{(4)})$ with $x^{(j)}\in\{\pm1\}^N$. The diagonal sign operation associated with block $j$ is
+
+\begin{equation}
+D_j=\diag(x^{(j)}).
+\end{equation}
+
+Each sign is a binary phase shift on one physical mode, with $+1$ and $-1$ corresponding to relative phases zero and $\pi$. The normalized Sylvester matrix is a fixed balanced transformation that distributes one input amplitude uniformly over all output modes with phases in $\{0,\pi\}$.
+
+The four-fold forrelation amplitude is
+
+\begin{align}
+\Forr(x)
+&=\bra{u}D_1HD_2HD_3HD_4\ket{u}
+\notag\\
+&=\frac{1}{N}(x^{(1)})^THD_2HD_3Hx^{(4)},
+\label{eq:model-forrelation}
+\end{align}
+
+where $\ket{u}=N^{-1/2}\sum_i\ket{i}$. The physical reading of Eq.~\eqref{eq:model-forrelation} is a coherent return amplitude: a uniform single-photon mode acquires four phase patterns separated by three balanced transformations, and the final amplitude is projected back onto the uniform mode.
+
+\begin{definition}[Promise]
+The positive promise set contains every $x$ with $\Forr(x)\ge1/4$, and the negative promise set contains every $x$ with $\Forr(x)\le-1/4$. A protocol succeeds at error $\epsilon$ when its error probability is at most $\epsilon$ for every input in both promise sets.
+\end{definition}
+
+\subsection{The meter}
+
+A charged interaction is one photon pass through one unknown sign coordinate. A multi-photon Fock component with total occupation $t$ across the four sign banks has charge $t$ for one simultaneous oracle application. If a coherent routing operation places amplitude on paths with different numbers of charged interactions, the branch charge is the maximum supported number because the protocol must be physically capable of the longest path while coherence is retained.
+
+\begin{definition}[Branchwise hard dose]
+For an adaptive protocol represented as an outcome tree, the hard dose is the maximum total number of photon passes over all root-to-leaf branches. Every charged interaction is included, including interactions preceding no-click outcomes, erased records, rejected heralds, or later postselection.
+\end{definition}
+
+The hard meter assigns the same cost to the passive and active classes. Known transforms, lossless routing, delay, idler storage, and measurements do not contribute sample dose, although they remain physical resources in the implementation statement.
+
+\subsection{Terms of the comparison}
+
+\begin{definition}[Number-sector-incoherent classically adaptive passive access]
+A protocol in $\classP$ is a finite-depth outcome tree. At each node it prepares a fresh signal--idler state $\rho$ satisfying
+\begin{equation}
+[\rho,\widehat N_{\rm sig}\otimes I_{\rm id}]=0,
+\label{eq:model-number-sector}
+\end{equation}
+applies the four-bank diagonal sign oracle once collectively to the signal, performs an arbitrary collective POVM on the signal and idlers, records the classical outcome, and selects the next fresh batch from the complete classical history. The model permits arbitrary mixtures of total signal photon numbers, arbitrary coherence and entanglement within each fixed-number sector, idlers, repeated physical modes, mixed probes, randomized controllers, general measurable outcome spaces, and branch-dependent dose partitions. It excludes coherence between different total signal-number sectors, including vacuum--nonvacuum coherence. No coherent quantum system or coherent control is carried from one batch to the next.
+\end{definition}
+
+The term fresh refers to the causal boundary between charged interactions: after a batch measurement, all information available to later nodes is classical. The number-sector condition is a separate restriction. The theorem does not impose product laws on the row or column weights that arise in the proof, because outcome selection can correlate complete temporal histories.
+
+\begin{definition}[Active access]
+A protocol in $\classA$ may retain a coherent quantum system across multiple charged sign-oracle applications and may apply arbitrary known unitaries, routing operations, and delays between them. Every sign-oracle application remains charged under the branchwise hard meter.
+\end{definition}
+
+The active protocol in Sec.~\ref{sec:active} uses this permission only to maintain one photon coherently across two sign-bank traversals. The theorem makes no statement about passive protocols augmented with coherent quantum memory between fresh batches, because that augmentation changes the access class.
+
+\subsection{Decision complexity}
+
+Let $\Dhard_{\mathcal C}(N)$ be the minimum branchwise hard dose of a protocol in class $\mathcal C$ whose worst-case promised error is at most $1/3$. The finite-size comparison concerns $\Dhard_{\classP}(4096)$ and $\Dhard_{\classA}(4096)$ under the definitions above. The corresponding lower bound for fresh passive probes with coherence between different signal-number sectors remains open.

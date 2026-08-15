@@ -1,0 +1,122 @@
+{
+  "evidence_label": "arbitrary-correlated-diagonal theorem composing two oriented complete physical quintic endpoint row/column factorizations; both quintic occurrence masks are retained in the exact slices",
+  "repaired_registry_entries": [
+    {
+      "outward_coefficient": 0.9990234375,
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        4,
+        1
+      ],
+      "squared_coefficient_denominator": 1048576,
+      "squared_coefficient_numerator": 1046529
+    },
+    {
+      "outward_coefficient": 0.9995115994824673,
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        5,
+        0
+      ],
+      "squared_coefficient_denominator": 1024,
+      "squared_coefficient_numerator": 1023
+    },
+    {
+      "outward_coefficient": 0.9995115994824673,
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        5,
+        1,
+        0
+      ],
+      "squared_coefficient_denominator": 1024,
+      "squared_coefficient_numerator": 1023
+    },
+    {
+      "outward_coefficient": 0.9995115994824673,
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        4,
+        1
+      ],
+      "squared_coefficient_denominator": 1024,
+      "squared_coefficient_numerator": 1023
+    },
+    {
+      "outward_coefficient": 0.9995115994824673,
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        4,
+        0,
+        1
+      ],
+      "squared_coefficient_denominator": 1024,
+      "squared_coefficient_numerator": 1023
+    },
+    {
+      "outward_coefficient": 0.9990234375,
+      "profile": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        4,
+        1,
+        0
+      ],
+      "squared_coefficient_denominator": 1048576,
+      "squared_coefficient_numerator": 1046529
+    }
+  ],
+  "result": {
+    "candidates": 18,
+    "distinct_squared_coefficients": [
+      0.9980478286743164,
+      0.9990234375
+    ],
+    "maximum_coefficient": 0.9995115994824673,
+    "minimum_coefficient": 0.9990234375,
+    "one_whole_endpoint_entries": 4,
+    "order": 64,
+    "oriented_double_one_four_entries": 2,
+    "remaining_quarantined_entries": 102,
+    "repaired_entries": 6
+  },
+  "schema": "round4_q64_masked_double_quintic_endpoint_repair_v1"
+}

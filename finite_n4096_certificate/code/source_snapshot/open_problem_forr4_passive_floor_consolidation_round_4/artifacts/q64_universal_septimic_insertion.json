@@ -1,0 +1,31 @@
+{
+  "evidence_label": "quarantined unmasked cross-Gram diagnostic for 96 septimic entries; it omits cross-cut distinctness masks and is not a theorem",
+  "remaining_open": "historical conditional count only; use the masked-universal audit",
+  "result": {
+    "dimension": 4096,
+    "margin_spent": 0.03329235444001721,
+    "order": 64,
+    "previous_proved_entries": 110,
+    "previous_routing": {
+      "beta": 0.7466670531429521,
+      "margin_to_one_third": 0.0372424661511897,
+      "perron_upper": 0.2810331927754359,
+      "promise_loss": 0.015057674406707706,
+      "total": 0.2960908671821436
+    },
+    "remaining_open_entries": 682,
+    "reserve_after_declared_allowance": 0.002950111711172488,
+    "septimic_entries": 96,
+    "septimic_inserted": {
+      "beta": 0.7461075872914213,
+      "margin_to_one_third": 0.003950111711172488,
+      "perron_upper": 0.3121610995953498,
+      "promise_loss": 0.017222122026810997,
+      "total": 0.3293832216221608
+    },
+    "sign_modes": 16384,
+    "total_proved_entries": 206,
+    "universal_coefficient": 1.0
+  },
+  "schema": "round4_q64_universal_septimic_insertion_v1"
+}

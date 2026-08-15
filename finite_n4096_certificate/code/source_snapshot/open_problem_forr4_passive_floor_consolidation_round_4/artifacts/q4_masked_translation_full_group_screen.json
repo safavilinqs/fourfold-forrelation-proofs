@@ -1,0 +1,2218 @@
+{
+  "evidence_label": "exact signed-permutation moments and exact full-translation projective block reduction; final singular values and concavity tangents are floating; pure rows and the listed finite mixed-shape simplexes are screens, not a bound over all translation-orbit shapes",
+  "result": {
+    "canonical_pure_maximum": 0.08369866694739853,
+    "canonical_pure_rows": [
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.008715792393818773,
+        "exact_nonzero_symbol_entries": 6144,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          1,
+          3,
+          7
+        ],
+        "seed": 7000,
+        "split": [
+          0,
+          0,
+          1,
+          5
+        ],
+        "template_index": 0
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.005425347222222218,
+        "exact_nonzero_symbol_entries": 9216,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          1,
+          3,
+          7
+        ],
+        "seed": 7001,
+        "split": [
+          0,
+          0,
+          2,
+          4
+        ],
+        "template_index": 1
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.03949713728730127,
+        "exact_nonzero_symbol_entries": 10240,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          3,
+          7
+        ],
+        "seed": 7002,
+        "split": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "template_index": 2
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.025717449527757463,
+        "exact_nonzero_symbol_entries": 4096,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          3,
+          7
+        ],
+        "seed": 7003,
+        "split": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "template_index": 3
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.0041232638888888925,
+        "exact_nonzero_symbol_entries": 5632,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          1,
+          7,
+          3
+        ],
+        "seed": 7004,
+        "split": [
+          0,
+          0,
+          4,
+          2
+        ],
+        "template_index": 4
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.006806961157086613,
+        "exact_nonzero_symbol_entries": 10240,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          1,
+          7,
+          3
+        ],
+        "seed": 7005,
+        "split": [
+          0,
+          0,
+          5,
+          1
+        ],
+        "template_index": 5
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.04828301780118567,
+        "exact_nonzero_symbol_entries": 9728,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          7,
+          3
+        ],
+        "seed": 7006,
+        "split": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "template_index": 6
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.011236347144096494,
+        "exact_nonzero_symbol_entries": 3072,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          7,
+          3
+        ],
+        "seed": 7007,
+        "split": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "template_index": 7
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.002835057572665758,
+        "exact_nonzero_symbol_entries": 6144,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          3,
+          1,
+          7
+        ],
+        "seed": 7008,
+        "split": [
+          0,
+          1,
+          0,
+          5
+        ],
+        "template_index": 8
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.004009376869372573,
+        "exact_nonzero_symbol_entries": 12288,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          3,
+          1,
+          7
+        ],
+        "seed": 7009,
+        "split": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "template_index": 9
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.0015190972222222233,
+        "exact_nonzero_symbol_entries": 9216,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          3,
+          1,
+          7
+        ],
+        "seed": 7010,
+        "split": [
+          0,
+          2,
+          0,
+          4
+        ],
+        "template_index": 10
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.0008184106263733189,
+        "exact_nonzero_symbol_entries": 2048,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          3,
+          1,
+          7
+        ],
+        "seed": 7011,
+        "split": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "template_index": 11
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.004252586358998574,
+        "exact_nonzero_symbol_entries": 3584,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          3,
+          7,
+          1
+        ],
+        "seed": 7012,
+        "split": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "template_index": 12
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.00750085728982399,
+        "exact_nonzero_symbol_entries": 10240,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          3,
+          7,
+          1
+        ],
+        "seed": 7013,
+        "split": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "template_index": 13
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.0033924380880385593,
+        "exact_nonzero_symbol_entries": 7168,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          3,
+          7,
+          1
+        ],
+        "seed": 7014,
+        "split": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "template_index": 14
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.0010127314814814823,
+        "exact_nonzero_symbol_entries": 2560,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          3,
+          7,
+          1
+        ],
+        "seed": 7015,
+        "split": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "template_index": 15
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.0020046884346863075,
+        "exact_nonzero_symbol_entries": 3072,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          7,
+          1,
+          3
+        ],
+        "seed": 7016,
+        "split": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "template_index": 16
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.0021701388888888873,
+        "exact_nonzero_symbol_entries": 7168,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          7,
+          1,
+          3
+        ],
+        "seed": 7017,
+        "split": [
+          0,
+          4,
+          0,
+          2
+        ],
+        "template_index": 17
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.001227615939559978,
+        "exact_nonzero_symbol_entries": 3072,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          7,
+          1,
+          3
+        ],
+        "seed": 7018,
+        "split": [
+          0,
+          4,
+          1,
+          1
+        ],
+        "template_index": 18
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.002835057572665793,
+        "exact_nonzero_symbol_entries": 6144,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          7,
+          1,
+          3
+        ],
+        "seed": 7019,
+        "split": [
+          0,
+          5,
+          0,
+          1
+        ],
+        "template_index": 19
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.006014065304058788,
+        "exact_nonzero_symbol_entries": 3072,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          1,
+          1,
+          7
+        ],
+        "seed": 7020,
+        "split": [
+          1,
+          0,
+          0,
+          5
+        ],
+        "template_index": 20
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.08369866694739853,
+        "exact_nonzero_symbol_entries": 14336,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          1,
+          1,
+          7
+        ],
+        "seed": 7021,
+        "split": [
+          1,
+          0,
+          1,
+          4
+        ],
+        "template_index": 21
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.03385416666666668,
+        "exact_nonzero_symbol_entries": 7680,
+        "normalized_rank": 4,
+        "profile": [
+          3,
+          1,
+          1,
+          7
+        ],
+        "seed": 7022,
+        "split": [
+          1,
+          1,
+          0,
+          4
+        ],
+        "template_index": 22
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.009765625000000007,
+        "exact_nonzero_symbol_entries": 10752,
+        "normalized_rank": 0,
+        "profile": [
+          3,
+          1,
+          1,
+          7
+        ],
+        "seed": 7023,
+        "split": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "template_index": 23
+      },
+      {
+        "class_name": "universal_multicubic",
+        "coefficient": 0.0036892361111111236,
+        "exact_nonzero_symbol_entries": 4480,
+        "normalized_rank": 0,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "seed": 7024,
+        "split": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "template_index": 24
+      },
+      {
+        "class_name": "universal_multicubic",
+        "coefficient": 0.011109374073083284,
+        "exact_nonzero_symbol_entries": 4400,
+        "normalized_rank": 4,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "seed": 7025,
+        "split": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "template_index": 25
+      },
+      {
+        "class_name": "universal_multicubic",
+        "coefficient": 0.00974754050925924,
+        "exact_nonzero_symbol_entries": 22400,
+        "normalized_rank": 0,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "seed": 7026,
+        "split": [
+          1,
+          1,
+          3,
+          1
+        ],
+        "template_index": 26
+      },
+      {
+        "class_name": "universal_multicubic",
+        "coefficient": 0.02019916104252427,
+        "exact_nonzero_symbol_entries": 4400,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "seed": 7027,
+        "split": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "template_index": 27
+      },
+      {
+        "class_name": "universal_multicubic",
+        "coefficient": 0.023193647207595175,
+        "exact_nonzero_symbol_entries": 5072,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "seed": 7028,
+        "split": [
+          1,
+          2,
+          2,
+          1
+        ],
+        "template_index": 28
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "coefficient": 0.005787037037037043,
+        "exact_nonzero_symbol_entries": 9216,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "seed": 7029,
+        "split": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "template_index": 29
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "coefficient": 0.003273642505493344,
+        "exact_nonzero_symbol_entries": 8192,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "seed": 7030,
+        "split": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "template_index": 30
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "coefficient": 0.003472222222222222,
+        "exact_nonzero_symbol_entries": 6144,
+        "normalized_rank": 4,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "seed": 7031,
+        "split": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "template_index": 31
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "coefficient": 0.002025462962962963,
+        "exact_nonzero_symbol_entries": 14336,
+        "normalized_rank": 4,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "seed": 7032,
+        "split": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "template_index": 32
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "coefficient": 0.0075384642082938665,
+        "exact_nonzero_symbol_entries": 9216,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "seed": 7033,
+        "split": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "template_index": 33
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "coefficient": 0.005670115145331513,
+        "exact_nonzero_symbol_entries": 12288,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "seed": 7034,
+        "split": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "template_index": 34
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "coefficient": 0.004629629629629861,
+        "exact_nonzero_symbol_entries": 16384,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "seed": 7035,
+        "split": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "template_index": 35
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "coefficient": 0.006944444444444443,
+        "exact_nonzero_symbol_entries": 16384,
+        "normalized_rank": 4,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "seed": 7036,
+        "split": [
+          1,
+          3,
+          0,
+          2
+        ],
+        "template_index": 36
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.008143082916360121,
+        "exact_nonzero_symbol_entries": 24576,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "seed": 7037,
+        "split": [
+          0,
+          0,
+          1,
+          5
+        ],
+        "template_index": 37
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.004557291666666663,
+        "exact_nonzero_symbol_entries": 9216,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "seed": 7038,
+        "split": [
+          0,
+          0,
+          2,
+          4
+        ],
+        "template_index": 38
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.005208333333333333,
+        "exact_nonzero_symbol_entries": 6144,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "seed": 7039,
+        "split": [
+          0,
+          0,
+          3,
+          3
+        ],
+        "template_index": 39
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.006293402777777772,
+        "exact_nonzero_symbol_entries": 9216,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "seed": 7040,
+        "split": [
+          0,
+          0,
+          4,
+          2
+        ],
+        "template_index": 40
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.01388888888888889,
+        "exact_nonzero_symbol_entries": 49152,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "seed": 7041,
+        "split": [
+          0,
+          0,
+          5,
+          1
+        ],
+        "template_index": 41
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.035628845769059156,
+        "exact_nonzero_symbol_entries": 9216,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "seed": 7042,
+        "split": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "template_index": 42
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.040913530018722465,
+        "exact_nonzero_symbol_entries": 13312,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "seed": 7043,
+        "split": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "template_index": 43
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.01589059452271348,
+        "exact_nonzero_symbol_entries": 6144,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "seed": 7044,
+        "split": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "template_index": 44
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.036888163841293856,
+        "exact_nonzero_symbol_entries": 9216,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "seed": 7045,
+        "split": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "template_index": 45
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.0024552318791199565,
+        "exact_nonzero_symbol_entries": 8192,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          1,
+          9,
+          1
+        ],
+        "seed": 7046,
+        "split": [
+          0,
+          0,
+          5,
+          1
+        ],
+        "template_index": 46
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.0017361111111111114,
+        "exact_nonzero_symbol_entries": 8192,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          1,
+          9,
+          1
+        ],
+        "seed": 7047,
+        "split": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "template_index": 47
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.006944444444444449,
+        "exact_nonzero_symbol_entries": 4096,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          9,
+          1
+        ],
+        "seed": 7048,
+        "split": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "template_index": 48
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.06288461901484317,
+        "exact_nonzero_symbol_entries": 8192,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          9,
+          1
+        ],
+        "seed": 7049,
+        "split": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "template_index": 49
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.008018753738744963,
+        "exact_nonzero_symbol_entries": 49152,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "seed": 7050,
+        "split": [
+          0,
+          1,
+          0,
+          5
+        ],
+        "template_index": 50
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.0034722222222223153,
+        "exact_nonzero_symbol_entries": 9216,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "seed": 7051,
+        "split": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "template_index": 51
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.001302083333333333,
+        "exact_nonzero_symbol_entries": 9216,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "seed": 7052,
+        "split": [
+          0,
+          2,
+          0,
+          4
+        ],
+        "template_index": 52
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.001227615939559978,
+        "exact_nonzero_symbol_entries": 3072,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "seed": 7053,
+        "split": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "template_index": 53
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.0028350575726657852,
+        "exact_nonzero_symbol_entries": 6144,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "seed": 7054,
+        "split": [
+          0,
+          3,
+          0,
+          3
+        ],
+        "template_index": 54
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.002835057572665792,
+        "exact_nonzero_symbol_entries": 6144,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "seed": 7055,
+        "split": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "template_index": 55
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.0010127314814814816,
+        "exact_nonzero_symbol_entries": 5120,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "seed": 7056,
+        "split": [
+          0,
+          4,
+          0,
+          2
+        ],
+        "template_index": 56
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.0016368212527466375,
+        "exact_nonzero_symbol_entries": 6144,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "seed": 7057,
+        "split": [
+          0,
+          4,
+          1,
+          1
+        ],
+        "template_index": 57
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.005670115145331518,
+        "exact_nonzero_symbol_entries": 24576,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "seed": 7058,
+        "split": [
+          0,
+          5,
+          0,
+          1
+        ],
+        "template_index": 58
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.007486506010033366,
+        "exact_nonzero_symbol_entries": 9216,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "seed": 7059,
+        "split": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "template_index": 59
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.008661243950866145,
+        "exact_nonzero_symbol_entries": 24576,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "seed": 7060,
+        "split": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "template_index": 60
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.0008184106263733189,
+        "exact_nonzero_symbol_entries": 2048,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "seed": 7061,
+        "split": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "template_index": 61
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.015624999999999993,
+        "exact_nonzero_symbol_entries": 8192,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "seed": 7062,
+        "split": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "template_index": 62
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.005588457320308114,
+        "exact_nonzero_symbol_entries": 8192,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "seed": 7063,
+        "split": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "template_index": 63
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.0023148148148148303,
+        "exact_nonzero_symbol_entries": 4096,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "seed": 7064,
+        "split": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "template_index": 64
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.0019669041638624477,
+        "exact_nonzero_symbol_entries": 9216,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "seed": 7065,
+        "split": [
+          0,
+          4,
+          1,
+          1
+        ],
+        "template_index": 65
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.024056261216234574,
+        "exact_nonzero_symbol_entries": 49152,
+        "normalized_rank": 8,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "seed": 7066,
+        "split": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "template_index": 66
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.018180791588541016,
+        "exact_nonzero_symbol_entries": 9216,
+        "normalized_rank": 8,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "seed": 7067,
+        "split": [
+          1,
+          0,
+          1,
+          4
+        ],
+        "template_index": 67
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.015624999999999997,
+        "exact_nonzero_symbol_entries": 9216,
+        "normalized_rank": 4,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "seed": 7068,
+        "split": [
+          1,
+          1,
+          0,
+          4
+        ],
+        "template_index": 68
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.009114583333333327,
+        "exact_nonzero_symbol_entries": 18432,
+        "normalized_rank": 0,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "seed": 7069,
+        "split": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "template_index": 69
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.010416666666666663,
+        "exact_nonzero_symbol_entries": 6144,
+        "normalized_rank": 4,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "seed": 7070,
+        "split": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "template_index": 70
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.022615392624881592,
+        "exact_nonzero_symbol_entries": 18432,
+        "normalized_rank": 8,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "seed": 7071,
+        "split": [
+          2,
+          1,
+          0,
+          3
+        ],
+        "template_index": 71
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.008505172717997217,
+        "exact_nonzero_symbol_entries": 6144,
+        "normalized_rank": 8,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "seed": 7072,
+        "split": [
+          2,
+          1,
+          1,
+          2
+        ],
+        "template_index": 72
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.017617611892245606,
+        "exact_nonzero_symbol_entries": 8064,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          3,
+          3,
+          5
+        ],
+        "seed": 7073,
+        "split": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "template_index": 73
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.016497988868779203,
+        "exact_nonzero_symbol_entries": 7040,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          3,
+          3,
+          5
+        ],
+        "seed": 7074,
+        "split": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "template_index": 74
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.013611752232031753,
+        "exact_nonzero_symbol_entries": 8448,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          3,
+          3,
+          5
+        ],
+        "seed": 7075,
+        "split": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "template_index": 75
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.0053710937500000226,
+        "exact_nonzero_symbol_entries": 4224,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          3,
+          3,
+          5
+        ],
+        "seed": 7076,
+        "split": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "template_index": 76
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.0034064522669980937,
+        "exact_nonzero_symbol_entries": 4480,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          3,
+          5,
+          3
+        ],
+        "seed": 7077,
+        "split": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "template_index": 77
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.02725513039821035,
+        "exact_nonzero_symbol_entries": 10752,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          3,
+          5,
+          3
+        ],
+        "seed": 7078,
+        "split": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "template_index": 78
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.0030381944444444484,
+        "exact_nonzero_symbol_entries": 4480,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          3,
+          5,
+          3
+        ],
+        "seed": 7079,
+        "split": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "template_index": 79
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.008051180612043378,
+        "exact_nonzero_symbol_entries": 9216,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          3,
+          5,
+          3
+        ],
+        "seed": 7080,
+        "split": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "template_index": 80
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.005931712962962969,
+        "exact_nonzero_symbol_entries": 4608,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          5,
+          3,
+          3
+        ],
+        "seed": 7081,
+        "split": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "template_index": 81
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.01245568285349178,
+        "exact_nonzero_symbol_entries": 9984,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          3,
+          3
+        ],
+        "seed": 7082,
+        "split": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "template_index": 82
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.007139965054949327,
+        "exact_nonzero_symbol_entries": 3200,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          3,
+          3
+        ],
+        "seed": 7083,
+        "split": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "template_index": 83
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.004727382246134167,
+        "exact_nonzero_symbol_entries": 4224,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          5,
+          3,
+          3
+        ],
+        "seed": 7084,
+        "split": [
+          0,
+          4,
+          1,
+          1
+        ],
+        "template_index": 84
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.02009281134259494,
+        "exact_nonzero_symbol_entries": 8960,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          1,
+          3,
+          5
+        ],
+        "seed": 7085,
+        "split": [
+          1,
+          0,
+          1,
+          4
+        ],
+        "template_index": 85
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.006920374061359282,
+        "exact_nonzero_symbol_entries": 3072,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          1,
+          3,
+          5
+        ],
+        "seed": 7086,
+        "split": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "template_index": 86
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.019802517361110997,
+        "exact_nonzero_symbol_entries": 16128,
+        "normalized_rank": 0,
+        "profile": [
+          3,
+          1,
+          3,
+          5
+        ],
+        "seed": 7087,
+        "split": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "template_index": 87
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.00672552707237159,
+        "exact_nonzero_symbol_entries": 6528,
+        "normalized_rank": 4,
+        "profile": [
+          3,
+          1,
+          3,
+          5
+        ],
+        "seed": 7088,
+        "split": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "template_index": 88
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.0036310748498684323,
+        "exact_nonzero_symbol_entries": 2688,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          1,
+          5,
+          3
+        ],
+        "seed": 7089,
+        "split": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "template_index": 89
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.006513513632127382,
+        "exact_nonzero_symbol_entries": 8064,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          1,
+          5,
+          3
+        ],
+        "seed": 7090,
+        "split": [
+          1,
+          0,
+          4,
+          1
+        ],
+        "template_index": 90
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.004802843422352674,
+        "exact_nonzero_symbol_entries": 4224,
+        "normalized_rank": 4,
+        "profile": [
+          3,
+          1,
+          5,
+          3
+        ],
+        "seed": 7091,
+        "split": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "template_index": 91
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.005099826388888902,
+        "exact_nonzero_symbol_entries": 8448,
+        "normalized_rank": 0,
+        "profile": [
+          3,
+          1,
+          5,
+          3
+        ],
+        "seed": 7092,
+        "split": [
+          1,
+          1,
+          3,
+          1
+        ],
+        "template_index": 92
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.013262903027186591,
+        "exact_nonzero_symbol_entries": 9600,
+        "normalized_rank": 4,
+        "profile": [
+          3,
+          3,
+          1,
+          5
+        ],
+        "seed": 7093,
+        "split": [
+          1,
+          1,
+          0,
+          4
+        ],
+        "template_index": 93
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.003146701388888912,
+        "exact_nonzero_symbol_entries": 4224,
+        "normalized_rank": 0,
+        "profile": [
+          3,
+          3,
+          1,
+          5
+        ],
+        "seed": 7094,
+        "split": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "template_index": 94
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.008472608531530434,
+        "exact_nonzero_symbol_entries": 7040,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          3,
+          1,
+          5
+        ],
+        "seed": 7095,
+        "split": [
+          1,
+          2,
+          0,
+          3
+        ],
+        "template_index": 95
+      },
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.007364055521531897,
+        "exact_nonzero_symbol_entries": 7040,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          3,
+          1,
+          5
+        ],
+        "seed": 7096,
+        "split": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "template_index": 96
+      }
+    ],
+    "coefficients_above_one": 0,
+    "focused_pure_maximum": 0.17677669529663698,
+    "focused_pure_rows": [
+      {
+        "class_name": "universal_septimic",
+        "maximum_coefficient": 0.1117018894325781,
+        "maximum_nonzero_symbol_entries": 28672,
+        "maximum_seed": 51026,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          1,
+          1,
+          7
+        ],
+        "split": [
+          1,
+          0,
+          1,
+          4
+        ],
+        "template_index": 21,
+        "trials": 30
+      },
+      {
+        "class_name": "universal_noncubic",
+        "maximum_coefficient": 0.17677669529663698,
+        "maximum_nonzero_symbol_entries": 32768,
+        "maximum_seed": 79023,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          9,
+          1
+        ],
+        "split": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "template_index": 49,
+        "trials": 30
+      },
+      {
+        "class_name": "universal_septimic",
+        "maximum_coefficient": 0.08258063043911082,
+        "maximum_nonzero_symbol_entries": 17920,
+        "maximum_seed": 36009,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          7,
+          3
+        ],
+        "split": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "template_index": 6,
+        "trials": 30
+      },
+      {
+        "class_name": "universal_noncubic",
+        "maximum_coefficient": 0.07876432577938293,
+        "maximum_nonzero_symbol_entries": 18432,
+        "maximum_seed": 73012,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "split": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "template_index": 43,
+        "trials": 30
+      },
+      {
+        "class_name": "universal_septimic",
+        "maximum_coefficient": 0.08618865612012938,
+        "maximum_nonzero_symbol_entries": 12288,
+        "maximum_seed": 32003,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          3,
+          7
+        ],
+        "split": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "template_index": 2,
+        "trials": 30
+      },
+      {
+        "class_name": "universal_septimic",
+        "maximum_coefficient": 0.12695312499999986,
+        "maximum_nonzero_symbol_entries": 32256,
+        "maximum_seed": 52021,
+        "normalized_rank": 4,
+        "profile": [
+          3,
+          1,
+          1,
+          7
+        ],
+        "split": [
+          1,
+          1,
+          0,
+          4
+        ],
+        "template_index": 22,
+        "trials": 30
+      },
+      {
+        "class_name": "recovered_universal",
+        "maximum_coefficient": 0.021158854166666706,
+        "maximum_nonzero_symbol_entries": 17920,
+        "maximum_seed": 117024,
+        "normalized_rank": 0,
+        "profile": [
+          3,
+          1,
+          3,
+          5
+        ],
+        "split": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "template_index": 87,
+        "trials": 30
+      }
+    ],
+    "group_elements": 65536,
+    "mixed_maximum_lower": 0.17677669314724448,
+    "mixed_maximum_tangent_upper": 0.17677669529663687,
+    "mixed_rows": [
+      {
+        "class_name": "recovered_universal",
+        "coefficient": 0.02237490155261755,
+        "column_shape_law": [
+          0.89125122,
+          0.0609448,
+          0.04780398
+        ],
+        "concavity_tangent_upper": 0.022381319503894576,
+        "exact_nonzero_symbol_entries": 94720,
+        "normalized_rank": 0,
+        "profile": [
+          3,
+          1,
+          3,
+          5
+        ],
+        "row_shape_law": [
+          0.96198689,
+          0.01023001,
+          0.0277831
+        ],
+        "seeds": [
+          117024,
+          117000,
+          117001
+        ],
+        "split": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "template_index": 87
+      },
+      {
+        "class_name": "universal_septimic",
+        "coefficient": 0.16635173300656284,
+        "column_shape_law": [
+          0.34082596000000004,
+          0.30143085000000003,
+          0.19654121000000002,
+          0.04444092000000001,
+          0.11676106000000001
+        ],
+        "concavity_tangent_upper": 0.166741363472709,
+        "exact_nonzero_symbol_entries": 491008,
+        "normalized_rank": 4,
+        "profile": [
+          3,
+          1,
+          1,
+          7
+        ],
+        "row_shape_law": [
+          0.25880358741196413,
+          0.5553997544460025,
+          0.1280658887193411,
+          0.027746869722531306,
+          0.029983899700161007
+        ],
+        "seeds": [
+          52024,
+          52021,
+          52029,
+          52015,
+          52025
+        ],
+        "split": [
+          1,
+          1,
+          0,
+          4
+        ],
+        "template_index": 22
+      },
+      {
+        "class_name": "universal_noncubic",
+        "coefficient": 0.17677669314724448,
+        "column_shape_law": [
+          0.99999998,
+          1e-08,
+          1e-08
+        ],
+        "concavity_tangent_upper": 0.17677669529663687,
+        "exact_nonzero_symbol_entries": 77824,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          9,
+          1
+        ],
+        "row_shape_law": [
+          0.99999998,
+          1e-08,
+          1e-08
+        ],
+        "seeds": [
+          79023,
+          79010,
+          79027
+        ],
+        "split": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "template_index": 49
+      }
+    ],
+    "order": 4,
+    "templates": 97
+  },
+  "schema": "round4_q4_masked_translation_full_group_screen_v1"
+}

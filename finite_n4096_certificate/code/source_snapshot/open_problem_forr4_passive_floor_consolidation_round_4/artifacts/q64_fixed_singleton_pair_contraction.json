@@ -1,0 +1,35 @@
+{
+  "evidence_label": "arbitrary-diagonal complementary complete-row Schur-feature theorem using Hadamard flatness, the exact quintic fixed-pair slice, a counted cubic completion, and the universal middle-link maximum; floating q64 Perron insertion; one batch only",
+  "remaining_open": "652 balanced entries plus interval certification and the adaptive lift",
+  "result": {
+    "closed_entries": 4,
+    "coefficient": 0.07683033720123796,
+    "cubic_pair_completions": 8382465,
+    "dimension": 4096,
+    "fixed_singleton_inserted": {
+      "beta": 0.7461938577336442,
+      "margin_to_one_third": 0.010298638329176879,
+      "perron_upper": 0.3061648799814117,
+      "promise_loss": 0.01686981502274475,
+      "total": 0.32303469500415644
+    },
+    "hadamard_squared_factor": 0.000244140625,
+    "margin_improvement": 0.0007420859164588012,
+    "order": 64,
+    "previous_proved_entries": 232,
+    "previous_routing": {
+      "beta": 0.7461844487675892,
+      "margin_to_one_third": 0.009556552412718078,
+      "perron_upper": 0.30686888242313387,
+      "promise_loss": 0.016907898497481356,
+      "total": 0.32377678092061524
+    },
+    "quintic_fixed_pair_energy": 41.37997581845239,
+    "remaining_open_entries": 652,
+    "row_energy_bound": 0.005902900714455929,
+    "sign_modes": 16384,
+    "total_proved_entries": 236,
+    "universal_middle_maximum": 0.0002640168970814132
+  },
+  "schema": "round4_q64_fixed_singleton_pair_contraction_v1"
+}

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: >-
+  If you use these proof packages, please cite this repository and the
+  associated manuscript.
+title: Supporting proof packages for fourfold forrelation
+type: software
+repository-code: https://github.com/safavilinqs/fourfold-forrelation-proofs
+url: https://github.com/safavilinqs/fourfold-forrelation-proofs
+authors:
+  - family-names: Safavi-Naeini
+    given-names: Amir
+date-released: 2026-08-15
+abstract: >-
+  Reproducibility materials for an asymptotic fresh-single-pass hard-dose
+  lower bound and a computer-assisted finite-size certificate at N=4096,
+  under its documented number-sector restriction, for fourfold forrelation.
+keywords:
+  - fourfold forrelation
+  - quantum query complexity
+  - computational sensing
+  - reproducibility

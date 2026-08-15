@@ -1,0 +1,48 @@
+{
+  "evidence_label": "arbitrary-diagonal exact cubic fixed-pair endpoint slice, direct constant/incidence/pair-containment factorization of the balanced quintic distinctness mask, and unit cross-Gram completion of all remaining physical links; floating q64 Perron insertion; one batch only",
+  "remaining_open": "540 balanced entries, including 80 degree-twelve split-cubic/split-quintic entries, plus interval certification and the adaptive lift",
+  "result": {
+    "balanced_entries": 8,
+    "closed_entries": 8,
+    "closed_orbits": 2,
+    "coefficient": 0.6426934975083619,
+    "cubic_endpoint_factor": 0.12403521525363623,
+    "cubic_fixed_pair_energy": 0.015384734623015874,
+    "dimension": 4096,
+    "extreme_entries": 0,
+    "inserted_routing": {
+      "beta": 0.7461131815409247,
+      "margin_to_one_third": 0.005990328315759685,
+      "perron_upper": 0.31014394207226265,
+      "promise_loss": 0.01719906294531099,
+      "total": 0.32734300501757363
+    },
+    "order": 64,
+    "pair_triple_mask_factor": 5.1815405503520555,
+    "previous_proved_entries": 340,
+    "previous_routing": {
+      "beta": 0.7461529246324944,
+      "margin_to_one_third": 0.00856700638000285,
+      "perron_upper": 0.3077302268922124,
+      "promise_loss": 0.017036100061118036,
+      "total": 0.32476632695333046
+    },
+    "proxy_reserve_after_declared_allowance": 0.004837260684112222,
+    "quintic_favorable_entries": 0,
+    "remaining_balanced_entries": 24,
+    "remaining_extreme_entries": 56,
+    "remaining_open_entries": 540,
+    "remaining_quintic_entries": 80,
+    "remaining_quintic_local_proxy": {
+      "beta": 0.7461106941676644,
+      "margin_to_one_third": 0.005837260684112222,
+      "perron_upper": 0.31028676061515414,
+      "promise_loss": 0.017209312034066972,
+      "total": 0.3274960726492211
+    },
+    "routing_margin_spent": 0.0025766780642431653,
+    "sign_modes": 16384,
+    "total_proved_entries": 348
+  },
+  "schema": "round4_q64_balanced_pair_triple_mask_insertion_v1"
+}

@@ -1,0 +1,310 @@
+{
+  "evidence_label": "arbitrary-correlated-diagonal theorem for all twelve residual cubic-septimic entries; exact physical cubic endpoint slices, a record-compatible fixed-one refinement, exact degree-seven bidegree incidences, and a zero-active/injective-Walsh endpoint split retain both occurrence masks",
+  "incidence_tables": {
+    "record_1_one": [
+      340909148418048,
+      582608407941,
+      8045785818,
+      110311919,
+      16209900,
+      15742,
+      4090,
+      1
+    ],
+    "record_3_one": [
+      23749127158579200,
+      40586887233900,
+      563477060160,
+      5152854224,
+      505158144,
+      370822,
+      3968,
+      1
+    ]
+  },
+  "repaired_registry_entries": [
+    {
+      "mechanism": "column_complete_cubic_endpoint",
+      "outward_coefficient": 0.5386265463506696,
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "selected_orientation": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "split": [
+        0,
+        1,
+        4,
+        1
+      ]
+    },
+    {
+      "mechanism": "column_fixed_one_record_split",
+      "outward_coefficient": 0.40931062674303853,
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "selected_orientation": [
+        1,
+        1,
+        4,
+        0
+      ],
+      "split": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "mechanism": "column_fixed_one_record_split",
+      "outward_coefficient": 0.08842196379947868,
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "selected_orientation": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        2,
+        4,
+        0
+      ]
+    },
+    {
+      "mechanism": "row_fixed_one_record_split",
+      "outward_coefficient": 0.08842196379947868,
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "selected_orientation": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        1
+      ]
+    },
+    {
+      "mechanism": "row_fixed_one_record_split",
+      "outward_coefficient": 0.40931062674303853,
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "selected_orientation": [
+        1,
+        1,
+        4,
+        0
+      ],
+      "split": [
+        1,
+        1,
+        4,
+        0
+      ]
+    },
+    {
+      "mechanism": "row_complete_cubic_endpoint",
+      "outward_coefficient": 0.5386265463506696,
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "selected_orientation": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "split": [
+        1,
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "mechanism": "row_complete_cubic_endpoint",
+      "outward_coefficient": 0.5386265463506696,
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "selected_orientation": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "split": [
+        0,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "mechanism": "row_fixed_one_record_split",
+      "outward_coefficient": 0.40931062674303853,
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "selected_orientation": [
+        1,
+        1,
+        4,
+        0
+      ],
+      "split": [
+        0,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "mechanism": "column_fixed_one_record_split",
+      "outward_coefficient": 0.08842196379947868,
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "selected_orientation": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        2,
+        0
+      ]
+    },
+    {
+      "mechanism": "row_fixed_one_record_split",
+      "outward_coefficient": 0.08842196379947868,
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "selected_orientation": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "mechanism": "column_fixed_one_record_split",
+      "outward_coefficient": 0.40931062674303853,
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "selected_orientation": [
+        1,
+        1,
+        4,
+        0
+      ],
+      "split": [
+        1,
+        3,
+        2,
+        0
+      ]
+    },
+    {
+      "mechanism": "column_complete_cubic_endpoint",
+      "outward_coefficient": 0.5386265463506696,
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "selected_orientation": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "split": [
+        1,
+        4,
+        1,
+        0
+      ]
+    }
+  ],
+  "result": {
+    "candidate_entries": 12,
+    "cubic_fixed_one_record_one_energy": 0.000732421875,
+    "cubic_fixed_one_record_three_energy": 0.49951171875,
+    "degree_seven_record_one_one_fixed_four_incidence": 16209900,
+    "degree_seven_record_one_one_fixed_three_incidence": 110311919,
+    "degree_seven_record_three_one_fixed_four_incidence": 505158144,
+    "degree_seven_record_three_one_fixed_three_incidence": 5152854224,
+    "maximum_coefficient": 0.5386265463506696,
+    "minimum_coefficient": 0.08842196379947868,
+    "order": 64,
+    "record_one_fixed_four_endpoint_energy_bound": 4399.126984126984,
+    "record_one_fixed_three_endpoint_energy_bound": 28108.378432854624,
+    "record_one_zero_active_completion_bound": 315,
+    "remaining_quarantined_entries": 52,
+    "repaired_entries": 12,
+    "repaired_orbits": 3
+  },
+  "schema": "round4_q64_masked_cubic_septimic_chain_repair_v2"
+}

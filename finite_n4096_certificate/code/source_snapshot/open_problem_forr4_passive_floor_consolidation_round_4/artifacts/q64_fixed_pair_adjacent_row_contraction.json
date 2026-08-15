@@ -1,0 +1,52 @@
+{
+  "evidence_label": "arbitrary-diagonal complete-row Schur-feature theorem using fixed-pair cubic completion counts and inherited record-specific M_35 pair-tail bounds; floating q64 Perron insertion; one batch only",
+  "remaining_open": "624 balanced entries plus interval certification and the adaptive lift",
+  "result": {
+    "closed_entries": 4,
+    "coefficient": 0.06998959417303395,
+    "dimension": 4096,
+    "fixed_pair_inserted": {
+      "beta": 0.7460950063917603,
+      "margin_to_one_third": 0.0040850791991315916,
+      "perron_upper": 0.31197416557950725,
+      "promise_loss": 0.01727408855469446,
+      "total": 0.3292482541342017
+    },
+    "margin_improvement": 0.0013150997325614422,
+    "order": 64,
+    "previous_proved_entries": 260,
+    "previous_routing": {
+      "beta": 0.7460779152389242,
+      "margin_to_one_third": 0.0027699794665701494,
+      "perron_upper": 0.3132184264212764,
+      "promise_loss": 0.01734492744548678,
+      "total": 0.33056335386676317
+    },
+    "proxy_reserve_after_declared_allowance": 0.0012663668247970836,
+    "record_one_cubic_completions": 126,
+    "record_one_middle_squared": 6.151187326782565e-08,
+    "record_one_row_energy_bound": 0.00028207922053840397,
+    "record_one_tail_bound": 36.394989350747025,
+    "record_three_distinct_pair_tail_bound": 0.012456403767218151,
+    "record_three_high_cubic_completions": 62,
+    "record_three_high_middle_squared": 0.000244140625,
+    "record_three_low_cubic_completions": 3906,
+    "record_three_low_middle_squared": 6.151187326782565e-08,
+    "record_three_row_energy_bound": 0.0046164640719675845,
+    "record_three_same_pair_tail_bound": 0.3002190828737629,
+    "record_three_tail_bound": 0.3002190828737629,
+    "remaining_open_entries": 624,
+    "remaining_quintic_local_proxy": {
+      "beta": 0.7460716026516745,
+      "margin_to_one_third": 0.0022663668247970836,
+      "perron_upper": 0.31369580405007086,
+      "promise_loss": 0.017371162458465376,
+      "total": 0.33106696650853623
+    },
+    "remaining_quintic_proxy_entries": 164,
+    "sign_modes": 16384,
+    "total_proved_entries": 264,
+    "total_row_energy_bound": 0.004898543292505988
+  },
+  "schema": "round4_q64_fixed_pair_adjacent_row_contraction_v1"
+}

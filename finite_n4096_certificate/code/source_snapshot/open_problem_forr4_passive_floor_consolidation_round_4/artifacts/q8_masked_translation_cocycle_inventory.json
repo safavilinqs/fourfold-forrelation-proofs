@@ -1,0 +1,2457 @@
+{
+  "evidence_label": "exact GF(2) commutator ranks of the projective masked-translation action; row and complementary-column ranks agree for every one of the 97 structural templates",
+  "result": {
+    "axis_bits": 3,
+    "normalized_rank_counts": {
+      "0": 21,
+      "4": 26,
+      "8": 50
+    },
+    "order": 8,
+    "parity_rank_counts": {
+      "0000:0": 15,
+      "0011:4": 19,
+      "0101:8": 19,
+      "0110:8": 19,
+      "1001:8": 5,
+      "1010:8": 7,
+      "1100:4": 7,
+      "1111:0": 6
+    },
+    "rank_counts": {
+      "0": 21,
+      "12": 26,
+      "24": 50
+    },
+    "rows": [
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          1,
+          3,
+          7
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          0,
+          0,
+          1,
+          5
+        ],
+        "split_parities": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          1,
+          3,
+          7
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          0,
+          0,
+          2,
+          4
+        ],
+        "split_parities": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          3,
+          7
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "split_parities": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          3,
+          7
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "split_parities": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          1,
+          7,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          0,
+          0,
+          4,
+          2
+        ],
+        "split_parities": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          1,
+          7,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          0,
+          0,
+          5,
+          1
+        ],
+        "split_parities": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          7,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "split_parities": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          7,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "split_parities": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          3,
+          1,
+          7
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          0,
+          5
+        ],
+        "split_parities": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          3,
+          1,
+          7
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "split_parities": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          3,
+          1,
+          7
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          0,
+          2,
+          0,
+          4
+        ],
+        "split_parities": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          3,
+          1,
+          7
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "split_parities": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          3,
+          7,
+          1
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "split_parities": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          3,
+          7,
+          1
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "split_parities": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          3,
+          7,
+          1
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "split_parities": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          3,
+          7,
+          1
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "split_parities": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          7,
+          1,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "split_parities": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          7,
+          1,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          0,
+          4,
+          0,
+          2
+        ],
+        "split_parities": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          7,
+          1,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          0,
+          4,
+          1,
+          1
+        ],
+        "split_parities": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          7,
+          1,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          5,
+          0,
+          1
+        ],
+        "split_parities": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          1,
+          1,
+          7
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          1,
+          0,
+          0,
+          5
+        ],
+        "split_parities": [
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          1,
+          1,
+          7
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          1,
+          0,
+          1,
+          4
+        ],
+        "split_parities": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          3,
+          1,
+          1,
+          7
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          1,
+          1,
+          0,
+          4
+        ],
+        "split_parities": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_septimic",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          3,
+          1,
+          1,
+          7
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "split_parities": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_multicubic",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "split_parities": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_multicubic",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "split_parities": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_multicubic",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          1,
+          1,
+          3,
+          1
+        ],
+        "split_parities": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_multicubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "split_parities": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_multicubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          1,
+          2,
+          2,
+          1
+        ],
+        "split_parities": [
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "split_parities": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "split_parities": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "split_parities": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "split_parities": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "split_parities": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "split_parities": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "split_parities": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_double_cubic",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          1,
+          3,
+          0,
+          2
+        ],
+        "split_parities": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          0,
+          0,
+          1,
+          5
+        ],
+        "split_parities": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          0,
+          0,
+          2,
+          4
+        ],
+        "split_parities": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          0,
+          0,
+          3,
+          3
+        ],
+        "split_parities": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          0,
+          0,
+          4,
+          2
+        ],
+        "split_parities": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          0,
+          0,
+          5,
+          1
+        ],
+        "split_parities": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "split_parities": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "split_parities": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "split_parities": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          5,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "split_parities": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          1,
+          9,
+          1
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          0,
+          0,
+          5,
+          1
+        ],
+        "split_parities": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          1,
+          9,
+          1
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "split_parities": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          9,
+          1
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "split_parities": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          1,
+          9,
+          1
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "split_parities": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          0,
+          5
+        ],
+        "split_parities": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "split_parities": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          0,
+          2,
+          0,
+          4
+        ],
+        "split_parities": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "split_parities": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          3,
+          0,
+          3
+        ],
+        "split_parities": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "split_parities": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          0,
+          4,
+          0,
+          2
+        ],
+        "split_parities": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          0,
+          4,
+          1,
+          1
+        ],
+        "split_parities": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          1,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          5,
+          0,
+          1
+        ],
+        "split_parities": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "split_parities": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "split_parities": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "split_parities": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "split_parities": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "split_parities": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "split_parities": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          0,
+          4,
+          1,
+          1
+        ],
+        "split_parities": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "split_parities": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          1,
+          0,
+          1,
+          4
+        ],
+        "split_parities": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          1,
+          1,
+          0,
+          4
+        ],
+        "split_parities": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "split_parities": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "split_parities": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          2,
+          1,
+          0,
+          3
+        ],
+        "split_parities": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "universal_noncubic",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          5,
+          1,
+          1,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          2,
+          1,
+          1,
+          2
+        ],
+        "split_parities": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          3,
+          3,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "split_parities": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          3,
+          3,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "split_parities": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          3,
+          3,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "split_parities": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          3,
+          3,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "split_parities": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          3,
+          5,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "split_parities": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          3,
+          5,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "split_parities": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          3,
+          5,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "split_parities": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          3,
+          5,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "split_parities": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          1,
+          5,
+          3,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "split_parities": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          3,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "split_parities": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          1,
+          5,
+          3,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "split_parities": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          1,
+          5,
+          3,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          0,
+          4,
+          1,
+          1
+        ],
+        "split_parities": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          1,
+          3,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          1,
+          0,
+          1,
+          4
+        ],
+        "split_parities": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          1,
+          3,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "split_parities": [
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          3,
+          1,
+          3,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "split_parities": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          3,
+          1,
+          3,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "split_parities": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          1,
+          5,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "split_parities": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          1,
+          5,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          1,
+          0,
+          4,
+          1
+        ],
+        "split_parities": [
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          3,
+          1,
+          5,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "split_parities": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          3,
+          1,
+          5,
+          3
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          1,
+          1,
+          3,
+          1
+        ],
+        "split_parities": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 12,
+        "normalized_rank": 4,
+        "profile": [
+          3,
+          3,
+          1,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 12,
+        "split": [
+          1,
+          1,
+          0,
+          4
+        ],
+        "split_parities": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 0,
+        "normalized_rank": 0,
+        "profile": [
+          3,
+          3,
+          1,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 0,
+        "split": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "split_parities": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          3,
+          1,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          1,
+          2,
+          0,
+          3
+        ],
+        "split_parities": [
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "class_name": "recovered_universal",
+        "column_commutator_rank": 24,
+        "normalized_rank": 8,
+        "profile": [
+          3,
+          3,
+          1,
+          5
+        ],
+        "row_column_cocycles_equal": true,
+        "row_commutator_rank": 24,
+        "split": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "split_parities": [
+          1,
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "templates": 97,
+    "translation_bits": 24
+  },
+  "schema": "round4_masked_translation_cocycle_inventory_v1"
+}

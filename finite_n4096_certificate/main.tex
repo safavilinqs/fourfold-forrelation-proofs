@@ -1,0 +1,48 @@
+\documentclass[aps,prx,reprint,superscriptaddress,longbibliography,nofootinbib,floatfix]{revtex4-2}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage[colorlinks=true,citecolor=blue,linkcolor=blue,urlcolor=blue]{hyperref}
+\input{macros}
+
+\begin{document}
+
+\preprint{Draft: \today}
+
+\title{A finite-size active advantage over number-sector-incoherent passive sensing for four-fold forrelation at \texorpdfstring{$N=4096$}{N=4096}}
+
+\author{Amir Safavi-Naeini}
+\affiliation{Department of Applied Physics and Ginzton Laboratory, Stanford University, Stanford, California 94305, USA}
+
+\begin{abstract}
+\input{sections/S0_abstract}
+\end{abstract}
+
+\maketitle
+
+\input{sections/S1_introduction}
+\input{sections/S2_model}
+\input{sections/S3_statement}
+\input{sections/S4_active}
+\input{sections/S5_hard_pair}
+\input{sections/S6_one_batch}
+\input{sections/S7_adaptive}
+\input{sections/S9_implementation}
+\input{sections/S10_discussion}
+\input{sections/S8_verification}
+
+\appendix
+\input{appendix/A_hard_pair}
+\input{appendix/B_ledger}
+\input{appendix/C_adaptive}
+\input{appendix/D_notation}
+\input{appendix/E_verification}
+
+\bibliography{references}
+
+\end{document}

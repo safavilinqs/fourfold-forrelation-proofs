@@ -1,0 +1,2450 @@
+{
+  "evidence_label": "arbitrary-correlated-diagonal one-batch theorem for all eighty final residual entries; forty-eight entries use the exact local Walsh q^-1 mechanism with their sole physical mask restored, and thirty-two entries use exact complete-chain row energies with physical incidence tables and active-xor endpoint bounds; all squared coefficients are rational and only final square roots are rounded outward",
+  "registry_entries": [
+    {
+      "canonical_profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "canonical_split": [
+        0,
+        1,
+        0,
+        4
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.046875,
+      "profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        1,
+        0,
+        4
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "canonical_split": [
+        0,
+        1,
+        0,
+        4
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.046875,
+      "profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        3,
+        1
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "canonical_split": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.140625,
+      "profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "split": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "canonical_split": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.140625,
+      "profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "split": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "canonical_split": [
+        0,
+        1,
+        1,
+        3
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.046875,
+      "profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        1,
+        3
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "canonical_split": [
+        0,
+        1,
+        4,
+        0
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.046875,
+      "profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        4,
+        0
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "canonical_split": [
+        0,
+        1,
+        4,
+        0
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.046875,
+      "profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        1,
+        3
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "canonical_split": [
+        0,
+        1,
+        1,
+        3
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.046875,
+      "profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        4,
+        0
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "canonical_split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.140625,
+      "profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "canonical_split": [
+        0,
+        1,
+        5,
+        0
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.140625,
+      "profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        5,
+        0
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "canonical_split": [
+        0,
+        1,
+        5,
+        0
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.140625,
+      "profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "canonical_split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.140625,
+      "profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        5,
+        0
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "canonical_split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "mechanism": "local_walsh_internal_singleton",
+      "outward_coefficient": 0.1875,
+      "profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "squared_coefficient_denominator": 256,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "canonical_split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "mechanism": "local_walsh_internal_singleton",
+      "outward_coefficient": 0.1875,
+      "profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "split": [
+        1,
+        0,
+        1,
+        4
+      ],
+      "squared_coefficient_denominator": 256,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "canonical_split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "mechanism": "terminal_high_two_cubic_row",
+      "outward_coefficient": 0.19410520945035262,
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "squared_coefficient_denominator": 35597005645824,
+      "squared_coefficient_numerator": 1341182413373
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "canonical_split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "mechanism": "terminal_high_two_cubic_row",
+      "outward_coefficient": 0.19410520945035262,
+      "profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "split": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "squared_coefficient_denominator": 35597005645824,
+      "squared_coefficient_numerator": 1341182413373
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "canonical_split": [
+        0,
+        3,
+        1,
+        1
+      ],
+      "mechanism": "double_endpoint_high_row",
+      "outward_coefficient": 0.025831661569653573,
+      "profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        1,
+        1
+      ],
+      "squared_coefficient_denominator": 229361319936,
+      "squared_coefficient_numerator": 153047015
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "canonical_split": [
+        0,
+        3,
+        2,
+        0
+      ],
+      "mechanism": "double_endpoint_high_row",
+      "outward_coefficient": 0.1875218020930956,
+      "profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        2,
+        0
+      ],
+      "squared_coefficient_denominator": 881943552,
+      "squared_coefficient_numerator": 31013039
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "canonical_split": [
+        0,
+        3,
+        2,
+        0
+      ],
+      "mechanism": "double_endpoint_high_row",
+      "outward_coefficient": 0.1875218020930956,
+      "profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        3,
+        1
+      ],
+      "squared_coefficient_denominator": 881943552,
+      "squared_coefficient_numerator": 31013039
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "canonical_split": [
+        0,
+        3,
+        1,
+        1
+      ],
+      "mechanism": "double_endpoint_high_row",
+      "outward_coefficient": 0.025831661569653573,
+      "profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        4,
+        0
+      ],
+      "squared_coefficient_denominator": 229361319936,
+      "squared_coefficient_numerator": 153047015
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "canonical_split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "mechanism": "endpoint_cubic_high_row",
+      "outward_coefficient": 0.06793391269816985,
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "squared_coefficient_denominator": 111124887552,
+      "squared_coefficient_numerator": 512843189
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "canonical_split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "mechanism": "endpoint_cubic_high_row",
+      "outward_coefficient": 0.06793391269816985,
+      "profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "split": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "squared_coefficient_denominator": 111124887552,
+      "squared_coefficient_numerator": 512843189
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "canonical_split": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "mechanism": "double_endpoint_high_row",
+      "outward_coefficient": 0.4472997577735467,
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "squared_coefficient_denominator": 16382951424,
+      "squared_coefficient_numerator": 3277852973
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "canonical_split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "mechanism": "double_endpoint_high_row",
+      "outward_coefficient": 0.13176343904898255,
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "squared_coefficient_denominator": 250030996992,
+      "squared_coefficient_numerator": 4340939125
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "canonical_split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "mechanism": "double_endpoint_high_row",
+      "outward_coefficient": 0.13176343904898255,
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        4,
+        1
+      ],
+      "squared_coefficient_denominator": 250030996992,
+      "squared_coefficient_numerator": 4340939125
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "canonical_split": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "mechanism": "double_endpoint_high_row",
+      "outward_coefficient": 0.4472997577735467,
+      "profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "split": [
+        1,
+        0,
+        5,
+        0
+      ],
+      "squared_coefficient_denominator": 16382951424,
+      "squared_coefficient_numerator": 3277852973
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "canonical_split": [
+        0,
+        3,
+        2,
+        0
+      ],
+      "mechanism": "double_endpoint_high_row",
+      "outward_coefficient": 0.1875218020930956,
+      "profile": [
+        1,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        2,
+        3,
+        0
+      ],
+      "squared_coefficient_denominator": 881943552,
+      "squared_coefficient_numerator": 31013039
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "canonical_split": [
+        0,
+        3,
+        1,
+        1
+      ],
+      "mechanism": "double_endpoint_high_row",
+      "outward_coefficient": 0.025831661569653573,
+      "profile": [
+        1,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        0,
+        1
+      ],
+      "squared_coefficient_denominator": 229361319936,
+      "squared_coefficient_numerator": 153047015
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "canonical_split": [
+        0,
+        3,
+        1,
+        1
+      ],
+      "mechanism": "double_endpoint_high_row",
+      "outward_coefficient": 0.025831661569653573,
+      "profile": [
+        1,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        1,
+        3,
+        0
+      ],
+      "squared_coefficient_denominator": 229361319936,
+      "squared_coefficient_numerator": 153047015
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        5,
+        1
+      ],
+      "canonical_split": [
+        0,
+        3,
+        2,
+        0
+      ],
+      "mechanism": "double_endpoint_high_row",
+      "outward_coefficient": 0.1875218020930956,
+      "profile": [
+        1,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        0,
+        1
+      ],
+      "squared_coefficient_denominator": 881943552,
+      "squared_coefficient_numerator": 31013039
+    },
+    {
+      "canonical_profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "canonical_split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "mechanism": "endpoint_high_cubic_completion",
+      "outward_coefficient": 0.2712533030221454,
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "squared_coefficient_denominator": 910163968,
+      "squared_coefficient_numerator": 66968367
+    },
+    {
+      "canonical_profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "canonical_split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "mechanism": "endpoint_high_cubic_row",
+      "outward_coefficient": 0.01883992625572174,
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "squared_coefficient_denominator": 176160768,
+      "squared_coefficient_numerator": 62527
+    },
+    {
+      "canonical_profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "canonical_split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "mechanism": "endpoint_high_cubic_row",
+      "outward_coefficient": 0.01883992625572174,
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "squared_coefficient_denominator": 176160768,
+      "squared_coefficient_numerator": 62527
+    },
+    {
+      "canonical_profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "canonical_split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "mechanism": "endpoint_high_cubic_completion",
+      "outward_coefficient": 0.2712533030221454,
+      "profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "squared_coefficient_denominator": 910163968,
+      "squared_coefficient_numerator": 66968367
+    },
+    {
+      "canonical_profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "canonical_split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "mechanism": "local_walsh_internal_singleton",
+      "outward_coefficient": 0.1875,
+      "profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "squared_coefficient_denominator": 256,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "canonical_split": [
+        0,
+        5,
+        1,
+        0
+      ],
+      "mechanism": "local_walsh_internal_singleton",
+      "outward_coefficient": 0.140625,
+      "profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        5,
+        1,
+        0
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "canonical_profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "canonical_split": [
+        0,
+        5,
+        1,
+        0
+      ],
+      "mechanism": "local_walsh_internal_singleton",
+      "outward_coefficient": 0.140625,
+      "profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "canonical_profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "canonical_split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "mechanism": "local_walsh_internal_singleton",
+      "outward_coefficient": 0.1875,
+      "profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "split": [
+        1,
+        4,
+        1,
+        0
+      ],
+      "squared_coefficient_denominator": 256,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "canonical_split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "mechanism": "double_endpoint_high_row",
+      "outward_coefficient": 0.13176343904898255,
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "squared_coefficient_denominator": 250030996992,
+      "squared_coefficient_numerator": 4340939125
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "canonical_split": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "mechanism": "double_endpoint_high_row",
+      "outward_coefficient": 0.4472997577735467,
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        5,
+        0,
+        1
+      ],
+      "squared_coefficient_denominator": 16382951424,
+      "squared_coefficient_numerator": 3277852973
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "canonical_split": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "mechanism": "double_endpoint_high_row",
+      "outward_coefficient": 0.4472997577735467,
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "squared_coefficient_denominator": 16382951424,
+      "squared_coefficient_numerator": 3277852973
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        7,
+        1
+      ],
+      "canonical_split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "mechanism": "double_endpoint_high_row",
+      "outward_coefficient": 0.13176343904898255,
+      "profile": [
+        1,
+        7,
+        3,
+        1
+      ],
+      "split": [
+        1,
+        4,
+        0,
+        1
+      ],
+      "squared_coefficient_denominator": 250030996992,
+      "squared_coefficient_numerator": 4340939125
+    },
+    {
+      "canonical_profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "canonical_split": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.140625,
+      "profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "split": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "canonical_profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "canonical_split": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.140625,
+      "profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "split": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "canonical_profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "canonical_split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mechanism": "local_walsh_internal_singleton",
+      "outward_coefficient": 0.09375,
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "squared_coefficient_denominator": 1024,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "canonical_split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mechanism": "local_walsh_internal_singleton",
+      "outward_coefficient": 0.09375,
+      "profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "squared_coefficient_denominator": 1024,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "canonical_split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "mechanism": "local_walsh_internal_singleton",
+      "outward_coefficient": 0.1875,
+      "profile": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        4,
+        1
+      ],
+      "squared_coefficient_denominator": 256,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "canonical_split": [
+        0,
+        5,
+        1,
+        0
+      ],
+      "mechanism": "local_walsh_internal_singleton",
+      "outward_coefficient": 0.140625,
+      "profile": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        0,
+        1,
+        5,
+        0
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "canonical_profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "canonical_split": [
+        0,
+        5,
+        1,
+        0
+      ],
+      "mechanism": "local_walsh_internal_singleton",
+      "outward_coefficient": 0.140625,
+      "profile": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "canonical_profile": [
+        1,
+        7,
+        1,
+        3
+      ],
+      "canonical_split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "mechanism": "local_walsh_internal_singleton",
+      "outward_coefficient": 0.1875,
+      "profile": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "squared_coefficient_denominator": 256,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "canonical_split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "mechanism": "local_walsh_internal_singleton",
+      "outward_coefficient": 0.09375,
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "squared_coefficient_denominator": 1024,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "canonical_split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "mechanism": "local_walsh_internal_singleton",
+      "outward_coefficient": 0.09375,
+      "profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "split": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "squared_coefficient_denominator": 1024,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "canonical_split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "mechanism": "endpoint_high_cubic_completion",
+      "outward_coefficient": 0.2712533030221454,
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "squared_coefficient_denominator": 910163968,
+      "squared_coefficient_numerator": 66968367
+    },
+    {
+      "canonical_profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "canonical_split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "mechanism": "endpoint_high_cubic_row",
+      "outward_coefficient": 0.01883992625572174,
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "squared_coefficient_denominator": 176160768,
+      "squared_coefficient_numerator": 62527
+    },
+    {
+      "canonical_profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "canonical_split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "mechanism": "endpoint_high_cubic_row",
+      "outward_coefficient": 0.01883992625572174,
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "squared_coefficient_denominator": 176160768,
+      "squared_coefficient_numerator": 62527
+    },
+    {
+      "canonical_profile": [
+        1,
+        5,
+        3,
+        3
+      ],
+      "canonical_split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "mechanism": "endpoint_high_cubic_completion",
+      "outward_coefficient": 0.2712533030221454,
+      "profile": [
+        3,
+        3,
+        5,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "squared_coefficient_denominator": 910163968,
+      "squared_coefficient_numerator": 66968367
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "canonical_split": [
+        0,
+        1,
+        1,
+        3
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.046875,
+      "profile": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        0,
+        1
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "canonical_split": [
+        0,
+        1,
+        4,
+        0
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.046875,
+      "profile": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        4,
+        1,
+        0
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "canonical_split": [
+        0,
+        1,
+        4,
+        0
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.046875,
+      "profile": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        0,
+        1
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        5,
+        3
+      ],
+      "canonical_split": [
+        0,
+        1,
+        1,
+        3
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.046875,
+      "profile": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        1,
+        1,
+        0
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "canonical_split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mechanism": "local_walsh_internal_singleton",
+      "outward_coefficient": 0.09375,
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "squared_coefficient_denominator": 1024,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "canonical_split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mechanism": "local_walsh_internal_singleton",
+      "outward_coefficient": 0.09375,
+      "profile": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "split": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "squared_coefficient_denominator": 1024,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "canonical_split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "mechanism": "endpoint_cubic_high_row",
+      "outward_coefficient": 0.06793391269816985,
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "squared_coefficient_denominator": 111124887552,
+      "squared_coefficient_numerator": 512843189
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "canonical_split": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "mechanism": "endpoint_cubic_high_row",
+      "outward_coefficient": 0.06793391269816985,
+      "profile": [
+        3,
+        5,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "squared_coefficient_denominator": 111124887552,
+      "squared_coefficient_numerator": 512843189
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "canonical_split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.140625,
+      "profile": [
+        3,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        5,
+        0,
+        1
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "canonical_split": [
+        0,
+        1,
+        5,
+        0
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.140625,
+      "profile": [
+        3,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        0,
+        5,
+        1,
+        0
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "canonical_split": [
+        0,
+        1,
+        5,
+        0
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.140625,
+      "profile": [
+        3,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        7,
+        3
+      ],
+      "canonical_split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.140625,
+      "profile": [
+        3,
+        7,
+        1,
+        1
+      ],
+      "split": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "canonical_profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "canonical_split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "mechanism": "local_walsh_internal_singleton",
+      "outward_coefficient": 0.09375,
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "squared_coefficient_denominator": 1024,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        3,
+        3,
+        1,
+        5
+      ],
+      "canonical_split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "mechanism": "local_walsh_internal_singleton",
+      "outward_coefficient": 0.09375,
+      "profile": [
+        5,
+        1,
+        3,
+        3
+      ],
+      "split": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "squared_coefficient_denominator": 1024,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "canonical_split": [
+        0,
+        1,
+        0,
+        4
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.046875,
+      "profile": [
+        5,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        1,
+        3,
+        0,
+        1
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        3,
+        5
+      ],
+      "canonical_split": [
+        0,
+        1,
+        0,
+        4
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.046875,
+      "profile": [
+        5,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        4,
+        0,
+        1,
+        0
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "canonical_split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "mechanism": "terminal_high_two_cubic_row",
+      "outward_coefficient": 0.19410520945035262,
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "squared_coefficient_denominator": 35597005645824,
+      "squared_coefficient_numerator": 1341182413373
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "canonical_split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "mechanism": "terminal_high_two_cubic_row",
+      "outward_coefficient": 0.19410520945035262,
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "squared_coefficient_denominator": 35597005645824,
+      "squared_coefficient_numerator": 1341182413373
+    },
+    {
+      "canonical_profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "canonical_split": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.140625,
+      "profile": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "canonical_profile": [
+        3,
+        1,
+        1,
+        7
+      ],
+      "canonical_split": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.140625,
+      "profile": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "split": [
+        5,
+        0,
+        1,
+        0
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "canonical_split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "mechanism": "local_walsh_internal_singleton",
+      "outward_coefficient": 0.1875,
+      "profile": [
+        7,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "squared_coefficient_denominator": 256,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        3,
+        1,
+        7
+      ],
+      "canonical_split": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "mechanism": "local_walsh_internal_singleton",
+      "outward_coefficient": 0.1875,
+      "profile": [
+        7,
+        1,
+        3,
+        1
+      ],
+      "split": [
+        4,
+        1,
+        0,
+        1
+      ],
+      "squared_coefficient_denominator": 256,
+      "squared_coefficient_numerator": 9
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "canonical_split": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.140625,
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    },
+    {
+      "canonical_profile": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "canonical_split": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "mechanism": "local_walsh_singleton_pair_chain",
+      "outward_coefficient": 0.140625,
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "split": [
+        5,
+        0,
+        1,
+        0
+      ],
+      "squared_coefficient_denominator": 4096,
+      "squared_coefficient_numerator": 81
+    }
+  ],
+  "result": {
+    "all_coefficients_strictly_below_one": true,
+    "chain_entries": 32,
+    "chain_orbits": 8,
+    "distinct_coefficients": [
+      0.01883992625572174,
+      0.025831661569653573,
+      0.046875,
+      0.06793391269816985,
+      0.09375,
+      0.13176343904898255,
+      0.140625,
+      0.1875,
+      0.1875218020930956,
+      0.19410520945035262,
+      0.2712533030221454,
+      0.4472997577735467
+    ],
+    "double_endpoint_orbits": 4,
+    "endpoint_cubic_high_orbits": 1,
+    "endpoint_high_cubic_orbits": 2,
+    "local_walsh_entries": 48,
+    "local_walsh_orbits": 12,
+    "maximum_coefficient": 0.4472997577735467,
+    "maximum_entry": [
+      [
+        1,
+        3,
+        7,
+        1
+      ],
+      [
+        0,
+        3,
+        2,
+        1
+      ]
+    ],
+    "minimum_coefficient": 0.01883992625572174,
+    "order": 64,
+    "residual_entries": 80,
+    "residual_orbits": 20,
+    "terminal_high_two_cubic_orbits": 1
+  },
+  "schema": "round4_q64_final_residual_chain_contraction_v1"
+}

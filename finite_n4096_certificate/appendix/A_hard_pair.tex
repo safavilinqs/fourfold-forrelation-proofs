@@ -1,0 +1,57 @@
+\section{The signed-permutation hard pair}
+\label{app:hard-pair}
+
+\subsection{Coordinate convention}
+
+Identify a coordinate in a length-$N$ sign block with a pair $(a,b)\in[q]^2$, using row-major flattening. The normalized Sylvester matrix then factorizes as
+
+\begin{equation}
+H_N((a,b),(c,d))=H_q(a,c)H_q(b,d).
+\end{equation}
+
+This convention fixes the orientation of the arrays $L$ and $R$ in Eq.~\eqref{eq:hard-lr}. Reversal and complement operations used in the coefficient registry preserve the physical simple-support masks under this coordinate identification.
+
+\begin{lemma}[Exact plant identity]
+For the four blocks in Eq.~\eqref{eq:hard-plant}, $\Forr(z)=1$ for every choice of the three signed permutations. Replacing the first block by its negative gives $\Forr(z)=-1$.
+\end{lemma}
+
+\begin{proof}
+Insert the array definitions into Eq.~\eqref{eq:model-forrelation} and use $H_N=H_q\otimes H_q$. At the link between $L(P_j)$ and $R(P_j)$, summation over the coordinate not fixed by the signed permutation gives an orthogonality relation of the unnormalized Sylvester matrix,
+\begin{equation}
+\sum_a S_q(a,r)S_q(a,s)=q\,\mathbf 1_{r=s}.
+\end{equation}
+The permutation constraint then identifies the remaining index and the two copies of each sign $\sigma_b$ cancel. Applying this identity successively to $P_1,P_2,P_3$ leaves the normalized uniform-state overlap equal to one. Multiplying the first block by $-1$ changes the four-linear functional by a factor $-1$.
+\end{proof}
+
+\subsection{Promise concentration}
+
+Let $F$ denote the forrelation value of an attenuated positive plant. The exact plant and independent coordinate noise give $\mathbb E F=\beta^4$. The accepted concentration argument uses a centered biased-sign subgaussian proxy no larger than one and the four-link chain proxy
+
+\begin{equation}
+V_\beta
+\le\frac{(1+\beta^2)(1+\beta^4)}{N}.
+\end{equation}
+
+With the promise gap
+
+\begin{equation}
+g_\beta=\beta^4-\frac14,
+\end{equation}
+
+the one-sided Chernoff exponent is bounded below by
+
+\begin{equation}
+x_\beta
+=\frac{Ng_\beta^2}{2(1+\beta^2)(1+\beta^4)}.
+\end{equation}
+
+The numerical certificate avoids an accepted floating evaluation of the exponential. With $m=4096$,
+
+\begin{equation}
+e^{-x_\beta}
+\le\left(1+\frac{x_\beta}{m}\right)^{-m},
+\end{equation}
+
+and the right-hand side is evaluated as an exact rational upper. Reflection symmetry gives the same failure bound for the negative plant, and twice the rational upper gives Eq.~\eqref{eq:hard-promise}.
+
+Conditioning changes the two transcript distributions by at most the sum of their bad-promise probabilities in total variation. The proof completes the unconditioned adaptive comparison before applying this endpoint inequality.

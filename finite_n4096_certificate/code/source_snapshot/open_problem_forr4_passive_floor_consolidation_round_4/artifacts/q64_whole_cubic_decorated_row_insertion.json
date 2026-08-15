@@ -1,0 +1,57 @@
+{
+  "evidence_label": "arbitrary-diagonal scalar completion rows with whole-cubic endpoint decorations treated as column-only 1/q factors or unit cross-Gram Schur multipliers; floating q64 Perron insertion; one batch only",
+  "remaining_open": "568 balanced entries, including 108 split-cubic/split-quintic entries, plus interval certification and the adaptive lift",
+  "result": {
+    "balanced_entries": 0,
+    "closed_entries": 16,
+    "closed_orbits": 4,
+    "cubic_endpoint_record_one_energy": 9.055001288789966e-06,
+    "cubic_endpoint_record_three_energy": 0.0001485469219689924,
+    "cubic_leading_coefficient": 0.00019615563220401556,
+    "cubic_leading_residual_factor": 0.015625,
+    "cubic_trailing_coefficient": 0.012553960461056996,
+    "cubic_trailing_residual_factor": 1.0,
+    "decorated_rows_inserted": {
+      "beta": 0.7461469557307886,
+      "margin_to_one_third": 0.008049353725832264,
+      "perron_upper": 0.3082235000172111,
+      "promise_loss": 0.017060479590289935,
+      "total": 0.32528397960750105
+    },
+    "dimension": 4096,
+    "extreme_entries": 16,
+    "order": 64,
+    "previous_proved_entries": 304,
+    "previous_routing": {
+      "beta": 0.7461469557309,
+      "margin_to_one_third": 0.008049353725832264,
+      "perron_upper": 0.30822350001766624,
+      "promise_loss": 0.01706047958983481,
+      "total": 0.32528397960750105
+    },
+    "proxy_reserve_after_declared_allowance": 0.006344709594003351,
+    "quintic_endpoint_record_one_energy": 0.03593930011520738,
+    "quintic_endpoint_record_three_energy": 0.00965076050581523,
+    "quintic_leading_coefficient": 0.0033362232979529936,
+    "quintic_leading_residual_factor": 0.015625,
+    "quintic_trailing_coefficient": 0.2135182910689916,
+    "quintic_trailing_residual_factor": 1.0,
+    "record_one_middle_maximum": 0.0002640168970814132,
+    "record_three_middle_maximum": 2.4001536098310292e-05,
+    "remaining_balanced_entries": 36,
+    "remaining_extreme_entries": 72,
+    "remaining_open_entries": 568,
+    "remaining_quintic_entries": 108,
+    "remaining_quintic_local_proxy": {
+      "beta": 0.7461376520750415,
+      "margin_to_one_third": 0.007344709594003351,
+      "perron_upper": 0.30889007694763376,
+      "promise_loss": 0.017098546791696187,
+      "total": 0.32598862373932996
+    },
+    "routing_change": 0.0,
+    "sign_modes": 16384,
+    "total_proved_entries": 320
+  },
+  "schema": "round4_q64_whole_cubic_decorated_row_insertion_v1"
+}

@@ -1,0 +1,54 @@
+\section{The dependency-exact ledger}
+\label{app:ledger}
+
+\subsection{Registry counts}
+
+The accepted balanced registry is partitioned by proof source as follows.
+
+\begin{center}
+\small
+\begin{tabular}{lr}
+\toprule
+Status & Entries \\
+\midrule
+Inherited nonuniversal proofs & 442 \\
+Masked quintic slice & 54 \\
+Masked local Walsh & 180 \\
+Masked cubic endpoint & 12 \\
+Masked double-quintic endpoint & 6 \\
+Masked double-quintic record & 12 \\
+Masked four-cubic incidence & 38 \\
+Masked cubic--septimic chain & 12 \\
+Recovered cubic--quintic endpoint row & 28 \\
+Joint recovered cubic--quintic & 12 \\
+Final residual chain & 80 \\
+Dual-endpoint Schur & 12 \\
+\midrule
+Total & 888 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The registry is dependency exact. Before applying the accepted repair theorems, every entry formerly supported only by the invalid universal coefficient-one lemma is reset to its pre-universal state. The actual-mask families are then inserted in dependency order, followed by the final residual theorem and the independently audited dual-endpoint theorem.
+
+The machine-readable artifact records the full 6,016-entry high-sector routing inventory and assigns theorem coefficients only to the 888 number-sector-balanced entries. The remaining 5,128 entries are excluded by Eq.~\eqref{eq:model-number-sector}; they are not certified coefficient rows. An audit of the broader at-most-six occupation space finds that 272 unbalanced profile splits would contribute split/state incidences, forming 136 undirected edges between different total signal-number sectors. The verifier therefore rejects any unbalanced entry in the theorem coefficient map.
+
+\subsection{Matrix reconstruction}
+
+Let $\mathcal N_{\le6}$ be the set of four-block nonnegative occupation vectors with total at most six. Introducing a slack coordinate for unused dose gives
+
+\begin{equation}
+|\mathcal N_{\le6}|=\binom{6+4}{4}=210.
+\end{equation}
+
+The four displayed coordinates are the charged photon occupations in the four sign banks, while the slack coordinate records unused allowance under the hard-dose-six cap and is not a physical mode. Each balanced compatible profile and split contributes a nonnegative weighted edge between states satisfying Eq.~\eqref{eq:onebatch-compatibility}. The resulting matrix is block diagonal in total signal photon number.
+
+All accepted coefficient values enter through the strict rational grid in Eq.~\eqref{eq:onebatch-grid}. Matrix entries are accumulated with 80-digit decimal arithmetic under upward rounding. When a square root of an integer or rational quantity is required, the stored decimal is advanced until its square is no smaller than the exact argument.
+
+The eigensolver output is used only to construct a positive vector. The accepted spectral bound is the maximum Collatz ratio in Eq.~\eqref{eq:onebatch-collatz}. Positivity of the vector and entrywise outward reconstruction of the matrix are checked before the ratio is accepted.
+
+\subsection{Artifact contract}
+
+The artifact \path{q64_complete_outward_ledger.json} records the fixed rational attenuation, the 6,016-split routing inventory, the 888 accepted balanced coefficient rows, the 272-incidence and 136-edge scope audit, rational outward coefficient fields, the 210-state count, the Perron upper, the promise upper, the total upper, the reserve lower, and the pass status. Its deterministic regression rebuilds the complete payload and compares it with the committed file.
+
+The one-batch certificate uses no optimized floating attenuation, no floating eigenvalue as a theorem value, no inward rounding of a square root, no provisional coefficient, and no unbalanced routing placeholder. These restrictions are part of the numerical theorem rather than implementation preferences.

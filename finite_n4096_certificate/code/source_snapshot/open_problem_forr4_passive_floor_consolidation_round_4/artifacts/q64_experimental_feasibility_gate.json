@@ -1,0 +1,45 @@
+{
+  "mathematical_requirements": {
+    "butterfly_stages_per_hadamard": 12,
+    "dimension": 4096,
+    "left_hadamards": 1,
+    "minimum_combined_contrast": "0.90429485515683196365722166236636252649501830651935513361553409152013691210843608",
+    "minimum_flag_expectation": "0.22607371378920799091430541559159063162375457662983878340388352288003422802710902",
+    "right_hadamards": 2,
+    "sign_modes": 16384
+  },
+  "nominal_detector_benchmark_screen": {
+    "detector_system_efficiency": "0.98",
+    "geometric_mean_butterfly_depth": 18,
+    "interpretation": "illustrative best-case allocation with perfect masks, routing, overlap, phase, and zero additive bias",
+    "maximum_geometric_mean_nondetector_loss_db": "0.34916015694332717011423188427434867817291188105625402681248759337853788164260034",
+    "maximum_identical_stage_loss_db": "0.019397786496851509450790660237463815454050660058680779267360421854363215646811142",
+    "minimum_identical_stage_power_transmission": "0.99554345459846491516920399632721071705154972558204057097979760099170001681226020",
+    "minimum_remaining_nondetector_contrast": "0.92274985220084894250736904323098216989287582297893380981176948114299684909024090"
+  },
+  "primary_evidence_snapshot": [
+    {
+      "demonstration": "98.0 +/- 0.5 percent system efficiency at 1550 nm",
+      "platform": "SNSPD",
+      "url": "https://doi.org/10.1364/OPTICA.400751"
+    },
+    {
+      "demonstration": "362 programmable unitaries through dimension 8 and a passive network through 36 modes, with fidelity above 97 percent",
+      "platform": "ultrafast time bins",
+      "url": "https://doi.org/10.1103/PhysRevLett.133.090601"
+    },
+    {
+      "demonstration": "216-mode nonuniversal three-loop processor",
+      "platform": "time-domain Gaussian photonics",
+      "url": "https://doi.org/10.1038/s41586-022-04725-x"
+    },
+    {
+      "demonstration": "approximately 200 mixer modes; characterized Fourier circuits only through dimension 7",
+      "platform": "complex-medium spatial optics",
+      "url": "https://doi.org/10.1038/s41567-023-02319-6"
+    }
+  ],
+  "schema": "round4_q64_experimental_feasibility_gate_v1",
+  "scope": "engineering screen for the active implementation; not part of the passive lower-bound theorem and not an impossibility theorem",
+  "verdict": "NOT_YET_EXPERIMENTALLY_CREDIBLE"
+}

@@ -1,0 +1,56 @@
+{
+  "evidence_label": "arbitrary-diagonal scalar completion-row contractions using record-one incidence, record-three completion counts, exact endpoint slices, and unitary Walsh residuals; floating q64 Perron insertion; one batch only",
+  "remaining_open": "584 balanced entries, including 124 split-cubic/split-quintic entries, plus interval certification and the adaptive lift",
+  "result": {
+    "balanced_entries": 4,
+    "closed_entries": 12,
+    "closed_orbits": 3,
+    "degree_ten_inserted": {
+      "beta": 0.7461469557309,
+      "margin_to_one_third": 0.008049353725832264,
+      "perron_upper": 0.30822350001766624,
+      "promise_loss": 0.01706047958983481,
+      "total": 0.32528397960750105
+    },
+    "dimension": 4096,
+    "double_endpoint_coefficient": 0.07540419392942377,
+    "double_endpoint_record_one_energy": 0.0008556976217906518,
+    "double_endpoint_record_three_energy": 0.004830094840355497,
+    "extreme_entries": 8,
+    "left_double_singleton_coefficient": 0.008615542310153686,
+    "left_double_singleton_record_one_energy": 3.484803526291896e-05,
+    "left_double_singleton_record_three_energy": 0.304001275809543,
+    "left_double_singleton_residual_factor": 0.015625,
+    "order": 64,
+    "previous_proved_entries": 292,
+    "previous_routing": {
+      "beta": 0.7460989053986221,
+      "margin_to_one_third": 0.004226125601455966,
+      "perron_upper": 0.3118492405250244,
+      "promise_loss": 0.017257967206852944,
+      "total": 0.32910720773187735
+    },
+    "proxy_reserve_after_declared_allowance": 0.006344709594003296,
+    "record_one_middle_maximum": 0.0002640168970814132,
+    "record_three_middle_maximum": 2.4001536098310292e-05,
+    "remaining_balanced_entries": 36,
+    "remaining_extreme_entries": 88,
+    "remaining_open_entries": 584,
+    "remaining_quintic_entries": 124,
+    "remaining_quintic_local_proxy": {
+      "beta": 0.7461376520747948,
+      "margin_to_one_third": 0.007344709594003296,
+      "perron_upper": 0.3088900769466234,
+      "promise_loss": 0.01709854679270661,
+      "total": 0.32598862373933
+    },
+    "reversed_double_singleton_coefficient": 0.07518888324226325,
+    "reversed_double_singleton_record_one_energy": 3.396263860887097,
+    "reversed_double_singleton_record_three_energy": 19.759932135656683,
+    "reversed_double_singleton_residual_factor": 0.015625,
+    "routing_margin_improvement": 0.003823228124376299,
+    "sign_modes": 16384,
+    "total_proved_entries": 304
+  },
+  "schema": "round4_q64_degree_ten_completion_row_insertion_v1"
+}

@@ -1,0 +1,44 @@
+{
+  "evidence_label": "inherited proved lower-sector formulas evaluated at q=64; floating Perron and attenuation optimization; high-sector coefficients are routing targets, not proved bounds; one batch only",
+  "result": {
+    "balanced_open_entries": 888,
+    "block_coherent_entries": 70,
+    "common_one_over_q": {
+      "beta": 0.7520370567856766,
+      "margin_to_one_third": 0.21984302498336725,
+      "perron_upper": 0.10947588016816365,
+      "promise_loss": 0.004014428181802416,
+      "total": 0.11349030834996607
+    },
+    "common_one_over_sqrt_q": {
+      "beta": 0.7477797317355201,
+      "margin_to_one_third": 0.0914389134832822,
+      "perron_upper": 0.23038834760535332,
+      "promise_loss": 0.011506072244697787,
+      "total": 0.2418944198500511
+    },
+    "common_reserve_coefficient": 0.1990891760722882,
+    "common_reserve_times_q": 12.741707268626445,
+    "common_threshold_coefficient": 0.1999106655420832,
+    "common_threshold_times_q": 12.794282594693325,
+    "cubic_profile_entries": 724,
+    "cubic_profile_high_internal_entries": 192,
+    "cubic_slice_target": 0.12403521525363623,
+    "dimension": 4096,
+    "internally_split_cubic_entries": 486,
+    "noncubic_high_internal_entries": 140,
+    "noncubic_profile_entries": 164,
+    "noncubic_target": 0.5,
+    "order": 64,
+    "sign_modes": 16384,
+    "two_tier_target": {
+      "beta": 0.7463284992438618,
+      "margin_to_one_third": 0.014152171172113703,
+      "perron_upper": 0.3028473373687459,
+      "promise_loss": 0.016333824792473674,
+      "total": 0.3191811621612196
+    }
+  },
+  "retain_condition": "prove the displayed common gate or the sufficient two-tier envelope, then intervalize and lift to adaptive protocols",
+  "schema": "round4_q64_paper_target_gate_v1"
+}

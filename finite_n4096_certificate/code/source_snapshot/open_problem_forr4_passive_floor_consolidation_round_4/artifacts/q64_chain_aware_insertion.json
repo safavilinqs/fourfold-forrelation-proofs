@@ -1,0 +1,96 @@
+{
+  "evidence_label": "ten inherited arbitrary-diagonal orbit theorems evaluated at q=64 and combined with exact block-coherent coefficients; floating Perron insertion; one batch only",
+  "remaining_open": "778 internally split balanced entries plus interval certification and the adaptive lift",
+  "result": {
+    "block_coherent_only": {
+      "beta": 0.7464869472876845,
+      "margin_to_one_third": 0.023928326325283023,
+      "perron_upper": 0.29368091490472226,
+      "promise_loss": 0.015724092103328063,
+      "total": 0.3094050070080503
+    },
+    "chain_aware_entries": 40,
+    "chain_aware_inserted": {
+      "beta": 0.7466670531429521,
+      "margin_to_one_third": 0.0372424661511897,
+      "perron_upper": 0.2810331927754359,
+      "promise_loss": 0.015057674406707706,
+      "total": 0.2960908671821436
+    },
+    "dimension": 4096,
+    "families": [
+      {
+        "coefficient": 0.04684066562785376,
+        "entries": 4,
+        "name": "leading_disjointness",
+        "source": "../open_problem_forr4_passive_floor_consolidation_round_3/notes/leading_balanced_disjointness_contraction.md"
+      },
+      {
+        "coefficient": 0.00580989204377444,
+        "entries": 4,
+        "name": "adjacent_cubic_slice",
+        "source": "../open_problem_forr4_passive_floor_consolidation_round_3/notes/adjacent_balanced_cubic_slice_contraction.md"
+      },
+      {
+        "coefficient": 0.12397463639031407,
+        "entries": 4,
+        "name": "separated_endpoint_slice",
+        "source": "../open_problem_forr4_passive_floor_consolidation_round_3/notes/separated_balanced_endpoint_slice_contraction.md"
+      },
+      {
+        "coefficient": 0.009143839038172823,
+        "entries": 4,
+        "name": "internal_singleton_shared_law",
+        "source": "../open_problem_forr4_passive_floor_consolidation_round_3/notes/internal_singleton_shared_law_contraction.md"
+      },
+      {
+        "coefficient": 0.015617368741913551,
+        "entries": 4,
+        "name": "column_cubic_quintic_row",
+        "source": "../open_problem_forr4_passive_floor_consolidation_round_3/notes/column_cubic_quintic_row_contraction.md"
+      },
+      {
+        "coefficient": 0.020079567246941685,
+        "entries": 4,
+        "name": "adjacent_balanced_row",
+        "source": "../open_problem_forr4_passive_floor_consolidation_round_3/notes/adjacent_balanced_row_slice_contraction.md"
+      },
+      {
+        "coefficient": 0.01883992625572174,
+        "entries": 4,
+        "name": "whole_cubic_quintic_triple",
+        "source": "../open_problem_forr4_passive_floor_consolidation_round_3/notes/whole_cubic_quintic_triple_contraction.md"
+      },
+      {
+        "coefficient": 0.013481922227900522,
+        "entries": 4,
+        "name": "middle_cubic_quintic_pair",
+        "source": "../open_problem_forr4_passive_floor_consolidation_round_3/notes/middle_cubic_quintic_pair_contraction.md"
+      },
+      {
+        "coefficient": 0.008561289303003799,
+        "entries": 4,
+        "name": "whole_cubic_middle_pair",
+        "source": "../open_problem_forr4_passive_floor_consolidation_round_3/notes/whole_cubic_middle_pair_contraction.md"
+      },
+      {
+        "coefficient": 0.015843719958109983,
+        "entries": 4,
+        "name": "double_endpoint_cubic_quintic_row",
+        "source": "../open_problem_forr4_passive_floor_consolidation_round_3/notes/double_endpoint_cubic_quintic_row_contraction.md"
+      }
+    ],
+    "margin_improvement": 0.013314139825906679,
+    "maximum_coefficient": 0.12397463639031407,
+    "maximum_family": "separated_endpoint_slice",
+    "minimum_coefficient": 0.00580989204377444,
+    "minimum_family": "adjacent_cubic_slice",
+    "order": 64,
+    "overlap_with_block_coherent": 0,
+    "remaining_open_entries": 778,
+    "sign_modes": 16384,
+    "theorem_families": 10,
+    "total_proved_open_entries": 110
+  },
+  "schema": "round4_q64_chain_aware_insertion_v1"
+}
