@@ -1,3 +1,5 @@
+> Historical record. The current scope and adaptive proof gaps are documented in the repository-root AUDIT.md. Claims about adaptive certification and the former section layout below are superseded.
+
 # Verification code
 
 The paper package preserves the complete Round-2 and Round-3 history and an audited Round-4 tree under `source_snapshot/` because the accepted Round-4 suite imports functions and regressions from its two predecessor folders by relative path. The audit corrected the theorem scope to fresh probes block diagonal in total signal photon number.

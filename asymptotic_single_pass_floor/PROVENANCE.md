@@ -1,3 +1,5 @@
+> Historical record. The current scope and adaptive proof gaps are documented in the repository-root AUDIT.md. Claims about adaptive certification and the former section layout below are superseded.
+
 # Provenance
 
 The v3 package was regenerated from the previously produced v2 clean package and the user-supplied review `Pasted text(8).txt`.

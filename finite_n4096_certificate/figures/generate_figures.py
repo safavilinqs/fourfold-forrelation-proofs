@@ -351,7 +351,7 @@ def certificate_figure() -> None:
     flow.text(
         6.89,
         0.42,
-        "number-sector-incoherent adaptivity: frontier multiplier 1",
+        "one parallel probe; block diagonal in total signal number",
         ha="center",
         va="top",
         fontsize=7,
@@ -385,7 +385,7 @@ def certificate_figure() -> None:
 
     errors.set_xlim(0, 0.42)
     errors.set_ylim(-0.65, 1.65)
-    errors.set_yticks([0, 1], ["active protocol", "passive obstruction"])
+    errors.set_yticks([0, 1], ["active protocol", "parallel obstruction"])
     errors.set_xlabel("decision error probability")
     errors.spines[["left", "top", "right"]].set_visible(False)
     errors.tick_params(axis="y", length=0, labelsize=7)
@@ -454,7 +454,7 @@ def check_outputs() -> None:
         "0.2587440964",
         "0.2609692248",
         "0.3695153876",
-        "number-sector-incoherent adaptivity",
+        "one parallel probe; block diagonal in total signal number",
     ):
         if required not in certificate_svg:
             raise AssertionError(f"stale passive-certificate figure: {required}")

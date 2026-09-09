@@ -1,3 +1,5 @@
+> Historical record. The current scope and adaptive proof gaps are documented in the repository-root AUDIT.md. Claims about adaptive certification and the former section layout below are superseded.
+
 # Source map
 
 ## Principal claims

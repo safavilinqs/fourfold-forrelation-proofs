@@ -4,9 +4,12 @@ PYTHON_BIN ?= python3
 LATEXMK ?= latexmk
 
 .DEFAULT_GOAL := check
-.PHONY: check check-asymptotic check-finite build build-asymptotic build-finite
+.PHONY: check check-structure check-asymptotic check-finite build build-asymptotic build-finite
 
-check: check-asymptotic check-finite
+check: check-structure check-asymptotic check-finite
+
+check-structure:
+	"$(PYTHON_BIN)" tests/check_proof_structure.py
 
 check-asymptotic:
 	"$(PYTHON_BIN)" asymptotic_single_pass_floor/verify_constants.py

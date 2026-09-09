@@ -1,48 +1,325 @@
-\documentclass[aps,prx,reprint,superscriptaddress,longbibliography,nofootinbib,floatfix]{revtex4-2}
-
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage{amsmath,amssymb,bm}
-\usepackage{booktabs}
-\usepackage{graphicx}
-\usepackage{microtype}
-\usepackage{xcolor}
-\usepackage[colorlinks=true,citecolor=blue,linkcolor=blue,urlcolor=blue]{hyperref}
-\input{macros}
-
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools,booktabs,microtype}
+\usepackage[hidelinks]{hyperref}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newcommand{\E}{\mathbb E}
+\newcommand{\TV}{\operatorname{TV}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\Forr}{\operatorname{Forr}_4}
+\title{Fourfold forrelation at $N=4096$: a parallel-probe certificate}
+\author{Amir H. Safavi-Naeini}
+\date{}
 \begin{document}
-
-\preprint{Draft: \today}
-
-\title{A finite-size active advantage over number-sector-incoherent passive sensing for four-fold forrelation at \texorpdfstring{$N=4096$}{N=4096}}
-
-\author{Amir Safavi-Naeini}
-\affiliation{Department of Applied Physics and Ginzton Laboratory, Stanford University, Stanford, California 94305, USA}
-
+\maketitle
 \begin{abstract}
-\input{sections/S0_abstract}
+Three single photons, each crossing two phase masks, decide the
+fourfold-forrelation promise with hard dose six and error $81/256$.
+The recorded finite certificate excludes a single parallel probe of
+dose six whose state is block diagonal in total signal photon number.
+Its comparison is between a two-pass interferometer and one parallel
+interrogation. A previously claimed extension to classically adaptive
+fresh probes has a norm-interface gap and is not established here.
+We give the short analytic argument, the exact interface to the
+numerical certificate, and the remaining proof obligation.
 \end{abstract}
 
-\maketitle
+\section{The comparison}
+For a power of two $N$, let
+$H_{ij}=N^{-1/2}(-1)^{i\cdot j}$ and
+$u=N^{-1/2}(1,\ldots,1)^{\mathsf T}$. Four unknown binary phase masks
+$D_b=\diag(x^{(b)})$, $x^{(b)}\in\{\pm1\}^N$, define
+\begin{equation}
+ F(x)=\Forr(x)=u^{\mathsf T}D_1HD_2HD_3HD_4u .
+ \label{eq:task}
+\end{equation}
+Decide $F\ge1/4$ versus $F\le-1/4$, with worst-case error at most $1/3$.
+This is a variant of the query problem of
+Aaronson and Ambainis~\cite{AaronsonAmbainis2015};
+a classical-query lower bound is not a bound on the quantum probes below.
 
-\input{sections/S1_introduction}
-\input{sections/S2_model}
-\input{sections/S3_statement}
-\input{sections/S4_active}
-\input{sections/S5_hard_pair}
-\input{sections/S6_one_batch}
-\input{sections/S7_adaptive}
-\input{sections/S9_implementation}
-\input{sections/S10_discussion}
-\input{sections/S8_verification}
+A parallel probe is fixed before observing any sample output, undergoes
+one direct-sum mask interaction, and is measured by an arbitrary POVM.
+It may have arbitrary bypass idlers, repeated signal modes, entanglement,
+and coherence within a fixed total signal-number sector. We require
+\begin{equation}
+ [\rho,\widehat N_{\rm sig}]=0,\qquad
+ \rho\text{ supported on }\widehat N_{\rm sig}\le6 .
+ \label{eq:number}
+\end{equation}
+Thus mixtures of different total numbers are allowed, but coherence
+between them is not. Dose counts every photon-mask traversal; it is a
+support bound, not a mean or a postselected cost.
+Several predetermined batches of total dose six also fit this model
+by joint preparation and a final collective measurement.
 
-\appendix
-\input{appendix/A_hard_pair}
-\input{appendix/B_ledger}
-\input{appendix/C_adaptive}
-\input{appendix/D_notation}
-\input{appendix/E_verification}
+\begin{theorem}[Finite parallel comparison]\label{thm:finite}
+At $N=4096$, the recorded occurrence certificate gives two laws
+$P_+,P_-$ supported on the respective promises such that every
+parallel probe satisfying \eqref{eq:number} has output laws obeying
+\begin{equation}
+ \TV(T_+,T_-)\le0.260969224792207925 .
+ \label{eq:total}
+\end{equation}
+Its equal-prior Bayes error is therefore at least
+$0.369515387603896037>1/3$.
+A multipass protocol has hard dose six and error $81/256<1/3$.
+\end{theorem}
 
+The analytic proof reduces the lower bound to explicit occurrence
+coefficients stored with their supporting derivations. Section~\ref{sec:ledger}
+specifies this interface and its arithmetic verification.
+The package was developed with substantial language-model assistance.
+The coefficient families and their reduction to physical occupations
+remain subject to independent mathematical review; successful replay
+checks the recorded calculation rather than every analytic lemma.
+
+\section{The two-pass protocol}
+Define
+\[
+ L_x=D_2HD_1u,\qquad R_x=HD_3HD_4u.
+\]
+Prepare a single photon in
+$(|0\rangle L_x+|1\rangle R_x)/\sqrt2$.
+Each arm crosses exactly two masks. Recombining the paths gives
+\begin{equation}
+ \Pr(X=\pm1\mid x)=\frac{1\pm\langle L_x,R_x\rangle}{2}
+                 =\frac{1\pm F(x)}2.
+ \label{eq:flag}
+\end{equation}
+The mode label can be discarded; only the output port is needed.
+At either promise boundary, a flag is correct with probability $5/8$.
+Three independent flags and majority decoding have error
+\[
+ (3/8)^3+3(5/8)(3/8)^2=81/256,
+\]
+and deterministic dose $3\cdot2=6$. No outcome is discarded.
+This proves the upper bound for every promised input and every $N$.
+
+\section{The hard inputs}
+Set $q=64$, so $N=q^2$. Identify a coordinate with $(a,b)\in[q]^2$,
+and use row-major flattening, so $H_N=H_q\otimes H_q$.
+Write $S_q=\sqrt q\,H_q$.
+For a uniform permutation $\pi$ and independent uniform signs $\sigma_b$,
+define arrays
+\begin{equation}
+ L_{a,b}=S_q(a,\pi(b))\sigma_b,\qquad
+ R_{\pi(b),a}=\sigma_bS_q(b,a).
+ \label{eq:lr}
+\end{equation}
+Their useful property is simply
+\begin{equation}
+                         H_N L=R,\qquad H_N R=L.
+ \label{eq:hlr}
+\end{equation}
+Indeed, at coordinate $(c,d)$,
+\[
+ (H_NL)_{c,d}
+ =\frac1q\sum_{a,b}S_q(c,a)S_q(d,b)S_q(a,\pi(b))\sigma_b
+ =S_q(d,b_c)\sigma_{b_c}=R_{c,d},
+\]
+where $b_c=\pi^{-1}(c)$. The second identity follows from $H_N^2=I$.
+
+Take three independent pairs $(L_j,R_j)$ and set
+\begin{equation}
+ z=(L_1,\ R_1\odot L_2,\ R_2\odot L_3,\ R_3).
+ \label{eq:plant}
+\end{equation}
+Starting on the right of \eqref{eq:task}, \eqref{eq:hlr} successively
+cancels $R_3,L_3,R_2,L_2,R_1,L_1$ and leaves $u$.
+Thus $F(z)=1$ exactly. Negating the first block changes the value to $-1$.
+
+Now independently flip every coordinate with probability $3/25$.
+Equivalently, multiply it by a sign $\eta$ with mean
+\[
+                         \beta=19/25.
+\]
+Let $\widetilde P_+$ be the resulting positive law and
+$\widetilde P_-$ its first-block reflection.
+Then $\E_{\widetilde P_+}F=\beta^4$.
+Finally condition each law onto its own promise to obtain $P_+,P_-$.
+
+\begin{lemma}[Cost of conditioning]\label{lem:promise}
+The sum of the two excluded probabilities is at most
+$0.002225128406630703$.
+\end{lemma}
+\begin{proof}
+Fix an exact plant $z$. Reveal the four noisy blocks in order from
+left to right and form the Doob martingale of $F$.
+When block $b$ is exposed, the future $4-b$ masks contribute their
+means, giving a factor $\beta^{4-b}$. By \eqref{eq:hlr}, the remaining
+deterministic right-hand chain is a sign vector divided by $\sqrt N$.
+The left-hand chain has norm one.
+The sum of squared coefficients of the newly exposed signs is therefore
+$\beta^{2(4-b)}/N$.
+
+A centered sign in $[-1,1]$ has subgaussian proxy at most one by
+Hoeffding's lemma. Conditional independence within each newly exposed
+block gives the martingale proxy
+\[
+ V_\beta=\frac{1+\beta^2+\beta^4+\beta^6}{N}
+        =\frac{(1+\beta^2)(1+\beta^4)}N .
+\]
+With $g=\beta^4-1/4$ and $x=g^2/(2V_\beta)$, Chernoff gives a
+failure probability at most $e^{-x}$. This holds for every plant.
+Reflection gives the same bound on the negative side.
+The verifier evaluates the exact rational upper
+\[
+ 2e^{-x}\le2(1+x/4096)^{-4096}
+          <0.002225128406630703 .
+\]
+\end{proof}
+
+\section{From a quantum probe to one matrix}\label{sec:matrix}
+This is where the single-batch hypothesis is used.
+Purify the input and write
+$\psi=\sum_\nu|\nu\rangle\alpha_\nu$, where $\nu$ is a physical
+Fock occupation, including repeated modes.
+Put $p_\nu=\|\alpha_\nu\|^2$ and let
+$\chi_\nu(x)=\prod_{b,i}(x_i^{(b)})^{\nu_{b,i}}$.
+For the unconditioned hard laws, define the half-difference moment matrix
+\begin{equation}
+ K_{\nu\mu}=\frac12
+   (\E_{\widetilde P_+}-\E_{\widetilde P_-})
+                          [\chi_\nu\chi_\mu].
+ \label{eq:moment}
+\end{equation}
+The map $|\nu\rangle\mapsto|\nu\rangle\alpha_\nu/\sqrt{p_\nu}$ is
+an isometry on nonzero weights. Therefore the trace norm of half the
+difference of the averaged quantum output states is exactly
+\begin{equation}
+                  \|\diag(\sqrt p)K\diag(\sqrt p)\|_1 .
+ \label{eq:trace}
+\end{equation}
+Any subsequent measurement has total variation no larger than
+\eqref{eq:trace}. Mixed inputs are handled by convexity and sector
+refinement. This proves the reduction for arbitrary idlers and POVMs.
+
+The independent permutation signs make \eqref{eq:moment} vanish unless
+the symmetric-difference degree is odd in every block. A surviving
+profile $a=(a_1,\ldots,a_4)$ therefore has degree four through twelve.
+Let $t_b$ count its ket occurrences in block $b$.
+If $n,m$ are the four block totals of the physical occupations, then
+\begin{equation}
+                 m=n+a-2t,\qquad 2|t|=|a|.
+ \label{eq:compat}
+\end{equation}
+The second equality follows from equal total signal number in
+\eqref{eq:number}. Physical mode positions and distinctness constraints
+remain in the occurrence kernel $\mathcal O_{a,t}$; $n,m,a,t$ are only
+four-component counts.
+
+\section{The finite coefficient certificate}\label{sec:ledger}
+For each contributing profile and split, the repository supplies a
+coefficient $c_{a,t}$ for the complete physical occurrence kernel:
+\begin{equation}
+ \sup_{p,w}
+ \|\diag(\sqrt p)\mathcal O_{a,t}\diag(\sqrt w)\|_1\le c_{a,t}.
+ \label{eq:coefficient}
+\end{equation}
+Here $p,w$ are arbitrary normalized row and column laws.
+The kernels include repeated-mode reduction, simple supports, and
+every distinctness mask crossing the row--column split.
+Discarding those masks was an error in an earlier coefficient proof.
+
+The supporting derivations are retained in
+\path{code/source_snapshot/}. The entry point
+\path{code/COEFFICIENTS.md} maps the accepted families to their proof
+notes and executable formulas. The 888 balanced high-sector entries
+supplement the inherited lower-degree bounds.
+Of 6,016 high-sector routing entries, 5,128 are unbalanced and are
+excluded rather than used as coefficients. There are 272 unbalanced
+split/state incidences, forming 136 undirected edges in the larger
+cross-number space; they are a genuine missing case for number coherence.
+
+Here is the complete interface between \eqref{eq:coefficient} and
+the numerical answer. Let
+\[
+ \mathcal N=\{n\in\mathbb Z_{\ge0}^4:|n|\le6\},
+ \qquad |\mathcal N|={10\choose4}=210,\qquad
+ b(n,t)=\prod_{j=1}^4{n_j\choose t_j}.
+\]
+For every balanced $(a,t)$ and compatible $(n,m)$ in
+\eqref{eq:compat}, add
+\begin{equation}
+ \beta^{|a|}\widehat c_{a,t}
+                 \sqrt{b(n,t)b(m,a-t)}
+ \label{eq:edge}
+\end{equation}
+to $A_{nm}$, and put $B=(A+A^{\mathsf T})/2$.
+The factor $\beta^{|a|}$ is the attenuation of the surviving signs.
+The binomial factors count ways to select their photon occurrences.
+
+The occurrence expansion, the trace-norm triangle inequality and
+\eqref{eq:coefficient} bound \eqref{eq:trace} by $v^{\mathsf T}Bv$,
+where $v_n$ is the square root of the probe's probability of block
+occupation $n$. Since $\|v\|_2=1$, this is at most $\rho(B)$, the
+Perron root. The matrix is nonnegative, symmetric and block diagonal
+in total photon number. This is a single-batch statement; no adaptive
+normalization has been inserted.
+
+For nonzero binary64 source coefficients $c$, the numerical code uses
+$\widehat c=(\lceil10^9c\rceil+1)/10^9$; zero coefficients stay zero.
+This rounds the supplied floating values outward. Analytic bounds
+must still be justified by the family derivations; rounding alone
+does not turn a floating formula into an analytic certificate.
+The dual-endpoint family additionally checks exact squared bounds.
+
+A floating eigensolve provides only a strictly positive candidate $w$.
+The accepted bound is the outward Collatz ratio
+\[
+ \rho(B)\le\max_i\frac{(\widehat Bw)_i}{w_i}
+           <0.258744096385577223.
+\]
+All entries and ratios are reconstructed with directed decimal arithmetic
+and outward square roots. The committed candidate makes replay
+independent of eigensolver rounding.
+Combining this with Lemma~\ref{lem:promise} gives \eqref{eq:total}.
+The stored high-precision sum is rounded once; adding the two displayed
+component bounds and rounding again would give a slightly looser value.
+The Bayes identity $(1-\TV)/2$ completes Theorem~\ref{thm:finite}.
+
+\section{The adaptive gap}
+For a fresh adaptive tree, the earlier proof constructs strategy
+coefficients
+\[
+ D(I,J)=\langle V_J,U_I\rangle,\qquad
+ \sum_I\|U_I\|^2\le1,\quad \sum_J\|V_J\|^2\le1.
+\]
+This induction is valid. It does not justify applying
+\eqref{eq:coefficient} to the \emph{sum of all entries}
+$\sum_{I,J}K_{f(I),f(J)}D(I,J)$.
+
+The obstruction is elementary. For $n$ histories take
+$K=J_n$ (the all-ones matrix) and scalar features
+$U_i=V_i=1/\sqrt n$. Both squared feature masses are one and
+$\gamma_2(K)=1$. Yet
+\[
+ \sum_{i,j}K_{ij}\langle V_j,U_i\rangle=n,\qquad
+ \|\diag(\sqrt p)K\diag(\sqrt p)\|_1=1,\quad p_i=1/n .
+\]
+A Schur factorization controls the trace norm of a matrix, not its
+unrestricted entry sum. The latter pairs the matrix with $J_n$,
+whose operator norm is $n$.
+This counterexample refutes the inference from the stated invariant.
+It is not a physical adaptive strategy that refutes the forrelation
+lower bound.
+
+A valid adaptive extension needs an additional physical contraction
+retaining the causal measurement structure, or a different adaptive
+bound with controlled overhead. The saved multiplier-one artifact
+only inserts the number one after checking the ledger; it does not
+prove this missing inequality. Its old verdict is historical and is
+excluded from the supported verification.
+
+The parallel result also does not cover cross-number coherence,
+a mean-dose budget, or quantum memory between encounters. It does not
+prove that six is the optimal multipass dose.
+Run \path{make check} for the supported arithmetic and structural
+checks, and \path{make build} for the two proof PDFs.
+The root \path{AUDIT.md} records exactly what was changed and checked.
+
+\bibliographystyle{plain}
 \bibliography{references}
-
 \end{document}
