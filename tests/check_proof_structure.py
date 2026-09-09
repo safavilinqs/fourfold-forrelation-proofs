@@ -23,7 +23,7 @@ def admissible(word, positions):
 
 def check_records():
     # Include repeated labels and vacuum on both sides.
-    modes, dose = 3, 3
+    modes, dose = 4, 3
     words = list(product(range(modes + 1), repeat=dose))
     checked = 0
     for ket, bra in product(words, repeat=2):
