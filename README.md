@@ -12,6 +12,8 @@ The proof audit found gaps in the previously claimed extensions to **outcome-dep
 
 The presentations were developed with substantial language-model assistance. The finite coefficient derivations remain subject to independent review; a successful numerical replay is not a verification of every analytic lemma.
 
+Both proof PDFs are now five pages, reduced from 17 and 14. [Validation details](VALIDATION.md) record the length comparison, completed checks and their limits.
+
 ## Read the proofs
 
 The asymptotic proof is: parallel Fourier bound → small Gaussian sign moments → concentration onto the promise. The finite proof is: folded interferometer → exact signed-permutation plant → occurrence matrix → outward spectral bound. [The coefficient guide](finite_n4096_certificate/code/COEFFICIENTS.md) identifies the finite proof's supporting family derivations.
