@@ -7,7 +7,7 @@ import argparse
 import json
 import os
 import tempfile
-from decimal import Decimal
+from decimal import Decimal, ROUND_CEILING, ROUND_FLOOR
 from pathlib import Path
 
 os.environ.setdefault(
@@ -303,8 +303,10 @@ def phase_plant_figure(plant: list[np.ndarray]) -> None:
     save_figure(fig, "signed_permutation_phase_grids")
 
 
-def rounded(value: Decimal, digits: int) -> str:
-    return f"{value:.{digits}f}"
+def rounded(value: Decimal, digits: int, *, upper: bool = True) -> str:
+    quantum = Decimal(1).scaleb(-digits)
+    direction = ROUND_CEILING if upper else ROUND_FLOOR
+    return format(value.quantize(quantum, rounding=direction), "f")
 
 
 def certificate_figure() -> None:
@@ -335,11 +337,11 @@ def certificate_figure() -> None:
     flow.axis("off")
     boxes = [
         (0.10, 0.75, 1.70, 0.95, "hard pair\n$q=64$, $\\beta=19/25$"),
-        (2.08, 0.75, 1.70, 0.95, "888 certified\ncoefficients"),
+        (2.08, 0.75, 1.70, 0.95, "888 recorded\ncoefficients"),
         (4.06, 0.75, 1.70, 0.95, "$210\\times210$\nstate matrix"),
         (6.04, 0.75, 1.70, 0.95, f"Perron upper\n$\\leq{rounded(perron, 10)}$"),
         (8.02, 0.75, 1.70, 0.95, f"promise upper\n$\\leq{rounded(promise, 10)}$"),
-        (10.00, 0.75, 1.70, 0.95, f"transcript TV\n$\\leq{rounded(total, 10)}$"),
+        (10.00, 0.75, 1.70, 0.95, f"conditional TV\n$\\leq{rounded(total, 10)}$"),
     ]
     for index, (x, y, width, height, text_value) in enumerate(boxes):
         face = "#eef3f6" if index not in (4, 5) else "#f5efe7"
@@ -351,7 +353,7 @@ def certificate_figure() -> None:
     flow.text(
         6.89,
         0.42,
-        "one parallel probe; block diagonal in total signal number",
+        "Conditional on kernel bounds and fixed parity-support size",
         ha="center",
         va="top",
         fontsize=7,
@@ -359,7 +361,7 @@ def certificate_figure() -> None:
     )
     flow.plot([6.04, 7.74], [0.55, 0.55], color=GREEN, linewidth=1.1)
     flow.text(0.02, 2.18, "a", fontsize=10, fontweight="bold", va="top")
-    flow.text(0.35, 2.18, "certificate assembly", fontsize=8, va="top")
+    flow.text(0.35, 2.18, "conditional certificate", fontsize=8, va="top")
 
     grouped = [
         ("Inherited", status_counts["proved_nonuniversal_inherited"]),
@@ -369,12 +371,12 @@ def certificate_figure() -> None:
         ("Four-cubic", status_counts["proved_masked_four_cubic_incidence"]),
     ]
     grouped_total = sum(value for _, value in grouped)
-    grouped.append(("Other certified", supported - grouped_total))
+    grouped.append(("Other recorded", supported - grouped_total))
     names = [name for name, _ in grouped][::-1]
     values = [value for _, value in grouped][::-1]
     bars.barh(names, values, color=[GRAY, OCHRE, BLUE, "#6f8ea5", "#9bb0c0", BLUE_DARK], height=0.64)
     bars.set_xlim(0, 480)
-    bars.set_xlabel("certified registry entries")
+    bars.set_xlabel("recorded registry entries")
     bars.spines[["top", "right"]].set_visible(False)
     bars.tick_params(axis="y", length=0, labelsize=7)
     bars.grid(axis="x", color="#e7eaed", linewidth=0.6)
@@ -385,7 +387,7 @@ def certificate_figure() -> None:
 
     errors.set_xlim(0, 0.42)
     errors.set_ylim(-0.65, 1.65)
-    errors.set_yticks([0, 1], ["active protocol", "parallel obstruction"])
+    errors.set_yticks([0, 1], ["active protocol", "conditional bound"])
     errors.set_xlabel("decision error probability")
     errors.spines[["left", "top", "right"]].set_visible(False)
     errors.tick_params(axis="y", length=0, labelsize=7)
@@ -411,17 +413,17 @@ def certificate_figure() -> None:
     errors.text(
         float(passive_error),
         1.18,
-        rf"$\geq{rounded(passive_error, 10)}$",
+        rf"$\geq{rounded(passive_error, 10, upper=False)}$",
         ha="center",
         va="bottom",
         fontsize=7,
     )
-    errors.set_title("c   certified decision errors", loc="left", fontsize=8, pad=8)
+    errors.set_title("c   proved upper / conditional lower", loc="left", fontsize=8, pad=8)
 
     fig.text(
         0.5,
         0.01,
-        "Registry bar lengths count proof entries; they do not measure numerical contribution.",
+        "Analytic kernel bounds remain unresolved; registry counts are not numerical weights.",
         ha="center",
         va="bottom",
         fontsize=6.5,
@@ -443,7 +445,7 @@ def check_outputs() -> None:
         int(result["excluded_unbalanced_high_sector_incidence_records"]),
         int(result["excluded_unbalanced_high_sector_undirected_edges"]),
     ) != (272, 136):
-        raise AssertionError("number-sector audit changed")
+        raise AssertionError("historical unbalanced-registry counts changed")
     for stem in ("active_protocol", "signed_permutation_phase_grids", "passive_certificate"):
         for suffix in ("pdf", "svg"):
             path = FIGURES / f"{stem}.{suffix}"
@@ -454,7 +456,7 @@ def check_outputs() -> None:
         "0.2587440964",
         "0.2609692248",
         "0.3695153876",
-        "one parallel probe; block diagonal in total signal number",
+        "Conditional on kernel bounds and fixed parity-support size",
     ):
         if required not in certificate_svg:
             raise AssertionError(f"stale passive-certificate figure: {required}")

@@ -21,9 +21,8 @@ with error at most $1/3$, for powers of two $N\ge2^{30}$.
 The proof has three parts: a matrix bound on Fourier coefficients,
 a correlated sign distribution, and concentration onto the exact promise.
 Arbitrary idlers, repeated modes, and coherence between photon-number
-sectors are allowed. The extension to outcome-dependent fresh batches
-is an open proof obligation; the earlier adaptive cut argument did not
-supply the required norm estimate.
+sectors are allowed. Outcome-dependent fresh batches require an
+additional Fourier bound.
 \end{abstract}
 
 \section{Statement and proof outline}
@@ -59,28 +58,30 @@ We construct input laws $\mu_+,\mu_-$ with mean forrelation approximately
 $\pm(2\rho/\pi)^3$, where $\rho=200/201$. Their low-order sign correlations
 are small. Lemma~\ref{lem:fourier} limits how strongly a parallel
 measurement can collect those correlations. Concentration then puts the
-laws on the required promises.
+mass of each law predominantly on its required promise.
 
 The proof below uses standard Gaussian Hermite expansion, the Gaussian
 arcsine identity, and the Efron--Stein and Gaussian Poincare inequalities.
 The arithmetic check \path{verify_constants.py} verifies the final
-constants, not these analytic steps. This package remains subject to
-independent review.
+constants. See \path{../AUDIT.md} for the proof audit.
 
 \section{The parallel Fourier bound}
 Write $m=4N$ for the total number of sign coordinates, and
 $\chi_S(x)=\prod_{a\in S}x_a$.
-A charge-$D$ bosonic probe embeds in $D$ labelled slots with alphabet
-$\{0,1,\ldots,m\}$, where $0$ denotes vacuum. Symmetrizing a photon word
-with enough vacuum symbols gives an isometry from the truncated Fock
+A bosonic probe of hard dose $D$ embeds in $D$ labelled slots with alphabet
+$\{0,1,\ldots,m\}$, where $0$ denotes vacuum. Send each normalized
+occupation basis vector with $n\le D$ photons to the normalized symmetric
+sum of distinct slot words with those labels and $D-n$ vacuum symbols.
+These sums are orthonormal, giving an isometry from the truncated Fock
 space. The query is exactly $O_x^{\otimes D}$, with
 $O_x|0\rangle=|0\rangle$ and $O_x|a\rangle=x_a|a\rangle$.
 Enlarging to arbitrary slot states can only strengthen the competitor.
 
 For a word $a=(a_1,\ldots,a_D)$ let $\partial a$ be the set of nonzero
-labels occurring oddly. Purify the input, and decompose it into
-orthogonal word components $\psi_a$. If $0\le E\le I$ is the acceptance
-effect, then
+labels occurring oddly. Purify the input and write
+$\psi=\sum_a|a\rangle\otimes\psi_a$, where the $\psi_a$ are idler vectors.
+For an acceptance effect $0\le E\le I$, put
+$E_{ab}=(\langle a|\otimes I)E(|b\rangle\otimes I)$. Then
 \[
  f(x)=\sum_{a,b}\chi_{\partial a\triangle\partial b}(x)
                   \langle\psi_a,E_{ab}\psi_b\rangle,
@@ -106,9 +107,9 @@ For arbitrary complex numbers $c_S$ at level $1\le r\le2D$,
 \[
  \begin{aligned}
  \left|\sum_{|S|=r}c_S\wh f(S)\right|
- &\le \max_{|S|=r}|c_S|\sum_{k=0}^r {D\choose k}{D\choose r-k}
+ &\le \frac12\max_{|S|=r}|c_S|\sum_{k=0}^r {D\choose k}{D\choose r-k}
                   m^{\min(k,r-k)/2}\\
- &\le {2D\choose r}m^{r/4}\max_{|S|=r}|c_S|.
+ &\le \frac12{2D\choose r}m^{r/4}\max_{|S|=r}|c_S|.
  \end{aligned}
  \tag{3}
 \]
@@ -155,19 +156,26 @@ Standard basis vectors on its shorter side give
 \[
  \gamma_2(C)\le m^{\min(k,r-k)/2}\max|c_S|.
 \]
-Apply (2) to (1), and sum over the
-$ {D\choose k}{D\choose r-k}$ records. Vandermonde's identity finishes
-the proof.
+Since $r>0$, $K^R$ has zero diagonal: at $a=b$, residual equality forces
+$A=B$, while distinctness forces $A\cap B=\varnothing$, contradicting
+$|A|+|B|=r$. Hence
+\[
+ [K^R_{ab}E_{ab}]=[K^R_{ab}(E-I/2)_{ab}],\qquad
+ \|E-I/2\|\le1/2.
+\]
+Apply (2), and sum over the $ {D\choose k}{D\choose r-k}$ records.
+Vandermonde's identity finishes the proof.
 \end{proof}
 
 \section{Correlated signs with small moments}
 For $s=1,2,3$, independently draw standard Gaussian vectors $Z_s,W_s$
 with cross-covariance $\E Z_sW_s^{\mathsf T}=\rho H$.
 This is a valid covariance because $H$ is orthogonal and $\rho<1$.
-Set $a_s=\sgn Z_s$, $b_s=\sgn W_s$ and form
+Set $a_s=\sgn Z_s$, $b_s=\sgn W_s$, applying $\sgn$ componentwise, and form
 \[
  y=(a_1,\ b_1\odot a_2,\ b_2\odot a_3,\ b_3).
 \]
+Here $\odot$ denotes componentwise multiplication.
 Choose three independent uniform signs $\zeta_1,\zeta_2,\zeta_3$,
 put $\zeta_4=\sigma\zeta_1\zeta_2\zeta_3$, and set
 $x^{(b)}=\zeta_b y^{(b)}$. This defines $\mu_\sigma$.
@@ -180,12 +188,12 @@ If $a=|A|$, $b=|B|$ and $a+b\le r\le\sqrt N$, then
  \tag{5}
 \]
 If one set is empty the moment is zero unless both are empty.
-Otherwise the cross-covariance submatrix has norm at most
+Otherwise the cross-covariance matrix $R=\rho H_{A,B}$ has norm at most
 $\rho\sqrt{ab/N}\le r/(2\sqrt N)$.
-A product of $a$ independent Gaussian signs has Hermite degree at
-least $a$. Conditional expectation on chaos degree $p$ has norm at
-most $\|\rho H_{A,B}\|^p$. Pair equal degrees and apply Cauchy--Schwarz;
-both sign products have $L^2$ norm one. This proves (5).
+The sign products have Hermite degrees at least $a$ and $b$.
+Conditional expectation pairs only equal degrees $p\ge\max(a,b)$,
+where it acts as $R^{\otimes p}$ on symmetric tensors and has norm
+at most $\|R\|^p$. Cauchy--Schwarz and the unit $L^2$ norms give (5).
 
 For $S=(S_1,\ldots,S_4)$ of total size $r$, gauge averaging kills the
 difference of its two moments unless every $q_b=|S_b|$ is odd.
@@ -205,7 +213,7 @@ Consequently
  \le 2^{\,1-3r/4}r^{3r/4}N^{-3r/8}.
  \tag{6}
 \]
-No level below four contributes.
+Only even levels $r\ge4$ can contribute.
 
 \section{Concentration onto the promises}
 The arcsine identity gives $\E a_i b_j=\beta_NH_{ij}$, with
@@ -239,6 +247,7 @@ $\phi(G)$ and $\phi(HG)$, where
  \phi(z)=\operatorname{erf}(10z),\qquad
  L=\|\phi'\|_\infty=20/\sqrt\pi,\qquad L^2<128.
 \]
+The function $\phi$ is applied componentwise to vectors.
 The gauges multiply $F$ by the deterministic sign $\sigma$.
 
 For an independent biased sign $Y$, Efron--Stein bounds its variance
@@ -274,8 +283,10 @@ The Sylvester identities and oddness of $\phi$ give
 \[
  M(P_sg)=P_sM(g),\qquad M(D_sg)=M(g)P_s.
 \]
-Gaussian invariance makes the coordinate second moments of each
-nonempty left or right partial chain equal; the empty chain is $u$.
+Replacing the leftmost Gaussian by $P_sG$ in a right chain, or by $D_sG$
+in a left chain written with transposed factors, translates the vector
+by $P_s$. Gaussian invariance and transitivity give equal coordinate
+second moments, whose sum is at most one; the empty chain is $u$.
 
 Differentiation, using $H=H^{\mathsf T}$, gives
 \[
@@ -290,18 +301,21 @@ $\Var F\le(4+12L^2)/N<1540/N$.
 \end{proof}
 
 \section{Closing the bound}
-By (7) and Chebyshev,
+By (7) and Chebyshev, for $N\ge2^{30}$,
 \[
- \mu_\sigma\{\sigma F<1/4\}\le104104000/N.
+ \varepsilon_\sigma:=\mu_\sigma\{\sigma F<1/4\}
+ \le104104000/N<1/10.
  \tag{9}
 \]
-Conditioning on $\sigma F\ge1/4$ changes each law in total variation
-by at most this probability. For $N\ge2^{30}$ put
-$\varepsilon_0=1626625/16777216$.
-A correct acceptance probability $f\in[0,1]$ must satisfy
+Pointwise correctness of an acceptance probability $f\in[0,1]$ gives
+\[
+ \E_{\mu_+}f\ge\tfrac23(1-\varepsilon_+),\qquad
+ \E_{\mu_-}f\le\tfrac13(1-\varepsilon_-)+\varepsilon_-.
+\]
+Consequently
 \[
  \E_{\mu_+}f-\E_{\mu_-}f
- \ge\frac13-2\varepsilon_0=\frac{3508733}{25165824}.
+ \ge\frac13-\frac23(\varepsilon_++\varepsilon_-)>\frac15.
  \tag{10}
 \]
 Suppose $D<(2/15)N^{1/8}$. Then $2D<\sqrt N$.
@@ -310,47 +324,28 @@ $ {2D\choose r}\le(2eD/r)^r$:
 \[
  \begin{split}
  |\E_{\mu_+}f-\E_{\mu_-}f|
- &\le2\sum_{r=4}^{2D}
+ &\le\sum_{\substack{4\le r\le2D\\r\text{ even}}}
        \left(2^{3/4}eD\,r^{-1/4}N^{-1/8}\right)^r\\
- &\le\frac{2q^4}{1-q},\qquad
- q=2eDN^{-1/8}8^{-1/4}<\frac{11}{25}.
+ &\le\frac{q^4}{1-q^2}<\frac1{12},\qquad
+ q=2^{1/4}eDN^{-1/8}<\frac12.
  \end{split}
 \]
-The last inequality uses $e<11/4$ and $8^{1/4}>5/3$.
-The gap is less than $14641/109375$, whereas (10) is larger by
-\[
- \frac{3508733}{25165824}-\frac{14641}{109375}
-       =\frac{15314842691}{2752512000000}>0 .
-\]
-This contradiction proves Theorem~\ref{thm:main}.
+Here $r^{-1/4}\le4^{-1/4}$, $e<3$, and $2^{1/4}<5/4$.
+Since $1/12<1/5$, this contradicts (10) and proves Theorem~\ref{thm:main}.
 
 \section{What remains for adaptive batches}
-For a fresh adaptive protocol, acceptance still has degree at most
+For an outcome-dependent fresh protocol, acceptance has degree at most
 $2D$: multiply batch probabilities along each classical history.
-The Gaussian construction and concentration are unchanged.
-The additional requirement is precisely
+A sufficient remaining estimate is
 \[
  \left|\sum_{|S|=r}c_S\wh f(S)\right|
  \le {2D\choose r}(4N)^{r/4}\max_{|S|=r}|c_S|
  \quad(1\le r\le2D).
  \tag{11}
 \]
-If (11) is proved for fresh adaptive protocols, the preceding proof
-establishes the original adaptive theorem with the same constants.
-
-The parallel proof has a fixed input vector and a single effect
-$0\le E\le I$ on its word space. An outcome-selected next probe does
-not supply that representation on aggregate words.
-The earlier fresh-cut proof asserted a common contraction after moving
-cuts through the adaptive network, but did not define its domains and
-maps sufficiently to establish that assertion. A product of
-contractions is contractive only with compatible domains, codomains,
-and tensor orientations; a general rearrangement of a tensor network
-is not such a product.
-
-This is a gap in the supplied proof, not a counterexample to (11).
-The finite-size argument has a concrete norm-interface gap described
-in \path{../AUDIT.md}. Neither gap is resolved by checking constants.
-The present theorem concerns parallel interrogation; adaptive,
-mean-dose, and quantum-memory extensions are not claimed.
+With (11), the same even-level calculation gives a gap at most
+$2q^4/(1-q^2)<1/6<1/5$, proving the same dose bound.
+This estimate remains unproved for adaptive batches; \path{../AUDIT.md}
+describes the gap in the earlier argument. The theorem established here
+concerns parallel interrogation.
 \end{document}

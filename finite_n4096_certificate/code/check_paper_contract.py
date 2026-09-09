@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check current manuscript bounds against the frozen finite certificate."""
+"""Check conditional manuscript arithmetic against the frozen finite ledger."""
 import json
 import re
 from fractions import Fraction
@@ -43,10 +43,12 @@ def main():
     assert len(payload["collatz_candidate"]) == 210
     assert all(Fraction(v) > 0 for v in payload["collatz_candidate"])
 
-    # Old multiplier-one artifacts are not inputs to the supported claim.
-    for source in (text, (ROOT / "asymptotic_single_pass_floor/main.tex").read_text()):
-        assert "parallel" in source and "gap" in source
-    assert "block diagonal in total signal photon number" in text
+    # Historical artifact labels are not mathematical theorem verdicts.
+    assert "parallel" in text
+    assert "Conditional finite obstruction" in text
+    assert "block diagonal in parity-support size" in text
+    assert "[\\rho,Q]=0" in text
+    assert "hypothesis is not established" in text
     assert (ROOT / "AUDIT.md").is_file()
     assert (PROJECT / "code/COEFFICIENTS.md").is_file()
     bib = (PROJECT / "references.bib").read_text()
@@ -54,7 +56,7 @@ def main():
     for group in re.findall(r"\\cite(?:p|t)?\{([^}]+)\}", text):
         assert set(group.split(",")) <= keys
     assert "\\input{sections/" not in text and "\\input{appendix/" not in text
-    print("PASS proof contract: outward arithmetic, registry, citations and scope")
+    print("PASS conditional proof contract: outward arithmetic, registry, citations and scope")
 
 
 if __name__ == "__main__":

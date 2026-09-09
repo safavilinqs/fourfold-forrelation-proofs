@@ -1,11 +1,13 @@
-# Finite parallel-probe certificate at N=4096
+# A two-pass construction and a conditional finite lower bound
 
-Read [the proof PDF](output/pdf/forr4_n4096_advantage.pdf), built from the consolidated [main.tex](main.tex).
+Read [the PDF](output/pdf/forr4_n4096_advantage.pdf), built from [main.tex](main.tex).
 
-Three single photons, each traversing two masks, solve the promise at hard dose six with error `81/256`. The recorded lower-bound certificate excludes a **single parallel probe**, block diagonal in total signal photon number, at the same hard dose. Its output TV is at most `0.260969224792207925`, giving equal-prior error at least `0.369515387603896037`.
+Three single photons, each traversing two masks, solve the promise at hard dose six with error `81/256`. This construction is proved.
 
-The previous extension to outcome-dependent fresh probes has an invalid norm inference. It is now an open proof obligation, documented in [AUDIT.md](../AUDIT.md). The normalized strategy induction alone does not close it. Cross-number coherence, mean dose, quantum memory and multipass optimality remain outside the result.
+The proposed lower bound is **conditional**. The stored matrix gives `TV <= 0.260969224792207925` only if the complete occurrence-kernel bounds are valid and the parallel probe is block diagonal in parity-support size. Independent review found false premises in several coefficient derivations. The recorded arithmetic therefore does not yet certify a physical lower bound.
 
-The short proof states the exact interface to the 210-state matrix. [COEFFICIENTS.md](code/COEFFICIENTS.md) maps the 888 balanced high-sector entries to their supporting derivations. Numerical replay checks the recorded coefficient formulas and outward ledger; it is not an independent proof of all analytic coefficient families.
+Fixed physical photon number is insufficient for the balanced-cut restriction when modes repeat. For example, three photons in one mode have parity degree one, while three photons in distinct blocks have parity degree three. Their superposition has fixed physical photon number but an omitted unbalanced parity cut.
 
-Run `make check` and `make build` at the repository root. The frozen source snapshot preserves historical claims and tests; only the checks selected by the current wrapper support the current result.
+[The audit](../AUDIT.md) gives exact counterexamples and the unresolved adaptive step. [The coefficient guide](code/COEFFICIENTS.md) distinguishes sound reductions, unproved inputs and false intermediate claims. The short note supplies an explicit residual-support lifting argument for its corrected conditional theorem.
+
+Run `make check` and `make build` at the repository root. The frozen source snapshot remains unchanged for reproduction; its historical `proved` and `CERTIFIED` labels are not current theorem verdicts.

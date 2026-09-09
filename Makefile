@@ -10,6 +10,7 @@ check: check-structure check-asymptotic check-finite
 
 check-structure:
 	"$(PYTHON_BIN)" tests/check_proof_structure.py
+	"$(PYTHON_BIN)" tests/check_finite_counterexamples.py
 
 check-asymptotic:
 	"$(PYTHON_BIN)" asymptotic_single_pass_floor/verify_constants.py

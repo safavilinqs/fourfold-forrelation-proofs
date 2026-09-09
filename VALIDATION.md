@@ -1,42 +1,28 @@
 # Revision validation
 
-Review baseline: `95c4c006d7566c7a01f68f0ee2ed465714dadf59`.
-See [AUDIT.md](AUDIT.md) for the mathematical findings and limits.
+Original baseline: `95c4c006d7566c7a01f68f0ee2ed465714dadf59`. Independent-review checkpoint: [`2b7a3cb`](https://github.com/safavilinqs/fourfold-forrelation-proofs/commit/2b7a3cb72e4f54b4989d66e213d4436333ad4554), committed and pushed before incorporation.
 
-## Length and presentation
+See [AUDIT.md](AUDIT.md) for mathematical findings and [REVIEW.md](REVIEW.md) for adopted reviewer inputs. The finite lower bound is conditional on unresolved kernel inequalities. Successful tests do not change that status.
 
-| Main proof | Original PDF | Revised PDF | Approximate LaTeX source words |
-|---|---:|---:|---:|
-| Asymptotic | 17 pages | 5 pages | 6,832 → 2,123 (69% reduction) |
-| Finite certificate | 14 pages | 5 pages | 8,329 → 2,091 (75% reduction) |
+## Presentation
 
-The PDFs use readable 11-point type and one-inch margins. Page reductions are factors of 3.4 and 2.8. Source-word counts use the same alphabetic-token rule before and after; they include LaTeX commands and are only an approximate measure of prose length. The finite baseline includes its former section and appendix files.
+The first revision reduced the main PDFs from 17 and 14 pages to five pages each, using 11-point type and one-inch margins. The independent review keeps the notes concise while adding the missing parity definitions and residual-support proof. Approximate current LaTeX source-word counts are 2,128 asymptotic and 2,030 finite, compared with 6,832 and 8,329 originally (about 69% and 75% reductions). Counts use the same alphabetic-token rule and include LaTeX commands.
 
-This is not a shorter proof of the former adaptive theorems: those extensions are no longer asserted as proved. The reduction also removes duplicate exposition and consolidates the supported arguments. The finite coefficient derivations remain external dependencies, mapped in [COEFFICIENTS.md](finite_n4096_certificate/code/COEFFICIENTS.md); their length is not included in the table. All 469 files in the frozen source snapshot retain their original Git blob hashes.
+The finite note now proves a conditional implication and states that its coefficient hypotheses are unresolved. The former stronger statements are not established by this shortening. Supporting coefficient derivations remain in the frozen source snapshot; their length is not included in the comparison.
 
-## Checks performed
+## Current checks
 
-- **Parallel Fourier record identity:** exact exhaustive comparison on 15,625 pairs of three-slot words over four nonzero labels and vacuum. This exercises repeated labels, cancellations, empty marked sides and unique last occurrences.
-- **Invalid adaptive norm inference:** exact rational counterexamples at sizes 2, 3 and 16. These refute the stated abstract implication, not the physical adaptive conjecture.
-- **Asymptotic constants:** exact rational verification of the concentration allowance, geometric-series bound and positive final gap.
-- **Active protocol:** exact overlap/resource calculation and majority error `81/256` at dose six.
-- **Finite replay:** the supported `make check` workflow passed, including all 888 accepted balanced high-sector coefficients, exclusion of 272 unbalanced incidences, the directed-arithmetic 210-state matrix, the committed positive Collatz candidate and the rational promise bound. [Completed replay](https://github.com/safavilinqs/fourfold-forrelation-proofs/actions/runs/34306540292) at `f6e69bc1ea45380467129447604de25cdab5e26f`. This run also passed the 15,625-pair structural check. Later edits refine wording/layout and add documentation and generated PDFs; they do not change the numerical backend or structural test.
-- **Proof contract:** displayed decimal bounds are checked with exact fractions against the ledger; citations, coefficient counts and the current probe scope are checked as well.
-- **Documents:** both PDFs rebuilt with LaTeX and inspected page by page. No overfull boxes or unresolved references. The [final source build](https://github.com/safavilinqs/fourfold-forrelation-proofs/actions/runs/34307448849) uses `e3676967b14dc19342fa31b0809ba2d79a39c8c7`; its only PDF change from the preceding inspected build is the clarified centered-sign sentence on finite page 3, which was inspected again. The comparison figure was regenerated with the corrected parallel-probe scope.
-- **Repository integrity:** whitespace checks passed; the frozen snapshot is unchanged. No changes were made to the external sensing-paper repository.
+- The unique last-occurrence record partition passes an exact exhaustive check on 15,625 word pairs, including repeated labels and vacuum.
+- The new finite regression evaluates signed-permutation moments independently, without importing the frozen coefficient routines. It reproduces the physical-number/parity mismatch, the q=8 four-cubic counterexample, the incorrect Walsh phase identity, and the completed cubic amplitude's Gram eigenspaces at q=4. The audit supplies the general-q analytic derivation.
+- Exact rational arithmetic verifies the simplified asymptotic ending: promise failure below 1/10, parallel upper gap 1/12, direct required gap above 1/5. The unproved adaptive Fourier target would give upper gap 1/6.
+- The active majority error is exactly 81/256 at hard dose six. Manuscript decimals are checked outward against the unchanged ledger; the contract requires conditional status and parity-sector scope.
+- The comparison figure uses conditional labels and rounds displayed upper and lower bounds in the appropriate directions.
+- Whitespace checks pass. All 469 frozen source files are preserved unchanged. No changes were made to the external sensing manuscript.
 
-The replay gives the outward upper bound
+The previous [completed ledger replay](https://github.com/safavilinqs/fourfold-forrelation-proofs/actions/runs/34306540292) reconstructs the same numerical backend and positive Collatz candidate. Its old success labels certify reproduction of the stored calculation, not the now-disproved intermediate proof premises. The new wrapper explicitly says that analytic coefficient hypotheses remain unresolved.
 
-`TV <= 0.260969224792207925`,
+The recorded matrix and conditioning arithmetic would imply `TV <= 0.260969224792207925` and `Bayes error >= 0.369515387603896037` under the current theorem's hypotheses. These are conditional bounds, not an independently established physical separation.
 
-and therefore the outward lower bound
+## Review coverage and limits
 
-`Bayes error >= 0.369515387603896037 > 1/3`.
-
-The high-precision components are added before the displayed total is rounded. Adding the two separately displayed component upper bounds would be slightly looser.
-
-## What these checks do not establish
-
-The numerical replay does not independently prove every analytic coefficient bound. In particular, rounding a binary64 source value upward does not by itself certify the formula from which that value was computed. The retained family derivations remain necessary and have not all been independently rederived in this revision.
-
-Neither the arithmetic nor the new structural regression supplies the missing adaptive contraction. The finite result also retains its restriction against coherence between total signal-number sectors. These are explicit limits of the revised claims, not issues that passing CI resolves.
+Six focused reviews checked the Fourier, Gaussian, finite analytic, inherited-coefficient, advanced-coefficient and presentation arguments. The [coefficient guide](finite_n4096_certificate/code/COEFFICIENTS.md) separates sound norm reductions from false or unsupported premises and from scalar enumerations not exhaustively re-proved. Numerical upward rounding cannot repair a false analytic formula. The broader finite and adaptive lower bounds remain open.

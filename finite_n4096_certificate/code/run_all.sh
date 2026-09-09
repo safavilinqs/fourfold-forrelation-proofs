@@ -16,4 +16,4 @@ if [[ $# -eq 1 ]]; then
   echo "ARCHIVAL replay: old adaptive verdicts are superseded by AUDIT.md."
   PYTHON_BIN="$PYTHON_BIN" "$ROUND4/run_round4_checks.sh"
 fi
-echo "PASS current parallel-probe verification"
+echo "PASS recorded arithmetic replay; analytic coefficient hypotheses remain unresolved (see AUDIT.md)"

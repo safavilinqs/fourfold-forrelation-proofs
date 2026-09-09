@@ -1,5 +1,5 @@
-# Supported proof target
+# Proof target
 
-Present a concise, auditable comparison between a two-pass dose-six protocol and one number-sector-incoherent parallel probe at N=4096. Separate the analytic proof, the frozen occurrence certificate and the unresolved adaptive extension. Preserve every coefficient dependency and all hard-dose assumptions.
+Present the proved two-pass construction and a precise conditional reduction for the proposed finite lower bound. Establish correct complete-kernel coefficients before claiming a physical separation. Keep parity-support assumptions, directed arithmetic and unresolved adaptive claims explicit.
 
-The current proof is consolidated in main.tex. The external sensing manuscript is outside this revision.
+The current note is consolidated in main.tex. The frozen snapshot is retained for reproduction, and the external sensing manuscript is outside this revision.
