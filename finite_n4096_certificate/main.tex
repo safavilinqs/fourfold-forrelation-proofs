@@ -72,12 +72,8 @@ Its equal-prior Bayes error is at least
 $0.369515387603896037>1/3$.
 \end{theorem}
 
-The hypothesis is not established by the recorded arithmetic.
-Independent review found false local-Walsh and four-cubic intermediate
-bounds in the supplied derivations. Section~\ref{sec:ledger} states
-exactly what remains to be proved; \path{../AUDIT.md} gives the
-counterexamples. No finite parallel or adaptive separation is claimed
-unconditionally by this certificate.
+The hypothesis is not established: supplied local-Walsh and four-cubic
+intermediate bounds are false. See \path{../AUDIT.md} for counterexamples.
 
 \section{The two-pass protocol}
 Prepare $(|0\rangle+|1\rangle)u/\sqrt2$.
@@ -287,23 +283,12 @@ $(1-\TV)/2$ proves the conditional theorem. The total is rounded after
 adding the high-precision components; adding their displayed upper
 bounds would be slightly looser.
 
-The 888 accepted high-sector rows and inherited lower-degree rows are
-mapped to their derivations in \path{code/COEFFICIENTS.md}.
-For a nonzero binary64 source value $c$, the assembler uses
-$\widehat c=(\lceil10^9c\rceil+1)/10^9$; zero stays zero.
-This rounds the supplied value outward, but does not prove
-\eqref{eq:coefficient}. Some supporting intermediate bounds are false,
-and others lack the stated joint contraction. A new analytic
-justification or corrected coefficients are needed before this matrix
-certifies a physical lower bound.
-
-The broader fixed-photon-number and adaptive claims also remain open.
-The former misses unbalanced parity cuts; the latter additionally needs
-a valid contraction retaining the causal measurement structure.
-See \path{../AUDIT.md} for exact counterexamples to the supplied
-inferences and \path{../REVIEW.md} for the independent reviews.
-Run \path{make check} to reproduce the arithmetic and counterexamples,
-and \path{make build} to build both proof notes.
+The coefficient guide \path{code/COEFFICIENTS.md} maps the 888 high-sector
+rows and inherited inputs to their derivations and rounding rules.
+Rounding a source value upward does not prove \eqref{eq:coefficient};
+false or missing intermediate bounds leave that hypothesis unresolved.
+The broader finite and adaptive claims remain open. The root
+\path{README.md} gives the audit, build and replay instructions.
 
 \bibliographystyle{plain}
 \bibliography{references}

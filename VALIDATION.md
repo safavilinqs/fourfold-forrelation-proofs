@@ -6,7 +6,7 @@ See [AUDIT.md](AUDIT.md) for mathematical findings and [REVIEW.md](REVIEW.md) fo
 
 ## Presentation
 
-The first revision reduced the main PDFs from 17 and 14 pages to five pages each, using 11-point type and one-inch margins. The independent review keeps the notes concise while adding the missing parity definitions and residual-support proof. Approximate current LaTeX source-word counts are 2,128 asymptotic and 2,030 finite, compared with 6,832 and 8,329 originally (about 69% and 75% reductions). Counts use the same alphabetic-token rule and include LaTeX commands.
+The first revision reduced the main PDFs from 17 and 14 pages to five pages each, using 11-point type and one-inch margins. The independent review keeps the notes concise while adding the missing parity definitions and residual-support proof. Approximate current LaTeX source-word counts are 2,128 asymptotic and 1,914 finite, compared with 6,832 and 8,329 originally (about 69% and 77% reductions). Counts use the same alphabetic-token rule and include LaTeX commands.
 
 The finite note now proves a conditional implication and states that its coefficient hypotheses are unresolved. The former stronger statements are not established by this shortening. Supporting coefficient derivations remain in the frozen source snapshot; their length is not included in the comparison.
 

@@ -41,3 +41,7 @@ The frozen code and artifact are preserved for reproduction. Their `proved_*` la
 **Completed hidden characters.** A completed link has factors `u_A(omega)=L_{A_i}(omega)R_{A_{i+1}}(omega)` and `v_B(omega)=L_{B_i}(omega)R_{B_{i+1}}(omega)` in the probability space of its hidden plant. Each has norm one, and their inner product is the link moment. Products of such kernels tensor the factors at the same complete row and column indices. This remains valid when indices are shared between links. A separately extracted amplitude requires its own norm proof; pointwise magnitude at most one does not suffice. Every cross-cut distinctness mask must remain inside a physical kernel or have an explicit additional factorization.
 
 These arguments explain the sound endpoint, row-energy and unused-link steps without repeating a separate correlated-law argument for every family. They do not supply the missing joint improvements in the affected rows.
+
+## Stored coefficient rounding
+
+For a nonzero binary64 source value c, the assembler stores `(ceil(10^9 c)+1)/10^9`; zero remains zero. It converts c to its exact binary rational before applying this rule. Directed square roots, sums and Collatz ratios then bound the recorded matrix. The complete-kernel inequality with this rational coefficient remains a separate analytic hypothesis.
