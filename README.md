@@ -6,7 +6,7 @@ The document starts with the two-pass interference protocol, explains the lower-
 
 | Status | Result |
 |---|---|
-| Proved | Hard dose six and error `81/256` using three two-pass photons |
+| Proved | Hard dose six and error at most `81/256` using three two-pass photons |
 | Proved | Parallel hard dose `D >= (2/15) N^(1/8)` for powers of two `N >= 2^30`, allowing arbitrary idlers, repeated modes and number coherence |
 | Proved | At `N=4096`, every parallel probe of dose at most two has output TV below `1/100` under the constructed promise laws |
 | Proved reduction | At `N=4096`, an explicit 210-state matrix bounds distinguishability for every hard-dose-six parallel probe; all coefficients are defined in the PDF |

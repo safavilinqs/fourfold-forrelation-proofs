@@ -1,6 +1,6 @@
 \documentclass[11pt]{article}
 \usepackage[margin=1in]{geometry}
-\usepackage{amsmath,amssymb,amsthm,mathtools,booktabs,microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools,microtype,needspace}
 \usepackage[hidelinks]{hyperref}
 \hypersetup{pdftitle={Fourfold forrelation: a self-contained proof},pdfauthor={Amir H. Safavi-Naeini}}
 \newtheorem{theorem}{Theorem}
@@ -64,11 +64,12 @@ coherence between photon numbers are allowed. Jointly prepared time bins
 are included; feeding an earlier output into the preparation of a later
 probe is a different model.
 
+\Needspace{12\baselineskip}
 \begin{theorem}\label{thm:main}
 For the promise problem above:
 \begin{enumerate}
 \item For every $N$, three photons making two mask crossings each have
-hard dose six and worst-case error $81/256<1/3$.
+hard dose six and worst-case error at most $81/256<1/3$.
 \item For every power of two $N\ge2^{30}$, a parallel interrogation
 with worst-case error at most $1/3$ has hard dose
 \[
@@ -192,7 +193,7 @@ norm or its induced operator norm.
 For $1\le r\le\min(2D,m)$ and arbitrary complex coefficients $c_S$,
 \begin{equation}\label{eq:fourier}
  \left|\sum_{|S|=r}c_S\wh f(S)\right|
- \le\frac12{2D\choose r}m^{r/4}\max_{|S|=r}|c_S|.
+ \le\frac12\binom{2D}{r}m^{r/4}\max_{|S|=r}|c_S|.
 \end{equation}
 \end{lemma}
 \begin{proof}
@@ -223,7 +224,7 @@ For example, if there are fewer rows, use a basis vector for each row
 and the corresponding column of $C$ for each column. The product of
 the largest feature norms is at most
 \[
- \sqrt{\min\left\{{m\choose k},{m\choose r-k}\right\}}\max|c_S|
+ \sqrt{\min\left\{\binom{m}{k},\binom{m}{r-k}\right\}}\max|c_S|
  \le m^{\min(k,r-k)/2}\max|c_S|.
 \]
 Attach to each feature the basis vector labelled by its residual set,
@@ -236,7 +237,7 @@ There are $\binom{D}{k}\binom{D}{r-k}$ records with this split. Hence
 \[
  \left|\sum_{|S|=r}c_S\wh f(S)\right|
  \le\frac12\max|c_S|
-       \sum_{k=0}^r{D\choose k}{D\choose r-k}m^{\min(k,r-k)/2}.
+       \sum_{k=0}^r\binom{D}{k}\binom{D}{r-k}m^{\min(k,r-k)/2}.
 \]
 Use $\min(k,r-k)\le r/2$ and count all ways to choose $r$ positions
 among $2D$ slots to obtain \eqref{eq:fourier}.
@@ -247,7 +248,7 @@ If two laws have moment differences
 $\delta_r=\max_{|S|=r}|(\E_+-\E_-)\chi_S|$, then
 \begin{equation}\label{eq:collection}
  |\E_+f-\E_-f|
- \le\frac12\sum_{r=1}^{\min(2D,m)}{2D\choose r}m^{r/4}\delta_r.
+ \le\frac12\sum_{r=1}^{\min(2D,m)}\binom{2D}{r}m^{r/4}\delta_r.
 \end{equation}
 The constant Fourier coefficient cancels because both laws have mass one.
 
@@ -435,8 +436,12 @@ $\|a+b\|^2\le2\|a\|^2+2\|b\|^2$ gives
        \|v\odot HD_{\phi(G)}p\|^2\right).
 \]
 For the first norm, condition on $G,v$ and average over $p$;
-\eqref{eq:flatness} bounds its expectation by
-$\|HD_{\phi(HG)}v\|^2/N\le1/N$. The other norm is symmetric.
+\eqref{eq:flatness} gives
+\[
+ \E_p\|p\odot HD_{\phi(HG)}v\|^2
+       \le\frac1N\|HD_{\phi(HG)}v\|^2\le\frac1N.
+\]
+The other norm is symmetric.
 The Gaussian Poincare inequality, proved in Appendix~\ref{app:tools},
 now gives
 \[
@@ -489,7 +494,7 @@ This contradicts \eqref{eq:required-gap} and proves the second part
 of Theorem~\ref{thm:main}. The argument has not conditioned the laws:
 accounting directly for their small off-promise mass is sufficient.
 
-\section{The finite question at $N=4096$}\label{sec:finite}
+\section{The finite question at \texorpdfstring{$N=4096$}{N=4096}}\label{sec:finite}
 Can a parallel probe of dose six solve the same task at $N=4096$?
 The asymptotic estimate is too weak to answer this. We now give a finite
 construction and an explicit reduction of the proposed obstruction to a
@@ -774,7 +779,7 @@ Degree alone is insufficient.
 A sufficient additional estimate would be
 \[
  \left|\sum_{|S|=r}c_S\wh f(S)\right|
- \le {2D\choose r}(4N)^{r/4}\max|c_S|.
+ \le \binom{2D}{r}(4N)^{r/4}\max|c_S|.
 \]
 This is twice the parallel bound. It would give a gap below $1/6$ in
 Section~\ref{sec:closing}, still contradicting the required gap above
