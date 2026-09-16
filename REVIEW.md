@@ -1,3 +1,21 @@
+# Standalone exposition review — September 16, 2026
+
+A new round of five independent reviews covered narrative structure, the Fourier argument, Gaussian tools and concentration, finite reduction, and adversarial correctness. All five also reread the integrated `fourfold_forrelation.tex` draft.
+
+Accepted changes:
+
+- One progressive document: experiment, lower-bound strategy, parity example, Fourier collection, hard inputs, concentration, finite question, internal analytic appendix.
+- Center the effect before the Fourier expansion; remove the separate zero-diagonal argument and the unused factorization-norm notation.
+- Prove the Gaussian sign identity, Hermite contraction, Gaussian Poincare inequality, and variance tensorization inside the PDF.
+- Replace references to a stored coefficient ledger with exact definitions of complete weighted kernel norms. Retain all support splits, proving a sufficient 210-state spectral criterion for arbitrary hard-dose-six parallel probes, including number coherence. This is broader than the earlier balanced conditional reduction, but no dose-six spectral estimate is asserted.
+- Add a worked, proved finite dose-two obstruction: output total variation is below `1/100` at `N=4096`.
+- Explain the physical-number/parity distinction and a false cubic entry bound within the PDF. Keep the larger historical audit separate from the reading path.
+- Clarify that jointly prepared batches are included; a predetermined schedule alone does not make an adaptive protocol parallel. Derive adaptive polynomial degree from unnormalized amplitudes while leaving the required norm estimate open.
+
+The pre-incorporation checkpoint was committed and pushed as [`2687e90`](https://github.com/safavilinqs/fourfold-forrelation-proofs/commit/2687e90f3e6540f17f9283e29298085513eacf27). The reviewers found no remaining mathematical gap in the established results. The finite dose-six spectral estimate and adaptive Fourier estimate remain unresolved.
+
+---
+
 # Independent review and adopted changes
 
 Pre-review checkpoint: [`2b7a3cb`](https://github.com/safavilinqs/fourfold-forrelation-proofs/commit/2b7a3cb72e4f54b4989d66e213d4436333ad4554), already committed and pushed before these changes. The reviews used six independent agent assignments. Their conclusions were assessed against the mathematics and incorporated as follows.

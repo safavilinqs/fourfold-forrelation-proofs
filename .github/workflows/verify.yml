@@ -42,7 +42,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends latexmk texlive-latex-extra texlive-fonts-recommended texlive-science
           python -m pip install numpy matplotlib
-      - name: Build proof documents
+      - name: Build the standalone proof
         run: make build PYTHON_BIN=python
       - name: Save rendered proofs and build logs
         if: always()
@@ -50,9 +50,5 @@ jobs:
         with:
           name: proof-documents
           path: |
-            asymptotic_single_pass_floor/main.pdf
-            asymptotic_single_pass_floor/main.log
-            finite_n4096_certificate/output/pdf/forr4_n4096_advantage.pdf
-            finite_n4096_certificate/main.log
-            finite_n4096_certificate/figures/passive_certificate.pdf
-            finite_n4096_certificate/figures/passive_certificate.svg
+            fourfold_forrelation.pdf
+            fourfold_forrelation.log

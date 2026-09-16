@@ -1,5 +1,7 @@
 # A two-pass construction and a conditional finite lower bound
 
+**For the current self-contained exposition, read [the complete PDF](../fourfold_forrelation.pdf).** This directory preserves the earlier separate note and its verification history.
+
 Read [the PDF](output/pdf/forr4_n4096_advantage.pdf), built from [main.tex](main.tex).
 
 Three single photons, each traversing two masks, solve the promise at hard dose six with error `81/256`. This construction is proved.
@@ -10,4 +12,4 @@ Fixed physical photon number is insufficient for the balanced-cut restriction wh
 
 [The audit](../AUDIT.md) gives exact counterexamples and the unresolved adaptive step. [The coefficient guide](code/COEFFICIENTS.md) distinguishes sound reductions, unproved inputs and false intermediate claims. The short note supplies an explicit residual-support lifting argument for its corrected conditional theorem.
 
-Run `make check` and `make build` at the repository root. The frozen source snapshot remains unchanged for reproduction; its historical `proved` and `CERTIFIED` labels are not current theorem verdicts.
+Run `make check` and `make build-legacy` at the repository root to verify and rebuild this earlier note. The frozen source snapshot remains unchanged for reproduction; its historical `proved` and `CERTIFIED` labels are not current theorem verdicts.

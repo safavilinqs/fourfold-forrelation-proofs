@@ -4,7 +4,7 @@ PYTHON_BIN ?= python3
 LATEXMK ?= latexmk
 
 .DEFAULT_GOAL := check
-.PHONY: check check-structure check-asymptotic check-finite build build-asymptotic build-finite
+.PHONY: check check-structure check-asymptotic check-finite build build-standalone build-legacy build-asymptotic build-finite
 
 check: check-structure check-asymptotic check-finite
 
@@ -18,7 +18,12 @@ check-asymptotic:
 check-finite:
 	env PYTHON_BIN="$(PYTHON_BIN)" finite_n4096_certificate/code/run_all.sh
 
-build: build-asymptotic build-finite
+build: build-standalone
+
+build-standalone:
+	"$(LATEXMK)" -pdf -interaction=nonstopmode -halt-on-error fourfold_forrelation.tex
+
+build-legacy: build-asymptotic build-finite
 
 build-asymptotic:
 	cd asymptotic_single_pass_floor && "$(LATEXMK)" -pdf -interaction=nonstopmode -halt-on-error main.tex

@@ -1,0 +1,912 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools,booktabs,microtype}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Fourfold forrelation: a self-contained proof},pdfauthor={Amir H. Safavi-Naeini}}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newcommand{\E}{\mathbb E}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\TV}{\operatorname{TV}}
+\newcommand{\sgn}{\operatorname{sgn}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\wh}{\widehat}
+\newcommand{\1}{\mathbf 1}
+\DeclareMathOperator{\tr}{tr}
+\title{Fourfold forrelation:\\a self-contained proof}
+\author{Amir H. Safavi-Naeini}
+\date{}
+\begin{document}
+\maketitle
+\begin{abstract}
+Four binary phase masks encode a scalar that a two-pass interferometer
+can read directly. Three photons suffice to determine its promised sign
+with error below one third, at total dose six. We prove that a single
+parallel interrogation needs dose at least $(2/15)N^{1/8}$ for powers of
+two $N\ge2^{30}$. The argument proceeds from the optical experiment to
+parity functions, then constructs inputs whose small correlations defeat
+low-dose measurements. All mathematical ingredients are proved here.
+At $N=4096$ we also give an explicit finite criterion; the estimate needed
+to turn that reduction into a dose-six lower bound remains open.
+\end{abstract}
+
+\section{The question and the answer}
+Let $N=2^d$. Index modes by the binary vectors in $\mathbb F_2^d$ and put
+\[
+ H_{ij}=N^{-1/2}(-1)^{i\cdot j},\qquad
+ u=N^{-1/2}(1,\ldots,1)^{\mathsf T}.
+\]
+The dot product in the exponent is modulo two. Thus $H$ is real,
+symmetric and orthogonal: $H^2=I$. Each mask is a sign vector
+$x^{(b)}\in\{\pm1\}^N$, represented by $D_b=\diag(x^{(b)})$.
+The quantity of interest is
+\begin{equation}\label{eq:forrelation}
+ F(x)=u^{\mathsf T}D_1HD_2HD_3HD_4u.
+\end{equation}
+It lies in $[-1,1]$, since every matrix in the product is orthogonal.
+For any vector $v$ we also write $D_v=\diag(v)$.
+The input is promised to satisfy either $F\ge1/4$ or $F\le-1/4$.
+The task is to decide which, with error at most $1/3$ on every promised input.
+
+\paragraph{What is counted.}
+A photon crossing one mask costs one unit of dose. A photon crossing
+two masks costs two. A \emph{hard} dose bound holds on the entire support
+of the signal state, including every branch of a superposition; it is
+not an average. Arbitrary reference systems, called idlers, may bypass
+the masks without cost.
+
+In a \emph{parallel interrogation}, the whole input state is prepared
+before any mask output is available. Each signal photon crosses the
+direct-sum mask $D_1\oplus\cdots\oplus D_4$ once, and an arbitrary joint
+measurement follows. Entanglement, repeated occupation of a mode, and
+coherence between photon numbers are allowed. Jointly prepared time bins
+are included; feeding an earlier output into the preparation of a later
+probe is a different model.
+
+\begin{theorem}\label{thm:main}
+For the promise problem above:
+\begin{enumerate}
+\item For every $N$, three photons making two mask crossings each have
+hard dose six and worst-case error $81/256<1/3$.
+\item For every power of two $N\ge2^{30}$, a parallel interrogation
+with worst-case error at most $1/3$ has hard dose
+\[
+                         D\ge\frac{2}{15}N^{1/8}.
+\]
+\end{enumerate}
+\end{theorem}
+
+The second bound exceeds six for powers of two $N\ge2^{44}$.
+It does not settle $N=4096$. Section~\ref{sec:finite} develops that
+finite question separately and identifies the precise remaining estimate.
+The main proof uses elementary linear algebra and probability; the
+Gaussian tools used along the way are proved in Appendix~\ref{app:tools}.
+
+\section{Why two passes are enough}
+The product in \eqref{eq:forrelation} can be split into the inner product
+of two unit vectors:
+\[
+ L_x=D_2HD_1u,\qquad R_x=HD_3HD_4u,\qquad
+ \langle L_x,R_x\rangle=F(x).
+\]
+Prepare one photon in a uniform mode state and an equal superposition
+of two paths, $(|0\rangle+|1\rangle)u/\sqrt2$.
+Along path zero apply $D_1,H,D_2$; along path one apply $D_4,H,D_3,H$.
+Both paths cross exactly two masks. The state becomes
+\[
+             \frac{|0\rangle L_x+|1\rangle R_x}{\sqrt2}.
+\]
+Recombine the paths and measure in the basis
+$(|0\rangle\pm|1\rangle)/\sqrt2$, discarding the mode label.
+The output port $X\in\{\pm1\}$ satisfies
+\[
+ \Pr(X=\pm1\mid x)=\frac{1\pm F(x)}2.
+\]
+On either promise, this flag is correct with probability at least $5/8$.
+Repeat independently three times and take the majority. The probability
+of at least two wrong flags is at most
+\[
+                 (3/8)^3+3(5/8)(3/8)^2=81/256<1/3.
+\]
+Every run uses dose six, and no outcome is discarded. This proves the
+first part of Theorem~\ref{thm:main}.
+
+\section{The lower-bound strategy}
+A lower bound must limit \emph{every} allowed preparation and measurement.
+We do this by finding two random input laws, $\mu_+$ and $\mu_-$, that
+are hard to distinguish. They have two complementary properties:
+\begin{itemize}
+\item Each law places more than $9/10$ of its mass on its own promise.
+Thus any correct solver must accept noticeably more often under $\mu_+$.
+\item Products of a few input signs have almost the same expectation
+under the two laws. A low-dose parallel experiment cannot collect enough
+of these small differences to distinguish them.
+\end{itemize}
+The second point needs more than a bound on polynomial degree: there
+may be many small correlations. The next section bounds their combined
+effect on any measurement. Sections~\ref{sec:gaussian}--\ref{sec:closing}
+then construct the laws, prove concentration, and obtain the contradiction
+$1/5<1/12$.
+
+\section{What a parallel measurement can learn}\label{sec:fourier}
+\subsection{From photons to parity functions}
+Write $m=4N$ for the total number of signal coordinates. An occupation
+vector $\nu=(\nu_1,\ldots,\nu_m)$ with $n=\sum_j\nu_j\le D$ embeds
+as the normalized symmetric sum of length-$D$ words containing $\nu_j$
+copies of $j$ and $D-n$ copies of $0$. Distinct occupations give
+orthogonal sums, so this is an isometry, including photon-number
+superpositions. The extra symbol $0$ means an unused \emph{signal} slot;
+all bypass modes belong to the unrestricted idler. Additional labels
+on which the mask acts trivially, such as time-bin labels, can likewise
+be retained in a slot's idler factor and then grouped with the other idlers.
+The query acts as
+\[
+ O_x^{\otimes D},\qquad O_x|0\rangle=|0\rangle,\qquad
+ O_x|j\rangle=x_j|j\rangle\quad(1\le j\le m).
+\]
+Allowing arbitrary slot states, beyond symmetric ones, only enlarges
+the class of experiments against which we prove the bound.
+
+For a word $a$, let $\partial a$ be the set of nonzero labels occurring
+oddly. Repeated occurrences cancel in pairs because $x_j^2=1$.
+The word's phase is therefore the parity function
+$\chi_{\partial a}(x)$, where $\chi_S(x)=\prod_{j\in S}x_j$.
+Purify the input and write
+\[
+ |\psi\rangle=\sum_a|a\rangle\otimes|\psi_a\rangle,\qquad
+ \sum_a\|\psi_a\|^2=1.
+\]
+The idler vectors $\psi_a$ need not be orthogonal.
+Let $f(x)$ be the probability of answering \emph{positive}. A measurement
+effect $0\le E\le I$ gives this probability. Center it by putting
+$T=E-I/2$, so $\|T\|\le1/2$. Then
+\begin{equation}\label{eq:slot}
+ f(x)-\tfrac12=\sum_{a,b}\chi_{\partial a\triangle\partial b}(x)
+                  \langle\psi_a,T_{ab}\psi_b\rangle,\qquad
+ T_{ab}=(\langle a|\otimes I)T(|b\rangle\otimes I).
+\end{equation}
+Here $\triangle$ is symmetric difference: labels common to both sets
+cancel. The parity functions form an orthonormal basis for functions
+on sign strings under the uniform measure. Consequently
+\[
+ f(x)=\sum_S\wh f(S)\chi_S(x),\qquad
+ \wh f(S)=2^{-m}\sum_x f(x)\chi_S(x),
+\]
+and \eqref{eq:slot} shows $\wh f(S)=0$ when $|S|>2D$.
+
+\subsection{A bound on an entire Fourier level}
+We use one elementary matrix fact. If a scalar matrix factors as
+$K_{ab}=\langle p_a,q_b\rangle$, with feature norms at most $P,Q$,
+then for any block operator $T$,
+\begin{equation}\label{eq:schur}
+                   \|[K_{ab}T_{ab}]\|\le PQ\|T\|.
+\end{equation}
+Attach $q_b$ to input block $b$, apply $T$ without changing the attached
+factor, and contract output block $a$ against $p_a$. The three operator
+norms are at most $Q,\|T\|,P$. This also proves the claim for arbitrary
+idler spaces. Here and below an unadorned norm is the Euclidean vector
+norm or its induced operator norm.
+
+\begin{lemma}[Fourier collection bound]\label{lem:fourier}
+For $1\le r\le\min(2D,m)$ and arbitrary complex coefficients $c_S$,
+\begin{equation}\label{eq:fourier}
+ \left|\sum_{|S|=r}c_S\wh f(S)\right|
+ \le\frac12{2D\choose r}m^{r/4}\max_{|S|=r}|c_S|.
+\end{equation}
+\end{lemma}
+\begin{proof}
+We partition the pairs $(a,b)$ in \eqref{eq:slot} with
+$|\partial a\triangle\partial b|=r$. Each differing label occurs oddly
+on exactly one side. Mark its \emph{last} occurrence on that side.
+This assigns a unique record of $r$ marked positions to the pair.
+
+For example, $a=(1,1,2,3)$ and $b=(2,4,0,0)$ have parity sets
+$\{2,3\}$ and $\{2,4\}$. Mark the $3$ in $a$ and the $4$ in $b$.
+Removing these marks leaves the same parity set $\{2\}$ on both sides.
+The repeated $1$ and the unused slots contribute no parity.
+
+Fix a record with $k$ marks in $a$ and $r-k$ in $b$.
+A word is valid on its own side if the marked labels are nonzero,
+distinct, occur oddly, and are marked at their last occurrences.
+Write $A,B$ for the marked sets and
+$R_a=\partial a\setminus A$, $R_b=\partial b\setminus B$ for the
+residual sets. The pair belongs to the record exactly when both words
+are valid, $A\cap B=\varnothing$, and $R_a=R_b$.
+Indeed, then $\partial a=R_a\mathbin{\dot\cup}A$ and
+$\partial b=R_a\mathbin{\dot\cup}B$, so precisely the marked labels differ.
+
+Index an auxiliary matrix $C$ by $k$-element sets $A$ and $(r-k)$-element
+sets $B$, putting $C_{AB}=c_{A\cup B}$ if they are disjoint and zero
+otherwise. Factor it using standard basis vectors on its shorter side.
+For example, if there are fewer rows, use a basis vector for each row
+and the corresponding column of $C$ for each column. The product of
+the largest feature norms is at most
+\[
+ \sqrt{\min\left\{{m\choose k},{m\choose r-k}\right\}}\max|c_S|
+ \le m^{\min(k,r-k)/2}\max|c_S|.
+\]
+Attach to each feature the basis vector labelled by its residual set,
+and set the feature to zero for an invalid word. Their inner product
+now enforces residual equality and validity, giving the \emph{exact}
+record matrix $K$, with the same norm bound.
+By \eqref{eq:schur}, the absolute value of its contribution
+$\langle\psi,[K_{ab}T_{ab}]\psi\rangle$ is at most half that bound.
+There are $\binom{D}{k}\binom{D}{r-k}$ records with this split. Hence
+\[
+ \left|\sum_{|S|=r}c_S\wh f(S)\right|
+ \le\frac12\max|c_S|
+       \sum_{k=0}^r{D\choose k}{D\choose r-k}m^{\min(k,r-k)/2}.
+\]
+Use $\min(k,r-k)\le r/2$ and count all ways to choose $r$ positions
+among $2D$ slots to obtain \eqref{eq:fourier}.
+\end{proof}
+
+The lemma converts small input moments into a bound on any experiment.
+If two laws have moment differences
+$\delta_r=\max_{|S|=r}|(\E_+-\E_-)\chi_S|$, then
+\begin{equation}\label{eq:collection}
+ |\E_+f-\E_-f|
+ \le\frac12\sum_{r=1}^{\min(2D,m)}{2D\choose r}m^{r/4}\delta_r.
+\end{equation}
+The constant Fourier coefficient cancels because both laws have mass one.
+
+\section{Inputs with small correlations}\label{sec:gaussian}
+We want four sign blocks with appreciable forrelation but very small
+low-order moments. Three independent correlated links supply the
+forrelation. Random block signs make every distinguishing moment use
+all four blocks.
+
+Fix $\rho=200/201$. Independently for $s=1,2,3$, draw jointly Gaussian
+standard vectors $Z_s,W_s$ with
+$\E Z_sW_s^{\mathsf T}=\rho H$, and set
+$a_s=\sgn Z_s$, $b_s=\sgn W_s$ componentwise.
+This covariance is valid because $\|\rho H\|<1$.
+Join the links by componentwise multiplication, denoted $\odot$:
+\[
+          y=(a_1,\ b_1\odot a_2,\ b_2\odot a_3,\ b_3).
+\]
+To define $\mu_\sigma$ for $\sigma\in\{\pm1\}$, choose independent
+uniform signs $\zeta_1,\zeta_2,\zeta_3$, set
+$\zeta_4=\sigma\zeta_1\zeta_2\zeta_3$, and put $x^{(b)}=\zeta_b y^{(b)}$.
+Since $F$ is linear in each block, $F(x)=\sigma F(y)$.
+
+\subsection{A single link}
+For coordinate sets $A,B$ write
+$\mathcal L(A,B)=\E\prod_{i\in A}a_i\prod_{j\in B}b_j$.
+Let $a=|A|$, $b=|B|$, and suppose $a+b\le r\le\sqrt N$.
+Then
+\begin{equation}\label{eq:link}
+ |\mathcal L(A,B)|\le
+       \left(\frac{r}{2\sqrt N}\right)^{\max(a,b)}.
+\end{equation}
+If just one set is empty, its moment is zero because the other marginal
+has independent symmetric signs; if both are empty, the moment is one.
+Otherwise the cross-covariance $R=\rho H_{A,B}$ has
+\[
+ \|R\|\le\left(\sum_{i,j}|R_{ij}|^2\right)^{1/2}=\rho\sqrt{ab/N}
+                         \le r/(2\sqrt N)\le1/2.
+\]
+A product of signs in $a$ independent Gaussian coordinates has no
+Hermite terms of degree below $a$: it is odd in each coordinate.
+Here Hermite expansion means orthogonal polynomial expansion for Gaussian inputs.
+The same holds with $b$ on the other side. The Gaussian contraction
+proved in Appendix~\ref{app:tools} pairs only equal degrees $p$ and
+contracts degree $p$ by at most $\|R\|^p$. Both sign products have
+$L^2$ norm one. Their common degrees start at $\max(a,b)$, proving
+\eqref{eq:link}.
+
+\subsection{Three links and four odd blocks}
+For $S=(S_1,\ldots,S_4)$ put $q_b=|S_b|$ and $r=\sum_bq_b$.
+Averaging the block signs gives
+\[
+ \E_\zeta\prod_{b=1}^4\zeta_b^{q_b}
+ =\sigma^{q_4}\prod_{j=1}^3\1_{\{q_j\equiv q_4\pmod2\}}.
+\]
+The difference between the two laws therefore vanishes unless all
+four $q_b$ are odd. In that case independence of the links gives
+\[
+ (\E_{\mu_+}-\E_{\mu_-})\chi_S
+       =2\mathcal L(S_1,S_2)\mathcal L(S_2,S_3)\mathcal L(S_3,S_4).
+\]
+The three exponents in \eqref{eq:link} have sum at least $3r/4$:
+\[
+ \begin{aligned}
+ \max(q_1,q_2)&\ge(3q_1+q_2)/4,\\
+ \max(q_2,q_3)&\ge(q_2+q_3)/2,\\
+ \max(q_3,q_4)&\ge(q_3+3q_4)/4.
+ \end{aligned}
+\]
+Because the base in \eqref{eq:link} is at most one, we conclude
+\begin{equation}\label{eq:moments}
+ \delta_r\le2^{1-3r/4}r^{3r/4}N^{-3r/8}\quad(r\le\sqrt N),
+ \qquad \delta_r=0\quad\text{unless $r\ge4$ is even}.
+\end{equation}
+The scale of the final result is already visible: at degree four the
+moment is $O(N^{-3/2})$, while the Fourier bound costs $O(D^4N)$.
+Their product is $O(D^4/\sqrt N)$, which becomes constant at $D=N^{1/8}$.
+
+\section{Why these inputs satisfy the promise}\label{sec:concentration}
+Small moments alone do not make hard inputs: the laws must also place
+most of their mass on the required promises. We prove this by computing
+the mean and bounding the variance.
+
+\subsection{The mean is beyond the threshold}
+The Gaussian sign identity proved in Appendix~\ref{app:tools} gives
+\[
+ \E a_i b_j=\beta_N H_{ij},\qquad
+ \beta_N=\frac{2\sqrt N}{\pi}\arcsin(\rho/\sqrt N).
+\]
+Expanding \eqref{eq:forrelation} and using the three independent links,
+\[
+ \E_{\mu_\sigma}F
+ =\frac{\sigma\beta_N^3}{N}\sum_{i,j,k,l}H_{ij}^2H_{jk}^2H_{kl}^2
+ =\sigma\beta_N^3.
+\]
+The sum has $N^4$ terms, each equal to $N^{-3}$.
+Since $\arcsin t\ge t$ for $t\ge0$ and $\pi<22/7$,
+\begin{equation}\label{eq:margin}
+ \beta_N^3-\frac14>
+       \left(\frac{1400}{2211}\right)^3-\frac14>\frac1{260}.
+\end{equation}
+The final comparison is the integer inequality
+$130\cdot1400^3-33\cdot2211^3=38\,842\,277>0$.
+
+\subsection{Separate independent noise from smooth variation}
+\begin{lemma}\label{lem:variance}
+Under either law, $\Var F<1540/N$.
+\end{lemma}
+\begin{proof}
+Realize each link using independent standard Gaussian vectors
+$G,\xi,\eta$ as
+\[
+ a=\sgn(G+\xi/\sqrt{200}),\qquad
+ b=\sgn(HG+\eta/\sqrt{200}).
+\]
+After standardizing the marginal variances, the cross-covariance is
+$\rho H$, as required. Condition on $\mathcal G=(G_1,G_2,G_3)$.
+All primitive signs are then independent, and each is used in only
+one coordinate of $y$. Hence the coordinates of $y$ are conditionally
+independent too. Their primitive means are $\phi(G)$ and $\phi(HG)$,
+where
+\[
+ \phi(t)=2\Phi(\sqrt{200}\,t)-1=\operatorname{erf}(10t),\qquad
+ L_\phi=\|\phi'\|_\infty=20/\sqrt\pi,\qquad L_\phi^2<128.
+\]
+Here $\Phi$ is the standard normal distribution function; the last
+bound uses $\pi>25/8$. Since $F(x)=\sigma F(y)$, the gauges do not
+affect its variance. We use the two terms of total variance:
+\begin{equation}\label{eq:total-variance}
+ \Var F=\E\Var(F\mid\mathcal G)+\Var\overline F,\qquad
+ \overline F=\E(F\mid\mathcal G).
+\end{equation}
+
+\emph{First term: independent sign noise.}
+For independent signs, variance tensorization bounds the variance of
+a multilinear function by the sum of its expected squared coefficients
+in each sign; Appendix~\ref{app:tools} gives the short proof.
+Each endpoint block of $F$ contributes exactly $1/N$ to this sum:
+its other chain has norm one, and the endpoint vector is flat.
+For block two the coefficient of coordinate $j$ is $\ell_jv_j$, where
+\[
+ \ell=HD_{a_1}u,\qquad v=HD_{b_2\odot a_3}HD_{b_3}u.
+\]
+These vectors depend on disjoint links and are independent.
+The coordinates of $a_1$ are independent uniform signs, so
+$\E\ell_j^2=1/N$; also $\|v\|=1$. Averaging the sum gives $1/N$.
+Block three has the same bound by reversing the argument, using the
+independent uniform signs in $b_3$. Consequently
+\begin{equation}\label{eq:noise-var}
+                         \E\Var(F\mid\mathcal G)\le4/N.
+\end{equation}
+
+\emph{Second term: a smooth Gaussian function.}
+Set
+\[
+ M(g)=D_{\phi(g)}H D_{\phi(Hg)}.
+\]
+This is a contraction because $|\phi|\le1$, and the conditional mean is
+$\overline F=\sigma u^{\mathsf T}M(G_1)M(G_2)M(G_3)u$.
+We first establish a useful symmetry of partial chains.
+For a binary shift $s$ define
+$(P_sv)_i=v_{i+s}$ and $(C_sv)_i=(-1)^{s\cdot i}v_i$.
+The identities $HP_s=C_sH$, $HC_s=P_sH$, and oddness of $\phi$ give
+\begin{equation}\label{eq:translation}
+                  M(P_sg)=P_sM(g),\qquad M(C_sg)=M(g)P_s.
+\end{equation}
+Both $P_sG$ and $C_sG$ have the same law as $G$.
+Thus any vector obtained by applying an independent chain of $M$'s
+or transposed $M$'s to $u$ has translation-invariant distribution:
+change the Gaussian in its outermost factor using \eqref{eq:translation}.
+Its norm is at most one. All coordinate second moments are equal, so
+\begin{equation}\label{eq:flatness}
+                    \E|v_i|^2=\frac1N\E\|v\|^2\le\frac1N.
+\end{equation}
+The empty chain $u$ obeys the same bound.
+
+At one of the three links, write the conditional mean, up to $\sigma$,
+as $p^{\mathsf T}M(G)v$. The left and right partial chains $p,v$ and
+the current $G$ are mutually independent; both chains satisfy
+\eqref{eq:flatness}. Differentiating this smooth expression and using
+$\|a+b\|^2\le2\|a\|^2+2\|b\|^2$ gives
+\[
+ \|\nabla_G\overline F\|^2\le2L_\phi^2
+ \left(\|p\odot HD_{\phi(HG)}v\|^2+
+       \|v\odot HD_{\phi(G)}p\|^2\right).
+\]
+For the first norm, condition on $G,v$ and average over $p$;
+\eqref{eq:flatness} bounds its expectation by
+$\|HD_{\phi(HG)}v\|^2/N\le1/N$. The other norm is symmetric.
+The Gaussian Poincare inequality, proved in Appendix~\ref{app:tools},
+now gives
+\[
+ \Var\overline F\le\sum_{s=1}^3\E\|\nabla_{G_s}\overline F\|^2
+                         \le12L_\phi^2/N.
+\]
+Combining this with \eqref{eq:noise-var} in \eqref{eq:total-variance}
+yields $\Var F\le(4+12L_\phi^2)/N<1540/N$.
+\end{proof}
+
+\section{Closing the lower bound}\label{sec:closing}
+The mean margin \eqref{eq:margin}, Lemma~\ref{lem:variance}, and
+Chebyshev's inequality imply, for $N\ge2^{30}$,
+\begin{equation}\label{eq:failure}
+ \varepsilon_\sigma:=\mu_\sigma\{\sigma F<1/4\}
+ \le\frac{1540\cdot260^2}{N}
+ =\frac{104\,104\,000}{N}<\frac1{10}.
+\end{equation}
+The last step follows from $1\,041\,040\,000<2^{30}$.
+A correct acceptance probability $f\in[0,1]$ obeys $f\ge2/3$
+on the positive promise and $f\le1/3$ on the negative promise.
+Even allowing the worst behavior off the promises,
+\[
+ \E_{\mu_+}f\ge\tfrac23(1-\varepsilon_+),\qquad
+ \E_{\mu_-}f\le\tfrac13(1-\varepsilon_-)+\varepsilon_-.
+\]
+Thus correctness requires
+\begin{equation}\label{eq:required-gap}
+ \E_{\mu_+}f-\E_{\mu_-}f
+ \ge\frac13-\frac23(\varepsilon_++\varepsilon_-)>\frac15.
+\end{equation}
+
+Suppose instead $D<(2/15)N^{1/8}$. Then $2D<\sqrt N$, so all
+relevant moments satisfy \eqref{eq:moments}.
+Substitute that bound and $m=4N$ into \eqref{eq:collection}, using
+$\binom{2D}{r}\le(2eD/r)^r$:
+\[
+ |\E_{\mu_+}f-\E_{\mu_-}f|
+ \le\sum_{\substack{4\le r\le2D\\r\text{ even}}}
+        \left(2^{3/4}eD\,r^{-1/4}N^{-1/8}\right)^r.
+\]
+For $r\ge4$ each base is at most
+$\theta=2^{1/4}eDN^{-1/8}<1/2$, since $e<3$ and $2^{1/4}<5/4$.
+The even-level sum is therefore at most
+\[
+             \sum_{j=2}^{\infty}\theta^{2j}
+             =\frac{\theta^4}{1-\theta^2}<\frac1{12}.
+\]
+This contradicts \eqref{eq:required-gap} and proves the second part
+of Theorem~\ref{thm:main}. The argument has not conditioned the laws:
+accounting directly for their small off-promise mass is sufficient.
+
+\section{The finite question at $N=4096$}\label{sec:finite}
+Can a parallel probe of dose six solve the same task at $N=4096$?
+The asymptotic estimate is too weak to answer this. We now give a finite
+construction and an explicit reduction of the proposed obstruction to a
+matrix estimate. The reduction is proved; the matrix estimate is open.
+All its coefficients are defined below, so the question has no implicit
+numerical or documentary inputs.
+
+\subsection{An exact plant}
+Let $q=64$, $N=q^2$, and identify a coordinate with a pair $(a,b)$ of
+binary vectors of length six. Write $S_q=\sqrt q\,H_q$, so its entries
+are signs and $H_N=H_q\otimes H_q$.
+For a uniform permutation $\pi$ of these $q$ labels and independent
+uniform signs $\sigma_b$, define arrays
+\begin{equation}\label{eq:finite-link}
+ L_{a,b}=S_q(a,\pi(b))\sigma_b,\qquad
+ R_{\pi(b),a}=\sigma_bS_q(b,a).
+\end{equation}
+They obey $H_NL=R$ and $H_NR=L$. Indeed, with $b_c=\pi^{-1}(c)$,
+\[
+ (H_NL)_{c,d}
+ =\frac1q\sum_{a,b}S_q(c,a)S_q(d,b)S_q(a,\pi(b))\sigma_b
+ =S_q(d,b_c)\sigma_{b_c}=R_{c,d};
+\]
+the other identity follows from $H_N^2=I$.
+Take three independent links and form
+\begin{equation}\label{eq:plant}
+                z=(L_1,R_1\odot L_2,R_2\odot L_3,R_3).
+\end{equation}
+Starting on the right of \eqref{eq:forrelation}, the transform identities
+successively cancel $R_3,L_3,R_2,L_2,R_1,L_1$ and leave $u$.
+Thus $F(z)=1$ exactly; negating the first block gives $F=-1$.
+
+Independently multiply every coordinate by a sign of mean $\beta=19/25$,
+equivalently flipping it with probability $3/25$.
+Call the resulting positive law $\widetilde P_+$ and its first-block
+reflection $\widetilde P_-$. Their means are $\pm\beta^4$.
+Condition each law onto its respective promise to obtain $P_+,P_-$.
+For probability laws $P,Q$, we use
+$\TV(P,Q)=\sup_A|P(A)-Q(A)|$, half their $L^1$ distance.
+
+\begin{lemma}[Cost of conditioning]\label{lem:conditioning}
+Let
+\begin{equation}\label{eq:kappa}
+ V_\beta=\frac{(1+\beta^2)(1+\beta^4)}N,\qquad
+ g=\beta^4-\frac14,\qquad
+ \kappa=2\exp\left(-\frac{g^2}{2V_\beta}\right).
+\end{equation}
+Conditioning changes the output total variation of any experiment
+by at most $\kappa$, and $\kappa<1/400$.
+\end{lemma}
+\begin{proof}
+Fix an exact plant $z$ and reveal the four noisy blocks from left to
+right. The conditional expectations of $F$ form a martingale.
+At block $b$, averaging future noise contributes $\beta^{4-b}$.
+The remaining deterministic right chain is a sign vector divided by
+$\sqrt N$, by the plant identities, and the left chain has norm one.
+Thus the martingale increment is a sum of independent centered signs
+with sum of squared coefficients $\beta^{2(4-b)}/N$.
+
+A centered variable in an interval of length two satisfies
+$\E e^{tY}\le e^{t^2/2}$: for its log moment-generating function,
+the second derivative is a tilted variance at most one, and its value
+and first derivative vanish at zero. Apply this conditionally to each
+sign and then each block. The four increments give
+$\E e^{t(F-\beta^4)}\le e^{t^2V_\beta/2}$.
+Markov's inequality, optimized at $t=-g/V_\beta$, bounds the promise
+failure by $\exp(-g^2/(2V_\beta))$. Reflection gives the same bound
+on the negative side.
+
+Conditioning a law on an event of probability $1-\epsilon$ changes
+it in total variation by exactly $\epsilon$ (split the law into its
+on-event and off-event parts). An experiment cannot increase total
+variation. The triangle inequality gives the sum of the two failures,
+which is \eqref{eq:kappa}.
+For an elementary numerical bound, direct rational substitution gives
+\[
+ \frac{g^2}{2V_\beta}
+   =\frac{546\,296\,776\,992}{80\,258\,243\,125}>\frac{34}{5}.
+\]
+Also $e>27/10$ from its positive power series, and
+$e^{4/5}>1+4/5+(4/5)^2/2=53/25$. Hence
+$e^{34/5}>(27/10)^6(53/25)>800$, proving $\kappa<1/400$.
+\end{proof}
+
+\subsection{The exact matrix seen by a parallel probe}
+For a Fock occupation $\nu$, define its parity support in each block by
+$S_b(\nu)=\{i:\nu_{b,i}\text{ is odd}\}$.
+The mask acts only through this support:
+$U_x|\nu\rangle=\chi_{S(\nu)}(x)|\nu\rangle$.
+For hard dose six, $|S|:=\sum_b|S_b|\le6$.
+Purify any input and group all terms with support $S$ into a vector
+$\psi_S$, including their idlers. These vectors are mutually orthogonal,
+because they contain disjoint collections of occupation-basis vectors.
+Set $p_S=\|\psi_S\|^2$.
+
+For the unconditioned laws define
+\begin{equation}\label{eq:finite-K}
+ K_{ST}=\tfrac12(\E_{\widetilde P_+}-\E_{\widetilde P_-})
+                                \chi_{S\triangle T}.
+\end{equation}
+The map $|S\rangle\mapsto\psi_S/\sqrt{p_S}$ is an isometry for nonzero
+weights. Therefore half the difference of the two averaged purified
+output states has trace norm
+\begin{equation}\label{eq:finite-trace}
+                   \|\diag(\sqrt p)K\diag(\sqrt p)\|_1.
+\end{equation}
+The trace norm is the sum of singular values. For a trace-zero Hermitian
+matrix $X$, its positive and negative parts have equal trace, giving
+$\sup_{0\le E\le I}|\tr(EX)|=\|X\|_1/2$.
+Thus \eqref{eq:finite-trace} bounds every measurement's output total
+variation, even after a purifier is discarded. Mixtures are covered
+by purification as well.
+
+Globally negating both halves $(L_j,R_j)$ of one link preserves its law.
+Consequently a plant moment vanishes unless adjacent block degrees
+have the same parity. First-block reflection in \eqref{eq:finite-K}
+selects the odd case: only differences with an odd number of labels in
+\emph{every} block survive. Independent noise multiplies a degree-$r$
+moment by $\beta^r$.
+
+\subsection{From mode labels to 210 count states}
+Here is a completely specified finite criterion. For nonnegative
+integer four-vectors $s,t$ with $|s|,|t|\le6$, let $A_b,B_b$ range over sets of sizes
+$s_b,t_b$. Define the complete kernel and its coefficient by
+\begin{align}
+ \mathcal O_{s,t}(A,B)
+   &=\1_{\{A_b\cap B_b=\varnothing\ \text{for all }b\}}
+                      \E_z\chi_{A\cup B}(z),\label{eq:complete}\\
+ c_{s,t}
+   &=\sup_{\alpha,\omega}
+       \|\diag(\sqrt\alpha)\mathcal O_{s,t}
+                           \diag(\sqrt\omega)\|_1.\label{eq:cstar}
+\end{align}
+The expectation is the finite uniform average over the three independent
+permutations and sign families in \eqref{eq:finite-link}; thus it is
+explicitly defined. The supremum is over all probability laws on the
+row and column sets, including correlated laws between blocks.
+These are finite matrices and compact probability simplexes, so the
+suprema exist. Transposition gives $c_{s,t}=c_{t,s}$.
+The disjointness indicator is part of the matrix, not a removable
+qualification on selected entries.
+
+Write $|n|=\sum_bn_b$ and
+$\binom nr=\prod_{b=1}^4\binom{n_b}{r_b}$. Index a symmetric
+nonnegative matrix $B$ by
+\[
+             \mathcal N=\{n\in\mathbb Z_{\ge0}^4:|n|\le6\},
+             \qquad |\mathcal N|={10\choose4}=210.
+\]
+For $n,m\in\mathcal N$, set
+\begin{equation}\label{eq:B}
+ B_{nm}=\1_{\{n_b+m_b\ \mathrm{odd}\ \forall b\}}
+ \sum_{0\le r\le\min(n,m)}
+ \beta^{|n|+|m|-2|r|}c_{n-r,m-r}
+                         \sqrt{\binom nr\binom mr}.
+\end{equation}
+Inequalities between four-vectors are componentwise.
+
+\begin{proposition}[Finite spectral reduction]\label{prop:finite}
+For every parallel probe of hard dose at most six, including arbitrary
+idlers, repeated occupations and photon-number coherence, the output
+laws under $P_+,P_-$ satisfy
+\begin{equation}\label{eq:finite-goal}
+                         \TV(T_+,T_-)\le\lambda_{\max}(B)+\kappa.
+\end{equation}
+In particular, $\lambda_{\max}(B)+\kappa<1/3$ would rule out a
+worst-case error of $1/3$ at dose six.
+\end{proposition}
+\begin{proof}
+First fix the block counts $n_b=|S_b|$, $m_b=|T_b|$ and the common
+support $R=S\cap T$, with counts $r_b=|R_b|$.
+Write $S=R\mathbin{\dot\cup}A$, $T=R\mathbin{\dot\cup}B'$.
+The exclusive counts are $s=n-r$, $t=m-r$.
+The corresponding block of $K$ is the kernel \eqref{eq:complete},
+restricted to sets avoiding $R$, multiplied by $\beta^{|s|+|t|}$.
+It vanishes unless $n_b+m_b$ is odd for every block.
+
+To bound this block, temporarily take normalized laws $p_S,w_T$ on
+the two count sectors. For a fixed $R$ put
+$P_R=\sum_Ap_{R\cup A}$ and $W_R=\sum_{B'}w_{R\cup B'}$.
+The definition \eqref{eq:cstar}, applied to the restricted normalized
+laws, bounds the weighted trace norm by
+$c_{s,t}\sqrt{P_RW_R}$ before the noise factor.
+Each nonzero entry has the unique residual $R=S\cap T$, so summing
+over all residuals reconstructs the desired block exactly.
+Triangle inequality and Cauchy--Schwarz give
+\[
+ \sum_Rc_{s,t}\sqrt{P_RW_R}
+ \le c_{s,t}\sqrt{\binom nr\binom mr}.
+\]
+Indeed each $S$ contains exactly $\binom nr$ eligible residual sets,
+and each $T$ exactly $\binom mr$.
+
+Now let $v_n=\sqrt{\sum_{S:\,|S_b|=n_b}p_S}$ for the actual input.
+Restoring sector masses supplies a factor $v_nv_m$. Sum over common
+counts $r$ and ordered sectors $n,m$, using triangle inequality again.
+Equations~\eqref{eq:finite-trace} and \eqref{eq:B} give
+\[
+ \TV(\widetilde T_+,\widetilde T_-)
+       \le v^{\mathsf T}Bv\le\lambda_{\max}(B),
+       \qquad \|v\|_2=1.
+\]
+Lemma~\ref{lem:conditioning} adds at most $\kappa$.
+Finally, equal-prior optimal decision error is $(1-\TV)/2$: choose
+the more likely law for each output and sum the pointwise minima.
+A worst-case error at most $1/3$ would give equal-prior error at most
+$1/3$, requiring $\TV\ge1/3$.
+\end{proof}
+
+\subsection{A worked example: dose two}
+The criterion does give a concrete finite conclusion at smaller dose.
+With hard dose two, any surviving difference uses all four blocks, so
+the two supports must be disjoint, of size two each, and occupy
+complementary pairs of blocks. For coordinates $i=(a,b)$, $j=(c,d)$,
+sign averaging in \eqref{eq:finite-link} leaves only $\pi(b)=c$; hence
+\[
+ \E L_iR_j=\frac1q S_q(a,c)S_q(b,d)=H_N(i,j).
+\]
+The three independent links therefore make each entry of a surviving
+kernel a product of three Walsh entries, of magnitude $N^{-3/2}$.
+Each row has $N^2$ columns, so its squared norm is $1/N$.
+For arbitrary probability laws $\alpha,\omega$, factor the weighted
+matrix as $(\diag(\sqrt\alpha)\mathcal O)\diag(\sqrt\omega)$.
+The inequality $\|XY\|_1\le\|X\|_{\mathrm F}\|Y\|_{\mathrm F}$, where
+the Frobenius norm is the square root of the sum of squared entries,
+gives $c_{s,t}\le1/\sqrt N$. This inequality follows by duality:
+for $\|U\|\le1$, apply Cauchy--Schwarz to
+$\tr(UXY)$ and use $\|UX\|_{\mathrm F}\le\|X\|_{\mathrm F}$.
+
+Restricting the count states to $|n|\le2$ leaves three complementary
+two-state blocks and zero rows. Each edge is at most $\beta^4/\sqrt N$.
+Thus, for every parallel probe of dose at most two at $N=4096$,
+\[
+ \TV(T_+,T_-)\le\frac{\beta^4}{64}+\kappa
+       <\frac{192821}{25000000}<\frac1{100}.
+\]
+Its equal-prior error exceeds $99/200$. This is a proved finite
+obstruction; the dose-six problem requires higher-degree kernel bounds.
+
+\subsection{What remains at dose six}
+The entries of $B$ are defined entirely by finite averages and finite
+norm optimizations. No bound $\lambda_{\max}(B)+\kappa<1/3$ is proved
+here. Establishing it requires estimates for the \emph{complete} kernels
+\eqref{eq:complete}; accurate numerical arithmetic on proposed upper
+bounds cannot supply a missing analytic inequality.
+This matrix estimate is sufficient, not necessary: failure to prove it,
+or even its failure, would not exclude a sharper lower-bound argument.
+
+One sometimes imposes an extra restriction that makes this calculation
+smaller. Define the parity-size operator
+\[
+                 Q|\nu\rangle=|S(\nu)|\,|\nu\rangle.
+\]
+Extend $Q$ by the identity on idlers. For an input density operator
+$\varrho$ with $[\varrho,Q]=0$,
+decompose into fixed-$Q$ sectors; only pairs with
+$|n|=|m|$ are needed. In \eqref{eq:B} this means replacing $B$ by
+$B^{\rm bal}_{nm}=\1_{\{|n|=|m|\}}B_{nm}$. The same proof applies
+sector by sector and then by convexity. Even the corresponding smaller
+matrix estimate remains open.
+
+Fixed physical photon number does not justify this restriction.
+For example, three photons in coordinate zero of block one have parity
+size one. One photon in coordinate zero of each of blocks two, three
+and four has parity size three. Their superposition has fixed physical
+number three but is not diagonal in $Q$. Its connecting moment is
+nonzero: each link has $\E L_{0,0}R_{0,0}=1/q$, because sign averaging
+leaves precisely $\pi(0)=0$. Thus \eqref{eq:finite-K} for these two
+supports equals $\beta^4/q^3>0$. Deleting it would change the experiment.
+Appendix~\ref{app:obstruction} gives another explicit obstruction to
+a shortcut in estimating the finite coefficients.
+
+\section{The remaining adaptive question}
+The proved lower bound concerns a fixed parallel input and measurement.
+If later probes depend on earlier outcomes, the common fixed operator
+used in \eqref{eq:slot} is no longer available. For fresh batches with
+classical feedback and total hard dose $D$, the acceptance probability
+still has degree at most $2D$: along a fixed history each unnormalized
+amplitude contains at most $D$ mask-sign factors. Its probability has
+degree at most $2D$, and summing histories preserves this bound.
+Degree alone is insufficient.
+A sufficient additional estimate would be
+\[
+ \left|\sum_{|S|=r}c_S\wh f(S)\right|
+ \le {2D\choose r}(4N)^{r/4}\max|c_S|.
+\]
+This is twice the parallel bound. It would give a gap below $1/6$ in
+Section~\ref{sec:closing}, still contradicting the required gap above
+$1/5$. We have not established this estimate for adaptive preparations.
+Neither a mean-dose bound nor optimality of the dose-six protocol is
+claimed.
+
+\appendix
+\section{The probability tools used in the proof}\label{app:tools}
+The following short derivations make the Gaussian and concentration
+steps independent of external references.
+
+\subsection{The Gaussian sign identity}
+If standard Gaussians $X,Y$ have correlation $c$, write
+$X=G_1$, $Y=cG_1+\sqrt{1-c^2}\,G_2$ with independent standard
+$G_1,G_2$. The angle in this plane is uniform. The two signs disagree
+on wedges of total angle $2\arccos c$, so
+\[
+ \Pr(\sgn X\ne\sgn Y)=\frac{\arccos c}{\pi},\qquad
+ \E\sgn X\sgn Y=\frac2\pi\arcsin c.
+\]
+The endpoint correlations follow by continuity.
+
+\subsection{Hermite degrees and Gaussian contraction}
+Define the normalized Hermite polynomials by
+\[
+ e^{tx-t^2/2}=\sum_{n\ge0}h_n(x)\frac{t^n}{\sqrt{n!}}.
+\]
+Taking Gaussian expectations of two generating functions shows
+$\E h_n(G)h_m(G)=\1_{\{n=m\}}$.
+The products $h_\alpha(x)=\prod_i h_{\alpha_i}(x_i)$ form an
+orthonormal basis in Gaussian $L^2$. One way to see completeness is
+to take a function orthogonal to all polynomials. Its Gaussian-weighted
+Laplace transform has all derivatives zero at zero and is entire by
+Cauchy--Schwarz and Gaussian exponential integrability. It therefore
+vanishes also at imaginary arguments; uniqueness of the Fourier
+transform makes the original function zero.
+
+The total degree of $h_\alpha$ is $|\alpha|=\sum_i\alpha_i$.
+The degree-$p$ space is invariant under orthogonal rotations, since
+it is the orthogonal complement of degrees at most $p-1$ inside the
+polynomials of degree at most $p$. If standard Gaussian vectors $X,Y$
+have cross-covariance $R$, their generating functions satisfy
+\[
+ \E e^{t\cdot X-\|t\|^2/2}e^{s\cdot Y-\|s\|^2/2}=e^{t^{\mathsf T}Rs}.
+\]
+Rotate $X,Y$ by a singular-value decomposition of $R$ (padding to the
+same dimension with independent coordinates if necessary).
+If its singular values are $s_j$, expansion in these rotated coordinates gives
+\[
+ \E h_\alpha(X)h_\gamma(Y)
+      =\1_{\{\alpha=\gamma\}}\prod_j s_j^{\alpha_j}.
+\]
+Thus different total degrees do not pair, and degree $p$ contracts by
+at most $\|R\|^p$. If $f,g$ have no degrees below $a,b$, then, writing
+$f_p,g_p$ for their degree-$p$ parts and using $\|R\|\le1$,
+\[
+ |\E f(X)g(Y)|
+ \le\sum_{p\ge\max(a,b)}\|R\|^p\|f_p\|_2\|g_p\|_2
+ \le\|R\|^{\max(a,b)}\|f\|_2\|g\|_2.
+\]
+A product of signs in $a$ distinct coordinates is odd in every one
+of them. Each participating Hermite index is therefore odd, giving
+minimum degree $a$ and $L^2$ norm one, as used in \eqref{eq:link}.
+
+\subsection{Gaussian Poincare inequality}
+Let $f=\sum_\alpha c_\alpha h_\alpha$ be smooth with square-integrable
+gradient. Gaussian integration by parts gives
+\[
+ \langle\partial_i f,h_\gamma\rangle
+     =\sqrt{\gamma_i+1}\,c_{\gamma+e_i}.
+\]
+Parseval's identity therefore yields
+\[
+ \Var f=\sum_{\alpha\ne0}|c_\alpha|^2
+       \le\sum_\alpha|\alpha|\,|c_\alpha|^2
+       =\E\|\nabla f\|^2.
+\]
+The smooth functions used in the proof have bounded derivatives, so
+the integrations are justified by Gaussian integrability.
+
+\subsection{Variance tensorization for independent variables}
+For independent $Y_1,\ldots,Y_k$, let $E_i$ average coordinate $i$
+alone and let $F_i=\E[F\mid Y_1,\ldots,Y_i]$.
+The martingale differences are orthogonal, and independence gives
+\[
+ F_i-F_{i-1}=\E[F-E_iF\mid Y_1,\ldots,Y_i].
+\]
+Conditional Jensen and summation imply
+\[
+ \Var F\le\sum_i\E(F-E_iF)^2
+           =\sum_i\E\Var_{Y_i}(F\mid Y_{-i}).
+\]
+If $Y_i$ is a sign and $F=A+Y_iB$ with $A,B$ independent of that
+coordinate, the last conditional variance is
+$(1-(\E Y_i)^2)B^2\le B^2$. This proves the coefficient bound used
+in \eqref{eq:noise-var}.
+
+\section{Why a finite coefficient shortcut fails}\label{app:obstruction}
+This example explains why the finite matrix estimate is a substantive
+remaining task. For the link \eqref{eq:finite-link}, define
+\[
+ M(A,B)=\E\prod_{v\in A}L_v\prod_{w\in B}R_w.
+\]
+For any power of two $q\ge8$, use the three-cell sets
+\[
+ V=\{(0,0),(1,0),(2,0)\},\qquad
+ W=\{(0,0),(0,1),(0,2)\}.
+\]
+Here $0,1,2$ denote their distinct binary labels.
+For $M(V,W)$, the sign in column zero must match the sign in
+column $\pi^{-1}(0)$, so averaging leaves exactly $\pi(0)=0$.
+Every remaining Walsh phase is $+1$, giving $M(V,W)=1/q$.
+For $M(W,V)$, sign averaging requires the permutation to map
+$\{0,1,2\}$ onto itself; again all surviving phases are $+1$.
+Thus
+\[
+             M(V,W)=\frac1q,\qquad
+             M(W,V)=\frac1{\binom q3}.
+\]
+The exact four-block plant moment at $(V,W,V,W)$ is consequently
+$1/(q^2\binom q3)$. In particular, a proposed universal maximum
+of the form
+\[
+ \frac{b^2}{\binom q3},\qquad
+ b=\frac{q+2}{q(q-1)(q-2)},
+\]
+is false: $b<1/q$ for $q\ge8$.
+At $q=8$ the actual entry is $1/3584$, exceeding the proposed
+$25/1580544$. At $q=64$ the same comparison applies.
+This refutes that entrywise shortcut; it does not refute a possible
+bound on the full weighted trace norms \eqref{eq:cstar}.
+Those require a valid argument that retains the whole kernel.
+
+\end{document}
