@@ -1,3 +1,11 @@
+# Standalone exposition and current finite scope
+
+The canonical [self-contained PDF](fourfold_forrelation.pdf) includes every mathematical ingredient used for its stated results. It also proves a finite dose-two obstruction at `N=4096` and an all-split, 210-state sufficient spectral criterion for arbitrary hard-dose-six parallel probes, including photon-number coherence. The needed dose-six spectral estimate remains unresolved.
+
+The detailed audit below records the earlier finite coefficient ledger and its balanced-parity restriction. It remains useful for diagnosing those attempted estimates; the new PDF does not depend on that ledger or on this audit. The all-split reduction defines exact kernel norms directly and retains the edges excluded by the balanced restriction. No earlier unproved numerical separation is promoted to a theorem.
+
+---
+
 # Proof audit: current mathematical status
 
 Original repository base: `95c4c006d7566c7a01f68f0ee2ed465714dadf59`.
